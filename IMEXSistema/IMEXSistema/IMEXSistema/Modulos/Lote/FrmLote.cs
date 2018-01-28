@@ -29,6 +29,7 @@ namespace BmsSoftware.Modulos.Cadastros
 
         public FrmLote()
         {
+			//Teste git - 28/01/2018
             InitializeComponent();
             RegisterFocusEvents(this.Controls);
         }
@@ -210,7 +211,6 @@ namespace BmsSoftware.Modulos.Cadastros
             }
             else
                 errorProvider1.SetError(txtDescricao, "");
-
 
             return result;
         }
