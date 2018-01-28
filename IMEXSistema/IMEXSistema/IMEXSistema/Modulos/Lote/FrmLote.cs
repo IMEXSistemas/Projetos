@@ -31,6 +31,7 @@ namespace BmsSoftware.Modulos.Cadastros
         public FrmLote()
         {
 			//Alterado 28/01/2018 - 15:12
+
             InitializeComponent();
             RegisterFocusEvents(this.Controls);
         }

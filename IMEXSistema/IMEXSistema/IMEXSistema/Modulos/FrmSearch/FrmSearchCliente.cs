@@ -65,49 +65,19 @@ namespace BmsSoftware.Modulos.FrmSearch
 
         private void btnPesquisa_Click(object sender, EventArgs e)
         {
-           CreaterCursor Cr = new CreaterCursor();
-           this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
-           PesquisaCliente();
-           this.Cursor = Cursors.Default;
+          
         }
 
         private void FrmSearchFornecedor_Load(object sender, EventArgs e)
         {
             this.MinimizeBox = false; 
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            PreencheDropCamposPesquisa();
+           
             btnCadFornecedor.Image = Util.GetAddressImage(6);
-            txtNomePesquisa.Focus();
-
-            btnPesquisa.Image = Util.GetAddressImage(20);
             btnCancel.Image = Util.GetAddressImage(21);
-        }
 
-        private void PreencheDropCamposPesquisa()
-        {
-            DataTable list = new DataTable();
-            list.Columns.Add(new DataColumn("descricao", typeof(string)));
-            list.Columns.Add(new DataColumn("nomecampo_tipo", typeof(string)));
-
-            for (int i = 0; i < DataGriewSearch.ColumnCount; i++)
-            {
-                list.Rows.Add(list.NewRow());
-            }
-
-            int indexCol = 0;
-            int Col = 0;
-            foreach (DataGridViewColumn Columns in DataGriewSearch.Columns)
-            {
-                list.Rows[indexCol][Col] = Columns.HeaderText;
-                list.Rows[indexCol][Col + 1] = Columns.DataPropertyName;
-                indexCol++;
-            }
-
-
-            cbCamposPesquisa.DataSource = list;
-            cbCamposPesquisa.DisplayMember = "descricao";
-            cbCamposPesquisa.ValueMember = "nomecampo_tipo";cbCamposPesquisa.DropDownStyle = ComboBoxStyle.DropDownList;
-        }		
+            txtNomePesquisa.Focus();
+        }      
 
         private void txtNomePesquisa_KeyDown(object sender, KeyEventArgs e)
         {
@@ -130,7 +100,13 @@ namespace BmsSoftware.Modulos.FrmSearch
                 if (txtNomePesquisa.Text.Trim() != string.Empty)
                 {
                     RowRelatorio.Clear();
-                    RowRelatorio.Add(new RowsFiltro(cbCamposPesquisa.SelectedValue.ToString(), "System.String", "collate pt_br like", "%" + txtNomePesquisa.Text.Replace("'", "") + "%"));
+                    RowRelatorio.Add(new RowsFiltro("NOME", "System.String", "collate pt_br like", "%" + txtNomePesquisa.Text.Replace("'", "") + "%" , "or"));
+                    RowRelatorio.Add(new RowsFiltro("APELIDO", "System.String", "collate pt_br like", "%" + txtNomePesquisa.Text.Replace("'", "") + "%", "or"));
+                    RowRelatorio.Add(new RowsFiltro("TELEFONE1", "System.String", "collate pt_br like", "%" + txtNomePesquisa.Text.Replace("'", "") + "%", "or"));
+                    RowRelatorio.Add(new RowsFiltro("TELEFONE2", "System.String", "collate pt_br like", "%" + txtNomePesquisa.Text.Replace("'", "") + "%", "or"));
+                    RowRelatorio.Add(new RowsFiltro("FAX", "System.String", "collate pt_br like", "%" + txtNomePesquisa.Text.Replace("'", "") + "%", "or"));
+                    RowRelatorio.Add(new RowsFiltro("ENDERECO1", "System.String", "collate pt_br like", "%" + txtNomePesquisa.Text.Replace("'", "") + "%", "or"));
+                    
                     LIS_CLIENTEColl = LIS_CLIENTEP.ReadCollectionByParameter(RowRelatorio, "NOME");
                     DataGriewSearch.AutoGenerateColumns = false;
                     DataGriewSearch.DataSource = LIS_CLIENTEColl;
@@ -207,9 +183,7 @@ namespace BmsSoftware.Modulos.FrmSearch
                 (new FrmCliente()).Show();
             else
                 (new FrmCliente2()).Show();
-        }
-
-      
+        }      
 
         private void DataGriewSearch_Enter(object sender, EventArgs e)
         {
