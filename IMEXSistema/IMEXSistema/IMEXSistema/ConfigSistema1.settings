@@ -1,0 +1,225 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BmsSoftware" GeneratedClassName="ConfigSistema1">
+  <Profiles />
+  <Settings>
+    <Setting Name="PathInstall" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\IMEXSISTEMA</Value>
+    </Setting>
+    <Setting Name="FormatDateSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">yyyy/MM/dd</Value>
+    </Setting>
+    <Setting Name="ColorRequires" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Red</Value>
+    </Setting>
+    <Setting Name="ColorEnterTxtBox" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="ConexaoFB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">User=SYSDBA;Password=masterkey;DataSource=localhost;Database=</Value>
+    </Setting>
+    <Setting Name="BackColorForm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192, 192, 255</Value>
+    </Setting>
+    <Setting Name="UFSelect" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MG</Value>
+    </Setting>
+    <Setting Name="NameSytem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sistema de Gestão</Value>
+    </Setting>
+    <Setting Name="UrlBd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\IMEXSISTEMA\bd\IMEXSISTEMAS.GDB;</Value>
+    </Setting>
+    <Setting Name="ColorExitTxtBox" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="ColorFieldObs" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Blue</Value>
+    </Setting>
+    <Setting Name="PathImage" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\IMEXSISTEMA\Images</Value>
+    </Setting>
+    <Setting Name="CodMoedaSelec" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FLAGPERGMODO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="FLAGMODOGRAFICO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="FLAGMODOMATRICIAL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="PORTAMATLOCAL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="CAMINHOMATREDE" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FLAGMATRICIALLOCAL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="FLAGSOMLOCAL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="FLAGMATRICIALREDE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="PathBackup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\IMEXSISTEMA\backup</Value>
+    </Setting>
+    <Setting Name="FlackBancoBackup" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="NameBD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IMEXSISTEMAS.GDB</Value>
+    </Setting>
+    <Setting Name="PathXmlEnvio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\IMEXSISTEMA\xmlnfe\envio</Value>
+    </Setting>
+    <Setting Name="impressoraticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg1ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg2ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg3ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg4ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="site" Type="System.String" Scope="User">
+      <Value Profile="(Default)">imexsistema.com.br</Value>
+    </Setting>
+    <Setting Name="email" Type="System.String" Scope="User">
+      <Value Profile="(Default)">contato@imexsistemas.com.br</Value>
+    </Setting>
+    <Setting Name="telefone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">(31) 3611-4145</Value>
+    </Setting>
+    <Setting Name="CodEmpresa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">001</Value>
+    </Setting>
+    <Setting Name="TipoPesquisaProduto" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagExibirPedidoOptica" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagExibirConhTransporte" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagAutoMecanica" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagControlaEstoque" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TituloRelatorio" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagFestaEventos" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NomeEmpresa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IMEX Sistemas</Value>
+    </Setting>
+    <Setting Name="FlagTerraplenagem" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PortaEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">587</Value>
+    </Setting>
+    <Setting Name="SegurancaEmail" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="DiferencaFuxoHorario" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagVendedorObrigatorio" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagCentroCustoObrigatorio" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="usuarioserasa" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="senhaserasa" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagPlanos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">S</Value>
+    </Setting>
+    <Setting Name="IdPlanos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="FlagOrdenarProdutoPedido" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagClienteResumida" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagProdutoResumida" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BDScript" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\IMEXSISTEMA\BD\SCRIPTBDIMEX.GDB</Value>
+    </Setting>
+    <Setting Name="UploadSicron" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DownloadSicron" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagMetroLinear" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagAluguelRoupa" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IntResolucao" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="FlagTelemarketing" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagEmissorNFe" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagSpedSintegra" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagContadorNFe" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagMsgSuporte" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FlagExibirMsgRenovacaoSuporte" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DtSuporte" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ColunaArquivoRemessa" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ModeloImpressaoOS" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HabilitarMesas" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AcrescimoPedido" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PedidoBalcao" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

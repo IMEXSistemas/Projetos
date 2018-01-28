@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="SOAWebServices" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="SOAWebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - Administracao&lt;/h3&gt;</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="SOAWebServices">
+      <s:element name="Saldo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Credenciais">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Senha" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SaldoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SaldoResult" type="tns:Saldo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Saldo">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="Saldo" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Serialization" />
+      <s:element name="StatusServicos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="StatusServicosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="StatusServicosResult" type="tns:StatusServicos" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="StatusServicos">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Regioes" type="tns:ArrayOfRegiao" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfRegiao">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Regiao" nillable="true" type="tns:Regiao" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Regiao">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Servicos" type="tns:ArrayOfServico" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfServico">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Servico" nillable="true" type="tns:Servico" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Servico">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Performance" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="tns:TipoStatus" />
+          <s:element minOccurs="1" maxOccurs="1" name="DataHora" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Suspenso" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="TipoStatus">
+        <s:restriction base="s:string">
+          <s:enumeration value="OK" />
+          <s:enumeration value="WARNING" />
+          <s:enumeration value="FAILURE" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="Extrato">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ano" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtratoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExtratoResult" type="tns:Extrato" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Extrato">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Produtos" type="tns:ArrayOfProduto" />
+              <s:element minOccurs="1" maxOccurs="1" name="Saldo" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfProduto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Produto" nillable="true" type="tns:Produto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Produto">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Produto" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mes" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Ano" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Quantidade" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="Consumo" type="s:decimal" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="ExtratoAnalitico">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ano" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtratoAnaliticoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExtratoAnaliticoResult" type="tns:ExtratoAnalitico" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ExtratoAnalitico">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Historicos" type="tns:ArrayOfHistorico" />
+              <s:element minOccurs="1" maxOccurs="1" name="TotalConsultas" type="s:int" />
+              <s:element minOccurs="0" maxOccurs="1" name="ValorTotal" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfHistorico">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Historico" nillable="true" type="tns:Historico" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Historico">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="UniqueID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Datahora" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="IPAddress" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ExtratoAnaliticoPorDocumento">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtratoAnaliticoPorDocumentoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExtratoAnaliticoPorDocumentoResult" type="tns:ExtratoAnalitico" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HistoricoDetalhado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="UniqueID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="HistoricoDetalhadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HistoricoDetalhadoResult" type="tns:HistoricoDetalhado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="HistoricoDetalhado">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Produto" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ConteudoXML" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Datahora" type="s:dateTime" />
+          <s:element minOccurs="0" maxOccurs="1" name="IPAddress" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SaldoSoapIn">
+    <wsdl:part name="parameters" element="tns:Saldo" />
+  </wsdl:message>
+  <wsdl:message name="SaldoSoapOut">
+    <wsdl:part name="parameters" element="tns:SaldoResponse" />
+  </wsdl:message>
+  <wsdl:message name="StatusServicosSoapIn">
+    <wsdl:part name="parameters" element="tns:StatusServicos" />
+  </wsdl:message>
+  <wsdl:message name="StatusServicosSoapOut">
+    <wsdl:part name="parameters" element="tns:StatusServicosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoSoapIn">
+    <wsdl:part name="parameters" element="tns:Extrato" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoSoapOut">
+    <wsdl:part name="parameters" element="tns:ExtratoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoAnaliticoSoapIn">
+    <wsdl:part name="parameters" element="tns:ExtratoAnalitico" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoAnaliticoSoapOut">
+    <wsdl:part name="parameters" element="tns:ExtratoAnaliticoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoAnaliticoPorDocumentoSoapIn">
+    <wsdl:part name="parameters" element="tns:ExtratoAnaliticoPorDocumento" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoAnaliticoPorDocumentoSoapOut">
+    <wsdl:part name="parameters" element="tns:ExtratoAnaliticoPorDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="HistoricoDetalhadoSoapIn">
+    <wsdl:part name="parameters" element="tns:HistoricoDetalhado" />
+  </wsdl:message>
+  <wsdl:message name="HistoricoDetalhadoSoapOut">
+    <wsdl:part name="parameters" element="tns:HistoricoDetalhadoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="AdministracaoSoap">
+    <wsdl:operation name="Saldo">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta Saldo de sua Conta&lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:SaldoSoapIn" />
+      <wsdl:output message="tns:SaldoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="StatusServicos">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta Status dos Servicos&lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:StatusServicosSoapIn" />
+      <wsdl:output message="tns:StatusServicosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Extrato">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta Extrato de sua Conta&lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:ExtratoSoapIn" />
+      <wsdl:output message="tns:ExtratoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoAnalitico">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta Historico Analitico de sua Conta&lt;br /&gt;Clientes com grande volume de transações não utilizar esta transação&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:ExtratoAnaliticoSoapIn" />
+      <wsdl:output message="tns:ExtratoAnaliticoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoAnaliticoPorDocumento">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta Historico de um Documento&lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:ExtratoAnaliticoPorDocumentoSoapIn" />
+      <wsdl:output message="tns:ExtratoAnaliticoPorDocumentoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="HistoricoDetalhado">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta um Historico&lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:HistoricoDetalhadoSoapIn" />
+      <wsdl:output message="tns:HistoricoDetalhadoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AdministracaoHttpGet" />
+  <wsdl:portType name="AdministracaoHttpPost" />
+  <wsdl:binding name="AdministracaoSoap" type="tns:AdministracaoSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Saldo">
+      <soap:operation soapAction="SOAWebServices/Saldo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StatusServicos">
+      <soap:operation soapAction="SOAWebServices/StatusServicos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Extrato">
+      <soap:operation soapAction="SOAWebServices/Extrato" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoAnalitico">
+      <soap:operation soapAction="SOAWebServices/ExtratoAnalitico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoAnaliticoPorDocumento">
+      <soap:operation soapAction="SOAWebServices/ExtratoAnaliticoPorDocumento" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HistoricoDetalhado">
+      <soap:operation soapAction="SOAWebServices/HistoricoDetalhado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AdministracaoSoap12" type="tns:AdministracaoSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Saldo">
+      <soap12:operation soapAction="SOAWebServices/Saldo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StatusServicos">
+      <soap12:operation soapAction="SOAWebServices/StatusServicos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Extrato">
+      <soap12:operation soapAction="SOAWebServices/Extrato" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoAnalitico">
+      <soap12:operation soapAction="SOAWebServices/ExtratoAnalitico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoAnaliticoPorDocumento">
+      <soap12:operation soapAction="SOAWebServices/ExtratoAnaliticoPorDocumento" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HistoricoDetalhado">
+      <soap12:operation soapAction="SOAWebServices/HistoricoDetalhado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AdministracaoHttpGet" type="tns:AdministracaoHttpGet">
+    <http:binding verb="GET" />
+  </wsdl:binding>
+  <wsdl:binding name="AdministracaoHttpPost" type="tns:AdministracaoHttpPost">
+    <http:binding verb="POST" />
+  </wsdl:binding>
+  <wsdl:service name="Administracao">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - Administracao&lt;/h3&gt;</wsdl:documentation>
+    <wsdl:port name="AdministracaoSoap" binding="tns:AdministracaoSoap">
+      <soap:address location="http://www.soawebservices.com.br/webservices/producao/sws/administracao.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AdministracaoSoap12" binding="tns:AdministracaoSoap12">
+      <soap12:address location="http://www.soawebservices.com.br/webservices/producao/sws/administracao.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AdministracaoHttpGet" binding="tns:AdministracaoHttpGet">
+      <http:address location="http://www.soawebservices.com.br/webservices/producao/sws/administracao.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AdministracaoHttpPost" binding="tns:AdministracaoHttpPost">
+      <http:address location="http://www.soawebservices.com.br/webservices/producao/sws/administracao.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

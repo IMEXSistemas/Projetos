@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BmsNFE">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE.sln">
+</Property><Property Name="Date" Value="sexta-feira, 19  de  agosto  de  2011">
+</Property><Property Name="Time" Value="10:11:16">
+</Property></Properties><Event ErrorLevel="0" Project="SignFilesWrappers" Source="..\..\..\..\..\Desktop\Assinatura C#\SignFilesWrappers\SignFilesWrappers\SignFilesWrappers.csproj" Description="Project file successfully backed up as C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\Backup\SignFilesWrappers.csproj">
+</Event><Event ErrorLevel="0" Project="SignFilesWrappers" Source="..\..\..\..\..\Desktop\Assinatura C#\SignFilesWrappers\SignFilesWrappers\SignerWrappers.cs" Description="File successfully backed up as C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\Backup\SignerWrappers.cs">
+</Event><Event ErrorLevel="0" Project="SignFilesWrappers" Source="..\..\..\..\..\Desktop\Assinatura C#\SignFilesWrappers\SignFilesWrappers\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SignFilesWrappers" Source="..\..\..\..\..\Desktop\Assinatura C#\SignFilesWrappers\SignFilesWrappers\SignFilesWrappers.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SignFilesWrappers" Source="..\..\..\..\..\Desktop\Assinatura C#\SignFilesWrappers\SignFilesWrappers\SignFilesWrappers.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SignFilesWrappers" Source="..\..\..\..\..\Desktop\Assinatura C#\SignFilesWrappers\SignFilesWrappers\SignFilesWrappers.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

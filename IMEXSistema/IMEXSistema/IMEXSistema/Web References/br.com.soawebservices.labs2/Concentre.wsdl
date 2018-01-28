@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="SOAWebServices" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="SOAWebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - SERASA Experian&lt;/h3&gt;</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="SOAWebServices">
+      <s:element name="Concentre">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Credenciais">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Senha" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ConcentreResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConcentreResult" type="tns:Concentre" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Concentre">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="SituacaoDocumento" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="NomeMae" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="DataNascimento" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="TotalOcorrencias" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Grafias" type="tns:ArrayOfGrafias" />
+              <s:element minOccurs="0" maxOccurs="1" name="Protestos" type="tns:ArrayOfProtesto" />
+              <s:element minOccurs="0" maxOccurs="1" name="AcoesJudiciais" type="tns:ArrayOfAcaoJudicial" />
+              <s:element minOccurs="0" maxOccurs="1" name="FalenciasConcordatas" type="tns:ArrayOfFalenciaConcordata" />
+              <s:element minOccurs="0" maxOccurs="1" name="ParticipacoesFalencias" type="tns:ArrayOfParticipacaoFalencia" />
+              <s:element minOccurs="0" maxOccurs="1" name="RestricoesFinanceiras" type="tns:ArrayOfRestricaoFinanceira" />
+              <s:element minOccurs="0" maxOccurs="1" name="AcheiRecheque" type="tns:ArrayOfAchei" />
+              <s:element minOccurs="0" maxOccurs="1" name="BacenCCF" type="tns:ArrayOfCCF" />
+              <s:element minOccurs="0" maxOccurs="1" name="PendenciasFinanceiras" type="tns:ArrayOfPendenciaFinanceira" />
+              <s:element minOccurs="0" maxOccurs="1" name="ConvemDevedores" type="tns:ArrayOfConvem" />
+              <s:element minOccurs="0" maxOccurs="1" name="Alertas" type="tns:ArrayOfAlerta" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Serialization" />
+      <s:complexType name="ArrayOfGrafias">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Grafias" nillable="true" type="tns:Grafias" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Grafias">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Grafia" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfProtesto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Protesto" nillable="true" type="tns:Protesto" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Protesto">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroCartorio" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubJudice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataCartaAnuencia" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAcaoJudicial">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AcaoJudicial" nillable="true" type="tns:AcaoJudicial" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AcaoJudicial">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroVaraCivel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDistribuidor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Principal" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubJudice" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFalenciaConcordata">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FalenciaConcordata" nillable="true" type="tns:FalenciaConcordata" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FalenciaConcordata">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroVaraCivel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfParticipacaoFalencia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ParticipacaoFalencia" nillable="true" type="tns:ParticipacaoFalencia" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ParticipacaoFalencia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoQualificacao" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroVaraCivel" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CNPJ" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RazaoSocial" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfRestricaoFinanceira">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="RestricaoFinanceira" nillable="true" type="tns:RestricaoFinanceira" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="RestricaoFinanceira">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoAgencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Avalista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubJudice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CNPJ" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAchei">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Achei" nillable="true" type="tns:Achei" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Achei">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoAgencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContaCorrente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroCheque" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfCCF">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="CCF" nillable="true" type="tns:CCF" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="CCF">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeFantasiaBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroAgencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NaturezadaConta" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalCheques" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPendenciaFinanceira">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PendenciaFinanceira" nillable="true" type="tns:PendenciaFinanceira" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PendenciaFinanceira">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CNPJCredor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Credor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Avalista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Contrato" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubJudice" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfConvem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Convem" nillable="true" type="tns:Convem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Convem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DescricaoNatureza" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroLojaFilial" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Localidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CNPJCredor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Credor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Contrato" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAlerta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Alerta" nillable="true" type="tns:Alerta" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Alerta">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TotalMensagens" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConcentreSoapIn">
+    <wsdl:part name="parameters" element="tns:Concentre" />
+  </wsdl:message>
+  <wsdl:message name="ConcentreSoapOut">
+    <wsdl:part name="parameters" element="tns:ConcentreResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SERASASoap">
+    <wsdl:operation name="Concentre">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta Concentre - Pendencias Financeiras&lt;br /&gt;&lt;p&gt;Esta transacao verifica grafias, protestos nacional, pedencias financeiras, restricoes financeiras, acoes judiciais, CONVEM devedores e BACEN/CCF.&lt;/p&gt;</wsdl:documentation>
+      <wsdl:input message="tns:ConcentreSoapIn" />
+      <wsdl:output message="tns:ConcentreSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SERASAHttpGet" />
+  <wsdl:portType name="SERASAHttpPost" />
+  <wsdl:binding name="SERASASoap" type="tns:SERASASoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Concentre">
+      <soap:operation soapAction="SOAWebServices/Concentre" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SERASASoap12" type="tns:SERASASoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Concentre">
+      <soap12:operation soapAction="SOAWebServices/Concentre" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SERASAHttpGet" type="tns:SERASAHttpGet">
+    <http:binding verb="GET" />
+  </wsdl:binding>
+  <wsdl:binding name="SERASAHttpPost" type="tns:SERASAHttpPost">
+    <http:binding verb="POST" />
+  </wsdl:binding>
+  <wsdl:service name="SERASA">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - SERASA Experian&lt;/h3&gt;</wsdl:documentation>
+    <wsdl:port name="SERASASoap" binding="tns:SERASASoap">
+      <soap:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/Concentre.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SERASASoap12" binding="tns:SERASASoap12">
+      <soap12:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/Concentre.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SERASAHttpGet" binding="tns:SERASAHttpGet">
+      <http:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/Concentre.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SERASAHttpPost" binding="tns:SERASAHttpPost">
+      <http:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/Concentre.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BmsSoftware.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="teste" Type="System.String" Scope="User">
+      <Value Profile="(Default)">teste Rafael</Value>
+    </Setting>
+    <Setting Name="IMEXSistema_br_com_soawebservices_www_SERASA" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.soawebservices.com.br/webservices/test-drive/serasa/pefin.asmx</Value>
+    </Setting>
+    <Setting Name="IMEXSistema_Serasa_administracao_Administracao" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.soawebservices.com.br/webservices/producao/sws/administracao.asmx</Value>
+    </Setting>
+    <Setting Name="IMEXSistema_br_com_soawebservices_labs2_SERASA" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://labs.soawebservices.com.br/webservices/test-drive/serasa/Concentre.asmx</Value>
+    </Setting>
+    <Setting Name="IMEXSistema_br_com_soawebservices_labs3_SERASA" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://labs.soawebservices.com.br/webservices/test-drive/serasa/cheques.asmx</Value>
+    </Setting>
+    <Setting Name="IMEXSistema_br_com_soawebservices_www1_SERASA" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.soawebservices.com.br/webservices/test-drive/serasa/crednet.asmx</Value>
+    </Setting>
+    <Setting Name="IMEXSistema_br_com_soawebservices_www2_Partners" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.soawebservices.com.br/webservices/producao/sws/partners.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

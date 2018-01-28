@@ -1,0 +1,96 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BmsSoftware" GeneratedClassName="ConfigMessage">
+  <Profiles />
+  <Settings>
+    <Setting Name="MsgSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Registro salvo com sucesso!</Value>
+    </Setting>
+    <Setting Name="MsgSaveErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível salvar o registro!</Value>
+    </Setting>
+    <Setting Name="CPFErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CPF Inválido!</Value>
+    </Setting>
+    <Setting Name="CNPJErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CNPJ Inválido!</Value>
+    </Setting>
+    <Setting Name="CampoObrigatorio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Campo obrigatório</Value>
+    </Setting>
+    <Setting Name="CampoObrigatorio2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Existe(m) campo(s) obrigatório(s)</Value>
+    </Setting>
+    <Setting Name="searchFieldType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Erro no valor da pesquisa</Value>
+    </Setting>
+    <Setting Name="MsgDelete" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Desejar realmente excluir este registro?</Value>
+    </Setting>
+    <Setting Name="MsgSelecRegistro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selecione um registro!</Value>
+    </Setting>
+    <Setting Name="MsgDelete2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Registro deletado com sucesso!</Value>
+    </Setting>
+    <Setting Name="MsgDeleteErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível deletar o registro selecionado!</Value>
+    </Setting>
+    <Setting Name="CNPJDupl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CNPJ já existe no cadastro, desejar continuar?</Value>
+    </Setting>
+    <Setting Name="MsgErroPrint" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível imprimir!</Value>
+    </Setting>
+    <Setting Name="CPFDupl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CPF já existe no cadastro, desejar continuar?</Value>
+    </Setting>
+    <Setting Name="MsgDataInvalida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Inválida!</Value>
+    </Setting>
+    <Setting Name="FieldErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Campo inválido!</Value>
+    </Setting>
+    <Setting Name="MsgDrop" Type="System.String" Scope="User">
+      <Value Profile="(Default)"> Selecione...</Value>
+    </Setting>
+    <Setting Name="CNPJCPFDupl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CNPJ e/ou CPF já existe no cadastro, deseja continuar?</Value>
+    </Setting>
+    <Setting Name="MsgErroArquivo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível visualizar o arquivo!</Value>
+    </Setting>
+    <Setting Name="MsgSearchErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível pesquisar pelo código selecionado!</Value>
+    </Setting>
+    <Setting Name="MsgSearchSucess" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pesquisa realizada com sucesso!</Value>
+    </Setting>
+    <Setting Name="MsgErroSenha" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Senha/Usuário inválido!</Value>
+    </Setting>
+    <Setting Name="MsgErroOpenRegistro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível abrir o registro!</Value>
+    </Setting>
+    <Setting Name="MsgErroImprimirPesquisa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Faça a pesquisa antes de imprimir!</Value>
+    </Setting>
+    <Setting Name="MsgErroBoletaSelec" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não existe boleta bancária selecionada na configuração.</Value>
+    </Setting>
+    <Setting Name="MsgEditarExcluir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Para editar o registro pressione Enter ou Delete para apagar.</Value>
+    </Setting>
+    <Setting Name="MsgErroHora" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Hora inválida</Value>
+    </Setting>
+    <Setting Name="MsgDuplRegistro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Deseja Realmente duplicar o Registro?</Value>
+    </Setting>
+    <Setting Name="MsgErroPesquisa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível efetuar a pesquisa!</Value>
+    </Setting>
+    <Setting Name="MsgPerm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Usuário não tem permissão para usar este recurso!</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

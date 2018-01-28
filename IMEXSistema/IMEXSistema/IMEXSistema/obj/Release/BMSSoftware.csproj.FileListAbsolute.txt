@@ -1,0 +1,244 @@
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.exe.config
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.exe.manifest
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.application
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.exe
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.pdb
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\sma-NO\BmsSoftware.resources.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\Boleto.Net.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\DynamicUtilities.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\bin\Release\ImprimeTexto.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSworks.UI.InputBoxDialog.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloVendas.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloFinanceiro.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloOperacional.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloCadastros.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmPrincipal.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmEstoqueCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.Sobre.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmRelatorioPFechOS.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmRelatorioPOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEspelho.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Properties.Resources.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.csproj.GenerateResource.Cache
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\sma-NO\BmsSoftware.resources.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.exe.manifest
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.application
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.exe
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.pdb
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.exe.config
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.exe
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.pdb
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.exe.manifest
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.application
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.exe
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\BmsSoftware.pdb
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\sma-NO\BmsSoftware.resources.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\Boleto.Net.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\DynamicUtilities.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\ImprimeTexto.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSworks.UI.InputBoxDialog.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloVendas.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloFinanceiro.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloOperacional.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmModuloCadastros.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.FrmPrincipal.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmEstoqueCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.Sobre.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmRelatorioPFechOS.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmRelatorioPOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEspelho.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Properties.Resources.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.csproj.GenerateResource.Cache
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\sma-NO\BmsSoftware.resources.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.exe.manifest
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.application
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmOrdemServicoSFech.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEletronica.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\BarcodeLib.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Cadastros.FrmMensagem.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Operacional.FrmUpdateBD.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BmsSoftware.Modulos.Servicos.FrmRelatorioPNFe.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\Interop.Excel.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\bin\Release\Interop.VBIDE.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\Interop.Excel.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\Interop.VBIDE.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - Comercio e Servico\BmsSoftware\BmsSoftware\obj\Release\BMSSoftware.csproj.ResolveComReference.cache

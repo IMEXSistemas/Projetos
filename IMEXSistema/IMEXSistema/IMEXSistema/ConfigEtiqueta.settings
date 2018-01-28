@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BmsSoftware" GeneratedClassName="ConfigEtiqueta">
+  <Profiles />
+  <Settings>
+    <Setting Name="Left_Esquerda_POLIFIX_2060" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="Right_Direito_POLIFIX_2060" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="Top_Topo_POLIFIX_2060" Type="System.String" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="Bottom_Inferior_POLIFIX_2060" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20</Value>
+    </Setting>
+    <Setting Name="Width_Largura_POLIFIX_2060" Type="System.String" Scope="User">
+      <Value Profile="(Default)">36</Value>
+    </Setting>
+    <Setting Name="Height_Altura_POLIFIX_2060" Type="System.String" Scope="User">
+      <Value Profile="(Default)">13</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

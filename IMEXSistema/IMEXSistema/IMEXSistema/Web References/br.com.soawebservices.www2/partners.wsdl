@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="SOAWebServices" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="urn:Cliente" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s2="urn:Pagamentos" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="SOAWebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - Partners&lt;/h3&gt;</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="SOAWebServices">
+      <s:import namespace="urn:Cliente" />
+      <s:import namespace="urn:Pagamentos" />
+      <s:element name="CriaCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="Cliente" type="tns:Cliente" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Credenciais">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Senha" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Cliente">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Fone" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Fax" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Celular" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="EmailResponsavel" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="EmailFinanceiro" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="EmailNFSe" type="s:string" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Serialization" />
+      <s:element name="CriaClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" ref="s1:CriaClienteResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtratoSimplificado">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtratoSimplificadoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExtratoSimplificadoResult" type="tns:ExtratoSimplificado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ExtratoSimplificado">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="1" maxOccurs="1" name="ConsumoQuantidadeTotal" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="ConsumoValorTotal" type="s:decimal" />
+              <s:element minOccurs="1" maxOccurs="1" name="ConsumoComissaoTotal" type="s:decimal" />
+              <s:element minOccurs="0" maxOccurs="1" name="ExtratoDetalhe" type="tns:ArrayOfExtratoDetalhe" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ArrayOfExtratoDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ExtratoDetalhe" nillable="true" type="tns:ExtratoDetalhe" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ExtratoDetalhe">
+        <s:complexContent mixed="false">
+          <s:extension base="tns:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="ConsumoValor" type="s:decimal" />
+              <s:element minOccurs="1" maxOccurs="1" name="ConsumoQuantidade" type="s:int" />
+              <s:element minOccurs="1" maxOccurs="1" name="ConsumoComissao" type="s:decimal" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:element name="ExtratoSimplificadoMensal">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="Mes" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Ano" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExtratoSimplificadoMensalResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExtratoSimplificadoMensalResult" type="tns:ExtratoSimplificado" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CarregaCreditosViaBoleto">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="1" maxOccurs="1" name="ValorBoleto" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CarregaCreditosViaBoletoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" ref="s2:CarregaCreditosViaBoletoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="urn:Cliente">
+      <s:element name="CriaClienteResult" nillable="true" type="s1:Cliente" />
+      <s:complexType name="Cliente">
+        <s:complexContent mixed="false">
+          <s:extension base="s1:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="s1:Credenciais" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Serialization" />
+      <s:complexType name="Credenciais">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Senha" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="urn:Pagamentos">
+      <s:element name="CarregaCreditosViaBoletoResult" nillable="true" type="s2:Pagamentos" />
+      <s:complexType name="Pagamentos">
+        <s:complexContent mixed="false">
+          <s:extension base="s2:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="NossoNumero" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Serialization" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CriaClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:CriaCliente" />
+  </wsdl:message>
+  <wsdl:message name="CriaClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:CriaClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoSimplificadoSoapIn">
+    <wsdl:part name="parameters" element="tns:ExtratoSimplificado" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoSimplificadoSoapOut">
+    <wsdl:part name="parameters" element="tns:ExtratoSimplificadoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoSimplificadoMensalSoapIn">
+    <wsdl:part name="parameters" element="tns:ExtratoSimplificadoMensal" />
+  </wsdl:message>
+  <wsdl:message name="ExtratoSimplificadoMensalSoapOut">
+    <wsdl:part name="parameters" element="tns:ExtratoSimplificadoMensalResponse" />
+  </wsdl:message>
+  <wsdl:message name="CarregaCreditosViaBoletoSoapIn">
+    <wsdl:part name="parameters" element="tns:CarregaCreditosViaBoleto" />
+  </wsdl:message>
+  <wsdl:message name="CarregaCreditosViaBoletoSoapOut">
+    <wsdl:part name="parameters" element="tns:CarregaCreditosViaBoletoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PartnersSoap">
+    <wsdl:operation name="CriaCliente">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">CriaCliente&lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:CriaClienteSoapIn" />
+      <wsdl:output message="tns:CriaClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoSimplificado">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Comissoes do Partner &lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:ExtratoSimplificadoSoapIn" />
+      <wsdl:output message="tns:ExtratoSimplificadoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoSimplificadoMensal">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Comissoes do Partner &lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:ExtratoSimplificadoMensalSoapIn" />
+      <wsdl:output message="tns:ExtratoSimplificadoMensalSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CarregaCreditosViaBoleto">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Carrega Creditos Via Boleto Bancario&lt;br /&gt;&lt;br /&gt;</wsdl:documentation>
+      <wsdl:input message="tns:CarregaCreditosViaBoletoSoapIn" />
+      <wsdl:output message="tns:CarregaCreditosViaBoletoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="PartnersHttpGet" />
+  <wsdl:portType name="PartnersHttpPost" />
+  <wsdl:binding name="PartnersSoap" type="tns:PartnersSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CriaCliente">
+      <soap:operation soapAction="SOAWebServices/CriaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoSimplificado">
+      <soap:operation soapAction="SOAWebServices/ExtratoSimplificado" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoSimplificadoMensal">
+      <soap:operation soapAction="SOAWebServices/ExtratoSimplificadoMensal" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CarregaCreditosViaBoleto">
+      <soap:operation soapAction="SOAWebServices/CarregaCreditosViaBoleto" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PartnersSoap12" type="tns:PartnersSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CriaCliente">
+      <soap12:operation soapAction="SOAWebServices/CriaCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoSimplificado">
+      <soap12:operation soapAction="SOAWebServices/ExtratoSimplificado" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExtratoSimplificadoMensal">
+      <soap12:operation soapAction="SOAWebServices/ExtratoSimplificadoMensal" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CarregaCreditosViaBoleto">
+      <soap12:operation soapAction="SOAWebServices/CarregaCreditosViaBoleto" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PartnersHttpGet" type="tns:PartnersHttpGet">
+    <http:binding verb="GET" />
+  </wsdl:binding>
+  <wsdl:binding name="PartnersHttpPost" type="tns:PartnersHttpPost">
+    <http:binding verb="POST" />
+  </wsdl:binding>
+  <wsdl:service name="Partners">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - Partners&lt;/h3&gt;</wsdl:documentation>
+    <wsdl:port name="PartnersSoap" binding="tns:PartnersSoap">
+      <soap:address location="http://www.soawebservices.com.br/webservices/producao/sws/partners.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PartnersSoap12" binding="tns:PartnersSoap12">
+      <soap12:address location="http://www.soawebservices.com.br/webservices/producao/sws/partners.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PartnersHttpGet" binding="tns:PartnersHttpGet">
+      <http:address location="http://www.soawebservices.com.br/webservices/producao/sws/partners.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PartnersHttpPost" binding="tns:PartnersHttpPost">
+      <http:address location="http://www.soawebservices.com.br/webservices/producao/sws/partners.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

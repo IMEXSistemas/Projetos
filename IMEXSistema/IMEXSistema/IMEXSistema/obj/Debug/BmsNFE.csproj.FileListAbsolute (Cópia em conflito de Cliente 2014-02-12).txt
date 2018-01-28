@@ -1,0 +1,1065 @@
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.config
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.pdb
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BarcodeLib.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Boleto.Net.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\DynamicUtilities.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\ImprimeTexto.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\nfec.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.Excel.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.Excel.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.VBIDE.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.ResolveComReference.cache
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.FrmPrincipal.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMensagem.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoqueCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUpdateBD.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.Sobre.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPNFe.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServicoSFech.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPFechOS.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedCubico.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedQuadrada.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmInutilizacaoNfe.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEletronica.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEspelho.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmValidaArquivoXml.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.pdb
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcesso2.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmParentesco.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmOcasiao.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMaterial.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVendaMarc.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchMaterial.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatas.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulsoFornec.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\VVX.PrintOptions.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\YLScsImage.ImagePanel.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPlanoCorte.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.optimal2dx.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.optimal2dx.dll
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Help.FrmHelpCSTPISCONFINS.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmIniciarContador.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\UniNFeLibrary.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.config
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.optimal2dx.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.VBIDE.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.ResolveComReference.cache
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.pdb
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.pdb
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BarcodeLib.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Boleto.Net.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\DynamicUtilities.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\ImprimeTexto.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\nfec.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.optimal2dx.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.VBIDE.dll
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\YLScsImage.ImagePanel.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\VVX.PrintOptions.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.FrmPrincipal.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMaterial.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMensagem.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoqueCliente.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmOcasiao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmParentesco.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulsoFornec.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatas.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchMaterial.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Help.FrmHelpCSTPISCONFINS.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcesso2.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmIniciarContador.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUpdateBD.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.Sobre.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPNFe.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServicoSFech.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPFechOS.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPOrdemServico.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServico.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedCubico.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedQuadrada.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmInutilizacaoNfe.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEletronica.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVendaMarc.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPlanoCorte.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEspelho.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmValidaArquivoXml.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Administrador\Dropbox\Projetos\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.config
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.optimal2dx.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.VBIDE.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.ResolveComReference.cache
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.pdb
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.pdb
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BarcodeLib.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Boleto.Net.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\DynamicUtilities.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\ImprimeTexto.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\nfec.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\UniNFeLibrary.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.optimal2dx.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.VBIDE.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\YLScsImage.ImagePanel.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\VVX.PrintOptions.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.FrmPrincipal.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMaterial.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMensagem.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoqueCliente.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmOcasiao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmParentesco.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulsoFornec.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatas.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchMaterial.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Help.FrmHelpCSTPISCONFINS.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcesso2.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmIniciarContador.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUpdateBD.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.Sobre.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPNFe.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServicoSFech.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPFechOS.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPOrdemServico.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServico.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedCubico.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedQuadrada.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmInutilizacaoNfe.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEletronica.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVendaMarc.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPlanoCorte.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEspelho.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmValidaArquivoXml.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLimpezaDados.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLimpezaDados.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatasPagar.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.manifest
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.application
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.TrustInfo.xml
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe.manifest
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.application
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.manifest
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.application
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.TrustInfo.xml
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe.manifest
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.application
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaDiariaOS1.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaDiariaPV1.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaDiariaOS1.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaDiariaPV1.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmFluxoContas.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamento.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmFluxoContas.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamento.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBanco.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContaBancaria.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmControleCCorrenteBancaria.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoContaBancaria.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmMovimentacaoConta.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBanco.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContaBancaria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmControleCCorrenteBancaria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoContaBancaria.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmMovimentacaoConta.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Documents and Settings\Usuario\Meus documentos\My Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchTransportadora.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchTransportadora.resources
+C:\Projetos BMS Rafael\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\ResolveAssemblyReference.cache
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\Interop.VBIDE.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.ResolveComReference.cache
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\YLScsImage.ImagePanel.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\VVX.PrintOptions.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.FrmPrincipal.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLote.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCor.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMaterial.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMensagem.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoqueCliente.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmOcasiao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmParentesco.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmConfOperacionalCF.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBanco.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContaBancaria.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmControleCCorrenteBancaria.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoContaBancaria.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmFluxoContas.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCheque.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmMovimentacaoConta.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulsoFornec.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatas.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatasPagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamento.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamentoReceberPedido.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCentroCusto.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchTransportadora.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchMaterial.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Help.FrmHelpCSTPISCONFINS.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBloqueado.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcesso2.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcessoTela.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmIniciarContador.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLimpezaDados.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmNivel.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\winfit.Modulos.Operacional.FrmSobre.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUpdateBD.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmGrupoCaixa.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmVendaGrupo.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPNFe.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServicoSFech.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPFechOS.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmRelatorioPOrdemServico.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServico.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaDiariaOS1.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmControleEntregaMT2.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmControleEntrega.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCartaCorrecao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoNormal.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedCubico.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedQuadrada.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmInutilizacaoNfe.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEletronica.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVendaMarc.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPlanoCorte.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEspelho.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmProdutoCliente.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmValidaArquivoXml.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaDiariaPV1.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RESGEN.read.1.tlog
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RESGEN.write.1.tlog
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RdlCompile.cache
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RdlCompile.compiled
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.config
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.manifest
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.application
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.pdb
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BarcodeLib.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Boleto.Net.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Shared.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\DynamicUtilities.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\ImprimeTexto.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\nfec.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\UniNFeLibrary.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Interop.VBIDE.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.TrustInfo.xml
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe.manifest
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.application
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.pdb
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmResumoVendaECF.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmItensVendaECF.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmResumoItensVendaECF.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmDAV.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmReceberCupomFiscal.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmBaixarTotalReceberCF.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProdComposicao.resources
+C:\Projeto BMS\Projetos BMS\Dropbox\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.XML
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.config
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.manifest
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.application
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.XML
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.pdb
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BarcodeLib.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Boleto.Net.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\DynamicUtilities.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\ImprimeTexto.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\nfec.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\UniNFeLibrary.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.ResolveComReference.cache
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\YLScsImage.ImagePanel.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\VVX.PrintOptions.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.FrmPrincipal.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmNCM.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClienteFuncionario.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMarca.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAmbiente.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLote.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCor.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMaterial.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMensagem.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmMigraCidade.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmOcasiao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmParentesco.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoFornecedor.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoGrupoCategoria.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelacaoEstoqueAtual.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaProdutoNFe.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmBaixarTotalReceberCF.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmConfOperacionalCF.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmItensVendaECF.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmDAV.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmReceberCupomFiscal.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmResumoItensVendaECF.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmResumoVendaECF.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBanco.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContaBancaria.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmControleCCorrenteBancaria.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoContaBancaria.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmFluxoContas.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCheque.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmMovimentacaoConta.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulsoFornec.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatas.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatasPagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamento.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamentoReceberPedido.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCEP.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProdComposicao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCentroCusto.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchTransportadora.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchMaterial.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSintegra.FrmGerarArquivoSintegra.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Help.FrmHelpCSTPISCONFINS.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBloqueado.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcesso2.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcessoTela.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmIniciarContador.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLimpezaDados.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmNivel.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\winfit.Modulos.Operacional.FrmSobre.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUpdateBD.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmVariosPrazos.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatAgenda.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatOrdemServico.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatPedidoVendasGrupo.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatPedidoVendas.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatPedidoSimples.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmGrupoCaixa.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmVendaGrupo.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServicoSFech.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaDiariaOS1.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaGrupoCategoria2.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.SMS.FrmEnvioSMScs.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmEmailNFeCCe.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmListaProdPedido.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmProdutosMaisVendidos2.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmProdutosMaisVendidos.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaGrupoCategoria.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaVendedorPedNormal.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmControleEntregaMT2.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmControleEntrega.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCartaCorrecao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmEmailNFe.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoNormal.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedCubico.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedQuadrada.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmInutilizacaoNfe.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEletronica.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVendaMarc.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPlanoCorte.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmProdutoCliente.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmValidaArquivoXml.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaDiariaPV1.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaVendedorPed1.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.GenerateResource.Cache
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RdlCompile.cache
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RdlCompile.compiled
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.TrustInfo.xml
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe.manifest
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.application
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.pdb
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchNCM.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Etiqueta.FrmEtiquetaCliente.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Etiqueta.FrmEtiquetaProduto.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmInventarioEstoque.resources
+C:\Users\Jow\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csprojResolveAssemblyReference.cache
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.config
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.XML
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.ResolveComReference.cache
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.pdb
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csprojResolveAssemblyReference.cache
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\YLScsImage.ImagePanel.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\VVX.PrintOptions.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.FrmPrincipal.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmAtualizaBD.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Adm.FrmVersao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmInventarioEstoque.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmNCM.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClienteFuncionario.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMarca.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAmbiente.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLote.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCor.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMaterial.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMensagem.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmMigraCidade.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmOcasiao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmParentesco.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoFornecedor.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoGrupoCategoria.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelacaoEstoqueAtual.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPProduto.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmTipoDuplicata.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCentroCustos.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmCodMovEstoque.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEstoque.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmFeriado.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmEventoAgenda.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoAgenda.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmAgenda.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmComposicao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmHelpDesk.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProdutoMoviEstoque.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmRelatorioPCliente.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoSolicitante.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmGrupoCategoria.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmMarca.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProduto.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmReajusteProduto.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmUnidade.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmClassificacao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmCliente.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFornecedor.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmFuncionario.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmProfissaoRamoAtividade.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmStatus.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmTipoRegiao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmTransportadora.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaProdutoNFe.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmBaixarTotalReceberCF.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmConfOperacionalCF.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmItensVendaECF.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmDAV.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmReceberCupomFiscal.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmResumoItensVendaECF.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cupom_Fiscal.FrmResumoVendaECF.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Etiqueta.FrmEtiquetaProduto.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Etiqueta.FrmEtiquetaCliente.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBanco.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContaBancaria.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmControleCCorrenteBancaria.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoContaBancaria.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmFluxoContas.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCheque.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmMovimentacaoConta.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulsoFornec.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalPagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialPagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLotePagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaVisualiza.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplPagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaLoteReceber.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixaParcialReceber.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBaixarTotalReceber.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmExtratoDuplReceber.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasReceber.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmReciboAvulso.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatas.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelacaoDuplicatasPagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplReceber.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamento.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamentoReceberPedido.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchNCM.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCEP.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProdComposicao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCentroCusto.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchTransportadora.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmListaProdutosCompra.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchComposicao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchMaterial.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchServico.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSintegra.FrmGerarArquivoSintegra.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Help.FrmHelpCSTPISCONFINS.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBloqueado.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcesso2.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmControleAcessoTela.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmIniciarContador.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLimpezaDados.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmNivel.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\winfit.Modulos.Operacional.FrmSobre.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUpdateBD.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmBackup.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmVariosPrazos.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatAgenda.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatOrdemServico.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatPedidoVendasGrupo.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatPedidoVendas.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmRelatPedidoSimples.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmGrupoCaixa.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Relatorio.FrmVendaGrupo.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmOrdemServicoSFech.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmTipoAtendimento.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmFechaOrdemServico.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasReceber.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmContasPagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmJurosContasPagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmRelatorioPDuplPagar.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCliente.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchFornecedor.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmCaixa.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmBoletaBancaria.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigSistema.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmModoImpressao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmRelatorioPersonalizado.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmSenhaLiberacao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Operacional.FrmUsuario.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmEquipamento.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmServico.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaDiariaOS1.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaGrupoCategoria2.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.SMS.FrmEnvioSMScs.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmEmailNFeCCe.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmListaProdPedido.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmProdutosMaisVendidos2.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmProdutosMaisVendidos.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaGrupoCategoria.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaVendedorPedNormal.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmControleEntregaMT2.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmControleEntrega.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCartaCorrecao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmEmailNFe.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoNormal.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedCubico.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FormMedQuadrada.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmInutilizacaoNfe.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmNotaFiscalEletronica.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmImpriTabulado.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVendaMarc.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPlanoCorte.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPNF.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmClassFiscal.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConfigPedBalcao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCST.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoBalcao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPConsignacao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmConsignacao.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPPedido.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmOrcamento.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPedidoVenda.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmRelatorioPOrcamento.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmProdutoCliente.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmTabulador.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmValidaArquivoXml.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaDiariaPV1.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaVendedorPed1.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmDepartamento.sma-NO.resources
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsNFE.csproj.GenerateResource.Cache
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RdlCompile.cache
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\RdlCompile.compiled
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe.manifest
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.application
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.exe
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BmsSoftware.pdb
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\BarcodeLib.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\Boleto.Net.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Enterprise.Framework.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Enterprise.InfoStore.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\DynamicUtilities.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\ImprimeTexto.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\nfec.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\System.Data.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\System.Management.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\UniNFeLibrary.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\sma-NO\BmsSoftware.resources.dll
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.TrustInfo.xml
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.exe.manifest
+C:\Users\User\Dropbox\Projetos BMS\BmsSoftware - NFe\BmsNFE\BmsNFE\obj\Debug\BmsSoftware.application

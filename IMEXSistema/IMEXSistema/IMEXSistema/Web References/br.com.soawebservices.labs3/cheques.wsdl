@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="SOAWebServices" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s1="urn:Cheques" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="SOAWebServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - SERASA Experian&lt;/h3&gt;</wsdl:documentation>
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="SOAWebServices">
+      <s:import namespace="urn:Cheques" />
+      <s:element name="Cheque">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Credenciais" type="tns:Credenciais" />
+            <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Banco" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Agencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ContaCorrente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NumeroChequeInicial" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="NumeroChequeFinal" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Credenciais">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Email" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Senha" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ChequeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" ref="s1:ChequeResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+    <s:schema elementFormDefault="qualified" targetNamespace="urn:Cheques">
+      <s:element name="ChequeResult" nillable="true" type="s1:Cheques" />
+      <s:complexType name="Cheques">
+        <s:complexContent mixed="false">
+          <s:extension base="s1:Serialization">
+            <s:sequence>
+              <s:element minOccurs="0" maxOccurs="1" name="SinteseCadastral" type="s1:SinteseCadastral" />
+              <s:element minOccurs="0" maxOccurs="1" name="AlertadeDocumentos" type="s1:AlertaDeDocumentos" />
+              <s:element minOccurs="0" maxOccurs="1" name="ChequesResumo" type="s1:ChequesResumo" />
+              <s:element minOccurs="0" maxOccurs="1" name="PendenciasInternas" type="s1:PendenciasInternas" />
+              <s:element minOccurs="0" maxOccurs="1" name="PendenciasFinanceiras" type="s1:PendenciasFinanceiras" />
+              <s:element minOccurs="0" maxOccurs="1" name="PendenciasBacen" type="s1:PendenciasBacen" />
+              <s:element minOccurs="0" maxOccurs="1" name="Contumacias" type="s1:Contumacia" />
+              <s:element minOccurs="0" maxOccurs="1" name="Historicos" type="s1:Historicos" />
+              <s:element minOccurs="0" maxOccurs="1" name="AgenciaBancaria" type="s1:AgenciaBancaria" />
+              <s:element minOccurs="0" maxOccurs="1" name="TotalOcorrencias" type="s:string" />
+              <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+              <s:element minOccurs="1" maxOccurs="1" name="Status" type="s:boolean" />
+            </s:sequence>
+          </s:extension>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="Serialization" />
+      <s:complexType name="SinteseCadastral">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeMae" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataNascimento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SituacaoRFB" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SituacaoDescricaoRFB" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataSituacaoRFB" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AlertaDeDocumentos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroMensagem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TotalMensagens" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroDocumento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MotivoOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TelefonesContato" type="s1:ArrayOfTelefonesContato" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfTelefonesContato">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="TelefonesContato" nillable="true" type="s1:TelefonesContato" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="TelefonesContato">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Telefone" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChequesResumo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TotalOcorrencias" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeFantasiaBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ChequeDetalhe" type="s1:ArrayOfChequeDetalhe" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfChequeDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ChequeDetalhe" nillable="true" type="s1:ChequeDetalhe" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ChequeDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Banco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Agencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContaCorrente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroCheque" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Motivo" type="s1:ChequeMotivos" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataCadastro" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="HoraCadastro" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoDaFonte" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ChequeMotivos">
+        <s:restriction base="s:string">
+          <s:enumeration value="SUSTADO" />
+          <s:enumeration value="EXTRAVIADO" />
+          <s:enumeration value="CANCELADO" />
+          <s:enumeration value="ROUBADO" />
+          <s:enumeration value="BLOQUEADO" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="PendenciasInternas">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TotalOcorrencias" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisAntiga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisRecente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ValorTotalOcorrencias" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PendenciasIternasDetalhe" type="s1:ArrayOfPendenciasInternasDetalhe" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPendenciasInternasDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PendenciasInternasDetalhe" nillable="true" type="s1:PendenciasInternasDetalhe" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PendenciasInternasDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Modalidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Avalista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoMoeda" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Valor" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Contrato" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Origem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PendenciasFinanceiras">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TotalOcorrencias" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisAntiga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisRecente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ValorTotalOcorrencias" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PendenciasFinanceirasDetalhe" type="s1:ArrayOfPendenciasFinanceirasDetalhe" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPendenciasFinanceirasDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PendenciasFinanceirasDetalhe" nillable="true" type="s1:PendenciasFinanceirasDetalhe" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PendenciasFinanceirasDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Modalidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Avalista" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoMoeda" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Valor" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Contrato" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Origem" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sigla" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubJudice" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SubJudiceDescricao" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="TipoAnotacao" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PendenciasBacen">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TotalOcorrencias" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisAntiga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisRecente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Banco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Agencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NomeFantasiaBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PendenciasBacenDetalhe" type="s1:ArrayOfPendenciasBacenDetalhe" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfPendenciasBacenDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="PendenciasBacenDetalhe" nillable="true" type="s1:PendenciasBacenDetalhe" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="PendenciasBacenDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroCheque" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AlineaCheque" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="QuantidadeCCFBanco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Valor" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Banco" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Agencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UF" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Contumacia">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ConsumaciaResumo" type="s1:ContumaciaResumo" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContumaciaDetalhe" type="s1:ArrayOfContumaciaDetalhe" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ContumaciaResumo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="TotalOcorrencias" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisAntiga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="OcorrenciaMaisRecente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContumaciaDetalhe" type="s1:ArrayOfContumaciaDetalhe" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfContumaciaDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ContumaciaDetalhe" nillable="true" type="s1:ContumaciaDetalhe" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ContumaciaDetalhe">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoCompensacao" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Agencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContaCorrente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroChequeInicial" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroChequeFinal" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="Motivo" type="s1:ContumaciaMotivos" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="CodigoDaFonte" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ContumaciaMotivos">
+        <s:restriction base="s:string">
+          <s:enumeration value="SUSTADO" />
+          <s:enumeration value="EXTRAVIADO" />
+          <s:enumeration value="CANCELADO" />
+          <s:enumeration value="ROUBADO" />
+          <s:enumeration value="BLOQUEADO" />
+        </s:restriction>
+      </s:simpleType>
+      <s:complexType name="Historicos">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Resumo" type="s1:HistoricoResumo" />
+          <s:element minOccurs="0" maxOccurs="1" name="DadosCadastrais" type="s1:ArrayOfHistoricoDadoCadastral" />
+          <s:element minOccurs="0" maxOccurs="1" name="ContaCorrente" type="s1:ArrayOfHistoricoContaCorrente" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="HistoricoResumo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NumeroCheque" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TotalConsultasCheque" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataConsultaMaisAntiga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataConsultaMaisRecente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UltimaEmpresaConsultante" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="QuantidadeDadoCadastral" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="QuantidadeContaCorrente" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfHistoricoDadoCadastral">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="HistoricoDadoCadastral" nillable="true" type="s1:HistoricoDadoCadastral" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="HistoricoDadoCadastral">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="QuantidadeConsultas" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrenciaMaisAntiga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrenciaMaisRecente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UltimaEmpresaConsultante" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfHistoricoContaCorrente">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="HistoricoContaCorrente" nillable="true" type="s1:HistoricoContaCorrente" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="HistoricoContaCorrente">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="TipoDocumento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Documento" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Nome" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="QuantidadeConsultas" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrenciaMaisAntiga" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataOcorrenciaMaisRecente" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UltimaEmpresaConsultante" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AgenciaBancaria">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="AgenciaBancariaResumo" type="s1:AgenciaBancariaResumo" />
+          <s:element minOccurs="0" maxOccurs="1" name="AgenciaBancariaEndereco" type="s1:AgenciaBancariaEndereco" />
+          <s:element minOccurs="0" maxOccurs="1" name="Mensagem" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AgenciaBancariaResumo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="NomeAgencia" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="DataUltimaAtualizacao" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Fone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Fax" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AgenciaBancariaEndereco">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Logradouro" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Cidade" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Estado" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ChequeSoapIn">
+    <wsdl:part name="parameters" element="tns:Cheque" />
+  </wsdl:message>
+  <wsdl:message name="ChequeSoapOut">
+    <wsdl:part name="parameters" element="tns:ChequeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SERASASoap">
+    <wsdl:operation name="Cheque">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;p&gt;Consulta Cheques na SERASA Experian.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Observações:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;É necessário informar todos os campos&lt;/li&gt;&lt;li&gt;Utilizar Cheque final igual ao Cheque Inicial se for consultar somente um cheque.&lt;/li&gt;&lt;/ul&gt;</wsdl:documentation>
+      <wsdl:input message="tns:ChequeSoapIn" />
+      <wsdl:output message="tns:ChequeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="SERASAHttpGet" />
+  <wsdl:portType name="SERASAHttpPost" />
+  <wsdl:binding name="SERASASoap" type="tns:SERASASoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Cheque">
+      <soap:operation soapAction="SOAWebServices/Cheque" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SERASASoap12" type="tns:SERASASoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Cheque">
+      <soap12:operation soapAction="SOAWebServices/Cheque" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SERASAHttpGet" type="tns:SERASAHttpGet">
+    <http:binding verb="GET" />
+  </wsdl:binding>
+  <wsdl:binding name="SERASAHttpPost" type="tns:SERASAHttpPost">
+    <http:binding verb="POST" />
+  </wsdl:binding>
+  <wsdl:service name="SERASA">
+    <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">&lt;h3&gt;SOA WebServices - SERASA Experian&lt;/h3&gt;</wsdl:documentation>
+    <wsdl:port name="SERASASoap" binding="tns:SERASASoap">
+      <soap:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/cheques.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SERASASoap12" binding="tns:SERASASoap12">
+      <soap12:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/cheques.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SERASAHttpGet" binding="tns:SERASAHttpGet">
+      <http:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/cheques.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SERASAHttpPost" binding="tns:SERASAHttpPost">
+      <http:address location="http://labs.soawebservices.com.br/webservices/test-drive/serasa/cheques.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
