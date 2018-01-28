@@ -15,6 +15,7 @@ using BmsSoftware.Classes.BMSworks.UI;
 using VVX;
 using BmsSoftware.Modulos.FrmSearch;
 using BmsSoftware.Modulos.Lote;
+using BmsSoftware.Modulos.Operacional;
 
 namespace BmsSoftware.Modulos.Cadastros
 {
@@ -220,6 +221,10 @@ namespace BmsSoftware.Modulos.Cadastros
                 Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
                 result = false;
             }
+            else if (!Util.Grava_Registro(this.Name, FrmLogin._IdNivel))
+            {
+                result = false;
+            }
             else if (txtNumeroLote.Text.Trim().Length == 0)
             {
                 errorProvider1.SetError(label7, ConfigMessage.Default.CampoObrigatorio);
@@ -282,7 +287,15 @@ namespace BmsSoftware.Modulos.Cadastros
                 tabControlMarca.SelectTab(1);
             }
 
+            VerificaAcesso();
+
             this.Cursor = Cursors.Default;
+        }
+
+        private void VerificaAcesso()
+        {
+            if (!Util.Acessa_Tela(this.Name, FrmLogin._IdNivel))
+                this.Close();
         }
 
         private void GetToolStripButtonCadastro()
@@ -381,26 +394,29 @@ namespace BmsSoftware.Modulos.Cadastros
                 }
                 else if (ColumnSelecionada == 1)//Excluir
                 {
-                    DialogResult dr = MessageBox.Show(ConfigMessage.Default.MsgDelete,
+                    if (Util.Apaga_Registro(this.Name, FrmLogin._IdNivel))
+                    {
+                        DialogResult dr = MessageBox.Show(ConfigMessage.Default.MsgDelete,
                               ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
 
-                    if (dr == DialogResult.Yes)
-                    {
-                        try
+                        if (dr == DialogResult.Yes)
                         {
-                            CodigoSelect = Convert.ToInt32(LIS_ESTOQUELOTEColl[rowindex].IDESTOQUELOTE);
-                            //Delete Pedido
-                            ESTOQUELOTEP.Delete(CodigoSelect);
-                            GetAllRegistros();
+                            try
+                            {
+                                CodigoSelect = Convert.ToInt32(LIS_ESTOQUELOTEColl[rowindex].IDESTOQUELOTE);
+                                //Delete Pedido
+                                ESTOQUELOTEP.Delete(CodigoSelect);
+                                GetAllRegistros();
 
-                            Entity = null;
-                            Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
-                        }
-                        catch (Exception ex)
-                        {
-                            MessageBox.Show("Erro técnico: " + ex.Message);
-                            MessageBox.Show(ConfigMessage.Default.MsgDeleteErro);
+                                Entity = null;
+                                Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
+                            }
+                            catch (Exception ex)
+                            {
+                                MessageBox.Show("Erro técnico: " + ex.Message);
+                                MessageBox.Show(ConfigMessage.Default.MsgDeleteErro);
 
+                            }
                         }
                     }
                 }
