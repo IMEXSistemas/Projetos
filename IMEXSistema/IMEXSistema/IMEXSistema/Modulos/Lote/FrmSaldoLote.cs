@@ -257,7 +257,8 @@ namespace BmsSoftware.Modulos.Lote
                 RowRelatorio.Clear();
                 RowRelatorio.Add(new RowsFiltro("CODLOTE", "System.String", "=", txtNumeroLote.Text));
                 RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", cbProduto.SelectedValue.ToString()));
-                
+                RowRelatorio.Add(new RowsFiltro("FLAGATIVO", "System.String", "=", "S"));
+
                 LIS_ESTOQUELOTEColl = LIS_ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio, "DATA");
 
                 //Busca Saldo 

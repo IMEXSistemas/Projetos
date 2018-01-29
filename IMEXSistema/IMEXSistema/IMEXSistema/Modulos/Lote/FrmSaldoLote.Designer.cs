@@ -30,8 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSaldoLote));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnLote = new System.Windows.Forms.Button();
             this.txtNumeroLote = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -42,6 +43,11 @@
             this.btnpdf = new System.Windows.Forms.Button();
             this.btnExcel = new System.Windows.Forms.Button();
             this.btnPrint = new System.Windows.Forms.Button();
+            this.cbProduto = new System.Windows.Forms.ComboBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lblTotalPesquisa = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.DATA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NUMERODOC = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FLAGTIPO = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,12 +55,8 @@
             this.QUANTIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DATAVALIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NOMEPRODUTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDPRODUTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FLAGATIVO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cbProduto = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.lblTotalPesquisa = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.DataGriewDados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -103,6 +105,7 @@
             this.QUANTIDADE,
             this.DATAVALIDADE,
             this.NOMEPRODUTO,
+            this.IDPRODUTO,
             this.FLAGATIVO});
             this.DataGriewDados.Location = new System.Drawing.Point(15, 80);
             this.DataGriewDados.Name = "DataGriewDados";
@@ -188,71 +191,6 @@
             this.btnPrint.UseVisualStyleBackColor = true;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
-            // DATA
-            // 
-            this.DATA.DataPropertyName = "DATA";
-            this.DATA.HeaderText = "Data";
-            this.DATA.Name = "DATA";
-            this.DATA.ReadOnly = true;
-            // 
-            // NUMERODOC
-            // 
-            this.NUMERODOC.DataPropertyName = "NUMERODOC";
-            this.NUMERODOC.HeaderText = "Nº Doc";
-            this.NUMERODOC.Name = "NUMERODOC";
-            this.NUMERODOC.ReadOnly = true;
-            // 
-            // FLAGTIPO
-            // 
-            this.FLAGTIPO.DataPropertyName = "FLAGTIPO";
-            this.FLAGTIPO.HeaderText = "Tipo";
-            this.FLAGTIPO.Name = "FLAGTIPO";
-            this.FLAGTIPO.ReadOnly = true;
-            this.FLAGTIPO.Width = 50;
-            // 
-            // CODLOTE
-            // 
-            this.CODLOTE.DataPropertyName = "CODLOTE";
-            this.CODLOTE.HeaderText = "Lote";
-            this.CODLOTE.Name = "CODLOTE";
-            this.CODLOTE.ReadOnly = true;
-            // 
-            // QUANTIDADE
-            // 
-            this.QUANTIDADE.DataPropertyName = "QUANTIDADE";
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.QUANTIDADE.DefaultCellStyle = dataGridViewCellStyle9;
-            this.QUANTIDADE.HeaderText = "Quant.";
-            this.QUANTIDADE.Name = "QUANTIDADE";
-            this.QUANTIDADE.ReadOnly = true;
-            this.QUANTIDADE.Width = 80;
-            // 
-            // DATAVALIDADE
-            // 
-            this.DATAVALIDADE.DataPropertyName = "DATAVALIDADE";
-            this.DATAVALIDADE.HeaderText = "Validade";
-            this.DATAVALIDADE.Name = "DATAVALIDADE";
-            this.DATAVALIDADE.ReadOnly = true;
-            // 
-            // NOMEPRODUTO
-            // 
-            this.NOMEPRODUTO.DataPropertyName = "NOMEPRODUTO";
-            dataGridViewCellStyle10.Format = "d";
-            dataGridViewCellStyle10.NullValue = null;
-            this.NOMEPRODUTO.DefaultCellStyle = dataGridViewCellStyle10;
-            this.NOMEPRODUTO.HeaderText = "Produto";
-            this.NOMEPRODUTO.Name = "NOMEPRODUTO";
-            this.NOMEPRODUTO.ReadOnly = true;
-            this.NOMEPRODUTO.Width = 300;
-            // 
-            // FLAGATIVO
-            // 
-            this.FLAGATIVO.DataPropertyName = "FLAGATIVO";
-            this.FLAGATIVO.HeaderText = "Ativo";
-            this.FLAGATIVO.Name = "FLAGATIVO";
-            this.FLAGATIVO.ReadOnly = true;
-            this.FLAGATIVO.Width = 50;
-            // 
             // cbProduto
             // 
             this.cbProduto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -297,6 +235,80 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // DATA
+            // 
+            this.DATA.DataPropertyName = "DATA";
+            this.DATA.HeaderText = "Data";
+            this.DATA.Name = "DATA";
+            this.DATA.ReadOnly = true;
+            // 
+            // NUMERODOC
+            // 
+            this.NUMERODOC.DataPropertyName = "NUMERODOC";
+            this.NUMERODOC.HeaderText = "Nº Doc";
+            this.NUMERODOC.Name = "NUMERODOC";
+            this.NUMERODOC.ReadOnly = true;
+            // 
+            // FLAGTIPO
+            // 
+            this.FLAGTIPO.DataPropertyName = "FLAGTIPO";
+            this.FLAGTIPO.HeaderText = "Tipo";
+            this.FLAGTIPO.Name = "FLAGTIPO";
+            this.FLAGTIPO.ReadOnly = true;
+            this.FLAGTIPO.Width = 50;
+            // 
+            // CODLOTE
+            // 
+            this.CODLOTE.DataPropertyName = "CODLOTE";
+            this.CODLOTE.HeaderText = "Lote";
+            this.CODLOTE.Name = "CODLOTE";
+            this.CODLOTE.ReadOnly = true;
+            // 
+            // QUANTIDADE
+            // 
+            this.QUANTIDADE.DataPropertyName = "QUANTIDADE";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.QUANTIDADE.DefaultCellStyle = dataGridViewCellStyle1;
+            this.QUANTIDADE.HeaderText = "Quant.";
+            this.QUANTIDADE.Name = "QUANTIDADE";
+            this.QUANTIDADE.ReadOnly = true;
+            this.QUANTIDADE.Width = 80;
+            // 
+            // DATAVALIDADE
+            // 
+            this.DATAVALIDADE.DataPropertyName = "DATAVALIDADE";
+            this.DATAVALIDADE.HeaderText = "Validade";
+            this.DATAVALIDADE.Name = "DATAVALIDADE";
+            this.DATAVALIDADE.ReadOnly = true;
+            // 
+            // NOMEPRODUTO
+            // 
+            this.NOMEPRODUTO.DataPropertyName = "NOMEPRODUTO";
+            dataGridViewCellStyle2.Format = "d";
+            dataGridViewCellStyle2.NullValue = null;
+            this.NOMEPRODUTO.DefaultCellStyle = dataGridViewCellStyle2;
+            this.NOMEPRODUTO.HeaderText = "Produto";
+            this.NOMEPRODUTO.Name = "NOMEPRODUTO";
+            this.NOMEPRODUTO.ReadOnly = true;
+            this.NOMEPRODUTO.Width = 300;
+            // 
+            // IDPRODUTO
+            // 
+            this.IDPRODUTO.DataPropertyName = "IDPRODUTO";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.IDPRODUTO.DefaultCellStyle = dataGridViewCellStyle3;
+            this.IDPRODUTO.HeaderText = "Cód. Produto";
+            this.IDPRODUTO.Name = "IDPRODUTO";
+            this.IDPRODUTO.ReadOnly = true;
+            // 
+            // FLAGATIVO
+            // 
+            this.FLAGATIVO.DataPropertyName = "FLAGATIVO";
+            this.FLAGATIVO.HeaderText = "Ativo";
+            this.FLAGATIVO.Name = "FLAGATIVO";
+            this.FLAGATIVO.ReadOnly = true;
+            this.FLAGATIVO.Width = 50;
+            // 
             // FrmSaldoLote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -339,6 +351,11 @@
         private System.Windows.Forms.Button btnpdf;
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnPrint;
+        private System.Windows.Forms.ComboBox cbProduto;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lblTotalPesquisa;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
         private System.Windows.Forms.DataGridViewTextBoxColumn DATA;
         private System.Windows.Forms.DataGridViewTextBoxColumn NUMERODOC;
         private System.Windows.Forms.DataGridViewTextBoxColumn FLAGTIPO;
@@ -346,11 +363,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn QUANTIDADE;
         private System.Windows.Forms.DataGridViewTextBoxColumn DATAVALIDADE;
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMEPRODUTO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDPRODUTO;
         private System.Windows.Forms.DataGridViewTextBoxColumn FLAGATIVO;
-        private System.Windows.Forms.ComboBox cbProduto;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label lblTotalPesquisa;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

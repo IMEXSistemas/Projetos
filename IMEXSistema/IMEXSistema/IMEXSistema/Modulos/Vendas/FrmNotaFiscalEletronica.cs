@@ -3450,7 +3450,7 @@ namespace BmsSoftware.Modulos.Vendas
                                     QuantVendida -= Convert.ToDecimal(item.QUANTIDADE);
                                     ESTOQUELOTETy.QUANTIDADE = Convert.ToDecimal(item.QUANTIDADE);
                                 }
-                                else if (QuantVendida < Convert.ToDecimal(item.QUANTIDADE))
+                                else if (QuantVendida <= Convert.ToDecimal(item.QUANTIDADE))
                                 {
                                     ESTOQUELOTETy.QUANTIDADE = QuantVendida;
                                     QuantVendida -= QuantVendida;

@@ -825,5 +825,13 @@ namespace BmsSoftware.Modulos.Cadastros
                 frm.ShowDialog();
             }
         }
+
+        private void lotesComSaldoPositivoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (FrmSaldoLotePositivo frm = new FrmSaldoLotePositivo())
+            {
+                frm.ShowDialog();
+            }
+        }
     }
 }

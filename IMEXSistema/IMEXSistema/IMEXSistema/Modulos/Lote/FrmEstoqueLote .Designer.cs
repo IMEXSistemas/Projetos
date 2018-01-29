@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEstoqueLote));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label25 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -71,16 +72,6 @@
             this.lblTotalPesquisa = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.DataGriewDados = new System.Windows.Forms.DataGridView();
-            this.Column3 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.DATA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NUMERODOC = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FLAGTIPO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CODLOTE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.QUANTIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DATAVALIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NOMEPRODUTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.FLAGATIVO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.TSBGrava = new System.Windows.Forms.ToolStripButton();
             this.TSBNovo = new System.Windows.Forms.ToolStripButton();
@@ -95,12 +86,24 @@
             this.pesquisaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.relatórioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saldoDoLoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saldoDoLotePorProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.voltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-            this.saldoDoLotePorProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lotesComSaldoPositivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Column3 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.DATA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NUMERODOC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FLAGTIPO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CODLOTE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.QUANTIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DATAVALIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NOMEPRODUTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDPRODUTO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.FLAGATIVO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.tabControlMarca.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -566,6 +569,7 @@
             this.QUANTIDADE,
             this.DATAVALIDADE,
             this.NOMEPRODUTO,
+            this.IDPRODUTO,
             this.FLAGATIVO});
             this.DataGriewDados.Location = new System.Drawing.Point(9, 59);
             this.DataGriewDados.Name = "DataGriewDados";
@@ -576,87 +580,6 @@
             this.DataGriewDados.Enter += new System.EventHandler(this.DataGriewDados_Enter);
             this.DataGriewDados.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DataGriewDados_KeyDown);
             this.DataGriewDados.Leave += new System.EventHandler(this.DataGriewDados_Leave);
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Editar";
-            this.Column3.Image = ((System.Drawing.Image)(resources.GetObject("Column3.Image")));
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 50;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Excluir";
-            this.Column4.Image = ((System.Drawing.Image)(resources.GetObject("Column4.Image")));
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Width = 50;
-            // 
-            // DATA
-            // 
-            this.DATA.DataPropertyName = "DATA";
-            this.DATA.HeaderText = "Data";
-            this.DATA.Name = "DATA";
-            this.DATA.ReadOnly = true;
-            // 
-            // NUMERODOC
-            // 
-            this.NUMERODOC.DataPropertyName = "NUMERODOC";
-            this.NUMERODOC.HeaderText = "Nº Doc";
-            this.NUMERODOC.Name = "NUMERODOC";
-            this.NUMERODOC.ReadOnly = true;
-            // 
-            // FLAGTIPO
-            // 
-            this.FLAGTIPO.DataPropertyName = "FLAGTIPO";
-            this.FLAGTIPO.HeaderText = "Tipo";
-            this.FLAGTIPO.Name = "FLAGTIPO";
-            this.FLAGTIPO.ReadOnly = true;
-            this.FLAGTIPO.Width = 50;
-            // 
-            // CODLOTE
-            // 
-            this.CODLOTE.DataPropertyName = "CODLOTE";
-            this.CODLOTE.HeaderText = "Lote";
-            this.CODLOTE.Name = "CODLOTE";
-            this.CODLOTE.ReadOnly = true;
-            // 
-            // QUANTIDADE
-            // 
-            this.QUANTIDADE.DataPropertyName = "QUANTIDADE";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.QUANTIDADE.DefaultCellStyle = dataGridViewCellStyle1;
-            this.QUANTIDADE.HeaderText = "Quant.";
-            this.QUANTIDADE.Name = "QUANTIDADE";
-            this.QUANTIDADE.ReadOnly = true;
-            this.QUANTIDADE.Width = 80;
-            // 
-            // DATAVALIDADE
-            // 
-            this.DATAVALIDADE.DataPropertyName = "DATAVALIDADE";
-            this.DATAVALIDADE.HeaderText = "Validade";
-            this.DATAVALIDADE.Name = "DATAVALIDADE";
-            this.DATAVALIDADE.ReadOnly = true;
-            // 
-            // NOMEPRODUTO
-            // 
-            this.NOMEPRODUTO.DataPropertyName = "NOMEPRODUTO";
-            dataGridViewCellStyle2.Format = "d";
-            dataGridViewCellStyle2.NullValue = null;
-            this.NOMEPRODUTO.DefaultCellStyle = dataGridViewCellStyle2;
-            this.NOMEPRODUTO.HeaderText = "Produto";
-            this.NOMEPRODUTO.Name = "NOMEPRODUTO";
-            this.NOMEPRODUTO.ReadOnly = true;
-            this.NOMEPRODUTO.Width = 300;
-            // 
-            // FLAGATIVO
-            // 
-            this.FLAGATIVO.DataPropertyName = "FLAGATIVO";
-            this.FLAGATIVO.HeaderText = "Ativo";
-            this.FLAGATIVO.Name = "FLAGATIVO";
-            this.FLAGATIVO.ReadOnly = true;
-            this.FLAGATIVO.Width = 50;
             // 
             // toolStrip1
             // 
@@ -786,6 +709,7 @@
             // relatórioToolStripMenuItem
             // 
             this.relatórioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lotesComSaldoPositivoToolStripMenuItem,
             this.saldoDoLoteToolStripMenuItem,
             this.saldoDoLotePorProdutoToolStripMenuItem});
             this.relatórioToolStripMenuItem.Name = "relatórioToolStripMenuItem";
@@ -799,6 +723,13 @@
             this.saldoDoLoteToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
             this.saldoDoLoteToolStripMenuItem.Text = "Saldo do Lote";
             this.saldoDoLoteToolStripMenuItem.Click += new System.EventHandler(this.saldoDoLoteToolStripMenuItem_Click);
+            // 
+            // saldoDoLotePorProdutoToolStripMenuItem
+            // 
+            this.saldoDoLotePorProdutoToolStripMenuItem.Name = "saldoDoLotePorProdutoToolStripMenuItem";
+            this.saldoDoLotePorProdutoToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.saldoDoLotePorProdutoToolStripMenuItem.Text = "Saldo do Lote por Produto";
+            this.saldoDoLotePorProdutoToolStripMenuItem.Click += new System.EventHandler(this.saldoDoLotePorProdutoToolStripMenuItem_Click);
             // 
             // voltaToolStripMenuItem
             // 
@@ -830,12 +761,102 @@
             this.printDocument1.BeginPrint += new System.Drawing.Printing.PrintEventHandler(this.printDocument1_BeginPrint);
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
-            // saldoDoLotePorProdutoToolStripMenuItem
+            // lotesComSaldoPositivoToolStripMenuItem
             // 
-            this.saldoDoLotePorProdutoToolStripMenuItem.Name = "saldoDoLotePorProdutoToolStripMenuItem";
-            this.saldoDoLotePorProdutoToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
-            this.saldoDoLotePorProdutoToolStripMenuItem.Text = "Saldo do Lote por Produto";
-            this.saldoDoLotePorProdutoToolStripMenuItem.Click += new System.EventHandler(this.saldoDoLotePorProdutoToolStripMenuItem_Click);
+            this.lotesComSaldoPositivoToolStripMenuItem.Name = "lotesComSaldoPositivoToolStripMenuItem";
+            this.lotesComSaldoPositivoToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.lotesComSaldoPositivoToolStripMenuItem.Text = "Lotes com Saldo Positivo";
+            this.lotesComSaldoPositivoToolStripMenuItem.Click += new System.EventHandler(this.lotesComSaldoPositivoToolStripMenuItem_Click);
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Editar";
+            this.Column3.Image = ((System.Drawing.Image)(resources.GetObject("Column3.Image")));
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 50;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Excluir";
+            this.Column4.Image = ((System.Drawing.Image)(resources.GetObject("Column4.Image")));
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 50;
+            // 
+            // DATA
+            // 
+            this.DATA.DataPropertyName = "DATA";
+            this.DATA.HeaderText = "Data";
+            this.DATA.Name = "DATA";
+            this.DATA.ReadOnly = true;
+            // 
+            // NUMERODOC
+            // 
+            this.NUMERODOC.DataPropertyName = "NUMERODOC";
+            this.NUMERODOC.HeaderText = "Nº Doc";
+            this.NUMERODOC.Name = "NUMERODOC";
+            this.NUMERODOC.ReadOnly = true;
+            // 
+            // FLAGTIPO
+            // 
+            this.FLAGTIPO.DataPropertyName = "FLAGTIPO";
+            this.FLAGTIPO.HeaderText = "Tipo";
+            this.FLAGTIPO.Name = "FLAGTIPO";
+            this.FLAGTIPO.ReadOnly = true;
+            this.FLAGTIPO.Width = 50;
+            // 
+            // CODLOTE
+            // 
+            this.CODLOTE.DataPropertyName = "CODLOTE";
+            this.CODLOTE.HeaderText = "Lote";
+            this.CODLOTE.Name = "CODLOTE";
+            this.CODLOTE.ReadOnly = true;
+            // 
+            // QUANTIDADE
+            // 
+            this.QUANTIDADE.DataPropertyName = "QUANTIDADE";
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.QUANTIDADE.DefaultCellStyle = dataGridViewCellStyle1;
+            this.QUANTIDADE.HeaderText = "Quant.";
+            this.QUANTIDADE.Name = "QUANTIDADE";
+            this.QUANTIDADE.ReadOnly = true;
+            this.QUANTIDADE.Width = 80;
+            // 
+            // DATAVALIDADE
+            // 
+            this.DATAVALIDADE.DataPropertyName = "DATAVALIDADE";
+            this.DATAVALIDADE.HeaderText = "Validade";
+            this.DATAVALIDADE.Name = "DATAVALIDADE";
+            this.DATAVALIDADE.ReadOnly = true;
+            // 
+            // NOMEPRODUTO
+            // 
+            this.NOMEPRODUTO.DataPropertyName = "NOMEPRODUTO";
+            dataGridViewCellStyle2.Format = "d";
+            dataGridViewCellStyle2.NullValue = null;
+            this.NOMEPRODUTO.DefaultCellStyle = dataGridViewCellStyle2;
+            this.NOMEPRODUTO.HeaderText = "Produto";
+            this.NOMEPRODUTO.Name = "NOMEPRODUTO";
+            this.NOMEPRODUTO.ReadOnly = true;
+            this.NOMEPRODUTO.Width = 300;
+            // 
+            // IDPRODUTO
+            // 
+            this.IDPRODUTO.DataPropertyName = "IDPRODUTO";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.IDPRODUTO.DefaultCellStyle = dataGridViewCellStyle3;
+            this.IDPRODUTO.HeaderText = "Cód. Produto";
+            this.IDPRODUTO.Name = "IDPRODUTO";
+            this.IDPRODUTO.ReadOnly = true;
+            // 
+            // FLAGATIVO
+            // 
+            this.FLAGATIVO.DataPropertyName = "FLAGATIVO";
+            this.FLAGATIVO.HeaderText = "Ativo";
+            this.FLAGATIVO.Name = "FLAGATIVO";
+            this.FLAGATIVO.ReadOnly = true;
+            this.FLAGATIVO.Width = 50;
             // 
             // FrmEstoqueLote
             // 
@@ -930,6 +951,9 @@
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Button btnLote;
+        private System.Windows.Forms.ToolStripMenuItem saldoDoLoteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saldoDoLotePorProdutoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lotesComSaldoPositivoToolStripMenuItem;
         private System.Windows.Forms.DataGridViewImageColumn Column3;
         private System.Windows.Forms.DataGridViewImageColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn DATA;
@@ -939,8 +963,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn QUANTIDADE;
         private System.Windows.Forms.DataGridViewTextBoxColumn DATAVALIDADE;
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMEPRODUTO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IDPRODUTO;
         private System.Windows.Forms.DataGridViewTextBoxColumn FLAGATIVO;
-        private System.Windows.Forms.ToolStripMenuItem saldoDoLoteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem saldoDoLotePorProdutoToolStripMenuItem;
     }
 }
