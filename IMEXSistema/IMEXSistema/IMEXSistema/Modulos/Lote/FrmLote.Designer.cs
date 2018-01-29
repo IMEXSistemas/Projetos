@@ -104,6 +104,7 @@
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
+            this.saldoLotePorProdutoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.tabControlMarca.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -785,7 +786,8 @@
             // relatórioToolStripMenuItem
             // 
             this.relatórioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.saldoLoteToolStripMenuItem});
+            this.saldoLoteToolStripMenuItem,
+            this.saldoLotePorProdutoToolStripMenuItem});
             this.relatórioToolStripMenuItem.Name = "relatórioToolStripMenuItem";
             this.relatórioToolStripMenuItem.Size = new System.Drawing.Size(66, 20);
             this.relatórioToolStripMenuItem.Text = "Relatório";
@@ -794,7 +796,7 @@
             // saldoLoteToolStripMenuItem
             // 
             this.saldoLoteToolStripMenuItem.Name = "saldoLoteToolStripMenuItem";
-            this.saldoLoteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saldoLoteToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.saldoLoteToolStripMenuItem.Text = "Saldo Lote";
             this.saldoLoteToolStripMenuItem.Click += new System.EventHandler(this.saldoLoteToolStripMenuItem_Click);
             // 
@@ -842,6 +844,13 @@
             // 
             this.printDocument1.BeginPrint += new System.Drawing.Printing.PrintEventHandler(this.printDocument1_BeginPrint);
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
+            // 
+            // saldoLotePorProdutoToolStripMenuItem
+            // 
+            this.saldoLotePorProdutoToolStripMenuItem.Name = "saldoLotePorProdutoToolStripMenuItem";
+            this.saldoLotePorProdutoToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.saldoLotePorProdutoToolStripMenuItem.Text = "Saldo Lote por Produto";
+            this.saldoLotePorProdutoToolStripMenuItem.Click += new System.EventHandler(this.saldoLotePorProdutoToolStripMenuItem_Click);
             // 
             // FrmLote
             // 
@@ -949,5 +958,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn codlote;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDLOTE;
         private System.Windows.Forms.ToolStripMenuItem saldoLoteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem saldoLotePorProdutoToolStripMenuItem;
     }
 }

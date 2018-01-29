@@ -816,5 +816,14 @@ namespace BmsSoftware.Modulos.Cadastros
                 frm.ShowDialog();
             }
         }
+
+        private void saldoDoLotePorProdutoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (FrmSaldoLoteProduto frm = new FrmSaldoLoteProduto())
+            {
+                frm._IDPRODUTO = Convert.ToInt32(cbProduto.SelectedValue);
+                frm.ShowDialog();
+            }
+        }
     }
 }

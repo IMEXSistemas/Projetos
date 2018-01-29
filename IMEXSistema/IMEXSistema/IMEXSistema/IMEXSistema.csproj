@@ -1951,6 +1951,12 @@
     <Compile Include="Modulos\FrmSintegra\FrmResumoSintegraReg50.Designer.cs">
       <DependentUpon>FrmResumoSintegraReg50.cs</DependentUpon>
     </Compile>
+    <Compile Include="Modulos\Lote\FrmSaldoLoteProduto .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Lote\FrmSaldoLoteProduto .Designer.cs">
+      <DependentUpon>FrmSaldoLoteProduto .cs</DependentUpon>
+    </Compile>
     <Compile Include="Modulos\Lote\FrmSaldoLote.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -4014,6 +4020,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\FrmSintegra\FrmResumoSintegraReg50.resx">
       <DependentUpon>FrmResumoSintegraReg50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Lote\FrmSaldoLoteProduto .resx">
+      <DependentUpon>FrmSaldoLoteProduto .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\Lote\FrmSaldoLote.resx">
       <DependentUpon>FrmSaldoLote.cs</DependentUpon>

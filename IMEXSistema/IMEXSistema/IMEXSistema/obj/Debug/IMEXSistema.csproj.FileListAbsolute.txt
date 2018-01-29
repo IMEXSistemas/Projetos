@@ -1385,3 +1385,4 @@ C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\IMEXSistema.csproj
 C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\sma-NO\IMEXSistema.resources.dll
 C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\IMEXSistema.exe
 C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\IMEXSistema.pdb
+C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\BmsSoftware.Modulos.Lote.FrmSaldoLoteProduto.resources
