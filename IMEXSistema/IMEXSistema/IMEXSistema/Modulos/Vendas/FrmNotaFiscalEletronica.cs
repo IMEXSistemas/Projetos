@@ -3430,54 +3430,103 @@ namespace BmsSoftware.Modulos.Vendas
 
                     if (dr == DialogResult.Yes)
                     {
-                        //Busca Dados do Lote
-                        RowRelatorio.Clear();
-                        RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", cbProduto.SelectedValue.ToString()));
-                        LIS_ESTOQUELOTECollection LIS_ESTOQUELOTEColl = new LIS_ESTOQUELOTECollection();
-                        LIS_ESTOQUELOTEColl = LIS_ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio, "DATAVALIDADE");
-
-                        decimal QuantVendida = Convert.ToDecimal(txtQuanProduto.Text);
-                        foreach (var item in LIS_ESTOQUELOTEColl)
-                        {
-                            if (QuantVendida > 0)
-                            {
-                                //Salva ESTOQUELOTE
-                                ESTOQUELOTEEntity ESTOQUELOTETy = new ESTOQUELOTEEntity();
-                                ESTOQUELOTETy.IDESTOQUELOTE = -1;
-
-                                if (QuantVendida > Convert.ToDecimal(item.QUANTIDADE))
-                                {
-                                    QuantVendida -= Convert.ToDecimal(item.QUANTIDADE);
-                                    ESTOQUELOTETy.QUANTIDADE = Convert.ToDecimal(item.QUANTIDADE);
-                                }
-                                else if (QuantVendida <= Convert.ToDecimal(item.QUANTIDADE))
-                                {
-                                    ESTOQUELOTETy.QUANTIDADE = QuantVendida;
-                                    QuantVendida -= QuantVendida;
-                                }
-
-                                ESTOQUELOTETy.IDLOTE = item.IDLOTE;
-                                ESTOQUELOTETy.IDPRODUTO = Convert.ToInt32(cbProduto.SelectedValue);
-                                ESTOQUELOTETy.NUMERODOC = txtNotaFiscal.Text;
-                                ESTOQUELOTETy.DATA = Convert.ToDateTime(msktDataEmissao.Text);
-                                ESTOQUELOTETy.FLAGTIPO = "S"; //SAIDA
-                                ESTOQUELOTETy.FLAGATIVO = "S";//ATIVO SIM
-                                ESTOQUELOTETy.OBSERVACAO = "";
-                                MSGAdicionalProduto += "Lote:" + item.CODLOTE + " Quant.:" + ESTOQUELOTETy.QUANTIDADE + " ";
-                                ESTOQUELOTEP.Save(ESTOQUELOTETy);
-                                
-                            }
-                        }
+                        decimal? QuantVendida = Convert.ToDecimal(txtQuanProduto.Text);
+                        SaldoProdutoLote(Convert.ToInt32(cbProduto.SelectedValue.ToString()), QuantVendida);
                     }
-
-                    txtInformAddProduto.Text += MSGAdicionalProduto;
-                    Util.ExibirMSg("Estoque Lote Salvo com Sucesso!", "Blue");
                 }                             
 
             }
             catch (Exception ex)
             {
                 Util.ExibirMSg("Erro ao Salvar Estoque Lote!", "Red");
+                MessageBox.Show("Erro técnico : " + ex.Message);
+            }
+        }
+
+        private void SaldoProdutoLote(int? IdProduto, decimal? quantidadeV)
+        {
+            try
+            {
+                RowRelatorio.Clear();
+                RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", IdProduto.ToString()));
+                LIS_ESTOQUELOTECollection LIS_ESTOQUELOTEColl_2 = new LIS_ESTOQUELOTECollection();
+                LIS_ESTOQUELOTEColl_2 = LIS_ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio, "DATAVALIDADE");
+
+                decimal QuantVendida = Convert.ToDecimal(quantidadeV);
+
+                foreach (var item in LIS_ESTOQUELOTEColl_2)
+                {
+                    decimal SaldoPorlote = 0;
+                    SaldoPorlote = ConsultaSaldoLote(item.IDPRODUTO, item.IDLOTE);
+
+                    if (QuantVendida > 0 && SaldoPorlote > 0)
+                    {
+                        //Salva ESTOQUELOTE
+                        ESTOQUELOTEEntity ESTOQUELOTETy = new ESTOQUELOTEEntity();
+                        ESTOQUELOTETy.IDESTOQUELOTE = -1;
+
+                        if (QuantVendida > SaldoPorlote)
+                        {
+                            QuantVendida -= SaldoPorlote;
+                            ESTOQUELOTETy.QUANTIDADE = SaldoPorlote;
+                        }
+                        else if (QuantVendida <= SaldoPorlote)
+                        {
+                            ESTOQUELOTETy.QUANTIDADE = QuantVendida;
+                            QuantVendida -= QuantVendida;
+                        }
+
+                        ESTOQUELOTETy.IDLOTE = item.IDLOTE;
+                        ESTOQUELOTETy.IDPRODUTO = Convert.ToInt32(item.IDPRODUTO);
+                        ESTOQUELOTETy.NUMERODOC = "NF" + txtNotaFiscal.Text;
+                        ESTOQUELOTETy.DATA = Convert.ToDateTime(msktDataEmissao.Text); ;
+                        ESTOQUELOTETy.FLAGTIPO = "S"; //SAIDA
+                        ESTOQUELOTETy.FLAGATIVO = "S";//ATIVO SIM
+                        ESTOQUELOTETy.OBSERVACAO = "";
+                        txtInformAddProduto.Text += "Lote:" + item.CODLOTE + " Quant.:" + ESTOQUELOTETy.QUANTIDADE + " ";
+                        ESTOQUELOTEP.Save(ESTOQUELOTETy);
+                        Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
+                    }
+                }
+
+                Util.ExibirMSg("Estoque Lote Salvo com Sucesso!", "Blue");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ténico: " + ex.Message);
+            }
+        }
+
+        //Consultar se exite Lote para o produto vendido
+        private decimal ConsultaSaldoLote(int? IDPRODUTO, int? IDLOTE)
+        {
+            decimal result = 0;
+            try
+            {
+                RowRelatorio.Clear();
+                RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", IDPRODUTO.ToString()));
+                RowRelatorio.Add(new RowsFiltro("IDLOTE", "System.Int32", "=", IDLOTE.ToString()));
+                ESTOQUELOTECollection ESTOQUELOTEColl = new ESTOQUELOTECollection();
+                ESTOQUELOTEColl = ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio);
+
+                decimal Entrada = 0;
+                decimal Saida = 0;
+                decimal Saldo = 0;
+                foreach (var item in ESTOQUELOTEColl)
+                {
+                    if (item.FLAGATIVO == "S" && item.FLAGTIPO == "E")
+                        Entrada += Convert.ToDecimal(item.QUANTIDADE);
+                    else if (item.FLAGATIVO == "S" && item.FLAGTIPO == "S")
+                        Saida += Convert.ToDecimal(item.QUANTIDADE);
+                }
+
+                Saldo = Entrada - Saida;
+                result = Saldo;
+                return result;
+            }
+            catch (Exception ex)
+            {
+                return result;
                 MessageBox.Show("Erro técnico : " + ex.Message);
             }
         }
@@ -3841,7 +3890,6 @@ namespace BmsSoftware.Modulos.Vendas
                             {
                                 CodSelect = Convert.ToInt32(LIS_PRODUTONFEColl[rowindex].IDPRODUTONFE);
                                 int IDPRODUTO = Convert.ToInt32(LIS_PRODUTONFEColl[rowindex].IDPRODUTO);
-
                                 ExcluirEstoqueLote(IDPRODUTO);
                                 PRODUTONFEP.Delete(CodSelect);                             
 
@@ -3908,11 +3956,11 @@ namespace BmsSoftware.Modulos.Vendas
             try
             {
                 RowRelatorio.Clear();
-                RowRelatorio.Add(new RowsFiltro("NUMERODOC", "System.String", "=", txtNotaFiscal.Text));
+                RowRelatorio.Add(new RowsFiltro("NUMERODOC", "System.String", "=", "NF"+txtNotaFiscal.Text));
                 RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", IDPRODUTO.ToString()));
 
                 ESTOQUELOTECollection ESTOQUELOTEColl = new ESTOQUELOTECollection();
-                ESTOQUELOTEColl = ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio);
+                ESTOQUELOTEColl = ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio);                
 
                 int Contador = 0;
                 foreach (var item in ESTOQUELOTEColl)
@@ -9668,6 +9716,7 @@ namespace BmsSoftware.Modulos.Vendas
                 foreach (LIS_PRODUTONFEEntity item in LIS_PRODUTONFEColl)
                 {
                     int IDPRODUTO = Convert.ToInt32(item.IDPRODUTO);
+                    ExcluirEstoqueLote(IDPRODUTO);
                     PRODUTONFEP.Delete(Convert.ToInt32(item.IDPRODUTONFE));                 
                 }
 
@@ -10379,6 +10428,7 @@ namespace BmsSoftware.Modulos.Vendas
                                     else
                                       MessageBox.Show("O produto: " + item.IDPRODUTO.ToString() + " - " + item.NOMEPRODUTO + " não tem NCM cadastrado!");
 
+                                    SaveLoteEstoque();
                                     PRODUTONFEP.Save(Entity2);
                                     Entity2 = null;
                                 }
@@ -12418,7 +12468,7 @@ namespace BmsSoftware.Modulos.Vendas
         {
             using (FrmEstoqueLote frm = new FrmEstoqueLote())
             {
-                frm._NumeroDoc = txtNotaFiscal.Text;
+                frm._NumeroDoc = "NF"+txtNotaFiscal.Text;
                 frm.ShowDialog();
             }
         }

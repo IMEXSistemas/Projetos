@@ -102,7 +102,7 @@ namespace BmsSoftware.Modulos.Lote
                 RowRelatorio.Add(new RowsFiltro("FLAGTIPO", "System.String", "=","E"));
                 RowRelatorio.Add(new RowsFiltro("FLAGATIVO", "System.String", "=", "S"));
                 
-                LIS_ESTOQUELOTEColl = LIS_ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio);
+                LIS_ESTOQUELOTEColl = LIS_ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio, "DATAVALIDADE");
 
                 //Limpa Grid 
                 DataGriewDados.Rows.Clear();
@@ -173,7 +173,7 @@ namespace BmsSoftware.Modulos.Lote
                 RowRelatorio.Add(new RowsFiltro("FLAGATIVO", "System.String", "=", "S"));
                 
                 LIS_ESTOQUELOTECollection LIS_ESTOQUELOTEColl2 = new LIS_ESTOQUELOTECollection();
-                LIS_ESTOQUELOTEColl2 = LIS_ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio);
+                LIS_ESTOQUELOTEColl2 = LIS_ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio, "DATAVALIDADE");
 
                 foreach (var item in LIS_ESTOQUELOTEColl2)
                 {

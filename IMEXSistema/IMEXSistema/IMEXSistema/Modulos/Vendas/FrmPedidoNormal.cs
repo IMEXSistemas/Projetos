@@ -27,6 +27,7 @@ using System.Net.Mail;
 using System.Net;
 using winfit.Modulos.Outros;
 using System.Text.RegularExpressions;
+using BmsSoftware.Modulos.Lote;
 
 namespace BmsSoftware.Modulos.Vendas
 {
@@ -77,6 +78,7 @@ namespace BmsSoftware.Modulos.Vendas
         CORProvider CORP = new CORProvider();
         LIS_PRODUTOCOMPOSICAOProvider LIS_PRODUTOCOMPOSICAOP = new LIS_PRODUTOCOMPOSICAOProvider();
         CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
+        ESTOQUELOTEProvider ESTOQUELOTEP = new ESTOQUELOTEProvider();
 
         EMPRESAProvider EMPRESAP = new EMPRESAProvider();
         EMPRESAEntity EMPRESATy = new EMPRESAEntity();
@@ -4485,6 +4487,7 @@ namespace BmsSoftware.Modulos.Vendas
                     {
                         foreach (LIS_PRODUTOSPEDIDOEntity item in LIS_PRODUTOSPEDIDOColl)
                         {
+                            ExcluirEstoqueLote(Convert.ToInt32(item.IDPRODUTO));
                             PRODUTOSPEDIDOP.Delete(Convert.ToInt32(item.IDPRODPEDIDO));
                         }
 
@@ -4494,7 +4497,6 @@ namespace BmsSoftware.Modulos.Vendas
                     catch (Exception)
                     {
                         MessageBox.Show(ConfigMessage.Default.MsgDeleteErro);
-
                     }
                 }
             }
@@ -4537,7 +4539,7 @@ namespace BmsSoftware.Modulos.Vendas
                                 {
                                     CodSelect = Convert.ToInt32(LIS_PRODUTOSPEDIDOColl[rowindex].IDPRODPEDIDO);
                                     int IDPRODUTO = Convert.ToInt32(LIS_PRODUTOSPEDIDOColl[rowindex].IDPRODUTO);
-                                    decimal QUANTMOV = Convert.ToInt32(LIS_PRODUTOSPEDIDOColl[rowindex].QUANTIDADE);
+                                    ExcluirEstoqueLote(IDPRODUTO);
                                     PRODUTOSPEDIDOP.Delete(CodSelect);
                                     ListaProdutoPedido(_IDPEDIDO);
 
@@ -4557,7 +4559,35 @@ namespace BmsSoftware.Modulos.Vendas
                     }
                 }
             }
+        }
 
+        private void ExcluirEstoqueLote(int IDPRODUTO)
+        {
+            try
+            {
+                RowRelatorio.Clear();
+                RowRelatorio.Add(new RowsFiltro("NUMERODOC", "System.String", "=", "PD" + _IDPEDIDO.ToString().PadLeft(6, '0')));
+                RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", IDPRODUTO.ToString()));
+                
+                ESTOQUELOTECollection ESTOQUELOTEColl = new ESTOQUELOTECollection();
+                ESTOQUELOTEColl = ESTOQUELOTEP.ReadCollectionByParameter(RowRelatorio);
+                
+                int Contador = 0;
+                foreach (var item in ESTOQUELOTEColl)
+                {
+                    ESTOQUELOTEP.Delete(Convert.ToInt32(item.IDESTOQUELOTE));
+                    Contador++;
+                }
+
+                if (Contador > 0)
+                    Util.ExibirMSg("Estoque Lote Excluido com Sucesso!", "blue");
+
+            }
+            catch (Exception ex)
+            {
+                Util.ExibirMSg(ConfigMessage.Default.MsgDeleteErro, "Red");
+                MessageBox.Show("Erro técnico: " + ex.Message);
+            }
         }
 
         private void modelo2DiversosItensToolStripMenuItem_Click(object sender, EventArgs e)
@@ -6679,6 +6709,31 @@ namespace BmsSoftware.Modulos.Vendas
             }
         }
 
+        private void controleDeLoteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (_IDPEDIDO == -1)
+            {
+                Util.ExibirMSg(ConfigMessage.Default.MsgSelecRegistro, "Red");
+                tabControlPedidoVenda.SelectTab(1);
+            }
+            else if (LIS_PRODUTOSPEDIDOColl.Count == 0)
+            {
+                string Msgerro = "Não Existe Produtos Adicionados!";
+                Util.ExibirMSg(Msgerro, "Red");
+                errorProvider1.SetError(DGDadosProduto, ConfigMessage.Default.CampoObrigatorio);
+                tabControlPedidoVenda.SelectTab(0);
+            }
+            else
+            {
+                using (FrmPedidoLote frm = new FrmPedidoLote())
+                {
+                    frm._IDPEDIDO = _IDPEDIDO;
+                    frm.LIS_PRODUTOSPEDIDOColl = LIS_PRODUTOSPEDIDOColl;
+                    frm.ShowDialog();
+                    ListaProdutoPedido(_IDPEDIDO);
+                }
+            }
+        }
     }
 
 }

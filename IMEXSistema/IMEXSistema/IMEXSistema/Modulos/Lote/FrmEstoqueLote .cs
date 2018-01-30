@@ -258,6 +258,8 @@ namespace BmsSoftware.Modulos.Cadastros
 
         private void FrmTipoRegiao_Load(object sender, EventArgs e)
         {
+            tabControlMarca.SelectTab(1);
+
             CreaterCursor Cr = new CreaterCursor();
             this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0); 
 
@@ -285,7 +287,11 @@ namespace BmsSoftware.Modulos.Cadastros
                 txtPesquisaRapida.Text = _NumeroDoc;
                 PesquisaRapida();
                 tabControlMarca.SelectTab(1);
+                tabControlMarca.SelectTab(0);
+                tabControlMarca.SelectTab(1);
             }
+            else
+                tabControlMarca.SelectTab(0);
 
             VerificaAcesso();
 
