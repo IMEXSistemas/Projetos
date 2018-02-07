@@ -255,9 +255,9 @@ namespace BmsSoftware.Modulos.Vendas
                 if (cbTransportadora.SelectedIndex > 0)
                     IDTRANSPORTES = Convert.ToInt32(cbTransportadora.SelectedValue);
 
-                string PLACA = txtPlaca.Text.Trim();
+                string PLACA = txtPlaca.Text.ToUpper().Trim();
 
-                string UFTRANSPORTE = Convert.ToString(cbUF.SelectedValue);
+                string UFTRANSPORTE = txtUFTransp.Text;
 
                 decimal QUANT = Convert.ToDecimal(txtQuant.Text);
                 string ESPECIE = txtEspecie.Text.Trim();
@@ -429,7 +429,7 @@ namespace BmsSoftware.Modulos.Vendas
 
                     txtPlaca.Text = value.PLACA;
 
-                    cbUF.SelectedValue = value.UFTRANSPORTE;
+                    txtUFTransp.Text = value.UFTRANSPORTE;
 
                     txtQuant.Text = Convert.ToDecimal(value.QUANT).ToString();
                     txtEspecie.Text = value.ESPECIE;
@@ -560,7 +560,7 @@ namespace BmsSoftware.Modulos.Vendas
                     cbTransportadora.SelectedIndex = 0;
 
                     txtPlaca.Text = string.Empty;
-                    cbUF.SelectedIndex = 0;
+                    txtUFTransp.Text = string.Empty;
                     txtQuant.Text = "1";
                     txtEspecie.Text = string.Empty;
                     txtMarca.Text = string.Empty;
@@ -854,8 +854,7 @@ namespace BmsSoftware.Modulos.Vendas
 
             GetDropCliente();           
 
-            GetDropCFOP();
-            GetUFDrop();
+            GetDropCFOP();           
             GetDropUnidade();
             GetDropProdutos();
             GetFuncionario();
@@ -1382,25 +1381,7 @@ namespace BmsSoftware.Modulos.Vendas
             {
                 MessageBox.Show("Erro técnico: " + ex.Message);
             }
-        }
-
-        private void GetUFDrop()
-        {
-            try
-            {
-                LIS_ESTADOProvider LIS_ESTADOP = new LIS_ESTADOProvider();
-
-                cbUF.DisplayMember = "UF";
-                cbUF.ValueMember = "UF";
-                cbUF.DataSource = LIS_ESTADOP.ReadCollectionByParameter(null, "UF");
-
-                cbUF.SelectedIndex = cbUF.FindStringExact(ConfigSistema1.Default.UFSelect);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro técnico: " + ex.Message);
-            }
-        }     
+        }       
 
         private void GetDropCliente()
         {
@@ -11604,7 +11585,11 @@ namespace BmsSoftware.Modulos.Vendas
                             MessageBox.Show("Erro ao Imprimir DANFE!");
                         }
                         else
+                        {
+                            //Atualiza Lista da Pesquisa
+                            btnPesquisa_Click(null, null);
                             Util.ExibirMSg("Aguarde... DANFE em pdf abrindo...", "Blue");
+                        }
                       
 
                         _FLAGENVIADA = "S";

@@ -11,14 +11,22 @@ using BMSworks.Model;
 using BMSworks.Collection;
 using BMSworks.UI;
 using System.IO;
+using BMSworks.IMEXAppClass;
 
 namespace BmsSoftware.Modulos.Cadastros
 {
     public partial class FrmUnidade : Form
     {
         Utility Util = new Utility();
+
         UNIDADEProvider UNIDADEP = new UNIDADEProvider();
-        UNIDADECollection UNIDADEColl = new UNIDADECollection(); 
+        CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
+        UNIDADEMEDIDAIMEXAPPProvider UNIDADEMEDIDAIMEXAPPP = new UNIDADEMEDIDAIMEXAPPProvider();
+
+        UNIDADECollection UNIDADEColl = new UNIDADECollection();        
+        CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
+
+
         int _IDUNIDADE = -1;
         public FrmUnidade()
         {
@@ -108,6 +116,7 @@ namespace BmsSoftware.Modulos.Cadastros
                 if (Validacoes())
                 {
                     _IDUNIDADE = UNIDADEP.Save(Entity);
+                    SalveIMEXAPP(Entity);
                     GetAllUnidade();
                     Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
                 }
@@ -120,13 +129,40 @@ namespace BmsSoftware.Modulos.Cadastros
             }
         }
 
+        private void SalveIMEXAPP(UNIDADEEntity UNIDADETy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                   
+                    UNIDADEMEDIDAIMEXAPPEntity UNIDADEMEDIDAIMEXAPPTy = new UNIDADEMEDIDAIMEXAPPEntity();
+                    UNIDADEMEDIDAIMEXAPPTy.XMEUID = UNIDADETy.IDUNIDADE.ToString();
+                    UNIDADEMEDIDAIMEXAPPTy.XSIGLA = UNIDADETy.NOME;
+                    UNIDADEMEDIDAIMEXAPPTy.XUNIDADEMEDIDA = UNIDADETy.OBSERVACAO;
+                    UNIDADEMEDIDAIMEXAPPP.Save(UNIDADEMEDIDAIMEXAPPTy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
+
         private void GetAllUnidade()
         {
-            UNIDADEColl = UNIDADEP.ReadCollectionByParameter(null, "NOME");
-            DataGriewDados.AutoGenerateColumns = false;
-            DataGriewDados.DataSource = UNIDADEColl;
+            try
+            {
+                UNIDADEColl = UNIDADEP.ReadCollectionByParameter(null, "NOME");
+                DataGriewDados.AutoGenerateColumns = false;
+                DataGriewDados.DataSource = UNIDADEColl;
 
-            lblTotalPesquisa.Text = UNIDADEColl.Count.ToString();
+                lblTotalPesquisa.Text = UNIDADEColl.Count.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
         }
 
 
@@ -153,9 +189,13 @@ namespace BmsSoftware.Modulos.Cadastros
             CreaterCursor Cr = new CreaterCursor();
             this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0); 
 
-            this.MinimizeBox = false; this.FormBorderStyle = FormBorderStyle.FixedDialog; this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.MinimizeBox = false;
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
+
             GetToolStripButtonCadastro();
             GetAllUnidade();
+
+            CONFISISTEMATy = CONFISISTEMAP.Read(1);
 
             this.Cursor = Cursors.Default;
         }
@@ -213,6 +253,7 @@ namespace BmsSoftware.Modulos.Cadastros
                     try
                     {
                         UNIDADEP.Delete(_IDUNIDADE);
+                        DeleteIMEXAPP(_IDUNIDADE);
                         Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
                         Entity = null;
                         GetAllUnidade();
@@ -224,6 +265,24 @@ namespace BmsSoftware.Modulos.Cadastros
                     }
 
                 }
+            }
+        }
+
+        private void DeleteIMEXAPP(int IDREGISTRO)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                   int result =  UNIDADEMEDIDAIMEXAPPP.GetID(IDREGISTRO);
+                    UNIDADEMEDIDAIMEXAPPP.Delete(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+
+
             }
         }
 

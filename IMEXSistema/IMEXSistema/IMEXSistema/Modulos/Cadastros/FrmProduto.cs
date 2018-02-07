@@ -1893,8 +1893,7 @@ namespace BmsSoftware.Modulos.Cadastros
                         if (txtNomeFoto.Text != string.Empty)
                            _IDFOTO = FOTOPRODUTOP.Save(Entity2);
 
-                        Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
-                        
+                        Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");                        
                         
                     }
                     else

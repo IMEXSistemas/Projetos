@@ -100,7 +100,8 @@
             "008 - Versão 1.07",
             "009 - Versão 1.08",
             "010 - Versão 1.09",
-            "011 - Versão 1.10"});
+            "011 - Versão 1.10",
+            "012 - Versão 1.11"});
             this.cbVersaoLayout.Location = new System.Drawing.Point(12, 111);
             this.cbVersaoLayout.Name = "cbVersaoLayout";
             this.cbVersaoLayout.Size = new System.Drawing.Size(277, 21);

@@ -10,7 +10,7 @@ using BMSworks.UI;
 using BMSworks.Model;
 using BMSworks.Firebird;
 using System.IO;
-
+using BMSworks.IMEXAppClass;
 
 namespace BmsSoftware.Modulos.Operacional
 {
@@ -20,9 +20,13 @@ namespace BmsSoftware.Modulos.Operacional
         
         FORMAPAGAMENTOProvider FORMAPAGAMENTOP = new FORMAPAGAMENTOProvider();
         ITENSFORMAPAGTOProvider ITENSFORMAPAGTOP = new ITENSFORMAPAGTOProvider();
+        CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
+        CONDICAOPAGAMENTOIMEXAPPProvider CONDICAOPAGAMENTOIMEXAPPP = new CONDICAOPAGAMENTOIMEXAPPProvider();
 
         FORMAPAGAMENTOCollection FORMAPAGAMENTOColl = new FORMAPAGAMENTOCollection();
         ITENSFORMAPAGTOCollection ITENSFORMAPAGTOColl = new ITENSFORMAPAGTOCollection();
+
+        CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
 
         public FrmFormasPagamento()
         {
@@ -165,6 +169,7 @@ namespace BmsSoftware.Modulos.Operacional
             GetToolStripButtonCadastro();
             GetAllFormaPagamento();
             VerificaAcesso();
+            CONFISISTEMATy = CONFISISTEMAP.Read(1);
 
             this.Cursor = Cursors.Default;
 
@@ -360,6 +365,7 @@ namespace BmsSoftware.Modulos.Operacional
                 {
                     _IDFORMAPAGAMENTO = FORMAPAGAMENTOP.Save(Entity);
                     GetAllFormaPagamento();
+                    SalveIMEXAPP(Entity);
                     Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
                 }
             }
@@ -567,6 +573,7 @@ namespace BmsSoftware.Modulos.Operacional
                     try
                     {
                         FORMAPAGAMENTOP.Delete(_IDFORMAPAGAMENTO);
+                        DeleteIMEXAPP(_IDFORMAPAGAMENTO);
                         Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
                         Entity = null;
                         GetAllFormaPagamento();
@@ -578,6 +585,24 @@ namespace BmsSoftware.Modulos.Operacional
                     }
 
                 }
+            }
+        }
+
+        private void DeleteIMEXAPP(int IDREGISTRO)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    int result = CONDICAOPAGAMENTOIMEXAPPP.GetID(IDREGISTRO);
+                    CONDICAOPAGAMENTOIMEXAPPP.Delete(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+
+
             }
         }
 
@@ -818,11 +843,41 @@ namespace BmsSoftware.Modulos.Operacional
                     Dias += 30;
                 }
 
-             
+
+                SalveIMEXAPP(Entity);
                 Entity2 = null;
                 GetItensFormaPagamento();
             }
             
+        }
+
+        private void SalveIMEXAPP(FORMAPAGAMENTOEntity FORMAPAGAMENTOTy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    CONDICAOPAGAMENTOIMEXAPPEntity CONDICAOPAGAMENTOIMEXAPPTy = new CONDICAOPAGAMENTOIMEXAPPEntity();
+                    CONDICAOPAGAMENTOIMEXAPPTy.XMEUID = FORMAPAGAMENTOTy.IDFORMAPAGAMENTO.ToString();
+                    CONDICAOPAGAMENTOIMEXAPPTy.XCONDICAOPAGAMENTO = FORMAPAGAMENTOTy.NOME;
+                    CONDICAOPAGAMENTOIMEXAPPTy.NPARCELAS = ITENSFORMAPAGTOColl.Count;
+
+                    string formula = string.Empty;
+                    foreach (var item in ITENSFORMAPAGTOColl)
+                    {
+                        formula += item.DIAS + "/";
+                    }
+
+                    formula = formula.Substring(0, formula.Length - 1);
+
+                    CONDICAOPAGAMENTOIMEXAPPTy.XFORMULA = formula;
+                    CONDICAOPAGAMENTOIMEXAPPP.Save(CONDICAOPAGAMENTOIMEXAPPTy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
         }
 
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)

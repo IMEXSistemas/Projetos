@@ -10,7 +10,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BmsSoftware</RootNamespace>
     <AssemblyName>IMEXSistema</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <StartupObject>BMSSoftware.Program</StartupObject>
     <ManifestCertificateThumbprint>EAE607C953D17859E88F67666E876033D9F69005</ManifestCertificateThumbprint>
@@ -58,6 +58,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <DocumentationFile>bin\Debug\IMEXSistema.xml</DocumentationFile>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -68,6 +69,7 @@
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
@@ -75,9 +77,9 @@
     <Reference Include="ACBr.Net">
       <HintPath>..\..\..\..\..\..\..\IMEXSISTEMA\ACBr.Net.dll</HintPath>
     </Reference>
-    <Reference Include="ACBrFramework.Net, Version=0.9.7.8, Culture=neutral, PublicKeyToken=4ca716d5e1bd4ba3, processorArchitecture=AMD64">
+    <Reference Include="ACBrFramework.Net, Version=0.9.8.0, Culture=neutral, PublicKeyToken=4ca716d5e1bd4ba3, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\IMEXSISTEMA\ACBrFramework.Net.dll</HintPath>
+      <HintPath>..\..\..\..\IMEXSISTEMA\ACBrFramework.Net.dll</HintPath>
     </Reference>
     <Reference Include="BarcodeLib, Version=1.0.0.11, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -155,13 +157,12 @@
       <HintPath>bin\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="nfec, Version=7.0.6501.29716, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="nfec, Version=7.0.6464.25759, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\IMEXSISTEMA\nfec.dll</HintPath>
+      <HintPath>..\..\..\..\IMEXSISTEMA\nfec.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -175,14 +176,35 @@
     <Reference Include="System.DirectoryServices" />
     <Reference Include="System.DirectoryServices.AccountManagement" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO, Version=2.6.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.IO.dll</HintPath>
+    </Reference>
     <Reference Include="System.Management, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\System.Management.dll</HintPath>
     </Reference>
     <Reference Include="System.Messaging" />
-    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=2.6.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks, Version=2.6.10.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\net40\System.Threading.Tasks.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
@@ -515,6 +537,15 @@
     <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_ESTOQUELOTECollection.cs" />
     <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_ESTOQUECollection.cs" />
     <Compile Include="Classes\BMSworks.Model\Generated\Collections\ESTOQUELOTECollection.cs" />
+    <Compile Include="Classes\IMEXAppClass\ENDERECOIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\ENDERECOIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\TRANSPORTADORAIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\TRANSPORTADORAIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\CONDICAOPAGAMENTOIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\CONDICAOPAGAMENTOIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\CATEGORIAPRODUTOIMEXAPPEntity.cs" />
     <Compile Include="Classes\BMSworks.Model\Generated\LIS_ESTOQUEEntity.cs" />
     <Compile Include="Classes\BMSworks.Model\Generated\LIS_ESTOQUELOTEEntity .cs" />
     <Compile Include="Classes\BMSworks.Model\Generated\ESTOQUELOTEEntity .cs" />
@@ -1151,6 +1182,7 @@
     <Compile Include="Classes\BMSworks.UI\ticketDupl.cs" />
     <Compile Include="Classes\BMSworks.UI\Utility.cs" />
     <Compile Include="Classes\BMSworks.UI\ValidacoesLibrary.cs" />
+    <Compile Include="Classes\IMEXAppClass\CATEGORIAPRODUTOIMEXAPPProvider.cs" />
     <Compile Include="Classes\Sintegra\Funcoes.cs" />
     <Compile Include="Classes\Sintegra\Reg10.cs" />
     <Compile Include="Classes\Sintegra\Reg11.cs" />
@@ -1355,6 +1387,11 @@
     </Compile>
     <Compile Include="Modulos\Cadastros\FrmAmbiente.Designer.cs">
       <DependentUpon>FrmAmbiente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\IMEXApp\UrlIMEXApp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>UrlIMEXApp.settings</DependentUpon>
     </Compile>
     <Compile Include="Modulos\Lote\FrmEstoqueLote .cs">
       <SubType>Form</SubType>
@@ -3182,6 +3219,10 @@
     </None>
     <None Include="Images\ImagesBoleto\Web.config" />
     <None Include="IMEXSistema_TemporaryKey.pfx" />
+    <None Include="Modulos\IMEXApp\UrlIMEXApp.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>UrlIMEXApp.Designer.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
     <None Include="Properties\DataSources\BMSworks.Firebird.AGENDAProvider.datasource" />
@@ -4901,6 +4942,11 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -1,0 +1,42 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BmsSoftware.Modulos.IMEXApp" GeneratedClassName="UrlIMEXApp">
+  <Profiles />
+  <Settings>
+    <Setting Name="PostCategroriaProduto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/Post</Value>
+    </Setting>
+    <Setting Name="GetRegistrosCategoriaProduto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/GetRegistros/</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosCategoriaProduto" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/Delete/</Value>
+    </Setting>
+    <Setting Name="PostUnidaDeMedida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/Post</Value>
+    </Setting>
+    <Setting Name="GetRegistrosUnidadeMedida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/GetRegistros/</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosUnidadedeMedida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/Delete/</Value>
+    </Setting>
+    <Setting Name="PostTransportadora" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/Post</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosTransportadora" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/Delete/</Value>
+    </Setting>
+    <Setting Name="GetRegistrosTransportadora" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/GetRegistros/</Value>
+    </Setting>
+    <Setting Name="PostPrazo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiPrazo/Post</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosPrazo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiPrazo/Delete/</Value>
+    </Setting>
+    <Setting Name="GetRegistrosPrazo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiPrazo/GetRegistros/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

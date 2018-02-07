@@ -35,8 +35,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.cbModeloImpressao = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.msktDtSuporte = new System.Windows.Forms.MaskedTextBox();
             this.btnCadBoleto = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cbBoleta = new System.Windows.Forms.ComboBox();
@@ -92,6 +90,7 @@
             this.rbHomologacaoNFe = new System.Windows.Forms.RadioButton();
             this.rbProducaoNFe = new System.Windows.Forms.RadioButton();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.chPedidBalcao = new System.Windows.Forms.CheckBox();
             this.chkMesas = new System.Windows.Forms.CheckBox();
             this.chkAvisoRenovacaoSuporte = new System.Windows.Forms.CheckBox();
             this.chkSinconDados = new System.Windows.Forms.CheckBox();
@@ -159,6 +158,14 @@
             this.label45 = new System.Windows.Forms.Label();
             this.txtRecepcaoEvento = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.txtIDRepresIMEXAPP = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.TxtIDEmpresaIMEXAPP = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.TxtTokenIMEXApp = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.chkFlagIMEXApp = new System.Windows.Forms.CheckBox();
             this.lblobsField = new System.Windows.Forms.Label();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
@@ -166,7 +173,8 @@
             this.btnSalva = new System.Windows.Forms.Button();
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
-            this.chPedidBalcao = new System.Windows.Forms.CheckBox();
+            this.txtIDASPNETUSERSINCLUSAO = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -180,6 +188,7 @@
             this.tabPage3.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.tabPage10.SuspendLayout();
+            this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -193,6 +202,7 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage10);
+            this.tabControl1.Controls.Add(this.tabPage8);
             this.tabControl1.Location = new System.Drawing.Point(12, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -214,8 +224,6 @@
             // 
             this.panel1.Controls.Add(this.label14);
             this.panel1.Controls.Add(this.cbModeloImpressao);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.msktDtSuporte);
             this.panel1.Controls.Add(this.btnCadBoleto);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.cbBoleta);
@@ -254,29 +262,6 @@
             this.cbModeloImpressao.Name = "cbModeloImpressao";
             this.cbModeloImpressao.Size = new System.Drawing.Size(283, 21);
             this.cbModeloImpressao.TabIndex = 191;
-            // 
-            // label12
-            // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.Color.Black;
-            this.label12.Location = new System.Drawing.Point(6, 145);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(78, 13);
-            this.label12.TabIndex = 190;
-            this.label12.Text = "Vecto Suporte:";
-            // 
-            // msktDtSuporte
-            // 
-            this.msktDtSuporte.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.msktDtSuporte.Location = new System.Drawing.Point(6, 162);
-            this.msktDtSuporte.Mask = "00/00/0000";
-            this.msktDtSuporte.Name = "msktDtSuporte";
-            this.msktDtSuporte.ReadOnly = true;
-            this.msktDtSuporte.Size = new System.Drawing.Size(79, 20);
-            this.msktDtSuporte.TabIndex = 189;
-            this.msktDtSuporte.ValidatingType = typeof(System.DateTime);
-            this.msktDtSuporte.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.msktDtSuporte_MouseDoubleClick);
             // 
             // btnCadBoleto
             // 
@@ -884,6 +869,16 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Adicionais";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // chPedidBalcao
+            // 
+            this.chPedidBalcao.AutoSize = true;
+            this.chPedidBalcao.Location = new System.Drawing.Point(628, 149);
+            this.chPedidBalcao.Name = "chPedidBalcao";
+            this.chPedidBalcao.Size = new System.Drawing.Size(95, 17);
+            this.chPedidBalcao.TabIndex = 273;
+            this.chPedidBalcao.Text = "Pedido Balcão";
+            this.chPedidBalcao.UseVisualStyleBackColor = true;
             // 
             // chkMesas
             // 
@@ -1536,6 +1531,86 @@
             this.label43.TabIndex = 223;
             this.label43.Text = "Recepção Evento:";
             // 
+            // tabPage8
+            // 
+            this.tabPage8.Controls.Add(this.txtIDASPNETUSERSINCLUSAO);
+            this.tabPage8.Controls.Add(this.label12);
+            this.tabPage8.Controls.Add(this.txtIDRepresIMEXAPP);
+            this.tabPage8.Controls.Add(this.label29);
+            this.tabPage8.Controls.Add(this.TxtIDEmpresaIMEXAPP);
+            this.tabPage8.Controls.Add(this.label23);
+            this.tabPage8.Controls.Add(this.TxtTokenIMEXApp);
+            this.tabPage8.Controls.Add(this.label22);
+            this.tabPage8.Controls.Add(this.chkFlagIMEXApp);
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(840, 267);
+            this.tabPage8.TabIndex = 11;
+            this.tabPage8.Text = "IMEX App";
+            this.tabPage8.UseVisualStyleBackColor = true;
+            // 
+            // txtIDRepresIMEXAPP
+            // 
+            this.txtIDRepresIMEXAPP.Location = new System.Drawing.Point(77, 81);
+            this.txtIDRepresIMEXAPP.MaxLength = 50;
+            this.txtIDRepresIMEXAPP.Name = "txtIDRepresIMEXAPP";
+            this.txtIDRepresIMEXAPP.Size = new System.Drawing.Size(59, 20);
+            this.txtIDRepresIMEXAPP.TabIndex = 225;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(74, 65);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(97, 13);
+            this.label29.TabIndex = 226;
+            this.label29.Text = "ID Representação:";
+            // 
+            // TxtIDEmpresaIMEXAPP
+            // 
+            this.TxtIDEmpresaIMEXAPP.Location = new System.Drawing.Point(9, 81);
+            this.TxtIDEmpresaIMEXAPP.MaxLength = 50;
+            this.TxtIDEmpresaIMEXAPP.Name = "TxtIDEmpresaIMEXAPP";
+            this.TxtIDEmpresaIMEXAPP.Size = new System.Drawing.Size(59, 20);
+            this.TxtIDEmpresaIMEXAPP.TabIndex = 223;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(6, 65);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(65, 13);
+            this.label23.TabIndex = 224;
+            this.label23.Text = "ID Empresa:";
+            // 
+            // TxtTokenIMEXApp
+            // 
+            this.TxtTokenIMEXApp.Location = new System.Drawing.Point(9, 42);
+            this.TxtTokenIMEXApp.MaxLength = 50;
+            this.TxtTokenIMEXApp.Name = "TxtTokenIMEXApp";
+            this.TxtTokenIMEXApp.Size = new System.Drawing.Size(240, 20);
+            this.TxtTokenIMEXApp.TabIndex = 221;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(6, 26);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(41, 13);
+            this.label22.TabIndex = 222;
+            this.label22.Text = "Token:";
+            // 
+            // chkFlagIMEXApp
+            // 
+            this.chkFlagIMEXApp.AutoSize = true;
+            this.chkFlagIMEXApp.Location = new System.Drawing.Point(6, 6);
+            this.chkFlagIMEXApp.Name = "chkFlagIMEXApp";
+            this.chkFlagIMEXApp.Size = new System.Drawing.Size(129, 17);
+            this.chkFlagIMEXApp.TabIndex = 11;
+            this.chkFlagIMEXApp.Text = "Sincronizar IMEX App";
+            this.chkFlagIMEXApp.UseVisualStyleBackColor = true;
+            // 
             // lblobsField
             // 
             this.lblobsField.AutoSize = true;
@@ -1592,15 +1667,22 @@
             this.openFileDialog2.FileName = "openFileDialog1";
             this.openFileDialog2.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog2_FileOk);
             // 
-            // chPedidBalcao
+            // txtIDASPNETUSERSINCLUSAO
             // 
-            this.chPedidBalcao.AutoSize = true;
-            this.chPedidBalcao.Location = new System.Drawing.Point(628, 149);
-            this.chPedidBalcao.Name = "chPedidBalcao";
-            this.chPedidBalcao.Size = new System.Drawing.Size(95, 17);
-            this.chPedidBalcao.TabIndex = 273;
-            this.chPedidBalcao.Text = "Pedido Balcão";
-            this.chPedidBalcao.UseVisualStyleBackColor = true;
+            this.txtIDASPNETUSERSINCLUSAO.Location = new System.Drawing.Point(258, 42);
+            this.txtIDASPNETUSERSINCLUSAO.MaxLength = 50;
+            this.txtIDASPNETUSERSINCLUSAO.Name = "txtIDASPNETUSERSINCLUSAO";
+            this.txtIDASPNETUSERSINCLUSAO.Size = new System.Drawing.Size(240, 20);
+            this.txtIDASPNETUSERSINCLUSAO.TabIndex = 227;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(255, 26);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(158, 13);
+            this.label12.TabIndex = 228;
+            this.label12.Text = "ID ASPNETUSERSINCLUSAO:";
             // 
             // FrmConfigSistema
             // 
@@ -1640,6 +1722,8 @@
             this.tabPage4.PerformLayout();
             this.tabPage10.ResumeLayout(false);
             this.tabPage10.PerformLayout();
+            this.tabPage8.ResumeLayout(false);
+            this.tabPage8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1777,13 +1861,21 @@
         private System.Windows.Forms.CheckBox chkVenctoSuporte;
         private System.Windows.Forms.CheckBox chkSinconDados;
         private System.Windows.Forms.CheckBox chkAvisoRenovacaoSuporte;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.MaskedTextBox msktDtSuporte;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.ComboBox cbModeloImpressao;
         private System.Windows.Forms.CheckBox chkMesas;
         private System.Windows.Forms.TextBox txtPorcAcrescimoPedid;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.CheckBox chPedidBalcao;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TextBox txtIDRepresIMEXAPP;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.TextBox TxtIDEmpresaIMEXAPP;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.TextBox TxtTokenIMEXApp;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.CheckBox chkFlagIMEXApp;
+        private System.Windows.Forms.TextBox txtIDASPNETUSERSINCLUSAO;
+        private System.Windows.Forms.Label label12;
     }
 }

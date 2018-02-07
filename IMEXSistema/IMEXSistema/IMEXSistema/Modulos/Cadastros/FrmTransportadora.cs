@@ -14,13 +14,20 @@ using System.IO;
 using BmsSoftware.Modulos.Operacional;
 using VVX;
 using BmsSoftware.Classes.BMSworks.UI;
+using BMSworks.IMEXAppClass;
 
 namespace BMSSoftware.Modulos.Cadastros
 {
     public partial class FrmTransportadora : Form
     {
+        CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
         TRANSPORTADORAProvider TransportadorP = new TRANSPORTADORAProvider();
+        TRANSPORTADORAIMEXAPPProvider TRANSPORTADORAIMEXAPPP = new TRANSPORTADORAIMEXAPPProvider();
+        ENDERECOIMEXAPPProvider ENDERECOIMEXAPPP = new ENDERECOIMEXAPPProvider();
+
         TRANSPORTADORACollection TransportadorColl = new TRANSPORTADORACollection();
+        CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
+
         RowsFiltro filtroProfile = new RowsFiltro();
         RowsFiltroCollection Filtro = new RowsFiltroCollection(); 
         Utility Util = new Utility();
@@ -185,6 +192,8 @@ namespace BMSSoftware.Modulos.Cadastros
             if (_IDTRANSPORTADORA != -1)
                 Entity = TransportadorP.Read(_IDTRANSPORTADORA);
 
+            CONFISISTEMATy = CONFISISTEMAP.Read(1);
+
             this.Cursor = Cursors.Default;
             VerificaAcesso();
         }
@@ -276,6 +285,7 @@ namespace BMSSoftware.Modulos.Cadastros
                 {
                   //Verificar CNPJ existe para novos cadastros
                     _IDTRANSPORTADORA = TransportadorP.Save(Entity);
+                    SalveIMEXAPP(Entity);
                     Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
                     btnPesquisa_Click(null, null);                    
                 }
@@ -287,8 +297,68 @@ namespace BMSSoftware.Modulos.Cadastros
                 MessageBox.Show("Erro técnico: " + ex.Message);
 
             }
-        }       
+        }
 
+        private void SalveIMEXAPP(TRANSPORTADORAEntity TRANSPORTADORATy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    TRANSPORTADORAIMEXAPPEntity TRANSPORTADORAIMEXAPPtY = new TRANSPORTADORAIMEXAPPEntity();
+                    TRANSPORTADORAIMEXAPPtY.IDTRANSPORTADORA = null;
+                    TRANSPORTADORAIMEXAPPtY.XMEUID = TRANSPORTADORATy.IDTRANSPORTADORA.ToString();
+                    TRANSPORTADORAIMEXAPPtY.XRAZAOSOCIAL = TRANSPORTADORATy.NOME;
+                    TRANSPORTADORAIMEXAPPtY.XFANTASIA = TRANSPORTADORATy.NOMEFANTASIA;
+                    TRANSPORTADORAIMEXAPPtY.XCNPJ = TRANSPORTADORATy.CNPJ;
+                    TRANSPORTADORAIMEXAPPtY.XIE = TRANSPORTADORATy.IE;
+                    TRANSPORTADORAIMEXAPPtY.XANOTACAO = TRANSPORTADORATy.OBSERVACAO;
+                    TRANSPORTADORAIMEXAPPtY.XEMAILS = "";
+                    TRANSPORTADORAIMEXAPPtY.XTELEFONES = TRANSPORTADORATy.TELEFONE1 + " " + TRANSPORTADORATy.TELEFONE2;
+                   
+                    TRANSPORTADORAIMEXAPPP.Save(TRANSPORTADORAIMEXAPPtY);
+
+                    //Salva O endereço da transportadora
+                    SalveIMEXAPP2(TRANSPORTADORATy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
+
+        private void SalveIMEXAPP2(TRANSPORTADORAEntity TRANSPORTADORATy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    ENDERECOIMEXAPPEntity ENDERECOIMEXAPPTy = new ENDERECOIMEXAPPEntity();
+                    ENDERECOIMEXAPPTy.IDENDERECO = null;
+                    ENDERECOIMEXAPPTy.XMEUID = TRANSPORTADORATy.IDTRANSPORTADORA.ToString();
+                    ENDERECOIMEXAPPTy.IDTRANSPORTADORA = TRANSPORTADORAIMEXAPPP.GetID(Convert.ToInt32(TRANSPORTADORATy.IDTRANSPORTADORA));
+                    ENDERECOIMEXAPPTy.IDCLIENTE = null;
+                    ENDERECOIMEXAPPTy.STENDERECO = TRANSPORTADORATy.ENDERECO;
+                    ENDERECOIMEXAPPTy.XCEP = TRANSPORTADORATy.CEP;
+                    ENDERECOIMEXAPPTy.XENDERECO = TRANSPORTADORATy.ENDERECO;
+                    ENDERECOIMEXAPPTy.CNUMERO = 0;
+                    ENDERECOIMEXAPPTy.XCOMPLEMENTO = "";
+                    ENDERECOIMEXAPPTy.XBAIRRO = TRANSPORTADORATy.BAIRRO;
+                    ENDERECOIMEXAPPTy.XCIDADE = TRANSPORTADORATy.CIDADE;
+                    ENDERECOIMEXAPPTy.XESTADO = TRANSPORTADORATy.UF;
+                    ENDERECOIMEXAPPTy.XESTADO = TRANSPORTADORATy.UF;
+                    ENDERECOIMEXAPPTy.IDCLIENTE = null;
+                    ENDERECOIMEXAPPTy.XESTADO = TRANSPORTADORATy.UF;
+                    ENDERECOIMEXAPPTy.IDREPRESENTADA = null;
+                    ENDERECOIMEXAPPP.Save(ENDERECOIMEXAPPTy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
 
         private Boolean Validacoes()
         {
@@ -296,13 +366,19 @@ namespace BMSSoftware.Modulos.Cadastros
 
             if (txtNome.Text.Trim().Length == 0)
             {
-                errorProvider1.SetError(txtNome, ConfigMessage.Default.CampoObrigatorio);
+                errorProvider1.SetError(label1, ConfigMessage.Default.CampoObrigatorio);
                 Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
                 result = false;
             }
-            if (maskedtxtCNPJ.Text.Trim().Length == 0)
+            else if (txtNomeFantasia.Text.Trim().Length == 0)
             {
-                errorProvider1.SetError(maskedtxtCNPJ, ConfigMessage.Default.CampoObrigatorio);
+                errorProvider1.SetError(label2, ConfigMessage.Default.CampoObrigatorio);
+                Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
+                result = false;
+            }            
+            else if (maskedtxtCNPJ.Text.Trim().Length == 0)
+            {
+                errorProvider1.SetError(label42, ConfigMessage.Default.CampoObrigatorio);
                 Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
                 result = false;
             }
@@ -487,6 +563,7 @@ namespace BMSSoftware.Modulos.Cadastros
                     try
                     {
                         TransportadorP.Delete(_IDTRANSPORTADORA);
+                        DeleteIMEXAPP(_IDTRANSPORTADORA);
                         Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
                         Entity = null;
                         btnPesquisa_Click(null, null);
@@ -499,6 +576,24 @@ namespace BMSSoftware.Modulos.Cadastros
                     }
 
                 }
+            }
+        }
+
+        private void DeleteIMEXAPP(int IDREGISTRO)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                   int result = TRANSPORTADORAIMEXAPPP.GetID(IDREGISTRO);
+                    TRANSPORTADORAIMEXAPPP.Delete(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+
+
             }
         }
 
@@ -844,7 +939,7 @@ namespace BMSSoftware.Modulos.Cadastros
                                 CodigoSelect = Convert.ToInt32(TransportadorColl[rowindex].IDTRANSPORTADORA);
                                 //Delete Pedido
                                 TransportadorP.Delete(CodigoSelect);
-
+                                DeleteIMEXAPP(_IDTRANSPORTADORA);
                                 btnPesquisa_Click(null, null);
 
                                 Entity = null;

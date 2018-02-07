@@ -82,7 +82,7 @@ namespace BMSSoftware
             {
 
                 EMPRESATy = EMPRESAP.Read(1);
-                CONFISISTEMAEntity CONFISISTEMATy = CONFISISTEMAP.Read(1);
+                CONFISISTEMATy = CONFISISTEMAP.Read(1);
 
                 AlteraImagemInicial();
                 AlteraIconeTelacial();
@@ -96,19 +96,19 @@ namespace BMSSoftware
                     chart1.Visible = false;
                 }
 
-                if (BmsSoftware.ConfigSistema1.Default.DownloadSicron.Trim() == "S")
-                {
-                    DialogResult dr = MessageBox.Show("Deseja Sicronizar o Banco de Dados?",
-                          ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
+                //if (BmsSoftware.ConfigSistema1.Default.DownloadSicron.Trim() == "S")
+                //{
+                //    DialogResult dr = MessageBox.Show("Deseja Sicronizar o Banco de Dados?",
+                //          ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
 
-                    if (dr == DialogResult.Yes)
-                    {
-                        Sicroniza Sic = new Sicroniza();
-                        Sic.Download("sicronizacao.csv");
+                //    if (dr == DialogResult.Yes)
+                //    {
+                //        Sicroniza Sic = new Sicroniza();
+                //        Sic.Download("sicronizacao.csv");
 
-                        MessageBox.Show("Sicronização Realizada com Sucesso!");
-                    }
-                } 
+                //        MessageBox.Show("Sicronização Realizada com Sucesso!");
+                //    }
+                //} 
                 
                 UpdateKeys();
                 timer1.Start();
@@ -119,7 +119,6 @@ namespace BMSSoftware
                 pedidoDeVendaMT3ToolStripMenuItem.Visible = CONFISISTEMAP.Read(1).FLAGPEDIDOMT.TrimEnd().TrimStart() == "S" ? true : false;
                 pedidoDeVendaMatériaPrimaToolStripMenuItem.Visible = CONFISISTEMAP.Read(1).FLAGPEDIDOMT.TrimEnd().TrimStart() == "S" ? true : false;
                 notaFiscalEletrônicaToolStripMenuItem.Visible = CONFISISTEMAP.Read(1).FLAGHABNFE.TrimEnd().TrimStart() != "S" ? true : false;
-               /// sintegraToolStripMenuItem.Visible = CONFISISTEMAP.Read(1).FLAGHABNFE.TrimEnd().TrimStart() != "S" ? true : false;
                 pedidoVendaOpticaToolStripMenuItem.Visible = BmsSoftware.ConfigSistema1.Default.FlagExibirPedidoOptica == "S" ? true : false;
                 conhecimentoDeTransporteToolStripMenuItem.Visible = BmsSoftware.ConfigSistema1.Default.FlagExibirConhTransporte == "S" ? true : false;
                 festasEventosToolStripMenuItem1.Visible = BmsSoftware.ConfigSistema1.Default.FlagFestaEventos == "S" ? true : false;
@@ -132,7 +131,6 @@ namespace BMSSoftware
                 empresaEmissoraToolStripMenuItem.Visible = false;
                 if (BmsSoftware.ConfigSistema1.Default.FlagContadorNFe.Trim() == "S")
                     empresaEmissoraToolStripMenuItem.Visible = true;
-
                
                  DataVectoSuporte = BmsSoftware.ConfigSistema1.Default.DtSuporte;
                 BmsSoftware.ConfigSistema1.Default.Save();
@@ -168,13 +166,6 @@ namespace BMSSoftware
                     //Notifica a IMEX do uso do sistema por email
                     EnviarEmailUso();
                     this.Close();
-
-                   // using (FrmComprarSuporte frm = new FrmComprarSuporte())
-                   // {
-                     //   frm.ShowDialog();
-                      //  this.Close();
-                   // }
-
                 }   
                 else
                 {
@@ -191,6 +182,8 @@ namespace BMSSoftware
                 ValidaSuporteCliente2();
 
                 MSGRenovarSuporte();
+
+                IMEXAppUrl();
             }
             catch (Exception ex)
             {
@@ -199,6 +192,40 @@ namespace BMSSoftware
             }
         }
 
+        //Salva as URl de API do IMEX App
+        private void IMEXAppUrl()
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    //Post - Save/Update
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostCategroriaProduto = "http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/Post";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostUnidaDeMedida = "http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/Post";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostTransportadora = "http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/Post";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostPrazo = "http://hlpsistemas.sytes.net:8085/api/ApiPrazo/Post";
+
+                    //Get Registros
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosCategoriaProduto = "http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/GetRegistros/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosUnidadeMedida = "http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/GetRegistros/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosTransportadora = "http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/GetRegistros/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosPrazo = "http://hlpsistemas.sytes.net:8085/api/ApiPrazo//GetRegistros/";
+
+                    //Delete
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosCategoriaProduto = "http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/Delete/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosUnidadedeMedida = "http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/Delete/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosTransportadora = "http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/Delete/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosPrazo = "http://hlpsistemas.sytes.net:8085/api/ApiPrazo/Delete/";
+
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.Save();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
+        
         private void AlteraImagemInicial()
         {
             //Imagem inicial
@@ -806,9 +833,9 @@ namespace BMSSoftware
                 CreaterCursor Cr = new CreaterCursor();
                 this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
 
-                CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
+                //CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
 
-                CONFISISTEMATy = CONFISISTEMAP.Read(1);
+                //CONFISISTEMATy = CONFISISTEMAP.Read(1);
                 FLAGJANELAS = CONFISISTEMATy.FLAGJANELAS;
 
                 this.Cursor = Cursors.Default;

@@ -204,8 +204,13 @@ namespace BmsSoftware.Modulos.Operacional
                 string FLAGCUPOMFAST = "N";
                 string FLAGBACKUP = chkBackupAtu.Checked == true ? "S" : "N";
                 string FLAGCSTECF = "S";
-                string FLAGCODREFNFE = chkCodRefNfe.Checked == true ? "S" : "N";               
-                
+                string FLAGCODREFNFE = chkCodRefNfe.Checked == true ? "S" : "N";
+
+                string TOKENIMEXAPP = TxtTokenIMEXApp.Text.Trim();
+                string IDASPNETUSERSINCLUSAO = txtIDASPNETUSERSINCLUSAO.Text.Trim();
+                string IDEMPRESAIMEXAPP = TxtIDEmpresaIMEXAPP.Text.Trim();
+                string IDREPRESIMEXAPP = txtIDRepresIMEXAPP.Text.Trim();
+                string FLAGIMEXAPP = chkFlagIMEXApp.Checked == true ? "S" : "N";
 
                 return new CONFISISTEMAEntity(_IDCONFIGSISTEMA, FLAGLOGORELATORIO, IDARQUIVOBINARIO,
                                               IDCONFIGBOLETA, FLAGCOMPENTREGABOLETA, FLAGCARNEBOLETA,
@@ -226,7 +231,9 @@ namespace BmsSoftware.Modulos.Operacional
                                               ESTOQUENEGATIVO, FLAGCPFCNPJPEDIDO, FLAGCPDIGISAT,
                                               PATHRECEPDIGISAT, FLAGBAIXAESTOQUENF, OPERADORASMS,
                                               FLAGLIMITECREDITO, FLAGHABNFE, FLAGMSGFECHA, FLAGCUPOMFAST,
-                                              FLAGBACKUP, FLAGCSTECF, FLAGCODREFNFE);
+                                              FLAGBACKUP, FLAGCSTECF, FLAGCODREFNFE, TOKENIMEXAPP,
+                                              IDASPNETUSERSINCLUSAO, IDEMPRESAIMEXAPP, IDREPRESIMEXAPP,
+                                              FLAGIMEXAPP);
             }
             set
             {
@@ -293,7 +300,13 @@ namespace BmsSoftware.Modulos.Operacional
                     chkMsgUsuario.Checked = value.FLAGMSGFECHA.TrimEnd() == "S" ? true : false;                   
                     chkBackupAtu.Checked = value.FLABACKUP.TrimEnd() == "S" ? true : false;
                     chkCodRefNfe.Checked = value.FLAGCODREFNFE.TrimEnd() == "S" ? true : false;
-                    
+
+                    TxtTokenIMEXApp.Text = value.TOKENIMEXAPP;
+                    txtIDASPNETUSERSINCLUSAO.Text = value.IDASPNETUSERSINCLUSAO;
+                    TxtIDEmpresaIMEXAPP.Text = value.IDEMPRESAIMEXAPP;
+                    txtIDRepresIMEXAPP.Text = value.IDREPRESIMEXAPP;
+                    chkFlagIMEXApp.Checked = value.FLAGIMEXAPP.TrimEnd() == "S" ? true : false;
+
                     errorProvider1.Clear();
                 }
                
@@ -482,10 +495,7 @@ namespace BmsSoftware.Modulos.Operacional
                 chPedidBalcao.Checked = false;
                 if (BmsSoftware.ConfigSistema1.Default.PedidoBalcao == "S")
                     chPedidBalcao.Checked = true;
-
-                if (BmsSoftware.ConfigSistema1.Default.DtSuporte != "  /  /")
-                      msktDtSuporte.Text =BmsSoftware.ConfigSistema1.Default.DtSuporte ;
-
+              
                  if(BmsSoftware.ConfigSistema1.Default.ModeloImpressaoOS.Trim() != string.Empty)
                      cbModeloImpressao.SelectedIndex = Convert.ToInt32(BmsSoftware.ConfigSistema1.Default.ModeloImpressaoOS) - 1;
 
@@ -706,10 +716,7 @@ namespace BmsSoftware.Modulos.Operacional
                     if (chkMesas.Checked)
                         BmsSoftware.ConfigSistema1.Default.HabilitarMesas = "S";
                     else
-                        BmsSoftware.ConfigSistema1.Default.HabilitarMesas = "N";
-
-                    if (msktDtSuporte.Text != "  /  /")
-                             BmsSoftware.ConfigSistema1.Default.DtSuporte = msktDtSuporte.Text;
+                        BmsSoftware.ConfigSistema1.Default.HabilitarMesas = "N";                 
 
                          BmsSoftware.ConfigSistema1.Default.ModeloImpressaoOS = Convert.ToString(cbModeloImpressao.SelectedIndex + 1);
 
@@ -1712,16 +1719,7 @@ namespace BmsSoftware.Modulos.Operacional
 
         private void msktDtSuporte_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-            passwordBox Pas = new passwordBox();
-             string SenhaScript = Pas.Show("Digite a Senha:", "IMEX Sistemas");
-
-             if (SenhaScript == "IMEX8777")
-             {
-                 msktDtSuporte.ReadOnly = false;
-                 MessageBox.Show("Campo de Data Liberado!!");
-             }
-             else
-                 MessageBox.Show("Senha Incorreta!");
+           
         }
        
     }

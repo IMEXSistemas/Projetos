@@ -140,8 +140,8 @@ namespace BmsSoftware.Modulos.Vendas
                     string DataInicial = Util.ConverStringDateSearch(msktDataInicial.Text);
                     string DataFinal = Util.ConverStringDateSearch(msktDataFinal.Text);                  
 
-                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", DataInicial));
-                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", DataFinal));
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", DataInicial + " 00:00"));
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", DataFinal + " 23:59"));
 
                     if(Convert.ToInt32(cbMarca.SelectedValue) > 0)
                         RowRelatorio.Add(new RowsFiltro("IDMARCA", "System.Int32", "=", cbMarca.SelectedValue.ToString()));

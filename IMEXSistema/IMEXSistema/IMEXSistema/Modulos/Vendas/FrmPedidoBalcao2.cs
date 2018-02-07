@@ -5805,5 +5805,13 @@ namespace BmsSoftware.Modulos.Vendas
                 errorProvider1.SetError(mkdHoraFinal, ConfigMessage.Default.MsgErroHora);
             }
         }
+
+        private void vendasPorVendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (FrmVendaVendedorPedNormal frm = new FrmVendaVendedorPedNormal())
+            {
+                frm.ShowDialog();
+            }
+        }
     }
 }

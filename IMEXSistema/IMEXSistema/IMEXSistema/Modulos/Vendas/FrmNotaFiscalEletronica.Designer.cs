@@ -229,7 +229,6 @@
             this.label15 = new System.Windows.Forms.Label();
             this.txtQuant = new System.Windows.Forms.TextBox();
             this.label37 = new System.Windows.Forms.Label();
-            this.cbUF = new System.Windows.Forms.ComboBox();
             this.label21 = new System.Windows.Forms.Label();
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -462,6 +461,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.sfdExportToxcel = new System.Windows.Forms.SaveFileDialog();
+            this.txtUFTransp = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -2130,6 +2130,7 @@
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.txtUFTransp);
             this.tabPage4.Controls.Add(this.txtinfAdFisco);
             this.tabPage4.Controls.Add(this.label90);
             this.tabPage4.Controls.Add(this.btnCadMensagem);
@@ -2152,7 +2153,6 @@
             this.tabPage4.Controls.Add(this.label15);
             this.tabPage4.Controls.Add(this.txtQuant);
             this.tabPage4.Controls.Add(this.label37);
-            this.tabPage4.Controls.Add(this.cbUF);
             this.tabPage4.Controls.Add(this.label21);
             this.tabPage4.Controls.Add(this.txtPlaca);
             this.tabPage4.Controls.Add(this.label20);
@@ -2374,15 +2374,6 @@
             this.label37.TabIndex = 222;
             this.label37.Text = "UF:";
             this.label37.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // cbUF
-            // 
-            this.cbUF.FormattingEnabled = true;
-            this.cbUF.Location = new System.Drawing.Point(651, 65);
-            this.cbUF.MaxLength = 2;
-            this.cbUF.Name = "cbUF";
-            this.cbUF.Size = new System.Drawing.Size(49, 21);
-            this.cbUF.TabIndex = 40;
             // 
             // label21
             // 
@@ -4619,6 +4610,14 @@
             // 
             this.openFileDialog2.FileName = "openFileDialog1";
             // 
+            // txtUFTransp
+            // 
+            this.txtUFTransp.Location = new System.Drawing.Point(651, 65);
+            this.txtUFTransp.MaxLength = 2;
+            this.txtUFTransp.Name = "txtUFTransp";
+            this.txtUFTransp.Size = new System.Drawing.Size(38, 20);
+            this.txtUFTransp.TabIndex = 40;
+            // 
             // FrmNotaFiscalEletronica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4762,7 +4761,6 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox txtPlaca;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.ComboBox cbUF;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.TextBox txtPesoLiquido;
         private System.Windows.Forms.Label label19;
@@ -5069,5 +5067,6 @@
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.ToolStripMenuItem estoqueLoteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loteToolStripMenuItem;
+        private System.Windows.Forms.TextBox txtUFTransp;
     }
 }

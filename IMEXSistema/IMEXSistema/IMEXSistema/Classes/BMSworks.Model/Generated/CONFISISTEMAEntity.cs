@@ -82,11 +82,17 @@ namespace BMSworks.Model
 		private string _FLABACKUP;
 		private string _FLAGCSTECF;
 		private string _FLAGCODREFNFE;
+        private string _TOKENIMEXAPP;
+        private string _IDASPNETUSERSINCLUSAO;
+        private string _IDEMPRESAIMEXAPP;
+        private string _IDREPRESIMEXAPP;
+        private string _FLAGIMEXAPP;
 
-		#region Construtores
 
-		//Construtor default
-		public CONFISISTEMAEntity() {
+        #region Construtores
+
+        //Construtor default
+        public CONFISISTEMAEntity() {
 			this._IDARQUIVOBINARIO1 = null;
 			this._IDCONFIGBOLETA = null;
 			this._PRAZOOS = null;
@@ -103,7 +109,28 @@ namespace BMSworks.Model
 			this._NIVELOTIMIZ = null;
 		}
 
-		public CONFISISTEMAEntity(int IDCONFIGSISTEMA, string FLAGLOGORELATORIO, int? IDARQUIVOBINARIO1, int? IDCONFIGBOLETA, string FLAGCOMPENTREGABOLETA, string FLAGCARNEBOLETA, int? PRAZOOS, int? PRAZOORCAMENTO, string FLAGVENDADEBITO, string FLAGPEDBAIXAESTOQUE, int? TEMPOGARANTIA, string FLAGCOMISSAO, string MSGFECHOS, string MSGPEDIDO, string MSGCONSIGNACAO, string FLAGFECHOSESTOQUE, string SERIENF, string FLAGSOMAIPI, string FLAGSOMASEGURO, string FLAGJANELAS, string SERIENFE, string FLAGSOMAIPINFE, string FLAGSOMASEGURANFE, string FLAGCOMISSAONFE, string MODELONFE, decimal? ALISSQN, string INSCMUNICIPAL, decimal? ALIPIS, decimal? ALICOFINS, string FLAGBASEISSQN, int? CODMUNIBGE, int? CODUFIBGE, string FLAGAMBIENTENFE, string SERIALCERTFDIGITAL, string NAMECERTFDIGITAL, string VALIDADECERTDIGITAL, string FLAGLOGONFE, string USUARIOPROXY, string SENHAPROXY, int? IDVERSAOXMLNFE, string NOMEFANTASIA, string CNAE, string IEST, string CRT, string FLAGALIQIPICONFIS, int? PORTAEMAIL, string EMAIL, string SMTP, string SENHAEMAIL, string CONFSEGSSL, string HOSTPROXY, string PORTAPROXY, string FLAGNFESERVICOS, string NOTAFISCALINICIAL, string MSGINICIALNFE, int? LARGLAMINA, int? NIVELOTIMIZ, string SCHEMAXML, string CASADECPRINTDANFE, string FLAGPLANOCORTE, string FLAGCODREFERENCIA, string FLAGCUPOMFISCAL, string FLAGPEDIDOMT, string ESTOQUENEGATIVO, string FLAGCPFCNPJPEDIDO, string FLAGCPDIGISAT, string PATHRECEPDIGISAT, string FLAGBAIXAESTOQUENF, string OPERADORASMS, string FLAGLIMITECREDITO, string FLAGHABNFE, string FLAGMSGFECHA, string FLAGCUPOMFAST, string FLABACKUP, string FLAGCSTECF, string FLAGCODREFNFE) {
+		public CONFISISTEMAEntity(int IDCONFIGSISTEMA, string FLAGLOGORELATORIO, int? IDARQUIVOBINARIO1, int? IDCONFIGBOLETA, 
+                                  string FLAGCOMPENTREGABOLETA, string FLAGCARNEBOLETA, int? PRAZOOS, int? PRAZOORCAMENTO, 
+                                  string FLAGVENDADEBITO, string FLAGPEDBAIXAESTOQUE, int? TEMPOGARANTIA, string FLAGCOMISSAO, 
+                                  string MSGFECHOS, string MSGPEDIDO, string MSGCONSIGNACAO, string FLAGFECHOSESTOQUE, 
+                                  string SERIENF, string FLAGSOMAIPI, string FLAGSOMASEGURO, string FLAGJANELAS, string SERIENFE, 
+                                  string FLAGSOMAIPINFE, string FLAGSOMASEGURANFE, string FLAGCOMISSAONFE, string MODELONFE, 
+                                  decimal? ALISSQN, string INSCMUNICIPAL, decimal? ALIPIS, decimal? ALICOFINS, string FLAGBASEISSQN, 
+                                  int? CODMUNIBGE, int? CODUFIBGE, string FLAGAMBIENTENFE, string SERIALCERTFDIGITAL, 
+                                  string NAMECERTFDIGITAL, string VALIDADECERTDIGITAL, string FLAGLOGONFE, string USUARIOPROXY, 
+                                  string SENHAPROXY, int? IDVERSAOXMLNFE, string NOMEFANTASIA, string CNAE, string IEST,
+                                  string CRT, string FLAGALIQIPICONFIS, int? PORTAEMAIL, string EMAIL, string SMTP, 
+                                  string SENHAEMAIL, string CONFSEGSSL, string HOSTPROXY, string PORTAPROXY, 
+                                  string FLAGNFESERVICOS, string NOTAFISCALINICIAL, string MSGINICIALNFE, int? LARGLAMINA, 
+                                  int? NIVELOTIMIZ, string SCHEMAXML, string CASADECPRINTDANFE, string FLAGPLANOCORTE, 
+                                  string FLAGCODREFERENCIA, string FLAGCUPOMFISCAL, string FLAGPEDIDOMT, 
+                                  string ESTOQUENEGATIVO, string FLAGCPFCNPJPEDIDO, string FLAGCPDIGISAT, 
+                                  string PATHRECEPDIGISAT, string FLAGBAIXAESTOQUENF, string OPERADORASMS, 
+                                  string FLAGLIMITECREDITO, string FLAGHABNFE, string FLAGMSGFECHA, string FLAGCUPOMFAST, 
+                                  string FLABACKUP, string FLAGCSTECF, string FLAGCODREFNFE,
+                                  string TOKENIMEXAPP, string IDASPNETUSERSINCLUSAO, string IDEMPRESAIMEXAPP, string IDREPRESIMEXAPP,
+                                  string FLAGIMEXAPP) {
+
 
 			this._IDCONFIGSISTEMA = IDCONFIGSISTEMA;
 			this._FLAGLOGORELATORIO = FLAGLOGORELATORIO;
@@ -181,7 +208,13 @@ namespace BMSworks.Model
 			this._FLABACKUP = FLABACKUP;
 			this._FLAGCSTECF = FLAGCSTECF;
 			this._FLAGCODREFNFE = FLAGCODREFNFE;
-		}
+            this._TOKENIMEXAPP = TOKENIMEXAPP;
+            this._IDASPNETUSERSINCLUSAO = IDASPNETUSERSINCLUSAO;
+            this._IDEMPRESAIMEXAPP = IDEMPRESAIMEXAPP;
+            this._IDREPRESIMEXAPP = IDREPRESIMEXAPP;
+            this._FLAGIMEXAPP = FLAGIMEXAPP;
+
+        }
 		#endregion
 
 		#region Propriedades Get/Set
@@ -642,6 +675,38 @@ namespace BMSworks.Model
 			set { _FLAGCODREFNFE = value; }
 		}
 
-		#endregion
-	}
+        public string TOKENIMEXAPP
+        {
+            get { return _TOKENIMEXAPP; }
+            set { _TOKENIMEXAPP = value; }
+        }
+
+        public string IDASPNETUSERSINCLUSAO
+        {
+            get { return _IDASPNETUSERSINCLUSAO; }
+            set { _IDASPNETUSERSINCLUSAO = value; }
+        }
+
+        public string IDEMPRESAIMEXAPP
+        {
+            get { return _IDEMPRESAIMEXAPP; }
+            set { _IDEMPRESAIMEXAPP = value; }
+        }
+
+        public string IDREPRESIMEXAPP
+        {
+            get { return _IDREPRESIMEXAPP; }
+            set { _IDREPRESIMEXAPP = value; }
+        }
+
+        public string FLAGIMEXAPP
+        {
+            get { return _FLAGIMEXAPP; }
+            set { _FLAGIMEXAPP = value; }
+        }
+
+        
+
+        #endregion
+    }
 }

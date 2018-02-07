@@ -13,6 +13,9 @@ using BMSworks.UI;
 using System.IO;
 using BmsSoftware.Classes.BMSworks.UI;
 using VVX;
+using System.Net.Http;
+using Newtonsoft.Json;
+using BMSworks.IMEXAppClass;
 
 namespace BmsSoftware.Modulos.Cadastros
 {
@@ -22,6 +25,9 @@ namespace BmsSoftware.Modulos.Cadastros
 
         GRUPOCATEGORIAProvider GRUPOCATEGORIAP = new GRUPOCATEGORIAProvider();
         GRUPOCATEGORIACollection GRUPOCATEGORIAColl = new GRUPOCATEGORIACollection();
+
+        CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
+        CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
 
         RowsFiltroCollection RowRelatorio = new RowsFiltroCollection();
 
@@ -107,6 +113,7 @@ namespace BmsSoftware.Modulos.Cadastros
             Grava();
             this.Cursor = Cursors.Default;
         }
+      
 
         private void Grava()
         {
@@ -115,14 +122,34 @@ namespace BmsSoftware.Modulos.Cadastros
                 if (Validacoes())
                 {
                     _IDGRUPOCATEGORIA = GRUPOCATEGORIAP.Save(Entity);
-                    GetAllGrupoCategoria();
+                    SalveIMEXAPP(Entity);
+                    GetAllGrupoCategoria();                  
                     Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
                 }
-
             }
             catch (Exception)
             {
                 MessageBox.Show(ConfigMessage.Default.MsgSaveErro);
+            }
+        }  
+        
+        private void SalveIMEXAPP(GRUPOCATEGORIAEntity GRUPOCATEGORIATy)
+        {
+            try
+            {
+                if(CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    CATEGORIAPRODUTOIMEXAPPProvider CATEGORIAPRODUTOIMEXAPPP = new CATEGORIAPRODUTOIMEXAPPProvider();
+                    CATEGORIAPRODUTOIMEXAPPEntity CATEGORIAPRODUTOIMEXAPPTy = new CATEGORIAPRODUTOIMEXAPPEntity();
+                    CATEGORIAPRODUTOIMEXAPPTy.XMEUID = GRUPOCATEGORIATy.IDGRUPOCATEGORIA.ToString();
+                    CATEGORIAPRODUTOIMEXAPPTy.XCATEGORIA = GRUPOCATEGORIATy.NOME;
+                    CATEGORIAPRODUTOIMEXAPPP.Save(CATEGORIAPRODUTOIMEXAPPTy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: "+ ex.Message);
+
 
             }
         }
@@ -135,7 +162,6 @@ namespace BmsSoftware.Modulos.Cadastros
 
             lblTotalPesquisa.Text = GRUPOCATEGORIAColl.Count.ToString();
         }
-
 
         private Boolean Validacoes()
         {
@@ -168,6 +194,8 @@ namespace BmsSoftware.Modulos.Cadastros
 
             if (_IDGRUPOCATEGORIA != -1)
                 Entity = GRUPOCATEGORIAP.Read(_IDGRUPOCATEGORIA);
+
+            CONFISISTEMATy = CONFISISTEMAP.Read(1);
 
             this.Cursor = Cursors.Default;
         }
@@ -230,6 +258,7 @@ namespace BmsSoftware.Modulos.Cadastros
                     try
                     {
                         GRUPOCATEGORIAP.Delete(_IDGRUPOCATEGORIA);
+                        DeleteIMEXAPP(_IDGRUPOCATEGORIA);
                         Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
                         Entity = null;
                         GetAllGrupoCategoria();
@@ -241,6 +270,25 @@ namespace BmsSoftware.Modulos.Cadastros
                     }
 
                 }
+            }
+        }
+
+        private void DeleteIMEXAPP(int IDREGISTRO)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    CATEGORIAPRODUTOIMEXAPPProvider CATEGORIAPRODUTOIMEXAPPP = new CATEGORIAPRODUTOIMEXAPPProvider();
+                    int result = CATEGORIAPRODUTOIMEXAPPP.GetID(IDREGISTRO);
+                    CATEGORIAPRODUTOIMEXAPPP.Delete(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+
+
             }
         }
 

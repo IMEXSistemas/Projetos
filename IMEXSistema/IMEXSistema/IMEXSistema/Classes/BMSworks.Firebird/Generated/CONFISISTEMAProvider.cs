@@ -315,11 +315,16 @@ namespace BMSworks.Firebird
 					dbCommand.Parameters.AddWithValue("@FLABACKUP", Entity.FLABACKUP); //Coluna 
 					dbCommand.Parameters.AddWithValue("@FLAGCSTECF", Entity.FLAGCSTECF); //Coluna 
 					dbCommand.Parameters.AddWithValue("@FLAGCODREFNFE", Entity.FLAGCODREFNFE); //Coluna 
-	
-				
-								
-				//Retorno da Procedure
-				FbParameter returnValue;
+                dbCommand.Parameters.AddWithValue("@TOKENIMEXAPP", Entity.TOKENIMEXAPP); //Coluna 
+                dbCommand.Parameters.AddWithValue("@IDASPNETUSERSINCLUSAO", Entity.IDASPNETUSERSINCLUSAO); //Coluna 
+                dbCommand.Parameters.AddWithValue("@IDEMPRESAIMEXAPP", Entity.IDEMPRESAIMEXAPP); //Coluna 
+                dbCommand.Parameters.AddWithValue("@IDREPRESIMEXAPP", Entity.IDREPRESIMEXAPP); //Coluna 
+                dbCommand.Parameters.AddWithValue("@FLAGIMEXAPP", Entity.FLAGIMEXAPP); //Coluna 
+
+
+
+                //Retorno da Procedure
+                FbParameter returnValue;
 				returnValue = dbCommand.CreateParameter();
 				
 				dbCommand.Parameters["@IDCONFIGSISTEMA"].Direction = ParameterDirection.InputOutput;
@@ -356,7 +361,24 @@ namespace BMSworks.Firebird
 		}
 		
 		
-		public  int Save(int? IDCONFIGSISTEMA, string FLAGLOGORELATORIO, int IDARQUIVOBINARIO1, int IDCONFIGBOLETA, string FLAGCOMPENTREGABOLETA, string FLAGCARNEBOLETA, int PRAZOOS, int PRAZOORCAMENTO, string FLAGVENDADEBITO, string FLAGPEDBAIXAESTOQUE, int TEMPOGARANTIA, string FLAGCOMISSAO, string MSGFECHOS, string MSGPEDIDO, string MSGCONSIGNACAO, string FLAGFECHOSESTOQUE, string SERIENF, string FLAGSOMAIPI, string FLAGSOMASEGURO, string FLAGJANELAS, string SERIENFE, string FLAGSOMAIPINFE, string FLAGSOMASEGURANFE, string FLAGCOMISSAONFE, string MODELONFE, decimal ALISSQN, string INSCMUNICIPAL, decimal ALIPIS, decimal ALICOFINS, string FLAGBASEISSQN, int CODMUNIBGE, int CODUFIBGE, string FLAGAMBIENTENFE, string SERIALCERTFDIGITAL, string NAMECERTFDIGITAL, string VALIDADECERTDIGITAL, string FLAGLOGONFE, string USUARIOPROXY, string SENHAPROXY, int IDVERSAOXMLNFE, string NOMEFANTASIA, string CNAE, string IEST, string CRT, string FLAGALIQIPICONFIS, int PORTAEMAIL, string EMAIL, string SMTP, string SENHAEMAIL, string CONFSEGSSL, string HOSTPROXY, string PORTAPROXY, string FLAGNFESERVICOS, string NOTAFISCALINICIAL, string MSGINICIALNFE, int LARGLAMINA, int NIVELOTIMIZ, string SCHEMAXML, string CASADECPRINTDANFE, string FLAGPLANOCORTE, string FLAGCODREFERENCIA, string FLAGCUPOMFISCAL, string FLAGPEDIDOMT, string ESTOQUENEGATIVO, string FLAGCPFCNPJPEDIDO, string FLAGCPDIGISAT, string PATHRECEPDIGISAT, string FLAGBAIXAESTOQUENF, string OPERADORASMS, string FLAGLIMITECREDITO, string FLAGHABNFE, string FLAGMSGFECHA, string FLAGCUPOMFAST, string FLABACKUP, string FLAGCSTECF, string FLAGCODREFNFE)
+		public  int Save(int? IDCONFIGSISTEMA, string FLAGLOGORELATORIO, int IDARQUIVOBINARIO1, int IDCONFIGBOLETA, 
+            string FLAGCOMPENTREGABOLETA, string FLAGCARNEBOLETA, int PRAZOOS, int PRAZOORCAMENTO, string FLAGVENDADEBITO,
+            string FLAGPEDBAIXAESTOQUE, int TEMPOGARANTIA, string FLAGCOMISSAO, string MSGFECHOS, string MSGPEDIDO, 
+            string MSGCONSIGNACAO, string FLAGFECHOSESTOQUE, string SERIENF, string FLAGSOMAIPI, string FLAGSOMASEGURO,
+            string FLAGJANELAS, string SERIENFE, string FLAGSOMAIPINFE, string FLAGSOMASEGURANFE, string FLAGCOMISSAONFE, 
+            string MODELONFE, decimal ALISSQN, string INSCMUNICIPAL, decimal ALIPIS, decimal ALICOFINS,
+            string FLAGBASEISSQN, int CODMUNIBGE, int CODUFIBGE, string FLAGAMBIENTENFE, string SERIALCERTFDIGITAL, 
+            string NAMECERTFDIGITAL, string VALIDADECERTDIGITAL, string FLAGLOGONFE, string USUARIOPROXY, 
+            string SENHAPROXY, int IDVERSAOXMLNFE, string NOMEFANTASIA, string CNAE, string IEST, 
+            string CRT, string FLAGALIQIPICONFIS, int PORTAEMAIL, string EMAIL, string SMTP, string SENHAEMAIL,
+            string CONFSEGSSL, string HOSTPROXY, string PORTAPROXY, string FLAGNFESERVICOS, string NOTAFISCALINICIAL,
+            string MSGINICIALNFE, int LARGLAMINA, int NIVELOTIMIZ, string SCHEMAXML, string CASADECPRINTDANFE,
+            string FLAGPLANOCORTE, string FLAGCODREFERENCIA, string FLAGCUPOMFISCAL, string FLAGPEDIDOMT, 
+            string ESTOQUENEGATIVO, string FLAGCPFCNPJPEDIDO, string FLAGCPDIGISAT, string PATHRECEPDIGISAT, 
+            string FLAGBAIXAESTOQUENF, string OPERADORASMS, string FLAGLIMITECREDITO, string FLAGHABNFE, string FLAGMSGFECHA, 
+            string FLAGCUPOMFAST, string FLABACKUP, string FLAGCSTECF, string FLAGCODREFNFE,
+            string TOKENIMEXAPP, string IDASPNETUSERSINCLUSAO, string IDEMPRESAIMEXAPP, string IDREPRESIMEXAPP,
+            string FLAGIMEXAPP)
 		{	
 			int result = 0;
 
@@ -483,11 +505,17 @@ namespace BMSworks.Firebird
 										dbCommand.Parameters.AddWithValue("@FLABACKUP", FLABACKUP); //Coluna 
 										dbCommand.Parameters.AddWithValue("@FLAGCSTECF", FLAGCSTECF); //Coluna 
 										dbCommand.Parameters.AddWithValue("@FLAGCODREFNFE", FLAGCODREFNFE); //Coluna 
-	
-				
-								
-				//Retorno da Procedure
-				FbParameter returnValue;
+
+                dbCommand.Parameters.AddWithValue("@TOKENIMEXAPP", TOKENIMEXAPP); //Coluna 
+                dbCommand.Parameters.AddWithValue("@IDASPNETUSERSINCLUSAO", IDASPNETUSERSINCLUSAO); //Coluna 
+                dbCommand.Parameters.AddWithValue("@IDEMPRESAIMEXAPP", IDEMPRESAIMEXAPP); //Coluna 
+                dbCommand.Parameters.AddWithValue("@IDREPRESIMEXAPP", IDREPRESIMEXAPP); //Coluna 
+                dbCommand.Parameters.AddWithValue("@FLAGIMEXAPP", FLAGIMEXAPP); //Coluna                
+
+
+
+                //Retorno da Procedure
+                FbParameter returnValue;
 				returnValue = dbCommand.CreateParameter();
 				
 				dbCommand.Parameters["@IDCONFIGSISTEMA"].Direction = ParameterDirection.InputOutput;
@@ -1154,9 +1182,15 @@ namespace BMSworks.Firebird
 			entity.FLABACKUP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLABACKUP"));
 			entity.FLAGCSTECF = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLAGCSTECF"));
 			entity.FLAGCODREFNFE = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLAGCODREFNFE"));
+            entity.TOKENIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("TOKENIMEXAPP"));
+            entity.IDASPNETUSERSINCLUSAO = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("IDASPNETUSERSINCLUSAO"));
+            entity.IDEMPRESAIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("IDEMPRESAIMEXAPP"));
+            entity.IDREPRESIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("IDREPRESIMEXAPP"));
+            entity.FLAGIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLAGIMEXAPP"));
+            entity.FLAGIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLAGIMEXAPP"));
 
 
-			return entity;
+            return entity;
 		}
 	}
 }

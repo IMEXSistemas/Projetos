@@ -188,7 +188,16 @@ namespace BmsSoftware.Modulos.Servicos
                     DataEmissao = Convert.ToDateTime(LIS_PEDIDOTy.DTEMISSAO).ToString("dd/MM/yyyy");
 
                 string TotalPedido = Convert.ToDecimal(LIS_PEDIDOTy.TOTALPEDIDO).ToString("n2");
-                string TotalComissao = Convert.ToDecimal(LIS_PEDIDOTy.VALORCOMISSAO).ToString("n2");            
+
+                //Comissao Vendedor
+                decimal? Porcetagem = 0;
+                FUNCIONARIOProvider FUNCIONARIOP = new FUNCIONARIOProvider();
+                FUNCIONARIOEntity FUNCIONARIOtY = new FUNCIONARIOEntity();
+                FUNCIONARIOtY = FUNCIONARIOP.Read(Convert.ToInt32(LIS_PEDIDOTy.IDVENDEDOR));
+                if (FUNCIONARIOtY != null)
+                    Porcetagem = FUNCIONARIOtY.COMISSAO;
+                // string TotalComissao = Convert.ToDecimal(LIS_PEDIDOTy.VALORCOMISSAO).ToString("n2");            
+                string TotalComissao = Convert.ToDecimal((LIS_PEDIDOTy.TOTALPEDIDO * Porcetagem)/100).ToString("n2");
 
 
                 DataGridViewRow row2 = new DataGridViewRow();
@@ -347,8 +356,8 @@ namespace BmsSoftware.Modulos.Servicos
                     if (Convert.ToInt32(cbFuncionario.SelectedValue) > 0)
                         RowRelatorio.Add(new RowsFiltro("IDVENDEDOR", "System.Int32", "=", Convert.ToInt32(cbFuncionario.SelectedValue).ToString()));
 
-                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", DataInicial));
-                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", DataFinal));
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", DataInicial + " 00:00"));
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", DataFinal + " 23:59"));
 
                     if(Convert.ToInt32(cbStatus.SelectedValue) > 0)
                         RowRelatorio.Add(new RowsFiltro("IDSTATUS", "System.Int32", "=", Convert.ToInt32(cbStatus.SelectedValue).ToString()));

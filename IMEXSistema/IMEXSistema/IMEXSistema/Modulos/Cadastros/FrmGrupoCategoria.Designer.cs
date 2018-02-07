@@ -39,9 +39,18 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.btnpdf = new System.Windows.Forms.Button();
+            this.btnExcel = new System.Windows.Forms.Button();
+            this.btnPrint = new System.Windows.Forms.Button();
+            this.btnSeach = new System.Windows.Forms.Button();
+            this.label91 = new System.Windows.Forms.Label();
+            this.txtPesquisaRapida = new System.Windows.Forms.TextBox();
             this.lblTotalPesquisa = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.DataGriewDados = new System.Windows.Forms.DataGridView();
+            this.NOME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDGRUPOCATEGORIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Observacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.TSBGrava = new System.Windows.Forms.ToolStripButton();
             this.TSBNovo = new System.Windows.Forms.ToolStripButton();
@@ -60,15 +69,6 @@
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-            this.NOME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDGRUPOCATEGORIA = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Observacao = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnSeach = new System.Windows.Forms.Button();
-            this.label91 = new System.Windows.Forms.Label();
-            this.txtPesquisaRapida = new System.Windows.Forms.TextBox();
-            this.btnpdf = new System.Windows.Forms.Button();
-            this.btnExcel = new System.Windows.Forms.Button();
-            this.btnPrint = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabcontrolGrupoCategoria.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -139,7 +139,7 @@
             this.txtObservacao.MaxLength = 100;
             this.txtObservacao.Multiline = true;
             this.txtObservacao.Name = "txtObservacao";
-            this.txtObservacao.Size = new System.Drawing.Size(397, 79);
+            this.txtObservacao.Size = new System.Drawing.Size(788, 215);
             this.txtObservacao.TabIndex = 2;
             this.txtObservacao.Tag = "";
             // 
@@ -190,6 +190,73 @@
             this.tabPage3.Text = "Pesquisa";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // btnpdf
+            // 
+            this.btnpdf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnpdf.Image = ((System.Drawing.Image)(resources.GetObject("btnpdf.Image")));
+            this.btnpdf.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnpdf.Location = new System.Drawing.Point(717, 21);
+            this.btnpdf.Name = "btnpdf";
+            this.btnpdf.Size = new System.Drawing.Size(25, 23);
+            this.btnpdf.TabIndex = 318;
+            this.btnpdf.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnpdf.UseVisualStyleBackColor = true;
+            this.btnpdf.Click += new System.EventHandler(this.btnpdf_Click);
+            // 
+            // btnExcel
+            // 
+            this.btnExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnExcel.Image")));
+            this.btnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnExcel.Location = new System.Drawing.Point(748, 20);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(25, 23);
+            this.btnExcel.TabIndex = 317;
+            this.btnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
+            // btnPrint
+            // 
+            this.btnPrint.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPrint.Image = ((System.Drawing.Image)(resources.GetObject("btnPrint.Image")));
+            this.btnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPrint.Location = new System.Drawing.Point(779, 20);
+            this.btnPrint.Name = "btnPrint";
+            this.btnPrint.Size = new System.Drawing.Size(25, 23);
+            this.btnPrint.TabIndex = 316;
+            this.btnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPrint.UseVisualStyleBackColor = true;
+            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
+            // 
+            // btnSeach
+            // 
+            this.btnSeach.FlatAppearance.BorderSize = 0;
+            this.btnSeach.Image = ((System.Drawing.Image)(resources.GetObject("btnSeach.Image")));
+            this.btnSeach.Location = new System.Drawing.Point(313, 19);
+            this.btnSeach.Name = "btnSeach";
+            this.btnSeach.Size = new System.Drawing.Size(26, 22);
+            this.btnSeach.TabIndex = 315;
+            this.btnSeach.UseVisualStyleBackColor = true;
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Location = new System.Drawing.Point(6, 3);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(90, 13);
+            this.label91.TabIndex = 314;
+            this.label91.Text = "Pesquisa Rápida:";
+            // 
+            // txtPesquisaRapida
+            // 
+            this.txtPesquisaRapida.CausesValidation = false;
+            this.txtPesquisaRapida.Location = new System.Drawing.Point(9, 20);
+            this.txtPesquisaRapida.Name = "txtPesquisaRapida";
+            this.txtPesquisaRapida.Size = new System.Drawing.Size(309, 20);
+            this.txtPesquisaRapida.TabIndex = 313;
+            this.txtPesquisaRapida.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtPesquisaRapida_KeyUp);
+            // 
             // lblTotalPesquisa
             // 
             this.lblTotalPesquisa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -229,6 +296,30 @@
             this.DataGriewDados.Enter += new System.EventHandler(this.DataGriewDados_Enter);
             this.DataGriewDados.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DataGriewDados_KeyDown);
             this.DataGriewDados.Leave += new System.EventHandler(this.DataGriewDados_Leave);
+            // 
+            // NOME
+            // 
+            this.NOME.DataPropertyName = "NOME";
+            this.NOME.HeaderText = "Nome";
+            this.NOME.Name = "NOME";
+            this.NOME.ReadOnly = true;
+            this.NOME.Width = 300;
+            // 
+            // IDGRUPOCATEGORIA
+            // 
+            this.IDGRUPOCATEGORIA.DataPropertyName = "IDGRUPOCATEGORIA";
+            this.IDGRUPOCATEGORIA.HeaderText = "Código";
+            this.IDGRUPOCATEGORIA.Name = "IDGRUPOCATEGORIA";
+            this.IDGRUPOCATEGORIA.ReadOnly = true;
+            this.IDGRUPOCATEGORIA.Width = 50;
+            // 
+            // Observacao
+            // 
+            this.Observacao.DataPropertyName = "Observacao";
+            this.Observacao.HeaderText = "Observação";
+            this.Observacao.Name = "Observacao";
+            this.Observacao.ReadOnly = true;
+            this.Observacao.Width = 400;
             // 
             // toolStrip1
             // 
@@ -365,7 +456,7 @@
             // voltaToolStripMenuItem
             // 
             this.voltaToolStripMenuItem.Name = "voltaToolStripMenuItem";
-            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.voltaToolStripMenuItem.Text = "&Volta";
             this.voltaToolStripMenuItem.Click += new System.EventHandler(this.voltaToolStripMenuItem_Click);
             // 
@@ -391,97 +482,6 @@
             // 
             this.printDocument1.BeginPrint += new System.Drawing.Printing.PrintEventHandler(this.printDocument1_BeginPrint);
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
-            // 
-            // NOME
-            // 
-            this.NOME.DataPropertyName = "NOME";
-            this.NOME.HeaderText = "Nome";
-            this.NOME.Name = "NOME";
-            this.NOME.ReadOnly = true;
-            this.NOME.Width = 300;
-            // 
-            // IDGRUPOCATEGORIA
-            // 
-            this.IDGRUPOCATEGORIA.DataPropertyName = "IDGRUPOCATEGORIA";
-            this.IDGRUPOCATEGORIA.HeaderText = "Código";
-            this.IDGRUPOCATEGORIA.Name = "IDGRUPOCATEGORIA";
-            this.IDGRUPOCATEGORIA.ReadOnly = true;
-            this.IDGRUPOCATEGORIA.Width = 50;
-            // 
-            // Observacao
-            // 
-            this.Observacao.DataPropertyName = "Observacao";
-            this.Observacao.HeaderText = "Observação";
-            this.Observacao.Name = "Observacao";
-            this.Observacao.ReadOnly = true;
-            this.Observacao.Width = 400;
-            // 
-            // btnSeach
-            // 
-            this.btnSeach.FlatAppearance.BorderSize = 0;
-            this.btnSeach.Image = ((System.Drawing.Image)(resources.GetObject("btnSeach.Image")));
-            this.btnSeach.Location = new System.Drawing.Point(313, 19);
-            this.btnSeach.Name = "btnSeach";
-            this.btnSeach.Size = new System.Drawing.Size(26, 22);
-            this.btnSeach.TabIndex = 315;
-            this.btnSeach.UseVisualStyleBackColor = true;
-            // 
-            // label91
-            // 
-            this.label91.AutoSize = true;
-            this.label91.Location = new System.Drawing.Point(6, 3);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(90, 13);
-            this.label91.TabIndex = 314;
-            this.label91.Text = "Pesquisa Rápida:";
-            // 
-            // txtPesquisaRapida
-            // 
-            this.txtPesquisaRapida.CausesValidation = false;
-            this.txtPesquisaRapida.Location = new System.Drawing.Point(9, 20);
-            this.txtPesquisaRapida.Name = "txtPesquisaRapida";
-            this.txtPesquisaRapida.Size = new System.Drawing.Size(309, 20);
-            this.txtPesquisaRapida.TabIndex = 313;
-            this.txtPesquisaRapida.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtPesquisaRapida_KeyUp);
-            // 
-            // btnpdf
-            // 
-            this.btnpdf.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnpdf.Image = ((System.Drawing.Image)(resources.GetObject("btnpdf.Image")));
-            this.btnpdf.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnpdf.Location = new System.Drawing.Point(717, 21);
-            this.btnpdf.Name = "btnpdf";
-            this.btnpdf.Size = new System.Drawing.Size(25, 23);
-            this.btnpdf.TabIndex = 318;
-            this.btnpdf.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnpdf.UseVisualStyleBackColor = true;
-            this.btnpdf.Click += new System.EventHandler(this.btnpdf_Click);
-            // 
-            // btnExcel
-            // 
-            this.btnExcel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnExcel.Image")));
-            this.btnExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnExcel.Location = new System.Drawing.Point(748, 20);
-            this.btnExcel.Name = "btnExcel";
-            this.btnExcel.Size = new System.Drawing.Size(25, 23);
-            this.btnExcel.TabIndex = 317;
-            this.btnExcel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnExcel.UseVisualStyleBackColor = true;
-            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
-            // 
-            // btnPrint
-            // 
-            this.btnPrint.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPrint.Image = ((System.Drawing.Image)(resources.GetObject("btnPrint.Image")));
-            this.btnPrint.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnPrint.Location = new System.Drawing.Point(779, 20);
-            this.btnPrint.Name = "btnPrint";
-            this.btnPrint.Size = new System.Drawing.Size(25, 23);
-            this.btnPrint.TabIndex = 316;
-            this.btnPrint.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnPrint.UseVisualStyleBackColor = true;
-            this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // FrmGrupoCategoria
             // 

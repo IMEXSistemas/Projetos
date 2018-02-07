@@ -131,6 +131,9 @@ namespace SpedService.Model
                     Registro0000.COD_VER = ACBrFramework.Sped.VersaoLeiaute.Versao109; break;
                 case 10:
                     Registro0000.COD_VER = ACBrFramework.Sped.VersaoLeiaute.Versao110; break;
+                case 11:
+                     Registro0000.COD_VER = ACBrFramework.Sped.VersaoLeiaute.Versao111;  break;
+                   
             }
 
             switch (FinalidadeArquivo)

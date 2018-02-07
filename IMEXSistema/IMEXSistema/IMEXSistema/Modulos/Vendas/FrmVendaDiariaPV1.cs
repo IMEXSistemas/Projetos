@@ -108,8 +108,8 @@ namespace BmsSoftware.Modulos.Vendas
             try
             {
                 RowRelatorio.Clear();
-                RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", Util.ConverStringDateSearch(mkDtInicial.Text)));
-                RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", Util.ConverStringDateSearch(mkdatafinal.Text)));
+                RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", Util.ConverStringDateSearch(mkDtInicial.Text) + "00:00"));
+                RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", Util.ConverStringDateSearch(mkdatafinal.Text) + "23:59"));
 
                 if (rbOrcamentoPesquisa.Checked)
                     RowRelatorio.Add(new RowsFiltro("FLAGORCAMENTO", "System.String", "=", "S"));

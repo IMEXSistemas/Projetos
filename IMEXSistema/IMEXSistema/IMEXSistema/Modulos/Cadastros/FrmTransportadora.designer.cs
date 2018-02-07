@@ -50,7 +50,6 @@ namespace BMSSoftware.Modulos.Cadastros
             this.lblObsField = new System.Windows.Forms.Label();
             this.tabControlTransportadora = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.maskedtxtCNPJ = new System.Windows.Forms.TextBox();
             this.txtANTT = new System.Windows.Forms.TextBox();
@@ -195,7 +194,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // voltaToolStripMenuItem
             // 
             this.voltaToolStripMenuItem.Name = "voltaToolStripMenuItem";
-            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.voltaToolStripMenuItem.Text = "&Volta";
             this.voltaToolStripMenuItem.Click += new System.EventHandler(this.voltaToolStripMenuItem_Click);
             // 
@@ -310,7 +309,6 @@ namespace BMSSoftware.Modulos.Cadastros
             // tabPage1
             // 
             this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.tabPage1.Controls.Add(this.label15);
             this.tabPage1.Controls.Add(this.label14);
             this.tabPage1.Controls.Add(this.maskedtxtCNPJ);
             this.tabPage1.Controls.Add(this.txtANTT);
@@ -355,25 +353,14 @@ namespace BMSSoftware.Modulos.Cadastros
             this.tabPage1.Text = "Dados Cadastrais";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(465, 61);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(11, 13);
-            this.label15.TabIndex = 100;
-            this.label15.Text = "*";
-            // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.ForeColor = System.Drawing.Color.Red;
             this.label14.Location = new System.Drawing.Point(87, 16);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(11, 13);
+            this.label14.Size = new System.Drawing.Size(0, 13);
             this.label14.TabIndex = 99;
-            this.label14.Text = "*";
             // 
             // maskedtxtCNPJ
             // 
@@ -571,6 +558,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // label42
             // 
             this.label42.AutoSize = true;
+            this.label42.ForeColor = System.Drawing.Color.Red;
             this.label42.Location = new System.Drawing.Point(397, 61);
             this.label42.Name = "label42";
             this.label42.Size = new System.Drawing.Size(62, 13);
@@ -645,6 +633,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Red;
             this.label2.Location = new System.Drawing.Point(371, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 13);
@@ -663,6 +652,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(8, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 13);
@@ -990,7 +980,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.Red;
-            this.label13.Location = new System.Drawing.Point(674, 26);
+            this.label13.Location = new System.Drawing.Point(773, 24);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(92, 13);
             this.label13.TabIndex = 6;
@@ -1103,7 +1093,6 @@ namespace BMSSoftware.Modulos.Cadastros
         private System.Windows.Forms.TextBox txtANTT;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox maskedtxtCNPJ;
-        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnPrint;
