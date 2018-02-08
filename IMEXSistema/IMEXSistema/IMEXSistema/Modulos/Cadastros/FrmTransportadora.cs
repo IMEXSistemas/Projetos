@@ -271,14 +271,14 @@ namespace BMSSoftware.Modulos.Cadastros
 
         private void gravaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CreaterCursor Cr = new CreaterCursor();
-            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
             Grava();
-            this.Cursor = Cursors.Default;
         }
 
         private void Grava()
         {
+            CreaterCursor Cr = new CreaterCursor();
+            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
+
             try
             {
                 if (Validacoes())
@@ -287,18 +287,20 @@ namespace BMSSoftware.Modulos.Cadastros
                     _IDTRANSPORTADORA = TransportadorP.Save(Entity);
                     SalveIMEXAPP(Entity);
                     Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
-                    btnPesquisa_Click(null, null);                    
+                    btnPesquisa_Click(null, null);
+                    this.Cursor = Cursors.Default;
                 }
 
             }
             catch (Exception ex)
             {
+                this.Cursor = Cursors.Default;
                 Util.ExibirMSg(ConfigMessage.Default.MsgSaveErro, "Red");
                 MessageBox.Show("Erro técnico: " + ex.Message);
-
             }
         }
 
+        //Salva a transportadora no IMEX App
         private void SalveIMEXAPP(TRANSPORTADORAEntity TRANSPORTADORATy)
         {
             try
@@ -328,6 +330,7 @@ namespace BMSSoftware.Modulos.Cadastros
             }
         }
 
+        //Salva o Endereço no IMEX App
         private void SalveIMEXAPP2(TRANSPORTADORAEntity TRANSPORTADORATy)
         {
             try
@@ -339,7 +342,6 @@ namespace BMSSoftware.Modulos.Cadastros
                     ENDERECOIMEXAPPTy.XMEUID = TRANSPORTADORATy.IDTRANSPORTADORA.ToString();
                     ENDERECOIMEXAPPTy.IDTRANSPORTADORA = TRANSPORTADORAIMEXAPPP.GetID(Convert.ToInt32(TRANSPORTADORATy.IDTRANSPORTADORA));
                     ENDERECOIMEXAPPTy.IDCLIENTE = null;
-                    ENDERECOIMEXAPPTy.STENDERECO = TRANSPORTADORATy.ENDERECO;
                     ENDERECOIMEXAPPTy.XCEP = TRANSPORTADORATy.CEP;
                     ENDERECOIMEXAPPTy.XENDERECO = TRANSPORTADORATy.ENDERECO;
                     ENDERECOIMEXAPPTy.CNUMERO = 0;

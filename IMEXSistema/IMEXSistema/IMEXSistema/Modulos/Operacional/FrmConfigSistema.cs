@@ -1343,7 +1343,7 @@ namespace BmsSoftware.Modulos.Operacional
 
                     //Versao 4.00
                     txtInutilizacao.Text = "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeInutilizacao4";
-                    txtConsultaProtocolo.Text = "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeConsulta4";
+                    txtConsultaProtocolo.Text = "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeConsultaProtocolo4";
                     txtStatusServico.Text = "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeStatusServico4";
                     txtAutorizacao.Text = "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeAutorizacao4";
                     txtRetAutorizacao.Text = "https://nfe.fazenda.mg.gov.br/nfe2/services/NFeRetAutorizacao4";

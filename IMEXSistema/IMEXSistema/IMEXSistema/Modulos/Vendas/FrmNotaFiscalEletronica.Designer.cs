@@ -207,6 +207,7 @@
             this.label35 = new System.Windows.Forms.Label();
             this.TxtBaseCalcICMS = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.txtUFTransp = new System.Windows.Forms.TextBox();
             this.txtinfAdFisco = new System.Windows.Forms.TextBox();
             this.label90 = new System.Windows.Forms.Label();
             this.btnCadMensagem = new System.Windows.Forms.Button();
@@ -461,7 +462,6 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
             this.sfdExportToxcel = new System.Windows.Forms.SaveFileDialog();
-            this.txtUFTransp = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -2174,6 +2174,14 @@
             this.tabPage4.TabIndex = 1;
             this.tabPage4.Text = "Dados Adicionais";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // txtUFTransp
+            // 
+            this.txtUFTransp.Location = new System.Drawing.Point(651, 65);
+            this.txtUFTransp.MaxLength = 2;
+            this.txtUFTransp.Name = "txtUFTransp";
+            this.txtUFTransp.Size = new System.Drawing.Size(38, 20);
+            this.txtUFTransp.TabIndex = 40;
             // 
             // txtinfAdFisco
             // 
@@ -4499,7 +4507,8 @@
             // 
             this.dowloandDaNFeToolStripMenuItem.Name = "dowloandDaNFeToolStripMenuItem";
             this.dowloandDaNFeToolStripMenuItem.Size = new System.Drawing.Size(317, 22);
-            this.dowloandDaNFeToolStripMenuItem.Text = "Download da NFe";
+            this.dowloandDaNFeToolStripMenuItem.Text = "Download da NFe (xml)";
+            this.dowloandDaNFeToolStripMenuItem.Visible = false;
             this.dowloandDaNFeToolStripMenuItem.Click += new System.EventHandler(this.dowloandDaNFeToolStripMenuItem_Click);
             // 
             // estoqueLoteToolStripMenuItem
@@ -4528,6 +4537,7 @@
             this.importarPedidoMatériaPrimaToolStripMenuItem.Name = "importarPedidoMatériaPrimaToolStripMenuItem";
             this.importarPedidoMatériaPrimaToolStripMenuItem.Size = new System.Drawing.Size(317, 22);
             this.importarPedidoMatériaPrimaToolStripMenuItem.Text = "Importar Pedido Matéria Prima";
+            this.importarPedidoMatériaPrimaToolStripMenuItem.Visible = false;
             this.importarPedidoMatériaPrimaToolStripMenuItem.Click += new System.EventHandler(this.importarPedidoMatériaPrimaToolStripMenuItem_Click);
             // 
             // importarPedidoMT3ToolStripMenuItem
@@ -4535,6 +4545,7 @@
             this.importarPedidoMT3ToolStripMenuItem.Name = "importarPedidoMT3ToolStripMenuItem";
             this.importarPedidoMT3ToolStripMenuItem.Size = new System.Drawing.Size(317, 22);
             this.importarPedidoMT3ToolStripMenuItem.Text = "Importar Pedido MT3";
+            this.importarPedidoMT3ToolStripMenuItem.Visible = false;
             this.importarPedidoMT3ToolStripMenuItem.Click += new System.EventHandler(this.importarPedidoMT3ToolStripMenuItem_Click);
             // 
             // loteToolStripMenuItem
@@ -4609,14 +4620,6 @@
             // openFileDialog2
             // 
             this.openFileDialog2.FileName = "openFileDialog1";
-            // 
-            // txtUFTransp
-            // 
-            this.txtUFTransp.Location = new System.Drawing.Point(651, 65);
-            this.txtUFTransp.MaxLength = 2;
-            this.txtUFTransp.Name = "txtUFTransp";
-            this.txtUFTransp.Size = new System.Drawing.Size(38, 20);
-            this.txtUFTransp.TabIndex = 40;
             // 
             // FrmNotaFiscalEletronica
             // 

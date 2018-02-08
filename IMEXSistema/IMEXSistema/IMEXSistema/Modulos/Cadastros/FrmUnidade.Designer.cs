@@ -42,6 +42,9 @@
             this.lblTotalPesquisa = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.DataGriewDados = new System.Windows.Forms.DataGridView();
+            this.NOME = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OBSERVACAO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IDUNIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.TSBGrava = new System.Windows.Forms.ToolStripButton();
             this.TSBNovo = new System.Windows.Forms.ToolStripButton();
@@ -60,9 +63,7 @@
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
-            this.NOME = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.OBSERVACAO = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.IDUNIDADE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label70 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tabControlTipoRegiao.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -75,6 +76,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.label70);
             this.panel1.Controls.Add(this.lblObsField);
             this.panel1.Controls.Add(this.tabControlTipoRegiao);
             this.panel1.Controls.Add(this.toolStrip1);
@@ -134,11 +136,12 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.Red;
             this.label12.Location = new System.Drawing.Point(8, 55);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(55, 13);
+            this.label12.Size = new System.Drawing.Size(58, 13);
             this.label12.TabIndex = 8;
-            this.label12.Text = "Descrição";
+            this.label12.Text = "Descrição:";
             // 
             // txtNome
             // 
@@ -152,11 +155,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(8, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 13);
+            this.label1.Size = new System.Drawing.Size(33, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Sigla";
+            this.label1.Text = "Sigla:";
             // 
             // tabPage3
             // 
@@ -205,6 +209,30 @@
             this.DataGriewDados.Enter += new System.EventHandler(this.DataGriewDados_Enter);
             this.DataGriewDados.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DataGriewDados_KeyDown);
             this.DataGriewDados.Leave += new System.EventHandler(this.DataGriewDados_Leave);
+            // 
+            // NOME
+            // 
+            this.NOME.DataPropertyName = "NOME";
+            this.NOME.HeaderText = "Sigla";
+            this.NOME.Name = "NOME";
+            this.NOME.ReadOnly = true;
+            this.NOME.Width = 70;
+            // 
+            // OBSERVACAO
+            // 
+            this.OBSERVACAO.DataPropertyName = "OBSERVACAO";
+            this.OBSERVACAO.HeaderText = "Descrição";
+            this.OBSERVACAO.Name = "OBSERVACAO";
+            this.OBSERVACAO.ReadOnly = true;
+            this.OBSERVACAO.Width = 280;
+            // 
+            // IDUNIDADE
+            // 
+            this.IDUNIDADE.DataPropertyName = "IDUNIDADE";
+            this.IDUNIDADE.HeaderText = "Código";
+            this.IDUNIDADE.Name = "IDUNIDADE";
+            this.IDUNIDADE.ReadOnly = true;
+            this.IDUNIDADE.Width = 50;
             // 
             // toolStrip1
             // 
@@ -303,7 +331,7 @@
             // 
             this.gravaToolStripMenuItem.Name = "gravaToolStripMenuItem";
             this.gravaToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3;
-            this.gravaToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.gravaToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.gravaToolStripMenuItem.Text = "&Salva";
             this.gravaToolStripMenuItem.Click += new System.EventHandler(this.gravaToolStripMenuItem_Click);
             // 
@@ -341,7 +369,7 @@
             // voltaToolStripMenuItem
             // 
             this.voltaToolStripMenuItem.Name = "voltaToolStripMenuItem";
-            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.voltaToolStripMenuItem.Text = "&Volta";
             this.voltaToolStripMenuItem.Click += new System.EventHandler(this.voltaToolStripMenuItem_Click);
             // 
@@ -368,29 +396,16 @@
             this.printDocument1.BeginPrint += new System.Drawing.Printing.PrintEventHandler(this.printDocument1_BeginPrint);
             this.printDocument1.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument1_PrintPage);
             // 
-            // NOME
+            // label70
             // 
-            this.NOME.DataPropertyName = "NOME";
-            this.NOME.HeaderText = "Sigla";
-            this.NOME.Name = "NOME";
-            this.NOME.ReadOnly = true;
-            this.NOME.Width = 70;
-            // 
-            // OBSERVACAO
-            // 
-            this.OBSERVACAO.DataPropertyName = "OBSERVACAO";
-            this.OBSERVACAO.HeaderText = "Descrição";
-            this.OBSERVACAO.Name = "OBSERVACAO";
-            this.OBSERVACAO.ReadOnly = true;
-            this.OBSERVACAO.Width = 280;
-            // 
-            // IDUNIDADE
-            // 
-            this.IDUNIDADE.DataPropertyName = "IDUNIDADE";
-            this.IDUNIDADE.HeaderText = "Código";
-            this.IDUNIDADE.Name = "IDUNIDADE";
-            this.IDUNIDADE.ReadOnly = true;
-            this.IDUNIDADE.Width = 50;
+            this.label70.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label70.AutoSize = true;
+            this.label70.ForeColor = System.Drawing.Color.Red;
+            this.label70.Location = new System.Drawing.Point(458, 24);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(92, 13);
+            this.label70.TabIndex = 83;
+            this.label70.Text = "Campo obrigatório";
             // 
             // FrmUnidade
             // 
@@ -457,5 +472,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NOME;
         private System.Windows.Forms.DataGridViewTextBoxColumn OBSERVACAO;
         private System.Windows.Forms.DataGridViewTextBoxColumn IDUNIDADE;
+        private System.Windows.Forms.Label label70;
     }
 }

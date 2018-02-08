@@ -9,8 +9,8 @@ namespace BMSworks.IMEXAppClass
         public string XCATEGORIA { get; set; }
         public int? IDCATEGORIAPAI { get; set; }
         public int IDEMPRESA { get; set; }
-        public Boolean STATIVO { get; set; }
-        public DateTime DTULTIMAALTERACAO { get; set; }
+        public Boolean? STATIVO { get; set; }
+        public DateTime? DTULTIMAALTERACAO { get; set; }
         public string IDASPNETUSERSINCLUSAO { get; set; }
         public int? IDREPRESENTACAO { get; set; }
         public string XMEUID { get; set; }

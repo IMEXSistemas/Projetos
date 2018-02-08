@@ -30,13 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProduto2));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label70 = new System.Windows.Forms.Label();
             this.lblobsField = new System.Windows.Forms.Label();
@@ -614,7 +614,7 @@
             this.uploadDeSicronizaçãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uploadDeSicronizaçãoToolStripMenuItem.Image")));
             this.uploadDeSicronizaçãoToolStripMenuItem.Name = "uploadDeSicronizaçãoToolStripMenuItem";
             this.uploadDeSicronizaçãoToolStripMenuItem.Size = new System.Drawing.Size(295, 22);
-            this.uploadDeSicronizaçãoToolStripMenuItem.Text = "Upload de Sicronização";
+            this.uploadDeSicronizaçãoToolStripMenuItem.Text = "Sicronização no IMEX App";
             this.uploadDeSicronizaçãoToolStripMenuItem.Click += new System.EventHandler(this.uploadDeSicronizaçãoToolStripMenuItem_Click);
             // 
             // toolStripMenuItem6
@@ -1946,8 +1946,8 @@
             // IDPRODUTO
             // 
             this.IDPRODUTO.DataPropertyName = "IDPRODUTO";
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            this.IDPRODUTO.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            this.IDPRODUTO.DefaultCellStyle = dataGridViewCellStyle1;
             this.IDPRODUTO.HeaderText = "Código";
             this.IDPRODUTO.Name = "IDPRODUTO";
             this.IDPRODUTO.Width = 50;
@@ -1955,8 +1955,8 @@
             // CODPRODUTOFORNECEDOR
             // 
             this.CODPRODUTOFORNECEDOR.DataPropertyName = "CODPRODUTOFORNECEDOR";
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            this.CODPRODUTOFORNECEDOR.DefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            this.CODPRODUTOFORNECEDOR.DefaultCellStyle = dataGridViewCellStyle2;
             this.CODPRODUTOFORNECEDOR.HeaderText = "Cód. Referência";
             this.CODPRODUTOFORNECEDOR.Name = "CODPRODUTOFORNECEDOR";
             // 
@@ -1970,10 +1970,10 @@
             // VALORVENDA1
             // 
             this.VALORVENDA1.DataPropertyName = "VALORVENDA1";
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            dataGridViewCellStyle10.Format = "N4";
-            dataGridViewCellStyle10.NullValue = null;
-            this.VALORVENDA1.DefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            dataGridViewCellStyle3.Format = "N4";
+            dataGridViewCellStyle3.NullValue = null;
+            this.VALORVENDA1.DefaultCellStyle = dataGridViewCellStyle3;
             this.VALORVENDA1.HeaderText = "Valor de Venda 1";
             this.VALORVENDA1.Name = "VALORVENDA1";
             this.VALORVENDA1.Width = 80;
@@ -2000,10 +2000,10 @@
             // VALORVENDA2
             // 
             this.VALORVENDA2.DataPropertyName = "VALORVENDA2";
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle11.Format = "N2";
-            dataGridViewCellStyle11.NullValue = null;
-            this.VALORVENDA2.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "N2";
+            dataGridViewCellStyle4.NullValue = null;
+            this.VALORVENDA2.DefaultCellStyle = dataGridViewCellStyle4;
             this.VALORVENDA2.HeaderText = "Valor de Venda 2";
             this.VALORVENDA2.Name = "VALORVENDA2";
             this.VALORVENDA2.Width = 80;
@@ -2011,10 +2011,10 @@
             // VALORVENDA3
             // 
             this.VALORVENDA3.DataPropertyName = "VALORVENDA3";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle12.Format = "N2";
-            dataGridViewCellStyle12.NullValue = null;
-            this.VALORVENDA3.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle5.Format = "N2";
+            dataGridViewCellStyle5.NullValue = null;
+            this.VALORVENDA3.DefaultCellStyle = dataGridViewCellStyle5;
             this.VALORVENDA3.HeaderText = "Valor de Venda 3";
             this.VALORVENDA3.Name = "VALORVENDA3";
             this.VALORVENDA3.Width = 80;
@@ -2022,9 +2022,9 @@
             // QUANTIDADEMINIMA
             // 
             this.QUANTIDADEMINIMA.DataPropertyName = "QUANTIDADEMINIMA";
-            dataGridViewCellStyle13.Format = "N2";
-            dataGridViewCellStyle13.NullValue = null;
-            this.QUANTIDADEMINIMA.DefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle6.Format = "N2";
+            dataGridViewCellStyle6.NullValue = null;
+            this.QUANTIDADEMINIMA.DefaultCellStyle = dataGridViewCellStyle6;
             this.QUANTIDADEMINIMA.HeaderText = "Quant. Minima";
             this.QUANTIDADEMINIMA.Name = "QUANTIDADEMINIMA";
             this.QUANTIDADEMINIMA.Width = 80;
@@ -2064,8 +2064,8 @@
             // FlagInativo
             // 
             this.FlagInativo.DataPropertyName = "FlagInativo";
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.FlagInativo.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.FlagInativo.DefaultCellStyle = dataGridViewCellStyle7;
             this.FlagInativo.HeaderText = "Não Efetuar Venda";
             this.FlagInativo.Name = "FlagInativo";
             this.FlagInativo.Width = 50;

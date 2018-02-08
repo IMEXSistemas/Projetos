@@ -23,6 +23,7 @@ using BmsSoftware.Modulos.Telemarketing;
 using BmsSoftware.Modulos.Relatorio;
 using BmsSoftware.Classes.BMSworks.UI;
 using BMSSoftware.Modulos.Cadastros;
+using BMSworks.IMEXAppClass;
 
 namespace BmsSoftware.Modulos.Cadastros
 {
@@ -57,6 +58,9 @@ namespace BmsSoftware.Modulos.Cadastros
         LIS_CSTCollection LIS_CST_ECFColl = new LIS_CSTCollection();
         LOTECollection LOTEColl = new LOTECollection();
         TIPOTRIBUTACAOCollection TIPOTRIBUTACAOColl = new TIPOTRIBUTACAOCollection();
+
+        CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
+        PRODUTODATAMODELIMEXAPPProvider PRODUTODATAMODELIMEXAPPP = new PRODUTODATAMODELIMEXAPPProvider();
 
         RowsFiltro filtroProfile = new RowsFiltro();
         RowsFiltroCollection Filtro = new RowsFiltroCollection();
@@ -594,8 +598,9 @@ namespace BmsSoftware.Modulos.Cadastros
             this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0); 
 
             this.MinimizeBox = false; 
-            this.FormBorderStyle = FormBorderStyle.FixedDialog; 
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
 
+            CONFISISTEMATy = CONFISISTEMAP.Read(1);
             GetToolStripButtonCadastro();
             GetDropUnidade();
            
@@ -1465,21 +1470,9 @@ namespace BmsSoftware.Modulos.Cadastros
                 if (Validacoes())
                 {
                     _IDPRODUTO = PRODUTOSP.Save(Entity);
-                     Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
-                    txtCodProduto.Text = _IDPRODUTO.ToString();
-
-                    //Sobre arquivo csv para servidor para fazer a sicronização
-                    if (BmsSoftware.ConfigSistema1.Default.UploadSicron == "S")
-                    {
-                        DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização dos Dados?",
-                               ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
-
-                        if (dr == DialogResult.Yes)
-                        {
-                            Sicroniza Sic = new Sicroniza();
-                            Sic.CriaArquivoCSV();
-                        }
-                    }
+                    SalveIMEXAPP(Entity);
+                    Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
+                    txtCodProduto.Text = _IDPRODUTO.ToString();                
                 }
 
             }
@@ -1488,6 +1481,55 @@ namespace BmsSoftware.Modulos.Cadastros
                 Util.ExibirMSg(ConfigMessage.Default.MsgSaveErro, "Red");
                 MessageBox.Show("Erro técnico: "+ ex.Message);
 
+            }
+        }
+
+        private void SalveIMEXAPP(PRODUTOSEntity PRODUTOSTy)
+        {
+            try
+            {
+                CATEGORIAPRODUTOIMEXAPPProvider CATEGORIAPRODUTOIMEXAPPP = new CATEGORIAPRODUTOIMEXAPPProvider();
+                UNIDADEMEDIDAIMEXAPPProvider UNIDADEMEDIDAIMEXAPPP = new UNIDADEMEDIDAIMEXAPPProvider();
+
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    PRODUTODATAMODELIMEXAPPEntity PRODUTODATAMODELIMEXAPPTy = new PRODUTODATAMODELIMEXAPPEntity();
+                    PRODUTODATAMODELIMEXAPPTy.XMEUID = PRODUTOSTy.IDPRODUTO.ToString();
+                    int _IDCATEGORIA = CATEGORIAPRODUTOIMEXAPPP.GetID(Convert.ToInt32(PRODUTOSTy.IDGRUPOCATEGORIA));
+                    if (_IDCATEGORIA != -1)
+                        PRODUTODATAMODELIMEXAPPTy.IDCATEGORIA = _IDCATEGORIA;//INTEGER
+                    else
+                        PRODUTODATAMODELIMEXAPPTy.IDCATEGORIA = null;
+
+                    int _IDUNIDADEMEDIDA = UNIDADEMEDIDAIMEXAPPP.GetID(Convert.ToInt32(PRODUTOSTy.IDUNIDADE));
+                    if (_IDUNIDADEMEDIDA != -1)
+                        PRODUTODATAMODELIMEXAPPTy.IDUNIDADEMEDIDA = _IDUNIDADEMEDIDA; //INTEGER
+                    else
+                        PRODUTODATAMODELIMEXAPPTy.IDUNIDADEMEDIDA = null;
+
+                    PRODUTODATAMODELIMEXAPPTy.CALTERNATIVO = _IDPRODUTO.ToString();  //STRING
+
+                    PRODUTODATAMODELIMEXAPPTy.XNOME = PRODUTOSTy.NOMEPRODUTO; //STRING
+                    PRODUTODATAMODELIMEXAPPTy.VCOMPRA = Convert.ToDecimal(PRODUTOSTy.VALORCUSTOFINAL);//DECIMAL NUMBER
+                    PRODUTODATAMODELIMEXAPPTy.VCUSTO = Convert.ToDecimal(PRODUTOSTy.VALORCUSTOFINAL);// DECIMAL NUMBER
+                    PRODUTODATAMODELIMEXAPPTy.XANOTACAO = PRODUTOSTy.OBSERVACAO;//STRING
+                    PRODUTODATAMODELIMEXAPPTy.STATIVO = !chkInativo.Checked;//BOOLEAN
+                    PRODUTODATAMODELIMEXAPPTy.VVENDA = Convert.ToDecimal(PRODUTOSTy.VALORVENDA1);// DECIMAL NUMBER
+                    PRODUTODATAMODELIMEXAPPTy.XMEUID = _IDPRODUTO.ToString();// STRING
+
+                    DateTime _DTCADASTRO = Convert.ToDateTime(PRODUTOSTy.DATACADASTRO);
+                    PRODUTODATAMODELIMEXAPPTy.DTCADASTRO = Convert.ToDateTime(_DTCADASTRO.ToString("yyyy-MM-dd"));
+
+                    PRODUTODATAMODELIMEXAPPTy.XNCM = PRODUTOSTy.NCMSH;   //STRING
+                    PRODUTODATAMODELIMEXAPPTy.XCFOP = PRODUTOSTy.CFOP; //STRING
+                    PRODUTODATAMODELIMEXAPPTy.CCEST = PRODUTOSTy.CEST; //STRING
+
+                    PRODUTODATAMODELIMEXAPPP.Save(PRODUTODATAMODELIMEXAPPTy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
             }
         }
 
@@ -1671,6 +1713,18 @@ namespace BmsSoftware.Modulos.Cadastros
                 else if (Convert.ToInt32(cbSitTributaria.SelectedValue) == 1 && txtPorcICMS.Text == "0,00")
                 {
                     errorProvider1.SetError(label24, ConfigMessage.Default.CampoObrigatorio);
+                    Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
+                    result = false;
+                }
+                else if (Convert.ToInt32(cbUnidade.SelectedValue) < 1)
+                {
+                    errorProvider1.SetError(label7, ConfigMessage.Default.CampoObrigatorio);
+                    Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
+                    result = false;
+                }
+                else if (Convert.ToInt32(cbGrupoCategoria.SelectedValue) < 1)
+                {
+                    errorProvider1.SetError(label10, ConfigMessage.Default.CampoObrigatorio);
                     Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
                     result = false;
                 }
@@ -2158,21 +2212,8 @@ namespace BmsSoftware.Modulos.Cadastros
                 {
                     try
                     {
-                        PRODUTOSP.Delete(_IDPRODUTO); 
-
-                        //Deleta o produto no bd Gdoor
-                        if (CONFISISTEMAP.Read(1).FLAGCUPOMFISCAL.TrimEnd() == "S")
-                        {
-                            ESTOQUEGDP.Delete(_IDPRODUTO.ToString());
-                        }
-
-                        //Deleta o produto no bd FastComercio
-                        if (CONFISISTEMAP.Read(1).FLAGCUPOMFAST.TrimEnd() == "S")
-                        {
-                            PRODUTOFASTP.Delete(_IDPRODUTO);
-                        }
-
-                        
+                        PRODUTOSP.Delete(_IDPRODUTO);
+                        DeleteIMEXAPP(_IDPRODUTO);
 
                         Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
                         Entity = null;
@@ -2186,6 +2227,24 @@ namespace BmsSoftware.Modulos.Cadastros
                     }
 
                 }
+            }
+        }
+
+        private void DeleteIMEXAPP(int IDREGISTRO)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    int result = PRODUTODATAMODELIMEXAPPP.GetID(IDREGISTRO);
+                    PRODUTODATAMODELIMEXAPPP.Delete(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+
+
             }
         }
 
@@ -3318,6 +3377,7 @@ namespace BmsSoftware.Modulos.Cadastros
                                 CodigoSelect = Convert.ToInt32(LIS_PRODUTOSColl[rowindex].IDPRODUTO);
                                 //Delete Pedido
                                 PRODUTOSP.Delete(CodigoSelect);
+                                DeleteIMEXAPP(_IDPRODUTO);
 
                                 button4_Click(null, null);
 
@@ -3392,19 +3452,31 @@ namespace BmsSoftware.Modulos.Cadastros
         {
             try
             {
-                DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização dos Dados?",
+                DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização no IMEX App?",
                            ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
 
                 if (dr == DialogResult.Yes)
                 {
-                    CreaterCursor Cr = new CreaterCursor();
-                    this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
+                  
+                    int Contador = 0;
+                    foreach (var item in LIS_PRODUTOSColl)
+                    {
+                        if (item.FLAGINATIVO == "N")
+                        {
+                            CreaterCursor Cr = new CreaterCursor();
+                            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
 
-                    Sicroniza Sic = new Sicroniza();
-                    Sic.CriaArquivoCSV();
-                    MessageBox.Show("Sicronização Feita com Sucesso!");
+                            PRODUTOSEntity PRODUTOSTy2 = new PRODUTOSEntity();
+                            PRODUTOSTy2 = PRODUTOSP.Read(Convert.ToInt32(item.IDPRODUTO));
+                            _IDPRODUTO = PRODUTOSTy2.IDPRODUTO;
+                            SalveIMEXAPP(PRODUTOSTy2);
+                            Contador++;
 
-                    this.Cursor = Cursors.Default;
+                            this.Cursor = Cursors.Default;
+                        }
+                    }
+                    
+                    MessageBox.Show("Total de Produtos Sicronizados: " + Contador.ToString());                    
                 }
             }
             catch (Exception ex)

@@ -38,5 +38,23 @@
     <Setting Name="GetRegistrosPrazo" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiPrazo/GetRegistros/</Value>
     </Setting>
+    <Setting Name="PostEnderecos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/Post</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosEnderecos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/Delete/</Value>
+    </Setting>
+    <Setting Name="GetRegistrosEnderecos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/GetRegistros/</Value>
+    </Setting>
+    <Setting Name="PostProdutos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiProduto/Post</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosProdutos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiProduto/Delete/</Value>
+    </Setting>
+    <Setting Name="GetRegistrosProdutos" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiProduto/GetRegistros/</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

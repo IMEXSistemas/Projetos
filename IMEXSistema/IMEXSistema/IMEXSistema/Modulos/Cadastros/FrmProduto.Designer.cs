@@ -765,7 +765,7 @@
             this.uploadDeSicronizaçãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uploadDeSicronizaçãoToolStripMenuItem.Image")));
             this.uploadDeSicronizaçãoToolStripMenuItem.Name = "uploadDeSicronizaçãoToolStripMenuItem";
             this.uploadDeSicronizaçãoToolStripMenuItem.Size = new System.Drawing.Size(309, 22);
-            this.uploadDeSicronizaçãoToolStripMenuItem.Text = "Upload de Sicronização";
+            this.uploadDeSicronizaçãoToolStripMenuItem.Text = "Sicronização no IMEX App";
             this.uploadDeSicronizaçãoToolStripMenuItem.Click += new System.EventHandler(this.uploadDeSicronizaçãoToolStripMenuItem_Click);
             // 
             // toolStripMenuItem6

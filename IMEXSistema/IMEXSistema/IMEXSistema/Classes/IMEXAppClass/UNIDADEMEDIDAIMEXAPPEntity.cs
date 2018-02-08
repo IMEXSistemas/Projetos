@@ -10,7 +10,7 @@ namespace BMSworks.IMEXAppClass
         public int? NCASASDECIMAIS { get; set; }
         public int IDEMPRESA { get; set; }
         public DateTime? DTULTIMAALTERACAO { get; set; }
-        public Boolean STATIVO { get; set; }
+        public Boolean? STATIVO { get; set; }
         public string XSIGLA { get; set; }
         public string IDASPNETUSERSINCLUSAO { get; set; }
         public string XMEUID { get; set; }

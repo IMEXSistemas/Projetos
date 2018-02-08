@@ -7825,7 +7825,10 @@ namespace BmsSoftware.Modulos.Vendas
                     prod[x, 3] = ProdutoNFe.NCMSH.Replace(",", "").Replace("-", "").TrimEnd();  							//<NCM>
                     prod[x, 109] = "";                                           								//<NVE>
 
-                    prod[x, 146] = ProdutoNFe.CEST;// "1231237";  		//<CEST>   CEST (Código Especificador da Substituição Tributária)
+                    if(ProdutoNFe.CEST.Trim() == string.Empty)
+                        prod[x, 146] = "1231237";// "1231237";  		//<CEST>   CEST (Código Especificador da Substituição Tributária)
+                    else
+                        prod[x, 146] = ProdutoNFe.CEST;// "1231237";  		//<CEST>   CEST (Código Especificador da Substituição Tributária)
 
                     //indEscala somente na versao 4.0
                     //<indEscala> Indicador de Escala Relevante - S - Produzido em Escala Relevante; N – Produzido em Escala NÃO Relevante.
@@ -8463,9 +8466,14 @@ namespace BmsSoftware.Modulos.Vendas
                     if(LIS_DUPLICATARECEBERColl.Count > 0)
                         pag[0] = "14";                          // <tPag> *14=Duplicata Mercantil 
 
+                    if(chkDevolucao.Checked)
+                        pag[0] ="90" ;//90= Sem pagamento    
+
+                    if (chkAjuste.Checked)
+                        pag[0] = "90";//90= Sem pagamento  
+
                     string vPagtoFormaPagamento = Convert.ToDecimal(txtTotalNota2.Text).ToString("n2").Replace(".", "").Replace(",", ".");
                     pag[1] = vPagtoFormaPagamento;                      // <vPag> Valor do Pagamento
-
 
                     /* 1=Pagamento integrado com o sistema de automação da empresa (Ex.: equipamento TEF, Comércio Eletrônico);
                      * 2= Pagamento não integrado com o sistema de automação da empresa (Ex.: equipamento POS); */

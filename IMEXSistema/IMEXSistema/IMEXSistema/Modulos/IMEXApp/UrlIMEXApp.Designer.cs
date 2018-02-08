@@ -166,5 +166,77 @@ namespace BmsSoftware.Modulos.IMEXApp {
                 this["GetRegistrosPrazo"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/Post")]
+        public string PostEnderecos {
+            get {
+                return ((string)(this["PostEnderecos"]));
+            }
+            set {
+                this["PostEnderecos"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/Delete/")]
+        public string DeleteRegistrosEnderecos {
+            get {
+                return ((string)(this["DeleteRegistrosEnderecos"]));
+            }
+            set {
+                this["DeleteRegistrosEnderecos"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/GetRegistros/")]
+        public string GetRegistrosEnderecos {
+            get {
+                return ((string)(this["GetRegistrosEnderecos"]));
+            }
+            set {
+                this["GetRegistrosEnderecos"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiProduto/Post")]
+        public string PostProdutos {
+            get {
+                return ((string)(this["PostProdutos"]));
+            }
+            set {
+                this["PostProdutos"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiProduto/Delete/")]
+        public string DeleteRegistrosProdutos {
+            get {
+                return ((string)(this["DeleteRegistrosProdutos"]));
+            }
+            set {
+                this["DeleteRegistrosProdutos"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiProduto/GetRegistros/")]
+        public string GetRegistrosProdutos {
+            get {
+                return ((string)(this["GetRegistrosProdutos"]));
+            }
+            set {
+                this["GetRegistrosProdutos"] = value;
+            }
+        }
     }
 }

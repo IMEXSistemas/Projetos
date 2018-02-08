@@ -20,10 +20,11 @@ namespace BmsSoftware.Modulos.Cadastros
         Utility Util = new Utility();
 
         UNIDADEProvider UNIDADEP = new UNIDADEProvider();
-        CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
+        
         UNIDADEMEDIDAIMEXAPPProvider UNIDADEMEDIDAIMEXAPPP = new UNIDADEMEDIDAIMEXAPPProvider();
 
-        UNIDADECollection UNIDADEColl = new UNIDADECollection();        
+        UNIDADECollection UNIDADEColl = new UNIDADECollection();
+        CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
         CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
 
 
@@ -173,7 +174,13 @@ namespace BmsSoftware.Modulos.Cadastros
             errorProvider1.Clear();
             if (txtNome.Text.Trim().Length == 0)
             {
-                errorProvider1.SetError(txtNome, ConfigMessage.Default.CampoObrigatorio);
+                errorProvider1.SetError(label1, ConfigMessage.Default.CampoObrigatorio);
+                Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
+                result = false;
+            }
+            else if (txtObservacao.Text.Trim().Length == 0)
+            {
+                errorProvider1.SetError(label12, ConfigMessage.Default.CampoObrigatorio);
                 Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
                 result = false;
             }

@@ -543,6 +543,8 @@
     <Compile Include="Classes\IMEXAppClass\TRANSPORTADORAIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\CONDICAOPAGAMENTOIMEXAPPEntity.cs" />
     <Compile Include="Classes\IMEXAppClass\CONDICAOPAGAMENTOIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\PRODUTODATAMODELIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\PRODUTODATAMODELIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPEntity.cs" />
     <Compile Include="Classes\IMEXAppClass\CATEGORIAPRODUTOIMEXAPPEntity.cs" />

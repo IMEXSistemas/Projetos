@@ -9,7 +9,7 @@ namespace BMSworks.IMEXAppClass
         public string STENDERECO { get; set; }
         public string XCEP { get; set; }
         public string XENDERECO { get; set; }
-        public int CNUMERO { get; set; }
+        public int? CNUMERO { get; set; }
         public string XCOMPLEMENTO { get; set; }
         public string XBAIRRO { get; set; }
         public string XCIDADE { get; set; }
@@ -19,7 +19,7 @@ namespace BMSworks.IMEXAppClass
         public string IDASPNETUSERSINCLUSAO { get; set; }
         public string XLATITUDE { get; set; }
         public string XLONGITUDE { get; set; }
-        public int IDEMPRESA { get; set; }
+        public int? IDEMPRESA { get; set; }
         public DateTime? DTULTIMAALTERACAO { get; set; }
         public string IDASPNETUSERS { get; set; }
         public DateTime? DTCADASTRO { get; set; }

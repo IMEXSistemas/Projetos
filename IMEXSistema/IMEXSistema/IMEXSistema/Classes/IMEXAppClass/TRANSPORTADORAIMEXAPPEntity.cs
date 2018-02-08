@@ -16,12 +16,12 @@ namespace BMSworks.IMEXAppClass
         public string XEMAILS { get; set; }
         public string XTELEFONES { get; set; }
         public int IDEMPRESA { get; set; }
-        public Boolean STATIVO { get; set; }
+        public Boolean? STATIVO { get; set; }
         public DateTime? DTULTIMAALTERACAO { get; set; }
         public string XMEUID { get; set; }
         public string IDASPNETUSERSINCLUSAO { get; set; }
-        public int IDINTEGRACAO { get; set; }
-        public int STATUALIZADO { get; set; }
+        public int? IDINTEGRACAO { get; set; }
+        public int? STATUALIZADO { get; set; }
         public List<ENDERECOIMEXAPPEntity> ENDERECO { get; set; }
     }
    

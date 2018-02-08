@@ -159,6 +159,8 @@
             this.txtRecepcaoEvento = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
             this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.txtIDASPNETUSERSINCLUSAO = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.txtIDRepresIMEXAPP = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.TxtIDEmpresaIMEXAPP = new System.Windows.Forms.TextBox();
@@ -173,8 +175,6 @@
             this.btnSalva = new System.Windows.Forms.Button();
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
-            this.txtIDASPNETUSERSINCLUSAO = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -1550,12 +1550,29 @@
             this.tabPage8.Text = "IMEX App";
             this.tabPage8.UseVisualStyleBackColor = true;
             // 
+            // txtIDASPNETUSERSINCLUSAO
+            // 
+            this.txtIDASPNETUSERSINCLUSAO.Location = new System.Drawing.Point(258, 42);
+            this.txtIDASPNETUSERSINCLUSAO.MaxLength = 50;
+            this.txtIDASPNETUSERSINCLUSAO.Name = "txtIDASPNETUSERSINCLUSAO";
+            this.txtIDASPNETUSERSINCLUSAO.Size = new System.Drawing.Size(240, 20);
+            this.txtIDASPNETUSERSINCLUSAO.TabIndex = 227;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(255, 26);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(158, 13);
+            this.label12.TabIndex = 228;
+            this.label12.Text = "ID ASPNETUSERSINCLUSAO:";
+            // 
             // txtIDRepresIMEXAPP
             // 
             this.txtIDRepresIMEXAPP.Location = new System.Drawing.Point(77, 81);
             this.txtIDRepresIMEXAPP.MaxLength = 50;
             this.txtIDRepresIMEXAPP.Name = "txtIDRepresIMEXAPP";
-            this.txtIDRepresIMEXAPP.Size = new System.Drawing.Size(59, 20);
+            this.txtIDRepresIMEXAPP.Size = new System.Drawing.Size(94, 20);
             this.txtIDRepresIMEXAPP.TabIndex = 225;
             // 
             // label29
@@ -1666,23 +1683,6 @@
             // 
             this.openFileDialog2.FileName = "openFileDialog1";
             this.openFileDialog2.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog2_FileOk);
-            // 
-            // txtIDASPNETUSERSINCLUSAO
-            // 
-            this.txtIDASPNETUSERSINCLUSAO.Location = new System.Drawing.Point(258, 42);
-            this.txtIDASPNETUSERSINCLUSAO.MaxLength = 50;
-            this.txtIDASPNETUSERSINCLUSAO.Name = "txtIDASPNETUSERSINCLUSAO";
-            this.txtIDASPNETUSERSINCLUSAO.Size = new System.Drawing.Size(240, 20);
-            this.txtIDASPNETUSERSINCLUSAO.TabIndex = 227;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(255, 26);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(158, 13);
-            this.label12.TabIndex = 228;
-            this.label12.Text = "ID ASPNETUSERSINCLUSAO:";
             // 
             // FrmConfigSistema
             // 

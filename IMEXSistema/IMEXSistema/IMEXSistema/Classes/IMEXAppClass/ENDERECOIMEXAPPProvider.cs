@@ -38,7 +38,7 @@ namespace BMSworks.IMEXAppClass
                 CONFISISTEMATy = CONFISISTEMAP.Read(1);
 
                 string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
-                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostCategroriaProduto;          
+                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostEnderecos;          
 
             //    Entity.IDTRANSPORTADORA = TRANSPORTADORAIMEXAPPP.GetID(Convert.ToInt32(Entity.XMEUID));
                 Entity.IDEMPRESA = Convert.ToInt32(CONFISISTEMATy.IDEMPRESAIMEXAPP);
@@ -46,6 +46,7 @@ namespace BMSworks.IMEXAppClass
                 Entity.DTULTIMAALTERACAO = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd"));
                 Entity.DTCADASTRO = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-ddT00:00:00"));
                 Entity.STPRINCIPAL = true;
+                Entity.STENDERECO = "CO";
                 Entity.XLATITUDE = "0";
                 Entity.XLONGITUDE = "0";
 
@@ -65,7 +66,48 @@ namespace BMSworks.IMEXAppClass
             {
                 MessageBox.Show("Erro Técnico: " + ex.Message);
             }
-        }       
+        }
+
+        public int GetID(int CodRegistro)
+        {
+            int Result = -1;
+            try
+            {
+                //Busca dados da Configuração
+                CONFISISTEMATy = CONFISISTEMAP.Read(1);
+                string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
+                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosEnderecos;
+                URI = URI + token + "/" + "2016-06-19T00:00:00";
+
+
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(URI);
+                    MediaTypeWithQualityHeaderValue contentType = new MediaTypeWithQualityHeaderValue("application/json");
+                    client.DefaultRequestHeaders.Accept.Add(contentType);
+                    HttpResponseMessage response = client.GetAsync(URI).Result;
+                    var stringData = response.Content.ReadAsStringAsync().Result;
+
+                    int tamanhostring = stringData.Length;
+                    int posinicio = stringData.IndexOf("[");
+                    string ProdutoJsonString2 = stringData.ToString().Substring(posinicio, tamanhostring - posinicio);
+                    int posifim = ProdutoJsonString2.IndexOf("Message");
+                    ProdutoJsonString2 = ProdutoJsonString2.ToString().Substring(0, posifim - 2);
+                    string jsonString = ProdutoJsonString2;
+
+                    ENDERECOIMEXAPPColl = DeserializeToList<ENDERECOIMEXAPPEntity>(jsonString);
+                }
+
+                //Localiza o ID
+                Result = BuscaID(CodRegistro);
+                return Result;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+                return Result;
+            }
+        }
 
         public async void Delete(int CodRegistro)
         {
@@ -74,43 +116,13 @@ namespace BMSworks.IMEXAppClass
                 //Busca dados da Configuração
                 CONFISISTEMATy = CONFISISTEMAP.Read(1);
                 string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
-                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosCategoriaProduto;
-                URI = URI + token + "/" + "2016-06-19T00:00:00";
+                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosEnderecos + token + "/";
 
-                //Busca Lista de Registros
-                using (var client = new HttpClient())
-                {
-                    using (var response = await client.GetAsync(URI))
-                    {
-                        if (response.IsSuccessStatusCode)
-                        {
-                            var ProdutoJsonString = await response.Content.ReadAsStringAsync();
-                            int tamanhostring = ProdutoJsonString.ToString().Length;
-                            int posinicio = ProdutoJsonString.IndexOf("[");
-                            string ProdutoJsonString2 = ProdutoJsonString.ToString().Substring(posinicio, tamanhostring - posinicio);
-                            int posifim = ProdutoJsonString2.IndexOf("]");
-                            ProdutoJsonString2 = ProdutoJsonString2.ToString().Substring(0, posifim + 1);
-
-                            string jsonString = ProdutoJsonString2;
-                            ENDERECOIMEXAPPColl = DeserializeToList<ENDERECOIMEXAPPEntity>(jsonString);
-                        }
-                        else
-                        {
-                            MessageBox.Show("Não foi possível obter o produto : " + response.StatusCode);
-                        }
-                    }
-                }
-
-                //Localiza o ID a ser excluido
-                int IDRegistro = BuscaID(CodRegistro);
-
-                token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
-                URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosCategoriaProduto + token + "/";
                 //exclui o registro
                 using (var client = new HttpClient())
                 {
                     client.BaseAddress = new Uri(URI);
-                    HttpResponseMessage responseMessage = await client.DeleteAsync(String.Format("{0}/{1}", URI, IDRegistro));
+                    HttpResponseMessage responseMessage = await client.DeleteAsync(String.Format("{0}/{1}", URI, CodRegistro));
 
                     if (!responseMessage.IsSuccessStatusCode)
                         MessageBox.Show("Falha ao Exxcluir Registro: " + responseMessage.StatusCode);

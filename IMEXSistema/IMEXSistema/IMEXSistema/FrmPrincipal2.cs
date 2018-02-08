@@ -204,18 +204,24 @@ namespace BMSSoftware
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostUnidaDeMedida = "http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/Post";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostTransportadora = "http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/Post";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostPrazo = "http://hlpsistemas.sytes.net:8085/api/ApiPrazo/Post";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostEnderecos = "http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/Post";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostProdutos = "http://hlpsistemas.sytes.net:8085/api/ApiProduto/Post";
 
                     //Get Registros
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosCategoriaProduto = "http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/GetRegistros/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosUnidadeMedida = "http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/GetRegistros/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosTransportadora = "http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/GetRegistros/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosPrazo = "http://hlpsistemas.sytes.net:8085/api/ApiPrazo//GetRegistros/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosEnderecos = "http://hlpsistemas.sytes.net:8085/api/ApiEnderecos//GetRegistros/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosProdutos = "http://hlpsistemas.sytes.net:8085/api/ApiProduto//GetRegistros/";
 
                     //Delete
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosCategoriaProduto = "http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/Delete/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosUnidadedeMedida = "http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/Delete/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosTransportadora = "http://hlpsistemas.sytes.net:8085/api/ApiTransportadora/Delete/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosPrazo = "http://hlpsistemas.sytes.net:8085/api/ApiPrazo/Delete/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosEnderecos = "http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/Delete/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosProdutos = "http://hlpsistemas.sytes.net:8085/api/ApiProduto/Delete/";
 
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.Save();
                 }
