@@ -20,7 +20,7 @@ using BmsSoftware.Classes.BMSworks.UI;
 using winfit.Modulos.Outros;
 using BmsSoftware.Modulos;
 using BmsSoftware.Modulos.Financeiro;
-
+using BMSworks.IMEXAppClass;
 
 namespace BMSSoftware.Modulos.Cadastros
 {
@@ -55,7 +55,10 @@ namespace BMSSoftware.Modulos.Cadastros
         CLIENTEGDProvider CLIENTEGDP = new CLIENTEGDProvider();
         CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
         ENDENTREGARCLIENTEProvider ENDENTREGARCLIENTEP = new ENDENTREGARCLIENTEProvider();
-        CLIENTEFASTProvider CLIENTEFASTP = new CLIENTEFASTProvider();      
+        CLIENTEFASTProvider CLIENTEFASTP = new CLIENTEFASTProvider();
+
+        CLIENTEIMEXAPPProvider CLIENTEIMEXAPPP = new CLIENTEIMEXAPPProvider();
+        CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
 
         RowsFiltro filtroProfile = new RowsFiltro();
         RowsFiltroCollection Filtro = new RowsFiltroCollection();
@@ -336,7 +339,9 @@ namespace BMSSoftware.Modulos.Cadastros
 
             this.MinimizeBox = false;
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            
+
+            CONFISISTEMATy = CONFISISTEMAP.Read(1);
+
             GetDropVendedor();
             GetToolStripButtonCadastro();
             PreencheDropTipoPesquisa();          
@@ -658,26 +663,10 @@ namespace BMSSoftware.Modulos.Cadastros
                         Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
                         btnPesquisa_Click(null, null);
                     }
-                   
-                }
 
-                //Sobe arquivo csv para servidor para fazer a sicronização
-                if (BmsSoftware.ConfigSistema1.Default.UploadSicron == "S")
-                {
-                    Sicroniza Sic = new Sicroniza();
-                    Sic.CriaArquivoCSV();
-                }  //Sobre arquivo csv para servidor para fazer a sicronização
-                if (BmsSoftware.ConfigSistema1.Default.UploadSicron == "S")
-                {
-                    DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização dos Dados?",
-                           ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
-
-                    if (dr == DialogResult.Yes)
-                    {
-                        Sicroniza Sic = new Sicroniza();
-                        Sic.CriaArquivoCSV();
-                    }
+                    SalveIMEXAPP(Entity);
                 }
+                
 
                 this.Cursor = Cursors.Default;
 
@@ -689,6 +678,45 @@ namespace BMSSoftware.Modulos.Cadastros
                 Util.ExibirMSg(ConfigMessage.Default.MsgSaveErro, "Red");
                 MessageBox.Show("Erro técnico: " + ex.Message);
 
+            }
+        }
+
+        private void SalveIMEXAPP(CLIENTEEntity CLIENTETy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    CLIENTEIMEXAPPEntity CLIENTEIMEXAPPTy = new CLIENTEIMEXAPPEntity();
+
+                    CLIENTEIMEXAPPTy.STATIVO = CLIENTETy.FLAGBLOQUEADO == "S" ? false : true;   //BOOLEAN //flagbloqueado
+                    CLIENTEIMEXAPPTy.XRAZAOSOCIAL = CLIENTETy.NOME;	//STRING
+                    CLIENTEIMEXAPPTy.XFANTASIA = CLIENTETy.APELIDO; //STRING
+
+                    CLIENTEIMEXAPPTy.STJURIDICO = 0;// 0 - juridico - 1 fisico )
+                    CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CNPJ;	//STRING
+                    if (Util.RetiraLetras(CLIENTETy.CPF).Length > 0)
+                    {
+                        CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CPF;  //STRING
+                        CLIENTEIMEXAPPTy.STJURIDICO = 1;// 0 - juridico - 1 fisico )
+                    }
+
+                    CLIENTEIMEXAPPTy.XRGIE = CLIENTETy.IE;	//STRING
+                    CLIENTEIMEXAPPTy.XANOTACAO = CLIENTETy.OBSERVACAO;  //STRING
+
+                    DateTime _DEFETIVACAO = Convert.ToDateTime(CLIENTETy.DATACADASTRO);
+                    CLIENTEIMEXAPPTy.DEFETIVACAO = Convert.ToDateTime(_DEFETIVACAO.ToString("yyyy-MM-dd"));	//DATE
+
+                    CLIENTEIMEXAPPTy.XTELEFONES = CLIENTETy.TELEFONE1 + " " + CLIENTETy.TELEFONE2 + " " + CLIENTETy.FAX;	//STRING
+                    CLIENTEIMEXAPPTy.XEMAIL = CLIENTETy.EMAILCLIENTE;	//STRING
+                    CLIENTEIMEXAPPTy.DTCADASTRO = Convert.ToDateTime(_DEFETIVACAO.ToString("yyyy-MM-dd"));  //DATE
+                    CLIENTEIMEXAPPTy.XMEUID = CLIENTETy.IDCLIENTE.ToString();	//STRING
+                    CLIENTEIMEXAPPP.Save(CLIENTEIMEXAPPTy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
             }
         }
 
@@ -1180,6 +1208,7 @@ namespace BMSSoftware.Modulos.Cadastros
                     {
                        
                         ClienteP.Delete(_IDCLIENTE);
+                        DeleteIMEXAPP(_IDCLIENTE);
 
                         Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
                         Entity = null;
@@ -1192,6 +1221,24 @@ namespace BMSSoftware.Modulos.Cadastros
                     }
 
                 }
+            }
+        }
+
+        private void DeleteIMEXAPP(int IDREGISTRO)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    int result = CLIENTEIMEXAPPP.GetID(IDREGISTRO);
+                    CLIENTEIMEXAPPP.Delete(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+
+
             }
         }
 
@@ -2873,8 +2920,9 @@ namespace BMSSoftware.Modulos.Cadastros
                                CodigoSelect = Convert.ToInt32(LIS_ClienteColl[rowindex].IDCLIENTE);
                                //Delete Pedido
                                ClienteP.Delete(CodigoSelect);
+                                DeleteIMEXAPP(CodigoSelect);
 
-                               btnPesquisa_Click(null, null);
+                                btnPesquisa_Click(null, null);
 
                                Entity = null;
                                Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");

@@ -320,6 +320,7 @@ namespace BMSworks.Firebird
                 dbCommand.Parameters.AddWithValue("@IDEMPRESAIMEXAPP", Entity.IDEMPRESAIMEXAPP); //Coluna 
                 dbCommand.Parameters.AddWithValue("@IDREPRESIMEXAPP", Entity.IDREPRESIMEXAPP); //Coluna 
                 dbCommand.Parameters.AddWithValue("@FLAGIMEXAPP", Entity.FLAGIMEXAPP); //Coluna 
+                dbCommand.Parameters.AddWithValue("@FLAGBAIXAESTOQUENFCE", Entity.FLAGBAIXAESTOQUENFCE); //Coluna 
 
 
 
@@ -378,7 +379,7 @@ namespace BMSworks.Firebird
             string FLAGBAIXAESTOQUENF, string OPERADORASMS, string FLAGLIMITECREDITO, string FLAGHABNFE, string FLAGMSGFECHA, 
             string FLAGCUPOMFAST, string FLABACKUP, string FLAGCSTECF, string FLAGCODREFNFE,
             string TOKENIMEXAPP, string IDASPNETUSERSINCLUSAO, string IDEMPRESAIMEXAPP, string IDREPRESIMEXAPP,
-            string FLAGIMEXAPP)
+            string FLAGIMEXAPP, string FLAGBAIXAESTOQUENFCE)
 		{	
 			int result = 0;
 
@@ -511,8 +512,8 @@ namespace BMSworks.Firebird
                 dbCommand.Parameters.AddWithValue("@IDEMPRESAIMEXAPP", IDEMPRESAIMEXAPP); //Coluna 
                 dbCommand.Parameters.AddWithValue("@IDREPRESIMEXAPP", IDREPRESIMEXAPP); //Coluna 
                 dbCommand.Parameters.AddWithValue("@FLAGIMEXAPP", FLAGIMEXAPP); //Coluna                
-
-
+                dbCommand.Parameters.AddWithValue("@FLAGBAIXAESTOQUENFCE", FLAGBAIXAESTOQUENFCE); //Coluna                
+                
 
                 //Retorno da Procedure
                 FbParameter returnValue;
@@ -1188,7 +1189,8 @@ namespace BMSworks.Firebird
             entity.IDREPRESIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("IDREPRESIMEXAPP"));
             entity.FLAGIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLAGIMEXAPP"));
             entity.FLAGIMEXAPP = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLAGIMEXAPP"));
-
+            entity.FLAGBAIXAESTOQUENFCE = getData.ConvertDBValueToStringNullable(DataReader, DataReader.GetOrdinal("FLAGBAIXAESTOQUENFCE"));
+            
 
             return entity;
 		}

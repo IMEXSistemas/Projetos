@@ -197,6 +197,7 @@ namespace BmsSoftware.Modulos.Operacional
                 string FLAGCPDIGISAT  = "N";
                 string PATHRECEPDIGISAT = "";
                 string FLAGBAIXAESTOQUENF = chkBaixaEstoqueNFe.Checked == true ? "S" : "N";
+                string FLAGBAIXAESTOQUENFCE = chkBaixaEstoqueNFCe.Checked == true ? "S" : "N";
                 string OPERADORASMS = "";
                 string FLAGLIMITECREDITO = chkLimitCredCliente.Checked == true ? "S" : "N";
                 string FLAGHABNFE = "S";
@@ -233,7 +234,7 @@ namespace BmsSoftware.Modulos.Operacional
                                               FLAGLIMITECREDITO, FLAGHABNFE, FLAGMSGFECHA, FLAGCUPOMFAST,
                                               FLAGBACKUP, FLAGCSTECF, FLAGCODREFNFE, TOKENIMEXAPP,
                                               IDASPNETUSERSINCLUSAO, IDEMPRESAIMEXAPP, IDREPRESIMEXAPP,
-                                              FLAGIMEXAPP);
+                                              FLAGIMEXAPP, FLAGBAIXAESTOQUENFCE);
             }
             set
             {
@@ -296,6 +297,7 @@ namespace BmsSoftware.Modulos.Operacional
                     chkEstoqueNegativo.Checked = value.ESTOQUENEGATIVO.TrimEnd() == "S" ? true : false;
                     chkExibirCPFCNPJPedido.Checked = value.FLAGCPFCNPJPEDIDO.TrimEnd() == "S" ? true : false;                  
                     chkBaixaEstoqueNFe.Checked = value.FLAGBAIXAESTOQUENF.TrimEnd() == "S" ? true : false;
+                    chkBaixaEstoqueNFCe.Checked = value.FLAGBAIXAESTOQUENFCE.TrimEnd() == "S" ? true : false;
                     chkLimitCredCliente.Checked = value.FLAGLIMITECREDITO.TrimEnd() == "S" ? true : false;
                     chkMsgUsuario.Checked = value.FLAGMSGFECHA.TrimEnd() == "S" ? true : false;                   
                     chkBackupAtu.Checked = value.FLABACKUP.TrimEnd() == "S" ? true : false;

@@ -56,5 +56,29 @@
     <Setting Name="GetRegistrosProdutos" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiProduto/GetRegistros/</Value>
     </Setting>
+    <Setting Name="PostClientes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiClientes/Post</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosClientes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiClientes/Delete/</Value>
+    </Setting>
+    <Setting Name="GetRegistrosClientes" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiClientes/GetRegistros/</Value>
+    </Setting>
+    <Setting Name="PostRamoAtividade" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiRamoAtividade/Post</Value>
+    </Setting>
+    <Setting Name="DeleteRegistrosRamoAtividade" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiRamoAtividade/Delete/</Value>
+    </Setting>
+    <Setting Name="GetRegistrosRamoAtividade" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiRamoAtividade/GetRegistros/</Value>
+    </Setting>
+    <Setting Name="PostPreco" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/Precos/Post</Value>
+    </Setting>
+    <Setting Name="GetRegistrosPreco" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/Precos/GetRegistros/</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

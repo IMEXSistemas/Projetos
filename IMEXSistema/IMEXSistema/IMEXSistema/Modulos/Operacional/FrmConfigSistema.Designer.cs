@@ -175,6 +175,7 @@
             this.btnSalva = new System.Windows.Forms.Button();
             this.openFileDialog3 = new System.Windows.Forms.OpenFileDialog();
             this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.chkBaixaEstoqueNFCe = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -825,6 +826,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.chkBaixaEstoqueNFCe);
             this.tabPage2.Controls.Add(this.chPedidBalcao);
             this.tabPage2.Controls.Add(this.chkMesas);
             this.tabPage2.Controls.Add(this.chkAvisoRenovacaoSuporte);
@@ -1684,6 +1686,16 @@
             this.openFileDialog2.FileName = "openFileDialog1";
             this.openFileDialog2.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog2_FileOk);
             // 
+            // chkBaixaEstoqueNFCe
+            // 
+            this.chkBaixaEstoqueNFCe.AutoSize = true;
+            this.chkBaixaEstoqueNFCe.Location = new System.Drawing.Point(628, 172);
+            this.chkBaixaEstoqueNFCe.Name = "chkBaixaEstoqueNFCe";
+            this.chkBaixaEstoqueNFCe.Size = new System.Drawing.Size(142, 17);
+            this.chkBaixaEstoqueNFCe.TabIndex = 274;
+            this.chkBaixaEstoqueNFCe.Text = "Baixar Estoque na NFCe";
+            this.chkBaixaEstoqueNFCe.UseVisualStyleBackColor = true;
+            // 
             // FrmConfigSistema
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1877,5 +1889,6 @@
         private System.Windows.Forms.CheckBox chkFlagIMEXApp;
         private System.Windows.Forms.TextBox txtIDASPNETUSERSINCLUSAO;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.CheckBox chkBaixaEstoqueNFCe;
     }
 }

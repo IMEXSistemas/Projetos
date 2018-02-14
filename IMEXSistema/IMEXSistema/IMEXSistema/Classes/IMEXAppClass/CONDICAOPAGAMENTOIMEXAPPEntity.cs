@@ -5,7 +5,7 @@ namespace BMSworks.IMEXAppClass
 {
     public class CONDICAOPAGAMENTOIMEXAPPEntity
     {
-        public int? IDCONDICAPAGAMENTO { get; set; }
+        public int? IDCONDICAOPAGAMENTO { get; set; }        
         public string XCONDICAOPAGAMENTO { get; set; }
         public string XFORMULA{ get; set; }
         public int? NPARCELAS { get; set; }

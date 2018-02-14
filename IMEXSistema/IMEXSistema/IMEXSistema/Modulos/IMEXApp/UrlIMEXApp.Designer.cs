@@ -238,5 +238,101 @@ namespace BmsSoftware.Modulos.IMEXApp {
                 this["GetRegistrosProdutos"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiClientes/Post")]
+        public string PostClientes {
+            get {
+                return ((string)(this["PostClientes"]));
+            }
+            set {
+                this["PostClientes"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiClientes/Delete/")]
+        public string DeleteRegistrosClientes {
+            get {
+                return ((string)(this["DeleteRegistrosClientes"]));
+            }
+            set {
+                this["DeleteRegistrosClientes"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiClientes/GetRegistros/")]
+        public string GetRegistrosClientes {
+            get {
+                return ((string)(this["GetRegistrosClientes"]));
+            }
+            set {
+                this["GetRegistrosClientes"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiRamoAtividade/Post")]
+        public string PostRamoAtividade {
+            get {
+                return ((string)(this["PostRamoAtividade"]));
+            }
+            set {
+                this["PostRamoAtividade"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiRamoAtividade/Delete/")]
+        public string DeleteRegistrosRamoAtividade {
+            get {
+                return ((string)(this["DeleteRegistrosRamoAtividade"]));
+            }
+            set {
+                this["DeleteRegistrosRamoAtividade"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiRamoAtividade/GetRegistros/")]
+        public string GetRegistrosRamoAtividade {
+            get {
+                return ((string)(this["GetRegistrosRamoAtividade"]));
+            }
+            set {
+                this["GetRegistrosRamoAtividade"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/Precos/Post")]
+        public string PostPreco {
+            get {
+                return ((string)(this["PostPreco"]));
+            }
+            set {
+                this["PostPreco"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/Precos/GetRegistros/")]
+        public string GetRegistrosPreco {
+            get {
+                return ((string)(this["GetRegistrosPreco"]));
+            }
+            set {
+                this["GetRegistrosPreco"] = value;
+            }
+        }
     }
 }

@@ -87,6 +87,7 @@ namespace BMSworks.Model
         private string _IDEMPRESAIMEXAPP;
         private string _IDREPRESIMEXAPP;
         private string _FLAGIMEXAPP;
+        private string _FLAGBAIXAESTOQUENFCE;
 
 
         #region Construtores
@@ -129,7 +130,7 @@ namespace BMSworks.Model
                                   string FLAGLIMITECREDITO, string FLAGHABNFE, string FLAGMSGFECHA, string FLAGCUPOMFAST, 
                                   string FLABACKUP, string FLAGCSTECF, string FLAGCODREFNFE,
                                   string TOKENIMEXAPP, string IDASPNETUSERSINCLUSAO, string IDEMPRESAIMEXAPP, string IDREPRESIMEXAPP,
-                                  string FLAGIMEXAPP) {
+                                  string FLAGIMEXAPP, string FLAGBAIXAESTOQUENFCE) {
 
 
 			this._IDCONFIGSISTEMA = IDCONFIGSISTEMA;
@@ -213,6 +214,7 @@ namespace BMSworks.Model
             this._IDEMPRESAIMEXAPP = IDEMPRESAIMEXAPP;
             this._IDREPRESIMEXAPP = IDREPRESIMEXAPP;
             this._FLAGIMEXAPP = FLAGIMEXAPP;
+            this._FLAGBAIXAESTOQUENFCE = FLAGBAIXAESTOQUENFCE;
 
         }
 		#endregion
@@ -705,7 +707,12 @@ namespace BMSworks.Model
             set { _FLAGIMEXAPP = value; }
         }
 
-        
+        public string FLAGBAIXAESTOQUENFCE
+        {
+            get { return _FLAGBAIXAESTOQUENFCE; }
+            set { _FLAGBAIXAESTOQUENFCE = value; }
+        }
+
 
         #endregion
     }

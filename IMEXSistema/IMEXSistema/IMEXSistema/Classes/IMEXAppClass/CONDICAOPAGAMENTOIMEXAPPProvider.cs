@@ -36,7 +36,7 @@ namespace BMSworks.IMEXAppClass
                 string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
                 string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostPrazo;
 
-                Entity.IDCONDICAPAGAMENTO = null;
+                Entity.IDCONDICAOPAGAMENTO = null;
                 Entity.IDEMPRESA = Convert.ToInt32(CONFISISTEMATy.IDEMPRESAIMEXAPP);
                 Entity.IDASPNETUSERSINCLUSAO =  CONFISISTEMATy.IDASPNETUSERSINCLUSAO.Trim();
                 Entity.DTULTIMAALTERACAO = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd"));
@@ -126,6 +126,47 @@ namespace BMSworks.IMEXAppClass
             }
         }
 
+        public int GetID()
+        {
+            int Result = -1;
+            try
+            {
+                //Busca dados da Configuração
+                CONFISISTEMATy = CONFISISTEMAP.Read(1);
+                string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
+                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosPrazo;
+                URI = URI + token + "/" + "2016-06-19T00:00:00";
+
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(URI);
+                    MediaTypeWithQualityHeaderValue contentType = new MediaTypeWithQualityHeaderValue("application/json");
+                    client.DefaultRequestHeaders.Accept.Add(contentType);
+                    HttpResponseMessage response = client.GetAsync(URI).Result;
+                    var stringData = response.Content.ReadAsStringAsync().Result;
+
+                    int tamanhostring = stringData.Length;
+                    int posinicio = stringData.IndexOf("[");
+                    string ProdutoJsonString2 = stringData.ToString().Substring(posinicio, tamanhostring - posinicio);
+                    int posifim = ProdutoJsonString2.IndexOf("Message");
+                    ProdutoJsonString2 = ProdutoJsonString2.ToString().Substring(0, posifim - 2);
+                    string jsonString = ProdutoJsonString2;
+
+                    CONDICAOPAGAMENTOIMEXAPPColl = DeserializeToList<CONDICAOPAGAMENTOIMEXAPPEntity>(jsonString);
+                }
+
+                //Localiza o ID
+                if (CONDICAOPAGAMENTOIMEXAPPColl.Count > 0)
+                    Result = Convert.ToInt32(CONDICAOPAGAMENTOIMEXAPPColl[0].IDCONDICAOPAGAMENTO);
+
+                return Result;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+                return Result;
+            }
+        }
 
         public int BuscaID(int IDRegistro)
         {
@@ -137,7 +178,7 @@ namespace BMSworks.IMEXAppClass
                 {
                     if (item.XMEUID == IDRegistro.ToString())
                     {
-                        result = Convert.ToInt32(item.IDCONDICAPAGAMENTO);
+                        result = Convert.ToInt32(item.IDCONDICAOPAGAMENTO);
                         break;
                     }
                 }

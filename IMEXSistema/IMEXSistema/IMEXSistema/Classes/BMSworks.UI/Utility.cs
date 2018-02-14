@@ -25,6 +25,7 @@ namespace BMSworks.UI
 {
     public partial class Utility
     {
+        CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
         MUNICIPIOSProvider MUNICIPIOSProvider = new MUNICIPIOSProvider();
         MUNICIPIOSEntity MUNICIPIOSTy = new MUNICIPIOSEntity();
 
@@ -968,14 +969,11 @@ namespace BMSworks.UI
 
                 foreach (LIS_MOVPRODUTOESEntity item in LIS_MOVPRODUTOESColl)
                 {
-
                     //Somente movimentação de entrada
                     if (item.IDTIPOMOVIMENTACAO == 1)
                         result += Convert.ToDecimal(item.QUANTIDADE);
-
                 }
-
-                CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
+               
                 if (CONFISISTEMAP.Read(1).FLAGBAIXAESTOQUENF.TrimEnd() == "S")
                 {
                     LIS_PRODUTONFECollection LIS_PRODUTONFEColl = new LIS_PRODUTONFECollection();
@@ -991,20 +989,23 @@ namespace BMSworks.UI
                         if (NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGCANCELADA.TrimEnd() == "N" && NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGENVIADA.TrimEnd() == "S")
                             result -= Convert.ToDecimal(item.QUANTIDADE);
                     }
-                }               
+                }
 
 
-                //Cupom Eletronico   NFCe Nota Fiscal de Consumidor Eletronico         
-                LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-                LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
-                RowRelatorio.Clear();
-                RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
-                LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
-                CUPOMProvider CUPOMProvider = new CUPOMProvider();
-                foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
+                if (CONFISISTEMAP.Read(1).FLAGBAIXAESTOQUENFCE.TrimEnd() == "S")
                 {
-                    result -= Convert.ToDecimal(item.QUANTIDADE);
-                }                
+                    //Cupom Eletronico   NFCe Nota Fiscal de Consumidor Eletronico         
+                    LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
+                    LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
+                    RowRelatorio.Clear();
+                    RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
+                    LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+                    CUPOMProvider CUPOMProvider = new CUPOMProvider();
+                    foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
+                    {
+                        result -= Convert.ToDecimal(item.QUANTIDADE);
+                    }
+                }
 
             }
 
@@ -1255,7 +1256,6 @@ namespace BMSworks.UI
 
                 }
 
-                CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
                 if (CONFISISTEMAP.Read(1).FLAGBAIXAESTOQUENF.TrimEnd() == "S")
                 {
                     LIS_PRODUTONFECollection LIS_PRODUTONFEColl = new LIS_PRODUTONFECollection();
@@ -1274,19 +1274,22 @@ namespace BMSworks.UI
                             result -= Convert.ToDecimal(item.QUANTIDADE);
                     }
                 }
-              
 
-                //Cupom Eletronico            
-                LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-                LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
-                RowRelatorio.Clear();
-                RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
-                RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(Data)));
-                LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
-                foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
+                if (CONFISISTEMAP.Read(1).FLAGBAIXAESTOQUENFCE.TrimEnd() == "S")
                 {
-                    result -= Convert.ToDecimal(item.QUANTIDADE);
+                    //Cupom Eletronico            
+                    LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
+                    LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
+                    RowRelatorio.Clear();
+                    RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(Data)));
+                    LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+
+                    foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
+                    {
+                        result -= Convert.ToDecimal(item.QUANTIDADE);
+                    }
                 }
 
             }
@@ -1548,7 +1551,6 @@ namespace BMSworks.UI
 
                 }
 
-                CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
                 if (CONFISISTEMAP.Read(1).FLAGBAIXAESTOQUENF.TrimEnd() == "S")
                 {
                     LIS_PRODUTONFECollection LIS_PRODUTONFEColl = new LIS_PRODUTONFECollection();
@@ -1569,19 +1571,21 @@ namespace BMSworks.UI
                     }
                 }
 
-
-                //Cupom Eletronico            
-                LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-                LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
-                RowRelatorio.Clear();
-                RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
-                RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", ConverStringDateSearch(DataInicial)));
-                RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(DataFinal)));
-                LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
-
-                foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
+                if (CONFISISTEMAP.Read(1).FLAGBAIXAESTOQUENFCE.TrimEnd() == "S")
                 {
-                    result -= Convert.ToDecimal(item.QUANTIDADE);
+                    //Cupom Eletronico            
+                    LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
+                    LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
+                    RowRelatorio.Clear();
+                    RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", ConverStringDateSearch(DataInicial)));
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(DataFinal)));
+                    LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+
+                    foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
+                    {
+                        result -= Convert.ToDecimal(item.QUANTIDADE);
+                    }
                 }
 
             }

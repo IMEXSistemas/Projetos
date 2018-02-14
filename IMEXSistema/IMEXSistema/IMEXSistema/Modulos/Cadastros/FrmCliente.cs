@@ -20,7 +20,7 @@ using BmsSoftware.Classes.BMSworks.UI;
 using winfit.Modulos.Outros;
 using BmsSoftware.Modulos;
 using BmsSoftware.Modulos.Financeiro;
-
+using BMSworks.IMEXAppClass;
 
 namespace BMSSoftware.Modulos.Cadastros
 {
@@ -55,7 +55,8 @@ namespace BMSSoftware.Modulos.Cadastros
        
         CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
         ENDENTREGARCLIENTEProvider ENDENTREGARCLIENTEP = new ENDENTREGARCLIENTEProvider();
-           
+        CLIENTEIMEXAPPProvider CLIENTEIMEXAPPP = new CLIENTEIMEXAPPProvider();
+        CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
 
         RowsFiltro filtroProfile = new RowsFiltro();
         RowsFiltroCollection Filtro = new RowsFiltroCollection();
@@ -643,11 +644,14 @@ namespace BMSSoftware.Modulos.Cadastros
                 tabControlCliente.SelectTab(3);
             }
 
-            this.Cursor = Cursors.Default;
+            CONFISISTEMATy = CONFISISTEMAP.Read(1);
 
             VerificaAcesso();
 
             cbCamposPesquisa.SelectedIndex = 2;
+
+            this.Cursor = Cursors.Default;
+            
         }
 
         private void VerificaAcesso()
@@ -1026,9 +1030,7 @@ namespace BMSSoftware.Modulos.Cadastros
             }
             else if (VerificaPlanos())
             {
-                Grava();
-
-                
+                Grava();                
             }
         }
        
@@ -1068,20 +1070,13 @@ namespace BMSSoftware.Modulos.Cadastros
                         _IDCLIENTE = ClienteP.Save(Entity);
                         Util.ExibirMSg(ConfigMessage.Default.MsgSave, "Blue");
                         btnPesquisa_Click(null, null);
-                    }                
-
-                            
+                    }    
 
                     //Endereço de entrega
                     _IDENDENTREGARCLIENTE =  ENDENTREGARCLIENTEP.Save(Entity4);
-                }
 
-                //Sobre arquivo csv para servidor para fazer a sicronização
-                if (BmsSoftware.ConfigSistema1.Default.UploadSicron == "S")
-                {
-                    Sicroniza Sic = new Sicroniza();
-                    Sic.CriaArquivoCSV();
-                }
+                    SalveIMEXAPP(Entity);
+                }             
 
                 this.Cursor = Cursors.Default;
 
@@ -1093,8 +1088,47 @@ namespace BMSSoftware.Modulos.Cadastros
                 MessageBox.Show("Erro técnico: " + ex.Message);
 
             }
-        }   
-       
+        }
+
+        private void SalveIMEXAPP(CLIENTEEntity CLIENTETy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    CLIENTEIMEXAPPEntity CLIENTEIMEXAPPTy = new CLIENTEIMEXAPPEntity();
+
+                    CLIENTEIMEXAPPTy.STATIVO = CLIENTETy.FLAGBLOQUEADO == "S" ? false : true;   //BOOLEAN //flagbloqueado
+                    CLIENTEIMEXAPPTy.XRAZAOSOCIAL = CLIENTETy.NOME;	//STRING
+                    CLIENTEIMEXAPPTy.XFANTASIA = CLIENTETy.APELIDO; //STRING
+
+                    CLIENTEIMEXAPPTy.STJURIDICO = 0;// 0 - juridico - 1 fisico )
+                    CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CNPJ;	//STRING
+                    if (Util.RetiraLetras(CLIENTETy.CPF).Length > 0)
+                    {
+                        CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CPF;  //STRING
+                        CLIENTEIMEXAPPTy.STJURIDICO = 1;
+                    }
+
+                    CLIENTEIMEXAPPTy.XRGIE = CLIENTETy.IE;	//STRING
+                    CLIENTEIMEXAPPTy.XANOTACAO = CLIENTETy.OBSERVACAO;  //STRING
+
+                    DateTime _DEFETIVACAO = Convert.ToDateTime(CLIENTETy.DATACADASTRO);
+                    CLIENTEIMEXAPPTy.DEFETIVACAO = Convert.ToDateTime(_DEFETIVACAO.ToString("yyyy-MM-dd"));	//DATE
+
+                    CLIENTEIMEXAPPTy.XTELEFONES = CLIENTETy.TELEFONE1 + " " + CLIENTETy.TELEFONE2 + " " + CLIENTETy.FAX;	//STRING
+                    CLIENTEIMEXAPPTy.XEMAIL = CLIENTETy.EMAILCLIENTE;	//STRING
+                    CLIENTEIMEXAPPTy.DTCADASTRO = Convert.ToDateTime(_DEFETIVACAO.ToString("yyyy-MM-dd"));  //DATE
+                    CLIENTEIMEXAPPTy.XMEUID = CLIENTETy.IDCLIENTE.ToString();	//STRING
+                    CLIENTEIMEXAPPP.Save(CLIENTEIMEXAPPTy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
+
 
         private Boolean VerificaCNPJExistNew(string CNPJ)
         {
@@ -1483,7 +1517,9 @@ namespace BMSSoftware.Modulos.Cadastros
                         //Apaga Endereço de entrega
                         ENDENTREGARCLIENTEP.Delete(_IDENDENTREGARCLIENTE);
 
-                        ClienteP.Delete(_IDCLIENTE);                      
+                        ClienteP.Delete(_IDCLIENTE);
+
+                        DeleteIMEXAPP(_IDCLIENTE);
 
                         Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");
                         Entity = null;
@@ -1496,6 +1532,24 @@ namespace BMSSoftware.Modulos.Cadastros
                     }
 
                 }
+            }
+        }
+
+        private void DeleteIMEXAPP(int IDREGISTRO)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    int result = CLIENTEIMEXAPPP.GetID(IDREGISTRO);
+                    CLIENTEIMEXAPPP.Delete(result);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+
+
             }
         }
 
@@ -3358,7 +3412,9 @@ namespace BMSSoftware.Modulos.Cadastros
                                //Delete Pedido
                                ClienteP.Delete(CodigoSelect);
 
-                               btnPesquisa_Click(null, null);
+                                //Deleta no IMEX App
+                                DeleteIMEXAPP(CodigoSelect);
+                                btnPesquisa_Click(null, null);
 
                                Entity = null;
                                Util.ExibirMSg(ConfigMessage.Default.MsgDelete2, "Blue");

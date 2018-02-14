@@ -545,6 +545,12 @@
     <Compile Include="Classes\IMEXAppClass\CONDICAOPAGAMENTOIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\PRODUTODATAMODELIMEXAPPEntity.cs" />
     <Compile Include="Classes\IMEXAppClass\PRODUTODATAMODELIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\CLIENTEIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\CLIENTEIMEXAPPProvider .cs" />
+    <Compile Include="Classes\IMEXAppClass\RAMOATIVIDADEIMEXAPPProvider .cs" />
+    <Compile Include="Classes\IMEXAppClass\RAMOATIVIDADEIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\PRECOIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\PRECOIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPEntity.cs" />
     <Compile Include="Classes\IMEXAppClass\CATEGORIAPRODUTOIMEXAPPEntity.cs" />
