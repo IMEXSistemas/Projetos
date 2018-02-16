@@ -55,7 +55,7 @@ namespace BMSworks.IMEXAppClass
                 Entity.PLUCRO = 0;// DECIMAL NUMBER
                 Entity.PIPIVENDA = 0;// DECIMAL NUMBER
                 Entity.PSTVENDA = 0; //DECIMAL NUMBER
-                Entity.CEAN = string.Empty; //STRING
+               
                 Entity.XCODCSTPIS = string.Empty; //STRING
                 Entity.XCODCSTCOFINS = string.Empty;//STRING
                 Entity.DALIQOPICMSST = 0; //DECIMAL NUMBER

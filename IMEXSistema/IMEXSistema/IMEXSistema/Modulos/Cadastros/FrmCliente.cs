@@ -1102,12 +1102,12 @@ namespace BMSSoftware.Modulos.Cadastros
                     CLIENTEIMEXAPPTy.XRAZAOSOCIAL = CLIENTETy.NOME;	//STRING
                     CLIENTEIMEXAPPTy.XFANTASIA = CLIENTETy.APELIDO; //STRING
 
-                    CLIENTEIMEXAPPTy.STJURIDICO = 0;// 0 - juridico - 1 fisico )
+                    CLIENTEIMEXAPPTy.STJURIDICO = 1;// 1 - juridico - 0 fisico )
                     CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CNPJ;	//STRING
                     if (Util.RetiraLetras(CLIENTETy.CPF).Length > 0)
                     {
                         CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CPF;  //STRING
-                        CLIENTEIMEXAPPTy.STJURIDICO = 1;
+                        CLIENTEIMEXAPPTy.STJURIDICO = 0;
                     }
 
                     CLIENTEIMEXAPPTy.XRGIE = CLIENTETy.IE;	//STRING

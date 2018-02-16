@@ -38,9 +38,8 @@ namespace BMSworks.IMEXAppClass
                 CONFISISTEMATy = CONFISISTEMAP.Read(1);
 
                 string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
-                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostEnderecos;          
-
-            //    Entity.IDTRANSPORTADORA = TRANSPORTADORAIMEXAPPP.GetID(Convert.ToInt32(Entity.XMEUID));
+                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostEnderecos;
+                
                 Entity.IDEMPRESA = Convert.ToInt32(CONFISISTEMATy.IDEMPRESAIMEXAPP);
                 Entity.IDASPNETUSERSINCLUSAO = CONFISISTEMATy.IDASPNETUSERSINCLUSAO.Trim();
                 Entity.DTULTIMAALTERACAO = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd"));

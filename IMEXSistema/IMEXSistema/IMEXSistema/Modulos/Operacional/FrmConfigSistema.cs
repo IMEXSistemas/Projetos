@@ -1366,9 +1366,9 @@ namespace BmsSoftware.Modulos.Operacional
                     txtInutilizacao.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeInutilizacao4?wsdl".Trim();
                     txtConsultaProtocolo.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeConsulta4?wsdl".Trim();
                     txtStatusServico.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeStatusServico4?wsdl".Trim();
-                    txtConsultaCadastro.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/CadConsultaCadastro4?wsdll".Trim();
+                    txtConsultaCadastro.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/CadConsultaCadastro4?wsdl".Trim();
                     txtRecepcaoEvento.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/RecepcaoEvento4?wsdl".Trim();
-                    txtAutorizacao.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeAutorizacao4?wsd".Trim();
+                    txtAutorizacao.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeAutorizacao4?wsdl".Trim();
                     txtRetAutorizacao.Text = "https://nfe.sefaz.mt.gov.br/nfews/v2/services/NfeRetAutorizacao4?wsdl".Trim();
                 }
                 else if (EMPRESATy.UF == "PE")

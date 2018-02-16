@@ -1959,7 +1959,8 @@ namespace BmsSoftware.Modulos.Cadastros
                     PRODUTODATAMODELIMEXAPPTy.STATIVO = !chkInativo.Checked;//BOOLEAN
                     PRODUTODATAMODELIMEXAPPTy.VVENDA = Convert.ToDecimal(PRODUTOSTy.VALORVENDA1);// DECIMAL NUMBER
                     PRODUTODATAMODELIMEXAPPTy.XMEUID = _IDPRODUTO.ToString();// STRING
-                   
+                    PRODUTODATAMODELIMEXAPPTy.CEAN = txtCodBarra.Text; //STRING
+
                     DateTime _DTCADASTRO = Convert.ToDateTime(PRODUTOSTy.DATACADASTRO);
                     PRODUTODATAMODELIMEXAPPTy.DTCADASTRO = Convert.ToDateTime(_DTCADASTRO.ToString("yyyy-MM-dd"));
 

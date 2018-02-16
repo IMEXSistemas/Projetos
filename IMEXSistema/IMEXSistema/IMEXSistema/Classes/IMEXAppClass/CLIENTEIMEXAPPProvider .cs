@@ -25,6 +25,7 @@ namespace BMSworks.IMEXAppClass
         RAMOATIVIDADEIMEXAPPProvider RAMOATIVIDADEIMEXAPPP = new RAMOATIVIDADEIMEXAPPProvider();
         CONDICAOPAGAMENTOIMEXAPPProvider CONDICAOPAGAMENTOIMEXAPPP = new CONDICAOPAGAMENTOIMEXAPPProvider();
         PRECOIMEXAPPProvider PRECOIMEXAPPP = new PRECOIMEXAPPProvider();
+        TRANSPORTADORAIMEXAPPProvider TRANSPORTADORAIMEXAPPP = new TRANSPORTADORAIMEXAPPProvider();
 
         IList<CLIENTEIMEXAPPEntity> CLIENTEIMEXAPPColl;
 
@@ -40,7 +41,6 @@ namespace BMSworks.IMEXAppClass
                 string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
                 string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostClientes;
 
-                Entity.IDCLIENTES = null;	//INTEGER
                 Entity.CALTERNATIVO = String.Empty;	//STRING
 
                 int _IDRAMOATIVIDADE = RAMOATIVIDADEIMEXAPPP.GetID();
@@ -63,10 +63,15 @@ namespace BMSworks.IMEXAppClass
                 Entity.IDTABELAPRECO = _IDTABELAPRECO; //INTEGER //TABELA PADRÃO "10475"
 
                 Entity.IDEMPRESA = Convert.ToInt32(CONFISISTEMATy.IDEMPRESAIMEXAPP);
-                Entity.IDTRANSPORTADORA = 26259;	//INTEGER //CARRO PRÓPRIO
+
+                int _IDTRANSPORTADORA = TRANSPORTADORAIMEXAPPP.GetID();
+                if (_IDTRANSPORTADORA < 1)
+                    MessageBox.Show("Transportadora Não Localizado!");
+                Entity.IDTRANSPORTADORA = _IDTRANSPORTADORA;//INTEGER //A VISTA "42586"
+
                 Entity.DTULTIMAALTERACAO = Convert.ToDateTime(DateTime.Now.ToString("yyyy-MM-dd"));
                 Entity.IDEMPRESA_ASPNETUSERS = null; //INTEGER
-                Entity.IDASPNETUSERS = String.Empty;	//STRING
+                Entity.IDASPNETUSERS = CONFISISTEMATy.IDASPNETUSERSINCLUSAO.Trim();	//STRING
                 Entity.IDIMPORTACAO = null;	//INTEGER
                 Entity.VLIMITECREDITO = null;	//DECIMAL NUMBER
                 Entity.STATUALIZADO = null;	//BYTE

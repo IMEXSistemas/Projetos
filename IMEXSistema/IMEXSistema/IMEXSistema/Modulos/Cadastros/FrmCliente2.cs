@@ -56,7 +56,8 @@ namespace BMSSoftware.Modulos.Cadastros
         CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
         ENDENTREGARCLIENTEProvider ENDENTREGARCLIENTEP = new ENDENTREGARCLIENTEProvider();
         CLIENTEFASTProvider CLIENTEFASTP = new CLIENTEFASTProvider();
-
+       
+        ENDERECOIMEXAPPProvider ENDERECOIMEXAPPP = new ENDERECOIMEXAPPProvider();
         CLIENTEIMEXAPPProvider CLIENTEIMEXAPPP = new CLIENTEIMEXAPPProvider();
         CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
 
@@ -693,12 +694,12 @@ namespace BMSSoftware.Modulos.Cadastros
                     CLIENTEIMEXAPPTy.XRAZAOSOCIAL = CLIENTETy.NOME;	//STRING
                     CLIENTEIMEXAPPTy.XFANTASIA = CLIENTETy.APELIDO; //STRING
 
-                    CLIENTEIMEXAPPTy.STJURIDICO = 0;// 0 - juridico - 1 fisico )
+                    CLIENTEIMEXAPPTy.STJURIDICO =1;// 1 - juridico - 0 fisico )
                     CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CNPJ;	//STRING
                     if (Util.RetiraLetras(CLIENTETy.CPF).Length > 0)
                     {
                         CLIENTEIMEXAPPTy.XCPFCNPJ = CLIENTETy.CPF;  //STRING
-                        CLIENTEIMEXAPPTy.STJURIDICO = 1;// 0 - juridico - 1 fisico )
+                        CLIENTEIMEXAPPTy.STJURIDICO = 0;// 0 - juridico - 1 fisico )
                     }
 
                     CLIENTEIMEXAPPTy.XRGIE = CLIENTETy.IE;	//STRING
@@ -712,6 +713,46 @@ namespace BMSSoftware.Modulos.Cadastros
                     CLIENTEIMEXAPPTy.DTCADASTRO = Convert.ToDateTime(_DEFETIVACAO.ToString("yyyy-MM-dd"));  //DATE
                     CLIENTEIMEXAPPTy.XMEUID = CLIENTETy.IDCLIENTE.ToString();	//STRING
                     CLIENTEIMEXAPPP.Save(CLIENTEIMEXAPPTy);
+                    SalveIMEXAPP2(CLIENTETy);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
+
+
+        //Salva o Endereço no IMEX App
+        private void SalveIMEXAPP2(CLIENTEEntity CLIENTETy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    ENDERECOIMEXAPPEntity ENDERECOIMEXAPPTy = new ENDERECOIMEXAPPEntity();
+                    ENDERECOIMEXAPPTy.IDENDERECO = null;
+                    ENDERECOIMEXAPPTy.XMEUID = CLIENTETy.IDCLIENTE.ToString();
+                    ENDERECOIMEXAPPTy.IDCLIENTE = CLIENTEIMEXAPPP.GetID(Convert.ToInt32(CLIENTETy.IDCLIENTE));
+                    ENDERECOIMEXAPPTy.IDTRANSPORTADORA = null;
+                    ENDERECOIMEXAPPTy.XCEP = CLIENTETy.CEP1;
+                    ENDERECOIMEXAPPTy.XENDERECO = CLIENTETy.ENDERECO1;
+                    ENDERECOIMEXAPPTy.CNUMERO = 0;
+                    ENDERECOIMEXAPPTy.XCOMPLEMENTO = CLIENTETy.COMPLEMENTO1;
+                    ENDERECOIMEXAPPTy.XBAIRRO = CLIENTETy.BAIRRO1;
+
+                    LIS_CLIENTECollection LIS_CLIENTEColl_2 = new LIS_CLIENTECollection();
+                    RowRelatorio.Clear();
+                    RowRelatorio.Add(new RowsFiltro("IDCLIENTE", "System.Int32", "=", CLIENTETy.IDCLIENTE.ToString()));
+                    LIS_CLIENTEColl_2 = LIS_ClienteP.ReadCollectionByParameter(RowRelatorio);
+                    if(LIS_CLIENTEColl_2.Count > 0)
+                    {
+                        ENDERECOIMEXAPPTy.XCIDADE = LIS_CLIENTEColl_2[0].MUNICIPIO;
+                        ENDERECOIMEXAPPTy.XESTADO = LIS_CLIENTEColl_2[0].UF;
+                    }
+                    
+                    ENDERECOIMEXAPPTy.IDREPRESENTADA = null;
+                    ENDERECOIMEXAPPP.Save(ENDERECOIMEXAPPTy);
                 }
             }
             catch (Exception ex)

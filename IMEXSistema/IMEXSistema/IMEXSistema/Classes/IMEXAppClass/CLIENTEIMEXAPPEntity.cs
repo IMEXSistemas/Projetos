@@ -16,7 +16,7 @@ namespace BMSworks.IMEXAppClass
         public int? IDRAMOATIVIDADE { get; set; }	//INTEGER
         public string STPROSPECCAO { get; set; }//STRING
         public int? QVISITACLIENTE { get; set; }//INTEGER
-        public byte?[] STPERIODOVISITACLIENTE { get; set; }  //BYTE
+        public int? STPERIODOVISITACLIENTE { get; set; }  //BYTE
         public int? IDCONDICAOPAGAMENTO { get; set; }//INTEGER
         public string XANOTACAO { get; set; }   //STRING
         public int? IDTABELAPRECO { get; set; }//INTEGER
@@ -31,7 +31,7 @@ namespace BMSworks.IMEXAppClass
         public DateTime? DTCADASTRO { get; set; }//DATE
         public int? IDIMPORTACAO { get; set; }//INTEGER
         public decimal? VLIMITECREDITO	 { get; set; }//DECIMAL NUMBER
-        public byte?[] STATUALIZADO { get; set; }//BYTE
+        public int? STATUALIZADO { get; set; }//BYTE
         public string XWEBSITE { get; set; }//STRING
         public Boolean? BEXIBIRANOTACAONOPEDIDO { get; set; }//BOOLEAN
         public string XMEUID { get; set; }//STRING
@@ -39,10 +39,10 @@ namespace BMSworks.IMEXAppClass
         public string CNAE { get; set; }//STRING
         public string IDASPNETUSERSINCLUSAO { get; set; }//STRING
         public int? IDINTEGRACAO { get; set; }//INTEGER
-        public byte?[] STCONTRIBUINTE { get; set; }//BYTE
+        public int? STCONTRIBUINTE { get; set; }//BYTE
         public string XIDMAPS { get; set; }//STRING
         public int? IDCNAE { get; set; }//INTEGER
-        public byte?[] STCLIENTEAPLICACAO { get; set; }//BYTE
+        public int? STCLIENTEAPLICACAO { get; set; }//BYTE
 
     }
 }

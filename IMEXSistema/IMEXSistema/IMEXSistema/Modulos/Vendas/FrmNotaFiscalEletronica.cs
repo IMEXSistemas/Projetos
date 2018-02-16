@@ -7727,7 +7727,9 @@ namespace BmsSoftware.Modulos.Vendas
                 dest[6] = Convert.ToString(ClienteTyDest.COD_MUN_IBGE);	//<cMun>
 
                 //informar o nome do município
-                dest[7] = LIS_MUNICIPIOSColl[0].MUNICIPIO; //Util.CodigodeUFIBGE(LIS_MUNICIPIOSColl[0].UF).ToString(); 				//<xMun>
+                string CidadeCliente = Util.RemoverAcentos(LIS_MUNICIPIOSColl[0].MUNICIPIO);
+                dest[7] = CidadeCliente; //	//<xMun>
+
                 dest[8] = LIS_MUNICIPIOSColl[0].UF.Trim();						//<UF>
                 dest[9] = ClienteTyDest.CEP1.Replace("-", "");			//<CEP>
                 dest[10] = "1058";                        				//<cPais>
