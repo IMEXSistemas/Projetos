@@ -2813,6 +2813,19 @@ namespace BmsSoftware.Modulos.Vendas
                 Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
                 result = false;
             }
+            else if ( txtNFReferenciaDevolucao.Text.Trim().Length > 0 && txtNFReferenciaDevolucao.Text.Trim().Length < 44)
+            {
+                string MsgErro = "Chave de acesso inválida. A chave de acesso deve ter 44 dígitos.";
+                errorProvider1.SetError(label41, MsgErro);
+                Util.ExibirMSg(MsgErro, "Red");
+                result = false;
+            }
+            else if (!chkDevolucao.Checked && txtNFReferenciaDevolucao.Text.Trim().Length > 0)
+            {
+                errorProvider1.SetError(label41, ConfigMessage.Default.CampoObrigatorio);
+                Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
+                result = false;
+            }
             else if (ConsultSiTNFe())
             {
                 MessageBox.Show("NFe já emitida! não é possível alterar!",

@@ -103,7 +103,6 @@
             this.label87 = new System.Windows.Forms.Label();
             this.txtAlturaMTQ = new System.Windows.Forms.TextBox();
             this.label88 = new System.Windows.Forms.Label();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label82 = new System.Windows.Forms.Label();
             this.txtPorcPerda = new System.Windows.Forms.TextBox();
             this.cbTipoItem = new System.Windows.Forms.ComboBox();
@@ -120,8 +119,6 @@
             this.nUpMultiplo = new System.Windows.Forms.NumericUpDown();
             this.rdbInteiro = new System.Windows.Forms.RadioButton();
             this.rdDecimal = new System.Windows.Forms.RadioButton();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
             this.txtNCMSH = new System.Windows.Forms.TextBox();
             this.label65 = new System.Windows.Forms.Label();
             this.btnCadSitTributaria = new System.Windows.Forms.Button();
@@ -420,11 +417,11 @@
             // 
             this.label70.AutoSize = true;
             this.label70.ForeColor = System.Drawing.Color.Red;
-            this.label70.Location = new System.Drawing.Point(739, 26);
+            this.label70.Location = new System.Drawing.Point(766, 28);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(139, 13);
+            this.label70.Size = new System.Drawing.Size(171, 13);
             this.label70.TabIndex = 13;
-            this.label70.Text = "Campo obrigatório para NFe";
+            this.label70.Text = "Campo obrigatório para NFe/NFCe";
             // 
             // lblobsField
             // 
@@ -799,7 +796,6 @@
             this.tabPage1.Controls.Add(this.chkInativo);
             this.tabPage1.Controls.Add(this.chkNaoControlaEstoque);
             this.tabPage1.Controls.Add(this.grupMedidaChapa);
-            this.tabPage1.Controls.Add(this.linkLabel3);
             this.tabPage1.Controls.Add(this.label82);
             this.tabPage1.Controls.Add(this.txtPorcPerda);
             this.tabPage1.Controls.Add(this.cbTipoItem);
@@ -812,8 +808,6 @@
             this.tabPage1.Controls.Add(this.chkValidaEAN13);
             this.tabPage1.Controls.Add(this.chkBaixaEstoMT);
             this.tabPage1.Controls.Add(this.groupBox3);
-            this.tabPage1.Controls.Add(this.label73);
-            this.tabPage1.Controls.Add(this.label72);
             this.tabPage1.Controls.Add(this.txtNCMSH);
             this.tabPage1.Controls.Add(this.label65);
             this.tabPage1.Controls.Add(this.btnCadSitTributaria);
@@ -895,7 +889,7 @@
             // 
             // txtCFOP
             // 
-            this.txtCFOP.Location = new System.Drawing.Point(663, 71);
+            this.txtCFOP.Location = new System.Drawing.Point(479, 71);
             this.txtCFOP.MaxLength = 4;
             this.txtCFOP.Name = "txtCFOP";
             this.txtCFOP.Size = new System.Drawing.Size(66, 20);
@@ -904,7 +898,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(663, 55);
+            this.label19.Location = new System.Drawing.Point(479, 55);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(38, 13);
             this.label19.TabIndex = 186;
@@ -1035,17 +1029,6 @@
             this.label88.Size = new System.Drawing.Size(37, 13);
             this.label88.TabIndex = 321;
             this.label88.Text = "Altura:";
-            // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(524, 56);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(133, 13);
-            this.linkLabel3.TabIndex = 149;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Consultar NCM na Receita";
-            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // label82
             // 
@@ -1218,39 +1201,21 @@
             this.rdDecimal.Text = "Decimal";
             this.rdDecimal.UseVisualStyleBackColor = true;
             // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.ForeColor = System.Drawing.Color.Red;
-            this.label73.Location = new System.Drawing.Point(316, 56);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(11, 13);
-            this.label73.TabIndex = 125;
-            this.label73.Text = "*";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.ForeColor = System.Drawing.Color.Red;
-            this.label72.Location = new System.Drawing.Point(446, 56);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(11, 13);
-            this.label72.TabIndex = 124;
-            this.label72.Text = "*";
-            // 
             // txtNCMSH
             // 
             this.txtNCMSH.Location = new System.Drawing.Point(389, 71);
-            this.txtNCMSH.MaxLength = 100;
+            this.txtNCMSH.MaxLength = 8;
             this.txtNCMSH.Name = "txtNCMSH";
-            this.txtNCMSH.Size = new System.Drawing.Size(268, 20);
+            this.txtNCMSH.Size = new System.Drawing.Size(82, 20);
             this.txtNCMSH.TabIndex = 6;
             this.txtNCMSH.Enter += new System.EventHandler(this.txtNCMSH_Enter);
             this.txtNCMSH.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNCMSH_KeyDown);
+            this.txtNCMSH.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtNCMSH_MouseDoubleClick);
             // 
             // label65
             // 
             this.label65.AutoSize = true;
+            this.label65.ForeColor = System.Drawing.Color.Red;
             this.label65.Location = new System.Drawing.Point(386, 55);
             this.label65.Name = "label65";
             this.label65.Size = new System.Drawing.Size(54, 13);
@@ -1288,6 +1253,7 @@
             // label63
             // 
             this.label63.AutoSize = true;
+            this.label63.ForeColor = System.Drawing.Color.Red;
             this.label63.Location = new System.Drawing.Point(234, 55);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(76, 13);
@@ -1933,6 +1899,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.Red;
             this.label7.Location = new System.Drawing.Point(327, 94);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(50, 13);
@@ -2041,6 +2008,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(8, 94);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
@@ -4048,8 +4016,6 @@
         private System.Windows.Forms.TextBox txtNCMSH;
         private System.Windows.Forms.Label label65;
         private System.Windows.Forms.Label label70;
-        private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.Label label72;
         private System.Windows.Forms.ToolStripMenuItem inventárioDoEstoqueToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem estoqueMinimoToolStripMenuItem;
         private System.Drawing.Printing.PrintDocument printDocument3;
@@ -4114,7 +4080,6 @@
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnpdf;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem7;
-        private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.ToolStripMenuItem tabelaIBPTToolStripMenuItem;
         private System.Windows.Forms.GroupBox grupMedidaChapa;
         private System.Windows.Forms.Label label85;

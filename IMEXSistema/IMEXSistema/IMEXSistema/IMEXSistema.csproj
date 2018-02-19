@@ -551,6 +551,11 @@
     <Compile Include="Classes\IMEXAppClass\RAMOATIVIDADEIMEXAPPEntity.cs" />
     <Compile Include="Classes\IMEXAppClass\PRECOIMEXAPPEntity.cs" />
     <Compile Include="Classes\IMEXAppClass\PRECOIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\PEDIDOVENDAIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\PEDIDOVENDAIMEXAPPProvider.cs" />
+    <Compile Include="Classes\IMEXAppClass\PEDIDOVENDAITEMIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\EMPRESAASPNETUSERSIMEXAPPEntity.cs" />
+    <Compile Include="Classes\IMEXAppClass\EMPRESAASPNETUSERSIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPProvider.cs" />
     <Compile Include="Classes\IMEXAppClass\UNIDADEMEDIDAIMEXAPPEntity.cs" />
     <Compile Include="Classes\IMEXAppClass\CATEGORIAPRODUTOIMEXAPPEntity.cs" />
@@ -1395,6 +1400,12 @@
     </Compile>
     <Compile Include="Modulos\Cadastros\FrmAmbiente.Designer.cs">
       <DependentUpon>FrmAmbiente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\IMEXApp\FrmPedidoIMEXApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\IMEXApp\FrmPedidoIMEXApp.Designer.cs">
+      <DependentUpon>FrmPedidoIMEXApp.cs</DependentUpon>
     </Compile>
     <Compile Include="Modulos\IMEXApp\UrlIMEXApp.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -3715,6 +3726,9 @@
     <EmbeddedResource Include="Modulos\Cadastros\FrmAmbiente.resx">
       <DependentUpon>FrmAmbiente.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\IMEXApp\FrmPedidoIMEXApp.resx">
+      <DependentUpon>FrmPedidoIMEXApp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modulos\Lote\FrmEstoqueLote .resx">
       <DependentUpon>FrmEstoqueLote .cs</DependentUpon>

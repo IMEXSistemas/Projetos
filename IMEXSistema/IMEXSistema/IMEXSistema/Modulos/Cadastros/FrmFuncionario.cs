@@ -469,27 +469,34 @@ namespace BMSSoftware.Modulos.Cadastros
             errorProvider1.Clear();
             if (txtNome.Text.Trim().Length == 0)
             {
-                errorProvider1.SetError(txtNome, ConfigMessage.Default.CampoObrigatorio);
+                errorProvider1.SetError(label1, ConfigMessage.Default.CampoObrigatorio);
                 Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
                 
                 result = false;
             }
+            if (txtEmail.Text.Trim().Length == 0)
+            {
+                errorProvider1.SetError(label8, ConfigMessage.Default.CampoObrigatorio);
+                Util.ExibirMSg(ConfigMessage.Default.CampoObrigatorio2, "Red");
+
+                result = false;
+            }            
              else if (maskedtxtDataAd.Text != "  /  /" && !ValidacoesLibrary.ValidaTipoDateTime(maskedtxtDataAd.Text))
             {
-                   errorProvider1.SetError(maskedtxtDataAd, ConfigMessage.Default.MsgDataInvalida);
+                   errorProvider1.SetError(label14, ConfigMessage.Default.MsgDataInvalida);
                    Util.ExibirMSg(ConfigMessage.Default.MsgDataInvalida, "Red");
                    result = false;
             }
             else if (maskedtxtComissao.Text != string.Empty && !ValidacoesLibrary.ValidaTipoDecimal(maskedtxtComissao.Text) )
             {
-                  errorProvider1.SetError(maskedtxtComissao, ConfigMessage.Default.FieldErro);
+                  errorProvider1.SetError(label5, ConfigMessage.Default.FieldErro);
                   Util.ExibirMSg(ConfigMessage.Default.FieldErro, "Red");
                   result = false;
             }
             
             if (maskedtxtSalario.Text != string.Empty && !ValidacoesLibrary.ValidaTipoDecimal(maskedtxtSalario.Text))
             {
-                    errorProvider1.SetError(maskedtxtSalario, ConfigMessage.Default.FieldErro);
+                    errorProvider1.SetError(label28, ConfigMessage.Default.FieldErro);
                     Util.ExibirMSg(ConfigMessage.Default.FieldErro, "Red");
                     result = false;
             }

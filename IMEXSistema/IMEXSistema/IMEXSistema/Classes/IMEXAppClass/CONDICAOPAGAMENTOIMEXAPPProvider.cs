@@ -168,6 +168,44 @@ namespace BMSworks.IMEXAppClass
             }
         }
 
+        public IList<CONDICAOPAGAMENTOIMEXAPPEntity> GetID2()
+        {
+            try
+            {
+                //Busca dados da Configuração
+                CONFISISTEMATy = CONFISISTEMAP.Read(1);
+                string token = CONFISISTEMATy.TOKENIMEXAPP.Trim();
+                string URI = BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosPrazo;
+                URI = URI + token + "/" + "2016-06-19T00:00:00";
+
+                using (HttpClient client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri(URI);
+                    MediaTypeWithQualityHeaderValue contentType = new MediaTypeWithQualityHeaderValue("application/json");
+                    client.DefaultRequestHeaders.Accept.Add(contentType);
+                    HttpResponseMessage response = client.GetAsync(URI).Result;
+                    var stringData = response.Content.ReadAsStringAsync().Result;
+
+                    int tamanhostring = stringData.Length;
+                    int posinicio = stringData.IndexOf("[");
+                    string ProdutoJsonString2 = stringData.ToString().Substring(posinicio, tamanhostring - posinicio);
+                    int posifim = ProdutoJsonString2.IndexOf("Message");
+                    ProdutoJsonString2 = ProdutoJsonString2.ToString().Substring(0, posifim - 2);
+                    string jsonString = ProdutoJsonString2;
+
+                    CONDICAOPAGAMENTOIMEXAPPColl = DeserializeToList<CONDICAOPAGAMENTOIMEXAPPEntity>(jsonString);
+                }
+
+                return CONDICAOPAGAMENTOIMEXAPPColl;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+                return CONDICAOPAGAMENTOIMEXAPPColl;
+            }
+        }
+
+
         public int BuscaID(int IDRegistro)
         {
             int result = -1;
@@ -191,7 +229,6 @@ namespace BMSworks.IMEXAppClass
                 return result;
             }
         }
-
 
         public static List<string> InvalidJsonElements;
         public static IList<T> DeserializeToList<T>(string jsonString)

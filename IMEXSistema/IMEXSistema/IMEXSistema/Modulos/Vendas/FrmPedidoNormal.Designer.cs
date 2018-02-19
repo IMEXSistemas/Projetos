@@ -100,8 +100,9 @@
             this.vendasDeProdutosPorCidadePedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.vendasPorOutrosTipoDePagamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.utilitáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.controleDeEntregaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configuraçãoDeSistemaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.controleDeEntregaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.controleDeLoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.duplicarPedidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enviarEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.excluirItensToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -109,6 +110,7 @@
             this.gerarNFeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportarPedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.importarPedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sincronizaIMEXAppToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.voltaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.lblObsField = new System.Windows.Forms.Label();
@@ -340,7 +342,6 @@
             this.sfdExportToxcel = new System.Windows.Forms.SaveFileDialog();
             this.chkTelaBloqueada = new System.Windows.Forms.CheckBox();
             this.label41 = new System.Windows.Forms.Label();
-            this.controleDeLoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -821,18 +822,12 @@
             this.extratosDeContasAReceberToolStripMenuItem,
             this.gerarNFeToolStripMenuItem,
             this.exportarPedidosToolStripMenuItem,
-            this.importarPedidosToolStripMenuItem});
+            this.importarPedidosToolStripMenuItem,
+            this.sincronizaIMEXAppToolStripMenuItem});
             this.utilitáriosToolStripMenuItem.Name = "utilitáriosToolStripMenuItem";
             this.utilitáriosToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.utilitáriosToolStripMenuItem.Text = "Utilitários";
             this.utilitáriosToolStripMenuItem.Click += new System.EventHandler(this.utilitáriosToolStripMenuItem_Click);
-            // 
-            // controleDeEntregaToolStripMenuItem
-            // 
-            this.controleDeEntregaToolStripMenuItem.Name = "controleDeEntregaToolStripMenuItem";
-            this.controleDeEntregaToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
-            this.controleDeEntregaToolStripMenuItem.Text = "Controle de Entrega";
-            this.controleDeEntregaToolStripMenuItem.Click += new System.EventHandler(this.controleDeEntregaToolStripMenuItem_Click);
             // 
             // configuraçãoDeSistemaToolStripMenuItem
             // 
@@ -841,6 +836,20 @@
             this.configuraçãoDeSistemaToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
             this.configuraçãoDeSistemaToolStripMenuItem.Text = "Configuração de Sistema";
             this.configuraçãoDeSistemaToolStripMenuItem.Click += new System.EventHandler(this.configuraçãoDeSistemaToolStripMenuItem_Click);
+            // 
+            // controleDeEntregaToolStripMenuItem
+            // 
+            this.controleDeEntregaToolStripMenuItem.Name = "controleDeEntregaToolStripMenuItem";
+            this.controleDeEntregaToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
+            this.controleDeEntregaToolStripMenuItem.Text = "Controle de Entrega";
+            this.controleDeEntregaToolStripMenuItem.Click += new System.EventHandler(this.controleDeEntregaToolStripMenuItem_Click);
+            // 
+            // controleDeLoteToolStripMenuItem
+            // 
+            this.controleDeLoteToolStripMenuItem.Name = "controleDeLoteToolStripMenuItem";
+            this.controleDeLoteToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
+            this.controleDeLoteToolStripMenuItem.Text = "Controle de Lote";
+            this.controleDeLoteToolStripMenuItem.Click += new System.EventHandler(this.controleDeLoteToolStripMenuItem_Click);
             // 
             // duplicarPedidoToolStripMenuItem
             // 
@@ -888,6 +897,7 @@
             this.exportarPedidosToolStripMenuItem.Name = "exportarPedidosToolStripMenuItem";
             this.exportarPedidosToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
             this.exportarPedidosToolStripMenuItem.Text = "Exportar Pedidos";
+            this.exportarPedidosToolStripMenuItem.Visible = false;
             this.exportarPedidosToolStripMenuItem.Click += new System.EventHandler(this.exportarPedidosToolStripMenuItem_Click);
             // 
             // importarPedidosToolStripMenuItem
@@ -896,7 +906,16 @@
             this.importarPedidosToolStripMenuItem.Name = "importarPedidosToolStripMenuItem";
             this.importarPedidosToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
             this.importarPedidosToolStripMenuItem.Text = "Importar Pedidos";
+            this.importarPedidosToolStripMenuItem.Visible = false;
             this.importarPedidosToolStripMenuItem.Click += new System.EventHandler(this.importarPedidosToolStripMenuItem_Click);
+            // 
+            // sincronizaIMEXAppToolStripMenuItem
+            // 
+            this.sincronizaIMEXAppToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sincronizaIMEXAppToolStripMenuItem.Image")));
+            this.sincronizaIMEXAppToolStripMenuItem.Name = "sincronizaIMEXAppToolStripMenuItem";
+            this.sincronizaIMEXAppToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.sincronizaIMEXAppToolStripMenuItem.Text = "Sincroniza IMEX App Cloud";
+            this.sincronizaIMEXAppToolStripMenuItem.Click += new System.EventHandler(this.sincronizaIMEXAppToolStripMenuItem_Click);
             // 
             // voltaToolStripMenuItem
             // 
@@ -3347,13 +3366,6 @@
             this.label41.TabIndex = 231;
             this.label41.Text = "Campo obrigatório";
             // 
-            // controleDeLoteToolStripMenuItem
-            // 
-            this.controleDeLoteToolStripMenuItem.Name = "controleDeLoteToolStripMenuItem";
-            this.controleDeLoteToolStripMenuItem.Size = new System.Drawing.Size(215, 22);
-            this.controleDeLoteToolStripMenuItem.Text = "Controle de Lote";
-            this.controleDeLoteToolStripMenuItem.Click += new System.EventHandler(this.controleDeLoteToolStripMenuItem_Click);
-            // 
             // FrmPedidoNormal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3712,5 +3724,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMESUPERVISOR;
         private System.Windows.Forms.ToolStripMenuItem modelo3ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem controleDeLoteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sincronizaIMEXAppToolStripMenuItem;
     }
 }

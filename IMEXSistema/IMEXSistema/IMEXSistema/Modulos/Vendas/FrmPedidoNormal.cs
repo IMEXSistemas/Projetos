@@ -28,6 +28,7 @@ using System.Net;
 using winfit.Modulos.Outros;
 using System.Text.RegularExpressions;
 using BmsSoftware.Modulos.Lote;
+using BmsSoftware.Modulos.IMEXApp;
 
 namespace BmsSoftware.Modulos.Vendas
 {
@@ -513,7 +514,7 @@ namespace BmsSoftware.Modulos.Vendas
             this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
 
            // this.MinimizeBox = false;
-           // this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
 
             EMPRESATy = EMPRESAP.Read(1);
 
@@ -551,11 +552,10 @@ namespace BmsSoftware.Modulos.Vendas
             bntDateSelecFinal.Image = Util.GetAddressImage(11);
             bntDateSelecInicial.Image = Util.GetAddressImage(11);
 
-
             msktDataEmissao.Text = DateTime.Now.ToString("dd/MM/yyyy");
 
             PreencheDropTipoPesquisa();
-            PreencheDropCamposPesquisa(); 
+            PreencheDropCamposPesquisa();
           
 
             if (_IDPEDIDO != -1)
@@ -4504,7 +4504,6 @@ namespace BmsSoftware.Modulos.Vendas
 
         private void DGDadosProduto_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
-
             int rowindex = e.RowIndex;
             if (LIS_PRODUTOSPEDIDOColl.Count > 0 && rowindex > -1)
             {
@@ -6732,6 +6731,14 @@ namespace BmsSoftware.Modulos.Vendas
                     frm.ShowDialog();
                     ListaProdutoPedido(_IDPEDIDO);
                 }
+            }
+        }
+
+        private void sincronizaIMEXAppToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (FrmPedidoIMEXApp frm = new FrmPedidoIMEXApp())
+            {
+                frm.ShowDialog();
             }
         }
     }

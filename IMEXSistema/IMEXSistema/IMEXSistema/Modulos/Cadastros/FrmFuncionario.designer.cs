@@ -136,6 +136,7 @@ namespace BMSSoftware.Modulos.Cadastros
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.printDialog1 = new System.Windows.Forms.PrintDialog();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+            this.label15 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -297,7 +298,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // voltaToolStripMenuItem
             // 
             this.voltaToolStripMenuItem.Name = "voltaToolStripMenuItem";
-            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.voltaToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
             this.voltaToolStripMenuItem.Text = "&Volta";
             this.voltaToolStripMenuItem.Click += new System.EventHandler(this.voltaToolStripMenuItem_Click);
             // 
@@ -535,6 +536,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.Red;
             this.label8.Location = new System.Drawing.Point(281, 219);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(35, 13);
@@ -805,6 +807,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(8, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 13);
@@ -1156,11 +1159,22 @@ namespace BMSSoftware.Modulos.Cadastros
             this.printPreviewDialog1.Name = "printPreviewDialog1";
             this.printPreviewDialog1.Visible = false;
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.Red;
+            this.label15.Location = new System.Drawing.Point(752, 27);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(94, 13);
+            this.label15.TabIndex = 5;
+            this.label15.Text = "Campo Obrigatório";
+            // 
             // FrmFuncionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(846, 489);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -1293,5 +1307,6 @@ namespace BMSSoftware.Modulos.Cadastros
         private System.Windows.Forms.DataGridViewTextBoxColumn DTANIVERSARIO;
         private System.Windows.Forms.DataGridViewTextBoxColumn SALARIO;
         private System.Windows.Forms.DataGridViewTextBoxColumn FLAGEXIBIRAGENDA;
+        private System.Windows.Forms.Label label15;
     }
 }

@@ -30,13 +30,13 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmProduto2));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label70 = new System.Windows.Forms.Label();
             this.lblobsField = new System.Windows.Forms.Label();
@@ -111,7 +111,6 @@
             this.chkCalcICMSST = new System.Windows.Forms.CheckBox();
             this.txtExTipi = new System.Windows.Forms.TextBox();
             this.label66 = new System.Windows.Forms.Label();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.txtNCMSH = new System.Windows.Forms.TextBox();
             this.label65 = new System.Windows.Forms.Label();
             this.btnCadSitTributaria = new System.Windows.Forms.Button();
@@ -299,11 +298,11 @@
             this.label70.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label70.AutoSize = true;
             this.label70.ForeColor = System.Drawing.Color.Red;
-            this.label70.Location = new System.Drawing.Point(803, 24);
+            this.label70.Location = new System.Drawing.Point(727, 26);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(139, 13);
+            this.label70.Size = new System.Drawing.Size(171, 13);
             this.label70.TabIndex = 13;
-            this.label70.Text = "Campo obrigatório para NFe";
+            this.label70.Text = "Campo obrigatório para NFe/NFCe";
             // 
             // lblobsField
             // 
@@ -649,7 +648,6 @@
             this.tabPage1.Controls.Add(this.txtObservacao);
             this.tabPage1.Controls.Add(this.label25);
             this.tabPage1.Controls.Add(this.groupBox3);
-            this.tabPage1.Controls.Add(this.linkLabel3);
             this.tabPage1.Controls.Add(this.txtNCMSH);
             this.tabPage1.Controls.Add(this.label65);
             this.tabPage1.Controls.Add(this.btnCadSitTributaria);
@@ -700,7 +698,7 @@
             // 
             // txtCFOP
             // 
-            this.txtCFOP.Location = new System.Drawing.Point(666, 71);
+            this.txtCFOP.Location = new System.Drawing.Point(476, 71);
             this.txtCFOP.MaxLength = 4;
             this.txtCFOP.Name = "txtCFOP";
             this.txtCFOP.Size = new System.Drawing.Size(66, 20);
@@ -709,7 +707,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(663, 55);
+            this.label9.Location = new System.Drawing.Point(473, 55);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 13);
             this.label9.TabIndex = 184;
@@ -1050,26 +1048,16 @@
             this.label66.TabIndex = 170;
             this.label66.Text = "Ex Tipi:";
             // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(524, 56);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(133, 13);
-            this.linkLabel3.TabIndex = 149;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Consultar NCM na Receita";
-            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
-            // 
             // txtNCMSH
             // 
             this.txtNCMSH.Location = new System.Drawing.Point(389, 71);
-            this.txtNCMSH.MaxLength = 100;
+            this.txtNCMSH.MaxLength = 8;
             this.txtNCMSH.Name = "txtNCMSH";
-            this.txtNCMSH.Size = new System.Drawing.Size(268, 20);
+            this.txtNCMSH.Size = new System.Drawing.Size(84, 20);
             this.txtNCMSH.TabIndex = 7;
             this.txtNCMSH.Enter += new System.EventHandler(this.txtNCMSH_Enter);
             this.txtNCMSH.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNCMSH_KeyDown);
+            this.txtNCMSH.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.txtNCMSH_MouseDoubleClick);
             // 
             // label65
             // 
@@ -1946,8 +1934,8 @@
             // IDPRODUTO
             // 
             this.IDPRODUTO.DataPropertyName = "IDPRODUTO";
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            this.IDPRODUTO.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            this.IDPRODUTO.DefaultCellStyle = dataGridViewCellStyle22;
             this.IDPRODUTO.HeaderText = "Código";
             this.IDPRODUTO.Name = "IDPRODUTO";
             this.IDPRODUTO.Width = 50;
@@ -1955,8 +1943,8 @@
             // CODPRODUTOFORNECEDOR
             // 
             this.CODPRODUTOFORNECEDOR.DataPropertyName = "CODPRODUTOFORNECEDOR";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            this.CODPRODUTOFORNECEDOR.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            this.CODPRODUTOFORNECEDOR.DefaultCellStyle = dataGridViewCellStyle23;
             this.CODPRODUTOFORNECEDOR.HeaderText = "Cód. Referência";
             this.CODPRODUTOFORNECEDOR.Name = "CODPRODUTOFORNECEDOR";
             // 
@@ -1970,10 +1958,10 @@
             // VALORVENDA1
             // 
             this.VALORVENDA1.DataPropertyName = "VALORVENDA1";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            dataGridViewCellStyle3.Format = "N4";
-            dataGridViewCellStyle3.NullValue = null;
-            this.VALORVENDA1.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            dataGridViewCellStyle24.Format = "N4";
+            dataGridViewCellStyle24.NullValue = null;
+            this.VALORVENDA1.DefaultCellStyle = dataGridViewCellStyle24;
             this.VALORVENDA1.HeaderText = "Valor de Venda 1";
             this.VALORVENDA1.Name = "VALORVENDA1";
             this.VALORVENDA1.Width = 80;
@@ -2000,10 +1988,10 @@
             // VALORVENDA2
             // 
             this.VALORVENDA2.DataPropertyName = "VALORVENDA2";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle4.Format = "N2";
-            dataGridViewCellStyle4.NullValue = null;
-            this.VALORVENDA2.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle25.Format = "N2";
+            dataGridViewCellStyle25.NullValue = null;
+            this.VALORVENDA2.DefaultCellStyle = dataGridViewCellStyle25;
             this.VALORVENDA2.HeaderText = "Valor de Venda 2";
             this.VALORVENDA2.Name = "VALORVENDA2";
             this.VALORVENDA2.Width = 80;
@@ -2011,10 +1999,10 @@
             // VALORVENDA3
             // 
             this.VALORVENDA3.DataPropertyName = "VALORVENDA3";
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle5.Format = "N2";
-            dataGridViewCellStyle5.NullValue = null;
-            this.VALORVENDA3.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle26.Format = "N2";
+            dataGridViewCellStyle26.NullValue = null;
+            this.VALORVENDA3.DefaultCellStyle = dataGridViewCellStyle26;
             this.VALORVENDA3.HeaderText = "Valor de Venda 3";
             this.VALORVENDA3.Name = "VALORVENDA3";
             this.VALORVENDA3.Width = 80;
@@ -2022,9 +2010,9 @@
             // QUANTIDADEMINIMA
             // 
             this.QUANTIDADEMINIMA.DataPropertyName = "QUANTIDADEMINIMA";
-            dataGridViewCellStyle6.Format = "N2";
-            dataGridViewCellStyle6.NullValue = null;
-            this.QUANTIDADEMINIMA.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle27.Format = "N2";
+            dataGridViewCellStyle27.NullValue = null;
+            this.QUANTIDADEMINIMA.DefaultCellStyle = dataGridViewCellStyle27;
             this.QUANTIDADEMINIMA.HeaderText = "Quant. Minima";
             this.QUANTIDADEMINIMA.Name = "QUANTIDADEMINIMA";
             this.QUANTIDADEMINIMA.Width = 80;
@@ -2064,8 +2052,8 @@
             // FlagInativo
             // 
             this.FlagInativo.DataPropertyName = "FlagInativo";
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.FlagInativo.DefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.FlagInativo.DefaultCellStyle = dataGridViewCellStyle28;
             this.FlagInativo.HeaderText = "Não Efetuar Venda";
             this.FlagInativo.Name = "FlagInativo";
             this.FlagInativo.Width = 50;
@@ -2730,7 +2718,6 @@
         private System.Windows.Forms.Button btnExcel;
         private System.Windows.Forms.Button btnpdf;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem7;
-        private System.Windows.Forms.LinkLabel linkLabel3;
         private System.Windows.Forms.ToolStripMenuItem tabelaIBPTToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.GroupBox groupBox4;

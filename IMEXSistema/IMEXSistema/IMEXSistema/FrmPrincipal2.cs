@@ -207,7 +207,7 @@ namespace BMSSoftware
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostEnderecos = "http://hlpsistemas.sytes.net:8085/api/ApiEnderecos/Post";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostProdutos = "http://hlpsistemas.sytes.net:8085/api/ApiProduto/Post";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.PostClientes = "http://hlpsistemas.sytes.net:8085/api/ApiClientes/Post";
-
+                    
                     //Get Registros
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosCategoriaProduto = "http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/GetRegistros/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosUnidadeMedida = "http://hlpsistemas.sytes.net:8085/api/ApIunidademedida/GetRegistros/";
@@ -217,6 +217,8 @@ namespace BMSSoftware
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosProdutos = "http://hlpsistemas.sytes.net:8085/api/ApiProduto/GetRegistros/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosClientes = "http://hlpsistemas.sytes.net:8085/api/ApiClientes/GetRegistros/";
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistrosPreco = "http://hlpsistemas.sytes.net:8085/api/Precos/GetRegistros/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistroPedidoVendas = "http://hlpsistemas.sytes.net:8085/api/ApiPedidoVendas/GetRegistros/";
+                    BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.GetRegistroRepresentante = "http://hlpsistemas.sytes.net:8085/api/ApiEmpresaAspNetUsers/GetRegistros/";
 
                     //Delete
                     BmsSoftware.Modulos.IMEXApp.UrlIMEXApp.Default.DeleteRegistrosCategoriaProduto = "http://hlpsistemas.sytes.net:8085/api/ApiCategoriaProduto/Delete/";

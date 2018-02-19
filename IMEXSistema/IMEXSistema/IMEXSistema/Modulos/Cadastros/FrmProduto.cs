@@ -3780,7 +3780,7 @@ namespace BmsSoftware.Modulos.Cadastros
 
         private void txtNCMSH_Enter(object sender, EventArgs e)
         {
-            lblobsField.Text = "Nomenclatura Comum do Mercosul/Sistema Harmonizado, CTrl+E para pesquisar!";
+            lblobsField.Text = "Nomenclatura Comum do Mercosul/Sistema Harmonizado, CTrl+E para pesquisar ou Duplo Clique para Pesquisar na Receita!";
         }
 
         private void txtExTipi_Enter(object sender, EventArgs e)
@@ -4549,15 +4549,6 @@ namespace BmsSoftware.Modulos.Cadastros
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            try
-            {
-                string PastaOrigem = ConfigSistema1.Default.PathInstall;
-                System.Diagnostics.Process Processo1 = System.Diagnostics.Process.Start("http://www4.receita.fazenda.gov.br/simulador/PesquisarNCM.jsp");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro técnico: " + ex.Message);
-            }
         }
 
         private void etiquetaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -5013,6 +5004,19 @@ namespace BmsSoftware.Modulos.Cadastros
             using (FrmLote frm = new FrmLote())
             {
                 frm.ShowDialog();
+            }
+        }
+
+        private void txtNCMSH_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            try
+            {
+                string PastaOrigem = ConfigSistema1.Default.PathInstall;
+                System.Diagnostics.Process Processo1 = System.Diagnostics.Process.Start("http://www4.receita.fazenda.gov.br/simulador/PesquisarNCM.jsp");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro técnico: " + ex.Message);
             }
         }
     }

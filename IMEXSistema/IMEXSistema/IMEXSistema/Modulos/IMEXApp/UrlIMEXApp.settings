@@ -80,5 +80,11 @@
     <Setting Name="GetRegistrosPreco" Type="System.String" Scope="User">
       <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/Precos/GetRegistros/</Value>
     </Setting>
+    <Setting Name="GetRegistroPedidoVendas" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiPedidoVendas/GetRegistros/</Value>
+    </Setting>
+    <Setting Name="GetRegistroRepresentante" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://hlpsistemas.sytes.net:8085/api/ApiEmpresaAspNetUsers/GetRegistros/</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

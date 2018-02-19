@@ -1403,3 +1403,4 @@ C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\sma-NO\IMEXSistema
 C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\IMEXSistema.exe
 C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\IMEXSistema.pdb
 C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\IMEXSistema.csprojResolveAssemblyReference.cache
+C:\ProjetosIMEX\IMEXSistema\IMEXSistema\IMEXSistema\obj\Debug\BmsSoftware.Modulos.IMEXApp.FrmPedidoIMEXApp.resources

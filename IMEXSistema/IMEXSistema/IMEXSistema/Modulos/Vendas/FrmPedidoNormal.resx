@@ -330,6 +330,20 @@
         ZKmtRGZq/y/sJ1xs3tysf1WWpJ8dFZXwFg5CUAAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="sincronizaIMEXAppToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4gISDh0Q/82NLwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGRSURBVDhP
+        rVJNKIRRFL1+IoliIYQslFI2SmRnreympKxsGN+bb6ZkQ5qsLCh2ysLOQsnOShErC4msFAqFpvHeGzML
+        ic9597saGYtRTt3u9+4599y53aH/x/RjNXkmQsqsU0wvkPfcLUwRUEElKXuE5g/EMYzukQPJO+CGRPkL
+        VLoWom1EltRLF9ciQRl5ehi1RTQfIr9TzMxS4q6KeUYyKIfIB5lCvGHauDCFiNkVaALEAykd517y7Cg3
+        un395zaRhut4OiGvPOK6nbWuR9k5CM0eftaW0CEmXhpQP0G4aWeIJZo0dcKGcD2euXIG13Cal3KImVQN
+        6rti8Cr5gaK2QxQw0EnUbr4+LslLNQslCEqw8whFs40YsMwmnjllSqVb8L7mXoqmW/E4R2iaMj0Qb1A8
+        18TC71DmgE1imQHkDHQX3MtIBqXhND3IInfzn/Aznajvk2/7oB3jngK4u7u9eJJV8sfqF7ZI+LYXBjk2
+        UeZJ8homVoiiCLhbK7OJSIvBbX7fPwGXUHqVErZeCv8Nok96AubflG9ZBAAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="errorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>205, 17</value>
   </metadata>

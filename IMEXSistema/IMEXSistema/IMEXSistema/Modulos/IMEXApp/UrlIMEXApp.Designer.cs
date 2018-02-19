@@ -334,5 +334,29 @@ namespace BmsSoftware.Modulos.IMEXApp {
                 this["GetRegistrosPreco"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiPedidoVendas/GetRegistros/")]
+        public string GetRegistroPedidoVendas {
+            get {
+                return ((string)(this["GetRegistroPedidoVendas"]));
+            }
+            set {
+                this["GetRegistroPedidoVendas"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://hlpsistemas.sytes.net:8085/api/ApiEmpresaAspNetUsers/GetRegistros/")]
+        public string GetRegistroRepresentante {
+            get {
+                return ((string)(this["GetRegistroRepresentante"]));
+            }
+            set {
+                this["GetRegistroRepresentante"] = value;
+            }
+        }
     }
 }
