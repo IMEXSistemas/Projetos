@@ -999,6 +999,8 @@ namespace BMSworks.UI
                     LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
                     RowRelatorio.Clear();
                     RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
+                    RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", idproduto.ToString())); 
+                    
                     LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
                     CUPOMProvider CUPOMProvider = new CUPOMProvider();
                     foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
@@ -1283,6 +1285,7 @@ namespace BMSworks.UI
                     LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
                     RowRelatorio.Clear();
                     RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
+                    RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", idproduto.ToString()));
                     RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(Data)));
                     LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
@@ -1580,6 +1583,26 @@ namespace BMSworks.UI
                     RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
                     RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", ConverStringDateSearch(DataInicial)));
                     RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(DataFinal)));
+                    LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+
+                    foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)
+                    {
+                        result -= Convert.ToDecimal(item.QUANTIDADE);
+                    }
+                }
+
+
+                if (CONFISISTEMAP.Read(1).FLAGBAIXAESTOQUENFCE.TrimEnd() == "S")
+                {
+                    //Cupom Eletronico            
+                    LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
+                    LIS_PRODUTONFCEProvider LIS_PRODUTONFCEP = new LIS_PRODUTONFCEProvider();
+                    RowRelatorio.Clear();
+                    RowRelatorio.Add(new RowsFiltro("IDSTATUSNFCE", "System.Int32", "=", "1")); //Enviado
+                    RowRelatorio.Add(new RowsFiltro("IDPRODUTO", "System.Int32", "=", idproduto.ToString()));
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", ConverStringDateSearch(DataInicial)));
+                    RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(DataFinal)));
+                    
                     LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
                     foreach (LIS_PRODUTONFCEEntity item in LIS_PRODUTONFCEColl)

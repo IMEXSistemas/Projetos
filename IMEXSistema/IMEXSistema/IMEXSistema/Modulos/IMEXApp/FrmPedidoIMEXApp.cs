@@ -181,12 +181,12 @@ namespace BmsSoftware.Modulos.IMEXApp
                     }
                 }
 
-                DataGriewDados.CurrentCell = DataGriewDados.Rows[0].Cells[4];
-
                 lblTotalPesquisa.Text = contador.ToString();
 
                 if (contador == 0)
                     MessageBox.Show("Nenhum Registro Localizado!");
+                else
+                    DataGriewDados.CurrentCell = DataGriewDados.Rows[0].Cells[4];
 
                 this.Cursor = Cursors.Default;
             }
@@ -368,6 +368,40 @@ namespace BmsSoftware.Modulos.IMEXApp
                     if (item.IDEMPRESAASPNETUSERS == IDVENDEOOR)
                     {
                         result = item.XNOME;
+                        break;
+                    }
+                }
+
+                this.Cursor = Cursors.Default;
+                return result;
+            }
+            catch (Exception ex)
+            {
+                this.Cursor = Cursors.Default;
+
+                MessageBox.Show("Erro técnico: " + ex.Message,
+                              ConfigSistema1.Default.NomeEmpresa,
+                              MessageBoxButtons.OK,
+                              MessageBoxIcon.Error,
+                              MessageBoxDefaultButton.Button1);
+
+                return result;
+            }
+        }
+
+        private string BuscaEmailVendedor(int IDVENDEOOR)
+        {
+            string result = "";
+            CreaterCursor Cr = new CreaterCursor();
+            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
+
+            try
+            {
+                foreach (var item in EMPRESAASPNETUSERSIMEXAPPColl)
+                {
+                    if (item.IDEMPRESAASPNETUSERS == IDVENDEOOR)
+                    {
+                        result = item.XEMAIL;
                         break;
                     }
                 }
@@ -599,7 +633,13 @@ namespace BmsSoftware.Modulos.IMEXApp
                     if (PEDIDOTy.IDCLIENTE != -1)
                     {
                         PEDIDOTy.IDSTATUS = 47;// Aberto
-                        //PEDIDOTy.IDVENDEDOR = null;
+
+                        //Busca o Vendedor
+                        string EmailVendedor = BuscaEmailVendedor(Convert.ToInt32(item.IDREPRESENTANTEPEDIDO));
+                        int IDVENDEDOR = BuscaIdVendedor(EmailVendedor);
+                        if(IDVENDEDOR > 0)
+                            PEDIDOTy.IDVENDEDOR = IDVENDEDOR;
+
                         PEDIDOTy.OBSERVACAO += item.XINFADICIONAL + " / ";
                         PEDIDOTy.TOTALPRODUTOS = Convert.ToDecimal(item.VTOTALPROD);
                         PEDIDOTy.TOTALPEDIDO = Convert.ToDecimal(item.VSUBTOTAL);
@@ -608,25 +648,30 @@ namespace BmsSoftware.Modulos.IMEXApp
                         PEDIDOTy.NREFERENCIA = item.IDPEDIDODISPLAY.ToString();
                         PEDIDOTy.FLAGTELABLOQUEADA = "N";
                         PEDIDOTy.OBSERVACAO += "Sincronizado pelo IMEX App Cloud em " + DateTime.Now.ToString();
-                       int _PEDIDO = PEDIDOP.Save(PEDIDOTy);
 
-                        IList<PEDIDOVENDAITEMIMEXAPPEntity> PEDIDOVENDAITEMIMEXAPPColl;
-                        PEDIDOVENDAITEMIMEXAPPColl = item.ITENS;
-
-                        foreach (var item2 in PEDIDOVENDAITEMIMEXAPPColl)
+                        //Sicroniza todos os pedidos
+                        if (chSincPedidos.Checked || !VerificaPedidoSincro(item.IDPEDIDODISPLAY.ToString()))
                         {
-                            PRODUTOSPEDIDOEntity PRODUTOSPEDIDOTy = new PRODUTOSPEDIDOEntity();
-                            PRODUTOSPEDIDOTy.IDPRODPEDIDO = -1;
-                            PRODUTOSPEDIDOTy.IDPRODUTO = BuscaIDProduto(Convert.ToInt32(item2.IDPRODUTO));
-                            PRODUTOSPEDIDOTy.QUANTIDADE = Convert.ToDecimal(item2.VQTDITEM);
-                            PRODUTOSPEDIDOTy.VALORUNITARIO = Convert.ToDecimal(item2.VUNITARIOVENDA);
-                            PRODUTOSPEDIDOTy.VALORTOTAL = Convert.ToDecimal(PRODUTOSPEDIDOTy.VALORUNITARIO * PRODUTOSPEDIDOTy.QUANTIDADE);
-                            PRODUTOSPEDIDOTy.FLAGEXIBIR = "S";
-                            PRODUTOSPEDIDOTy.IDPEDIDO = _PEDIDO;
-                            PRODUTOSPEDIDOP.Save(PRODUTOSPEDIDOTy);
-                        }
+                            int _PEDIDO = PEDIDOP.Save(PEDIDOTy);
 
-                        Contador++;
+                            IList<PEDIDOVENDAITEMIMEXAPPEntity> PEDIDOVENDAITEMIMEXAPPColl;
+                            PEDIDOVENDAITEMIMEXAPPColl = item.ITENS;
+
+                            foreach (var item2 in PEDIDOVENDAITEMIMEXAPPColl)
+                            {
+                                PRODUTOSPEDIDOEntity PRODUTOSPEDIDOTy = new PRODUTOSPEDIDOEntity();
+                                PRODUTOSPEDIDOTy.IDPRODPEDIDO = -1;
+                                PRODUTOSPEDIDOTy.IDPRODUTO = BuscaIDProduto(Convert.ToInt32(item2.IDPRODUTO));
+                                PRODUTOSPEDIDOTy.QUANTIDADE = Convert.ToDecimal(item2.VQTDITEM);
+                                PRODUTOSPEDIDOTy.VALORUNITARIO = Convert.ToDecimal(item2.VUNITARIOVENDA);
+                                PRODUTOSPEDIDOTy.VALORTOTAL = Convert.ToDecimal(PRODUTOSPEDIDOTy.VALORUNITARIO * PRODUTOSPEDIDOTy.QUANTIDADE);
+                                PRODUTOSPEDIDOTy.FLAGEXIBIR = "S";
+                                PRODUTOSPEDIDOTy.IDPEDIDO = _PEDIDO;
+                                PRODUTOSPEDIDOP.Save(PRODUTOSPEDIDOTy);
+                            }
+
+                            Contador++;                            
+                        }
                     }                  
                 }
 
@@ -638,6 +683,36 @@ namespace BmsSoftware.Modulos.IMEXApp
             {
                 this.Cursor = Cursors.Default;
                 MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
+
+        private int BuscaIdVendedor(string EmailVendedor)
+        {
+            CreaterCursor Cr = new CreaterCursor();
+            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
+
+            int result = -1;
+
+            try
+            {
+                FUNCIONARIOCollection FUNCIONARIOColl = new FUNCIONARIOCollection();
+                FUNCIONARIOProvider FUNCIONARIOP = new FUNCIONARIOProvider();
+                
+                RowRelatorio.Clear();
+                RowRelatorio.Add(new RowsFiltro("EMAIL", "System.String", "=", EmailVendedor));
+                FUNCIONARIOColl = FUNCIONARIOP.ReadCollectionByParameter(RowRelatorio);
+
+                if (FUNCIONARIOColl.Count > 0)
+                    result = FUNCIONARIOColl[0].IDFUNCIONARIO;
+
+                this.Cursor = Cursors.Default;
+                return result;
+            }
+            catch (Exception ex)
+            {
+                this.Cursor = Cursors.Default;
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+                return result;
             }
         }
     }

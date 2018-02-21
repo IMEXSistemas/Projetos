@@ -55,7 +55,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chSincPedidos = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.DataGriewDados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -317,22 +317,22 @@
             this.pictureBox2.TabIndex = 309;
             this.pictureBox2.TabStop = false;
             // 
-            // checkBox1
+            // chSincPedidos
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(287, 59);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(166, 17);
-            this.checkBox1.TabIndex = 310;
-            this.checkBox1.Text = "Sincronizar Todos os Pedidos";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chSincPedidos.AutoSize = true;
+            this.chSincPedidos.Location = new System.Drawing.Point(287, 59);
+            this.chSincPedidos.Name = "chSincPedidos";
+            this.chSincPedidos.Size = new System.Drawing.Size(166, 17);
+            this.chSincPedidos.TabIndex = 310;
+            this.chSincPedidos.Text = "Sincronizar Todos os Pedidos";
+            this.chSincPedidos.UseVisualStyleBackColor = true;
             // 
             // FrmPedidoIMEXApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1125, 485);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.chSincPedidos);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
@@ -385,6 +385,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chSincPedidos;
     }
 }

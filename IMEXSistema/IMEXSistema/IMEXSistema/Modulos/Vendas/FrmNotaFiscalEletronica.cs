@@ -8487,8 +8487,10 @@ namespace BmsSoftware.Modulos.Vendas
                     if (chkAjuste.Checked)
                         pag[0] = "90";//90= Sem pagamento  
 
-                    string vPagtoFormaPagamento = Convert.ToDecimal(txtTotalNota2.Text).ToString("n2").Replace(".", "").Replace(",", ".");
-                    pag[1] = vPagtoFormaPagamento;                      // <vPag> Valor do Pagamento
+                    vNF_ICMSTot = (Convert.ToDecimal(txtTotalNota.Text) + Convert.ToDecimal(TxtValorICMSSubst.Text)).ToString("n2");// <vPag> Valor do Pagamento
+                    vNF_ICMSTot = vNF_ICMSTot.Replace(".", "").Replace(",", ".");//Convert.ToDecimal(Entity.TOTALNOTA).ToString("n2").Replace(".", "").Replace(",", ".");//ICMSTot <vNF> 
+                    pag[1] = vNF_ICMSTot;
+
 
                     /* 1=Pagamento integrado com o sistema de automação da empresa (Ex.: equipamento TEF, Comércio Eletrônico);
                      * 2= Pagamento não integrado com o sistema de automação da empresa (Ex.: equipamento POS); */

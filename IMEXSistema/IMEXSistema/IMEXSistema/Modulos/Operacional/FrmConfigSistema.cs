@@ -1459,7 +1459,31 @@ namespace BmsSoftware.Modulos.Operacional
                 }
                 else if (EMPRESATy.UF == "DF")
                 {
-                   
+                    txtConsultaCadastro.Text = "https://cad.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro2.asmx";
+                    txtRecepcaoEvento.Text = "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento.asmx";
+                    txtInutilizacao.Text = "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao2.asmx";
+                    txtConsultaProtocolo.Text = "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta2.asmx";
+                    txtStatusServico.Text = "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico2.asmx";
+                    txtAutorizacao.Text = "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao.asmx";
+                    txtRetAutorizacao.Text = "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao.asmx";
+                    txtDownloadNF.Text = "https://www.nfe.fazenda.gov.br/NfeDownloadNF/NfeDownloadNF.asmx";
+
+                    //Versao 4.00
+                    //  NfeInutilizacao
+                    txtInutilizacao.Text = "https://nfe.svrs.rs.gov.br/ws/nfeinutilizacao/nfeinutilizacao4.asmx";
+                    //NfeConsultaProtocolo 
+                    txtConsultaProtocolo.Text = "https://nfe.svrs.rs.gov.br/ws/NfeConsulta/NfeConsulta4.asmx";
+                    //NfeStatusServico
+                    txtStatusServico.Text = "https://nfe.svrs.rs.gov.br/ws/NfeStatusServico/NfeStatusServico4.asmx";
+                    //NfeConsultaCadastro
+                    txtConsultaCadastro.Text = "https://nfe.svrs.rs.gov.br/ws/cadconsultacadastro/cadconsultacadastro4.asmx";
+                    //RecepcaoEvento
+                    txtRecepcaoEvento.Text = "https://nfe.svrs.rs.gov.br/ws/recepcaoevento/recepcaoevento4.asmx";
+                    //NFeAutorizacao
+                    txtAutorizacao.Text = "https://nfe.svrs.rs.gov.br/ws/NfeAutorizacao/NFeAutorizacao4.asmx";
+                    //NFeRetAutorizacao
+                    txtRetAutorizacao.Text = "https://nfe.svrs.rs.gov.br/ws/NfeRetAutorizacao/NFeRetAutorizacao4.asmx";
+
                 }
                 else
                 {
