@@ -224,7 +224,7 @@ namespace BmsSoftware.Modulos.IMEXApp
             }
         }
 
-        //Busca lista de Cliente no IMEX APP
+        //Busca lista de Produtos no IMEX APP
         private void BuscaListaProdutos()
         {
             CreaterCursor Cr = new CreaterCursor();
@@ -538,7 +538,7 @@ namespace BmsSoftware.Modulos.IMEXApp
                 {
                     if (item.IDPRODUTO == IDPRODUTO)
                     {
-                        result = "Cód. " + item.XMEUID + " - " + item.XNOME ;
+                        result = "Cód. " + item.XMEUID + " - " + item.XNOME;
                         break;
                     }
                 }
