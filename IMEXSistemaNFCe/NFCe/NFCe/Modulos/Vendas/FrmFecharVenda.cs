@@ -513,7 +513,7 @@ namespace BmsSoftware.Modulos.Vendas
                         // Lê linha por linha até o final do arquivo
                         while ((linha = sr.ReadLine()) != null)
                         {
-                            if (linha.IndexOf("Duplicidade") != -1)//Autorizado o uso da NF-e, autorizacao fora de prazo
+                            if (linha.IndexOf("Duplicidade") != -1)
                             {
                                 Result = true;
                             }                            
