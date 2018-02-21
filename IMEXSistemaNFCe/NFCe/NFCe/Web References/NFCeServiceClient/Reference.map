@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://www.aclti.com.br/NFev5/NFCeService.svc?xsd=xsd1" filename="NFCeService.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://www.aclti.com.br/NFev5/NFCeService.svc?xsd=xsd0" filename="NFCeService0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="http://www.aclti.com.br/NFev5/NFCeService.svc?disco" filename="NFCeService.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://www.aclti.com.br/NFev5/NFCeService.svc?wsdl=wsdl0" filename="NFCeService.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://www.aclti.com.br/NFev5/NFCeService.svc?wsdl" filename="NFCeService0.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://www.aclti.com.br/NFev5/NFCeService.svc?xsd=xsd2" filename="NFCeService1.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

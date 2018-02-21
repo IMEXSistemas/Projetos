@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webenefix.com.br/" elementFormDefault="qualified" targetNamespace="http://webenefix.com.br/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://www.aclti.com.br/NFev5/NFCeService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NFeI" />
+  <xs:element name="Ping">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PingResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Autoriza">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="xml" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AutorizaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/NFeI" minOccurs="0" name="AutorizaResult" nillable="true" type="q1:retStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Cancela">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="justificativa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CancelaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/NFeI" minOccurs="0" name="CancelaResult" nillable="true" type="q2:retStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Inutiliza">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="serie" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="numero" nillable="true" type="xs:int" />
+        <xs:element minOccurs="0" name="justificativa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InutilizaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InutilizaResult" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="detalhes" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStatusPorChave">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStatusPorChaveResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/NFeI" minOccurs="0" name="GetStatusPorChaveResult" nillable="true" type="q3:retStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStatusPorOid">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="oid" nillable="true" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStatusPorOidResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/NFeI" minOccurs="0" name="GetStatusPorOidResult" nillable="true" type="q4:retStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDoc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDocResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetDocResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUrlConsulta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUrlConsultaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUrlConsultaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUrlQrCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUrlQrCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUrlQrCodeResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetQrCode">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetQrCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetQrCodeResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProtocoloAutorizacao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProtocoloAutorizacaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetProtocoloAutorizacaoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrototoloCancelamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="cnpj" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPrototoloCancelamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetPrototoloCancelamentoResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

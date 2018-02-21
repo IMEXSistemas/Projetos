@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/NFeI" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/NFeI" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="retStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="chave" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="detalheAutorizacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="detalheCancelamento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="emContingencia" type="xs:boolean" />
+      <xs:element minOccurs="0" name="numero" type="xs:int" />
+      <xs:element minOccurs="0" name="numeroProtocoloAutorizacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="oid" type="xs:int" />
+      <xs:element minOccurs="0" name="statusAutorizacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="statusCancelamento" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="urlQrCode" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="retStatus" nillable="true" type="tns:retStatus" />
+</xs:schema>

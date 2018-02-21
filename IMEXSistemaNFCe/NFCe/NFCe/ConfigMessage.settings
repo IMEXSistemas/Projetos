@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BmsSoftware" GeneratedClassName="ConfigMessage">
+  <Profiles />
+  <Settings>
+    <Setting Name="MsgSave" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Registro salvo com sucesso!</Value>
+    </Setting>
+    <Setting Name="MsgSaveErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível salvar o registro!</Value>
+    </Setting>
+    <Setting Name="CampoObrigatorio" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Campo obrigatório</Value>
+    </Setting>
+    <Setting Name="CampoObrigatorio2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Existe(m) campo(s) obrigatório(s)</Value>
+    </Setting>
+    <Setting Name="MsgErroSenha" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Senha/Usuário inválido!</Value>
+    </Setting>
+    <Setting Name="searchFieldType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Erro no valor da pesquisa</Value>
+    </Setting>
+    <Setting Name="MsgDrop" Type="System.String" Scope="User">
+      <Value Profile="(Default)"> ... Selecione ...</Value>
+    </Setting>
+    <Setting Name="FieldErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Campo inválido!</Value>
+    </Setting>
+    <Setting Name="MsgDelete" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Desejar realmente excluir este registro?</Value>
+    </Setting>
+    <Setting Name="MsgDelete2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Registro deletado com sucesso!</Value>
+    </Setting>
+    <Setting Name="MsgDeleteErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível deletar o registro selecionado!</Value>
+    </Setting>
+    <Setting Name="MsgEditarExcluir" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Para editar o registro pressione Enter ou Delete para apagar.</Value>
+    </Setting>
+    <Setting Name="MsgErroPrint" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Não foi possível imprimir!</Value>
+    </Setting>
+    <Setting Name="MsgSelecRegistro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Selecione um registro!</Value>
+    </Setting>
+    <Setting Name="MsgPerm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Usuário não tem permissão para usar este recurso!</Value>
+    </Setting>
+    <Setting Name="CNPJErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CNPJ Inválido</Value>
+    </Setting>
+    <Setting Name="CPFErro" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CPF Inválido</Value>
+    </Setting>
+    <Setting Name="MsgDataInvalida" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Inválida</Value>
+    </Setting>
+    <Setting Name="CNPJCPFDupl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">CNPJ/CPF já existe no sistema!</Value>
+    </Setting>
+    <Setting Name="MsgErroBoletaSelec" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Erro ao Imprimir a Boleta!</Value>
+    </Setting>
+    <Setting Name="MsgErroImprimirPesquisa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Erro na Pesquisa</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

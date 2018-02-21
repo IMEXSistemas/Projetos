@@ -1,0 +1,60 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BmsSoftware" GeneratedClassName="ConfigSistema1">
+  <Profiles />
+  <Settings>
+    <Setting Name="UrlBd" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PathImage" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PathInstall" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ColorExitTxtBox" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="ColorEnterTxtBox" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Yellow</Value>
+    </Setting>
+    <Setting Name="ConexaoFB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">User=SYSDBA;Password=masterkey;DataSource=localhost;Database=</Value>
+    </Setting>
+    <Setting Name="NomeEmpresa" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IMEX Sistemas</Value>
+    </Setting>
+    <Setting Name="NameSytem" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nota Fiscal de Consumidor Eletrônica - NFCe</Value>
+    </Setting>
+    <Setting Name="FormatDateSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">yyyy/MM/dd</Value>
+    </Setting>
+    <Setting Name="site" Type="System.String" Scope="User">
+      <Value Profile="(Default)">imexsistema.com.br</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="email" Type="System.String" Scope="User">
+      <Value Profile="(Default)">imexsistema@gmail.com</Value>
+    </Setting>
+    <Setting Name="TituloRelatorio" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="impressoraticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg1ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg2ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg3ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="msg4ticket" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

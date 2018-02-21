@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://webenefix.com.br/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://tempuri.org/" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="NFCeService" targetNamespace="http://webenefix.com.br/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://tempuri.org/" location="http://www.aclti.com.br/NFev5/NFCeService.svc?wsdl=wsdl0" />
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://webenefix.com.br/Imports">
+      <xsd:import schemaLocation="http://www.aclti.com.br/NFev5/NFCeService.svc?xsd=xsd0" namespace="http://webenefix.com.br/" />
+      <xsd:import schemaLocation="http://www.aclti.com.br/NFev5/NFCeService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://www.aclti.com.br/NFev5/NFCeService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/NFeI" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="NFCeService_Ping_InputMessage">
+    <wsdl:part name="parameters" element="tns:Ping" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_Ping_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PingResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_Autoriza_InputMessage">
+    <wsdl:part name="parameters" element="tns:Autoriza" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_Autoriza_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutorizaResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_Cancela_InputMessage">
+    <wsdl:part name="parameters" element="tns:Cancela" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_Cancela_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CancelaResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_Inutiliza_InputMessage">
+    <wsdl:part name="parameters" element="tns:Inutiliza" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_Inutiliza_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InutilizaResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetStatusPorChave_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatusPorChave" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetStatusPorChave_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatusPorChaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetStatusPorOid_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatusPorOid" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetStatusPorOid_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetStatusPorOidResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetDoc_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDoc" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetDoc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetUrlConsulta_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUrlConsulta" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetUrlConsulta_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUrlConsultaResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetUrlQrCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUrlQrCode" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetUrlQrCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUrlQrCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetQrCode_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetQrCode" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetQrCode_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetQrCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetProtocoloAutorizacao_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProtocoloAutorizacao" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetProtocoloAutorizacao_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProtocoloAutorizacaoResponse" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetPrototoloCancelamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrototoloCancelamento" />
+  </wsdl:message>
+  <wsdl:message name="NFCeService_GetPrototoloCancelamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPrototoloCancelamentoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="NFCeService">
+    <wsdl:operation name="Ping">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/Ping" message="tns:NFCeService_Ping_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/PingResponse" message="tns:NFCeService_Ping_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Autoriza">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/Autoriza" message="tns:NFCeService_Autoriza_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/AutorizaResponse" message="tns:NFCeService_Autoriza_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Cancela">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/Cancela" message="tns:NFCeService_Cancela_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/CancelaResponse" message="tns:NFCeService_Cancela_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Inutiliza">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/Inutiliza" message="tns:NFCeService_Inutiliza_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/InutilizaResponse" message="tns:NFCeService_Inutiliza_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatusPorChave">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetStatusPorChave" message="tns:NFCeService_GetStatusPorChave_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetStatusPorChaveResponse" message="tns:NFCeService_GetStatusPorChave_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStatusPorOid">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetStatusPorOid" message="tns:NFCeService_GetStatusPorOid_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetStatusPorOidResponse" message="tns:NFCeService_GetStatusPorOid_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDoc">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetDoc" message="tns:NFCeService_GetDoc_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetDocResponse" message="tns:NFCeService_GetDoc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlConsulta">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetUrlConsulta" message="tns:NFCeService_GetUrlConsulta_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetUrlConsultaResponse" message="tns:NFCeService_GetUrlConsulta_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlQrCode">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetUrlQrCode" message="tns:NFCeService_GetUrlQrCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetUrlQrCodeResponse" message="tns:NFCeService_GetUrlQrCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetQrCode">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetQrCode" message="tns:NFCeService_GetQrCode_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetQrCodeResponse" message="tns:NFCeService_GetQrCode_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProtocoloAutorizacao">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetProtocoloAutorizacao" message="tns:NFCeService_GetProtocoloAutorizacao_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetProtocoloAutorizacaoResponse" message="tns:NFCeService_GetProtocoloAutorizacao_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPrototoloCancelamento">
+      <wsdl:input wsaw:Action="http://webenefix.com.br/NFCeService/GetPrototoloCancelamento" message="tns:NFCeService_GetPrototoloCancelamento_InputMessage" />
+      <wsdl:output wsaw:Action="http://webenefix.com.br/NFCeService/GetPrototoloCancelamentoResponse" message="tns:NFCeService_GetPrototoloCancelamento_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="NFCeService">
+    <wsdl:port name="BasicHttpBinding_NFCeService" binding="i0:BasicHttpBinding_NFCeService">
+      <soap:address location="http://www.aclti.com.br/NFev5/NFCeService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

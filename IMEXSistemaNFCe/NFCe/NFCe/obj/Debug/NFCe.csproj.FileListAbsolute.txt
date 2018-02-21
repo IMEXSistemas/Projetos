@@ -1,0 +1,128 @@
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe.config
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.pdb
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\DynamicUtilities.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\saxon9he-api.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\saxon9he.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IKVM.Runtime.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\NFCe.csprojResolveAssemblyReference.cache
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\VVX.PrintOptions.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.FrmMain.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmClienteSimples.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmWebService.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamentoReceberNFCe.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmVisualizaProdutoPedido.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfiguarcaoNFCe.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmExibirMsg.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\winfit.Modulos.Operacional.FrmSobre.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmAberturaCaixa.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmExibirNFce.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmFecharVenda.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmItensVenda.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPesquisaNFCe.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaTipoPagamento.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaProduto.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\NFCe.csproj.GenerateResource.Cache
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.exe
+C:\Users\Master\Dropbox\Projetos BMS\NFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.pdb
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe.config
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.exe
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.pdb
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.pdb
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\saxon9he-api.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\saxon9he.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Core.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.XML.API.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IKVM.Runtime.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Text.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Charsets.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IKVM.OpenJDK.Util.dll
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\NFCe.csprojResolveAssemblyReference.cache
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\VVX.PrintOptions.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.FrmMain.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BMSSoftware.Modulos.Cadastros.FrmClienteSimples.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmWebService.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamentoReceberNFCe.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmVisualizaProdutoPedido.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfiguarcaoNFCe.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmExibirMsg.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\winfit.Modulos.Operacional.FrmSobre.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmAberturaCaixa.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmExibirNFce.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmFecharVenda.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmItensVenda.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPesquisaNFCe.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaTipoPagamento.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaProduto.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Users\Master\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\NFCe.csproj.GenerateResource.Cache
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\VVX.PrintOptions.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.FrmMain.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmWebService.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamentoReceberNFCe.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmVisualizaProdutoPedido.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfiguarcaoNFCe.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmExibirMsg.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\winfit.Modulos.Operacional.FrmSobre.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmAberturaCaixa.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmFecharVenda.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmItensVenda.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPesquisaNFCe.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaTipoPagamento.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaProduto.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\NFCe.csproj.GenerateResource.Cache
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\NFCe.csproj.CoreCompileInputs.cache
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe.config
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.pdb
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.exe
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.pdb
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\NFCe.csprojResolveAssemblyReference.cache
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmSangria.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Classes.BMSworks.UI.FomExportPDF.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\itextsharp.dll
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaVendedorPedNormal.resources
+C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastro.FrmAlteraNFCe.resources

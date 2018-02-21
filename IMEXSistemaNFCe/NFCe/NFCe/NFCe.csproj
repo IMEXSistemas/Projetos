@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F5786A5-4900-48AC-AC79-57D70189A9F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BmsSoftware</RootNamespace>
+    <AssemblyName>IMEXNFCe</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NFCe.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Boleto.Net, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Boleto.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicUtilities">
+      <HintPath>..\..\..\BmsSoftware - NFe\BmsNFE\BmsNFE\bin\Debug\DynamicUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="FirebirdSql.Data.FirebirdClient">
+      <HintPath>dll\FirebirdSql.Data.FirebirdClient.dll</HintPath>
+    </Reference>
+    <Reference Include="ImprimeTexto, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ImprimeTexto.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\..\..\IMEXSISTEMA\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="MessagingToolkit.QRCode">
+      <HintPath>..\..\..\..\Benefix\src.nfce.easy.emulador.demo.scharp.vs2012_V5.0.4.246\bin\Debug\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="saxon9he-api">
+      <HintPath>..\..\..\..\Benefix\src.nfce.easy.emulador.demo.scharp.vs2012_V5.0.4.246\bin\Debug\saxon9he-api.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\BMSworks.Firebird\Default\FirebirdGetDbData.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_SANGRIACAIXAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\PEDIDOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\SANGRIACAIXAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\ABERTURACAIXAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\ARQUIVOBINARIOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\BANCOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\CFOPProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\CLIENTEProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\CONFIGBOLETAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\CONFISISTEMAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\CSTProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\CUPOMELETRONICOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\DUPLICATARECEBERProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\EMPRESAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\FORMAPAGAMENTOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\FUNCIONARIOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\IMPRGRIDProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\ITENSFORMAPAGTOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_ABERTURACAIXAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_CLIENTEProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_CONFIGBOLETAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_CONTROLEACESSOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_CUPOMELETRONICOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_DUPLICATARECEBERProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_ESTADOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_MUNICIPIOSProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_PEDIDOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_PRODUTONFCEProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_PRODUTOSPEDIDOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LIS_PRODUTOSProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\LOCALCOBRANCAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\NCMProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\ORIGEMMERCADORIAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\PRODUTONFCEProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\PRODUTOSProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\STATUSNFCEProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\TIPODUPLICATAProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\USUARIOProvider.cs" />
+    <Compile Include="Classes\BMSworks.Firebird\Generated\WEBSERVICEProvider.cs" />
+    <Compile Include="Classes\BMSworks.Library\General\Filter\FilterProperty.cs" />
+    <Compile Include="Classes\BMSworks.Library\General\Filter\FilterPropertyCollection.cs" />
+    <Compile Include="Classes\BMSworks.Library\General\Filter\IFilterable.cs" />
+    <Compile Include="Classes\BMSworks.Library\General\Filter\ReflectiveFilter.cs" />
+    <Compile Include="Classes\BMSworks.Model\Custom\Collections\RowsFiltroCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_SANGRIACAIXACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\PEDIDOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\SANGRIACAIXACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_SANGRIACAIXAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\PEDIDOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\SANGRIACAIXAEntity .cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\ABERTURACAIXAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\ARQUIVOBINARIOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\BANCOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\BLOQUEIOTELAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\CFOPEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\ABERTURACAIXACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\ARQUIVOBINARIOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\BANCOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\BLOQUEIOTELACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\CFOPCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\CLIENTECollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\CLIENTEEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\CONFIGBOLETACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\CONFISISTEMACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\CSTCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\CUPOMELETRONICOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\DUPLICATARECEBERCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\EMPRESACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\FORMAPAGAMENTOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\FUNCIONARIOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\IMPRGRIDCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\ITENSFORMAPAGTOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_ABERTURACAIXACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_CLIENTECollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_CONFIGBOLETACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_CONTROLEACESSOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_CUPOMELETRONICOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_DUPLICATARECEBERCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_ESTADOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_MUNICIPIOSCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_PEDIDOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_PRODUTONFCECollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_PRODUTOSCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LIS_PRODUTOSPEDIDOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\LOCALCOBRANCACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\NCMCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\ORIGEMMERCADORIACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\PRODUTONFCECollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\PRODUTOSCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\STATUSNFCECollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\TIPODUPLICATACollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\USUARIOCollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Custom\RowsFiltro.cs" />
+    <Compile Include="Classes\BMSworks.Model\Default\FiltroSQL.cs" />
+    <Compile Include="Classes\BMSworks.Model\Default\WhereClause.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\Collections\WEBSERVICECollection.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\CONFIGBOLETAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\CONFISISTEMAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\CSTEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\CUPOMELETRONICOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\DUPLICATARECEBEREntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\EMPRESAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\FORMAPAGAMENTOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\FUNCIONARIOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\IMPRGRIDEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\ITENSFORMAPAGTOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_ABERTURACAIXAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_CLIENTEEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_CONFIGBOLETAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_CONTROLEACESSOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_CUPOMELETRONICOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_DUPLICATARECEBEREntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_ESTADOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_MUNICIPIOSEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_PEDIDOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_PRODUTONFCEEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_PRODUTOSEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LIS_PRODUTOSPEDIDOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\LOCALCOBRANCAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\NCMEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\ORIGEMMERCADORIAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\PRODUTONFCEEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\PRODUTOSEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\STATUSNFCEEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\TIPODUPLICATAEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\USUARIOEntity.cs" />
+    <Compile Include="Classes\BMSworks.Model\Generated\WEBSERVICEEntity.cs" />
+    <Compile Include="Classes\BMSworks.UI\ConfigReportStandard.cs" />
+    <Compile Include="Classes\BMSworks.UI\CreaterCursor.cs" />
+    <Compile Include="Classes\BMSworks.UI\EnDecryptFile.cs" />
+    <Compile Include="Classes\BMSworks.UI\FomExportPDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\BMSworks.UI\FomExportPDF.designer.cs">
+      <DependentUpon>FomExportPDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BMSworks.UI\InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\BMSworks.UI\NumeroPorExtenso.cs" />
+    <Compile Include="Classes\BMSworks.UI\PrintGrid\VVX_PrintDGV.cs" />
+    <Compile Include="Classes\BMSworks.UI\PrintGrid\VVX_PrintDGVOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\BMSworks.UI\PrintGrid\VVX_PrintDGVOptions.designer.cs">
+      <DependentUpon>VVX_PrintDGVOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BMSworks.UI\SecurityString.cs" />
+    <Compile Include="Classes\BMSworks.UI\ticket.cs" />
+    <Compile Include="Classes\BMSworks.UI\Utility.cs" />
+    <Compile Include="Classes\BMSworks.UI\ValidacoesLibrary.cs" />
+    <Compile Include="Classes\Impressoras\Bematech\BemaNFCe32.cs" />
+    <Compile Include="Classes\Impressoras\Daruma\Declaracoes.cs" />
+    <Compile Include="ConfigMessage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ConfigMessage.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigNFCe.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ConfigNFCe.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigSistema1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>ConfigSistema1.settings</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmAlteraNFCe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmAlteraNFCe.Designer.cs">
+      <DependentUpon>FrmAlteraNFCe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmFormasPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmFormasPagamento.designer.cs">
+      <DependentUpon>FrmFormasPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmWebService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmWebService.designer.cs">
+      <DependentUpon>FrmWebService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmLocalCobranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Cadastro\FrmLocalCobranca.designer.cs">
+      <DependentUpon>FrmLocalCobranca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Financeiro\FrmVariosLancamentoReceberNFCe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Financeiro\FrmVariosLancamentoReceberNFCe.designer.cs">
+      <DependentUpon>FrmVariosLancamentoReceberNFCe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmSearchCidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmSearchCidade.designer.cs">
+      <DependentUpon>FrmSearchCidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmSearchPedidoNFe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmSearchPedidoNFe.designer.cs">
+      <DependentUpon>FrmSearchPedidoNFe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmSearchProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmSearchProduto.designer.cs">
+      <DependentUpon>FrmSearchProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmVisualizaProdutoPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\FrmSearch\FrmVisualizaProdutoPedido.Designer.cs">
+      <DependentUpon>FrmVisualizaProdutoPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmConfigMaquina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmConfigMaquina.designer.cs">
+      <DependentUpon>FrmConfigMaquina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmConfiguarcaoNFCe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmConfiguarcaoNFCe.Designer.cs">
+      <DependentUpon>FrmConfiguarcaoNFCe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmEmpresa.designer.cs">
+      <DependentUpon>FrmEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmExibirMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmExibirMsg.designer.cs">
+      <DependentUpon>FrmExibirMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmLogin.designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Operacional\FrmSobre.designer.cs">
+      <DependentUpon>FrmSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Relatorio\FrmVendaVendedorPedNormal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Relatorio\FrmVendaVendedorPedNormal.designer.cs">
+      <DependentUpon>FrmVendaVendedorPedNormal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmAberturaCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmAberturaCaixa.Designer.cs">
+      <DependentUpon>FrmAberturaCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmCFOP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmCFOP.designer.cs">
+      <DependentUpon>FrmCFOP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmFecharVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmFecharVenda.Designer.cs">
+      <DependentUpon>FrmFecharVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmItensVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmItensVenda.Designer.cs">
+      <DependentUpon>FrmItensVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmPesquisaNFCe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmPesquisaNFCe.Designer.cs">
+      <DependentUpon>FrmPesquisaNFCe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmSangria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmSangria.designer.cs">
+      <DependentUpon>FrmSangria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmVendaTipoPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmVendaTipoPagamento.Designer.cs">
+      <DependentUpon>FrmVendaTipoPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmVendaProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulos\Vendas\FrmVendaProduto.Designer.cs">
+      <DependentUpon>FrmVendaProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web References\NFCeServiceClient\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Classes\BMSworks.UI\FomExportPDF.resx">
+      <DependentUpon>FomExportPDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\BMSworks.UI\InputBox.resx">
+      <DependentUpon>InputBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Classes\BMSworks.UI\PrintGrid\VVX_PrintDGVOptions.resx">
+      <DependentUpon>VVX_PrintDGVOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cadastro\FrmAlteraNFCe.resx">
+      <DependentUpon>FrmAlteraNFCe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cadastro\FrmFormasPagamento.resx">
+      <DependentUpon>FrmFormasPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cadastro\FrmWebService.resx">
+      <DependentUpon>FrmWebService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Cadastro\FrmLocalCobranca.resx">
+      <DependentUpon>FrmLocalCobranca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Financeiro\FrmVariosLancamentoReceberNFCe.resx">
+      <DependentUpon>FrmVariosLancamentoReceberNFCe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FrmSearch\FrmSearchCidade.resx">
+      <DependentUpon>FrmSearchCidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FrmSearch\FrmSearchPedidoNFe.resx">
+      <DependentUpon>FrmSearchPedidoNFe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FrmSearch\FrmSearchProduto.resx">
+      <DependentUpon>FrmSearchProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\FrmSearch\FrmVisualizaProdutoPedido.resx">
+      <DependentUpon>FrmVisualizaProdutoPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Operacional\FrmConfigMaquina.resx">
+      <DependentUpon>FrmConfigMaquina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Operacional\FrmConfiguarcaoNFCe.resx">
+      <DependentUpon>FrmConfiguarcaoNFCe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Operacional\FrmEmpresa.resx">
+      <DependentUpon>FrmEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Operacional\FrmExibirMsg.resx">
+      <DependentUpon>FrmExibirMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Operacional\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Operacional\FrmSobre.resx">
+      <DependentUpon>FrmSobre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Relatorio\FrmVendaVendedorPedNormal.resx">
+      <DependentUpon>FrmVendaVendedorPedNormal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmAberturaCaixa.resx">
+      <DependentUpon>FrmAberturaCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmCFOP.resx">
+      <DependentUpon>FrmCFOP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmFecharVenda.resx">
+      <DependentUpon>FrmFecharVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmItensVenda.resx">
+      <DependentUpon>FrmItensVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmPesquisaNFCe.resx">
+      <DependentUpon>FrmPesquisaNFCe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmSangria.resx">
+      <DependentUpon>FrmSangria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmVendaTipoPagamento.resx">
+      <DependentUpon>FrmVendaTipoPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos\Vendas\FrmVendaProduto.resx">
+      <DependentUpon>FrmVendaProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ConfigMessage.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ConfigMessage.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ConfigNFCe.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ConfigNFCe.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ConfigSistema1.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>ConfigSistema1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\NFCeServiceClient\NFCeService.wsdl" />
+    <None Include="Web References\NFCeServiceClient\NFCeService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NFCeServiceClient\NFCeService0.wsdl" />
+    <None Include="Web References\NFCeServiceClient\NFCeService0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NFCeServiceClient\NFCeService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NFCeServiceClient\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\NFCeServiceClient\retStatus.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\BMSworks.Firebird\Custom\" />
+    <Folder Include="Classes\BMSworks.Model\Default\Collections\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.aclti.com.br/NFev5/NFCeService.svc">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\NFCeServiceClient\</RelPath>
+      <UpdateFromURL>http://www.aclti.com.br/NFev5/NFCeService.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BmsSoftware_NFCeServiceClient_NFCeService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\NFCeServiceClient\NFCeService.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
