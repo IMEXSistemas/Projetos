@@ -981,12 +981,13 @@ namespace BMSworks.UI
 
                     RowRelatorio.Clear();
                     RowRelatorio.Add(new RowsFiltro("flagenviada", "System.String", "=", "S"));
+                    RowRelatorio.Add(new RowsFiltro("FLAGCANCELADA", "System.String", "=", "N"));
                     RowRelatorio.Add(new RowsFiltro("idproduto", "System.String", "=", idproduto.ToString()));
                     LIS_PRODUTONFEColl = LIS_PRODUTONFEP.ReadCollectionByParameter(RowRelatorio, "IDNOTAFISCALE DESC");
                     NOTAFISCALEProvider NOTAFISCALEP = new NOTAFISCALEProvider();
                     foreach (LIS_PRODUTONFEEntity item in LIS_PRODUTONFEColl)
                     {
-                        if (NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGCANCELADA.TrimEnd() == "N" && NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGENVIADA.TrimEnd() == "S")
+                        //if (NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGCANCELADA.TrimEnd() == "N" && NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGENVIADA.TrimEnd() == "S")
                             result -= Convert.ToDecimal(item.QUANTIDADE);
                     }
                 }
@@ -1265,6 +1266,7 @@ namespace BMSworks.UI
 
                     RowRelatorio.Clear();
                     RowRelatorio.Add(new RowsFiltro("flagenviada", "System.String", "=", "S"));
+                    RowRelatorio.Add(new RowsFiltro("FLAGCANCELADA", "System.String", "=", "N"));
                     RowRelatorio.Add(new RowsFiltro("idproduto", "System.String", "=", idproduto.ToString()));
                     RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(Data)));
 
@@ -1272,7 +1274,6 @@ namespace BMSworks.UI
                     NOTAFISCALEProvider NOTAFISCALEP = new NOTAFISCALEProvider();
                     foreach (LIS_PRODUTONFEEntity item in LIS_PRODUTONFEColl)
                     {
-                        if (NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGCANCELADA.TrimEnd() == "N" && NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGENVIADA.TrimEnd() == "S")
                             result -= Convert.ToDecimal(item.QUANTIDADE);
                     }
                 }
@@ -1561,6 +1562,7 @@ namespace BMSworks.UI
 
                     RowRelatorio.Clear();
                     RowRelatorio.Add(new RowsFiltro("flagenviada", "System.String", "=", "S"));
+                    RowRelatorio.Add(new RowsFiltro("FLAGCANCELADA", "System.String", "=", "N"));
                     RowRelatorio.Add(new RowsFiltro("idproduto", "System.String", "=", idproduto.ToString()));
                     RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", ">=", ConverStringDateSearch(DataInicial)));
                     RowRelatorio.Add(new RowsFiltro("DTEMISSAO", "System.DateTime", "<=", ConverStringDateSearch(DataFinal)));
@@ -1569,7 +1571,6 @@ namespace BMSworks.UI
                     NOTAFISCALEProvider NOTAFISCALEP = new NOTAFISCALEProvider();
                     foreach (LIS_PRODUTONFEEntity item in LIS_PRODUTONFEColl)
                     {
-                        if (NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGCANCELADA.TrimEnd() == "N" && NOTAFISCALEP.Read(Convert.ToInt32(item.IDNOTAFISCALE)).FLAGENVIADA.TrimEnd() == "S")
                             result -= Convert.ToDecimal(item.QUANTIDADE);
                     }
                 }
