@@ -568,21 +568,21 @@ namespace BMSSoftware.Modulos.Cadastros
             this.emLoteToolStripMenuItem});
             this.enviarEmailToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("enviarEmailToolStripMenuItem.Image")));
             this.enviarEmailToolStripMenuItem.Name = "enviarEmailToolStripMenuItem";
-            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.enviarEmailToolStripMenuItem.Text = "Enviar Email";
             this.enviarEmailToolStripMenuItem.Click += new System.EventHandler(this.enviarEmailToolStripMenuItem_Click);
             // 
             // únicoToolStripMenuItem1
             // 
             this.únicoToolStripMenuItem1.Name = "únicoToolStripMenuItem1";
-            this.únicoToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.únicoToolStripMenuItem1.Size = new System.Drawing.Size(114, 22);
             this.únicoToolStripMenuItem1.Text = "Único";
             this.únicoToolStripMenuItem1.Click += new System.EventHandler(this.únicoToolStripMenuItem1_Click);
             // 
             // emLoteToolStripMenuItem
             // 
             this.emLoteToolStripMenuItem.Name = "emLoteToolStripMenuItem";
-            this.emLoteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.emLoteToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.emLoteToolStripMenuItem.Text = "Em lote";
             this.emLoteToolStripMenuItem.Click += new System.EventHandler(this.emLoteToolStripMenuItem_Click);
             // 
@@ -590,14 +590,14 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             this.extratoDeContaAReceberToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("extratoDeContaAReceberToolStripMenuItem.Image")));
             this.extratoDeContaAReceberToolStripMenuItem.Name = "extratoDeContaAReceberToolStripMenuItem";
-            this.extratoDeContaAReceberToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.extratoDeContaAReceberToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.extratoDeContaAReceberToolStripMenuItem.Text = "Extrato de Conta a Receber";
             this.extratoDeContaAReceberToolStripMenuItem.Click += new System.EventHandler(this.extratoDeContaAReceberToolStripMenuItem_Click);
             // 
             // migrarCidadeToolStripMenuItem
             // 
             this.migrarCidadeToolStripMenuItem.Name = "migrarCidadeToolStripMenuItem";
-            this.migrarCidadeToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.migrarCidadeToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.migrarCidadeToolStripMenuItem.Text = "Migrar Cidade";
             this.migrarCidadeToolStripMenuItem.Visible = false;
             this.migrarCidadeToolStripMenuItem.Click += new System.EventHandler(this.migrarCidadeToolStripMenuItem_Click);
@@ -606,14 +606,14 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             this.veículosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("veículosToolStripMenuItem.Image")));
             this.veículosToolStripMenuItem.Name = "veículosToolStripMenuItem";
-            this.veículosToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.veículosToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.veículosToolStripMenuItem.Text = "Veículos";
             this.veículosToolStripMenuItem.Click += new System.EventHandler(this.veículosToolStripMenuItem_Click);
             // 
             // pesquisarOClientePelaPlacaToolStripMenuItem
             // 
             this.pesquisarOClientePelaPlacaToolStripMenuItem.Name = "pesquisarOClientePelaPlacaToolStripMenuItem";
-            this.pesquisarOClientePelaPlacaToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.pesquisarOClientePelaPlacaToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.pesquisarOClientePelaPlacaToolStripMenuItem.Text = "Pesquisar o Cliente pela Placa";
             this.pesquisarOClientePelaPlacaToolStripMenuItem.Click += new System.EventHandler(this.pesquisarOClientePelaPlacaToolStripMenuItem_Click);
             // 
@@ -621,8 +621,8 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             this.uploadDaSicronizaçãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uploadDaSicronizaçãoToolStripMenuItem.Image")));
             this.uploadDaSicronizaçãoToolStripMenuItem.Name = "uploadDaSicronizaçãoToolStripMenuItem";
-            this.uploadDaSicronizaçãoToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.uploadDaSicronizaçãoToolStripMenuItem.Text = "Upload de Sicronização";
+            this.uploadDaSicronizaçãoToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
+            this.uploadDaSicronizaçãoToolStripMenuItem.Text = "Sicronização no IMEX App Cloud";
             this.uploadDaSicronizaçãoToolStripMenuItem.Click += new System.EventHandler(this.uploadDaSicronizaçãoToolStripMenuItem_Click);
             // 
             // voltaToolStripMenuItem

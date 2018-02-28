@@ -24,6 +24,7 @@ using VVX;
 using BmsSoftware.Classes.BMSworks.UI;
 using System.Runtime.InteropServices;
 using winfit.Modulos.Outros;
+using ACBrFramework.ECF;
 
 namespace BmsSoftware.Modulos.Vendas
 {
@@ -4438,21 +4439,35 @@ namespace BmsSoftware.Modulos.Vendas
             }
         }
 
-        public ACBrFramework.ACBrDevice Device { get; set; }
+       // public ACBrFramework.ACBrDevice Device { get; set; }
+        public ACBrFramework.ECF.ACBrECF acbrECF { get; set; }
         private void AbreGaveta()
         {
             try
             {
-               
-                ACBrFramework.ECF.ACBrECF Abre_Gaveta2 = new ACBrFramework.ECF.ACBrECF();
-                
-                Device.Porta = BmsSoftware.ConfigSistema1.Default.FLAGMATRICIALLOCAL;
-               // if (!Abre_Gaveta2.GavetaAberta)
-                    Abre_Gaveta2.AbreGaveta();               
+                acbrECF.Device.Porta = BmsSoftware.ConfigSistema1.Default.FLAGMATRICIALLOCAL;
+               // acbrECF.Ativar();
+                var ret = ACBrECFInterop.ECF_AbreGaveta(Handle);
 
-       // ACBr.Net.ACBrECF AbreGaveta_ = new ACBr.Net.ACBrECF();
-       // AbreGaveta_.Ativo = true;
-       //  AbreGaveta_.GavetaSinalInvertido = true;
+                switch (ret)
+                {
+                    case -1:
+                        MessageBox.Show("Erro ret: -1");
+                        break;
+                    case -2:
+                        MessageBox.Show("Erro ret: -2");
+                        break;
+                }
+
+                // ACBrFramework.ECF.ACBrECF Abre_Gaveta2 = new ACBrFramework.ECF.ACBrECF();
+
+                //  Device.Porta = BmsSoftware.ConfigSistema1.Default.FLAGMATRICIALLOCAL;
+                // if (!Abre_Gaveta2.GavetaAberta)
+                //  Abre_Gaveta2.AbreGaveta();               
+
+                // ACBr.Net.ACBrECF AbreGaveta_ = new ACBr.Net.ACBrECF();
+                // AbreGaveta_.Ativo = true;
+                //  AbreGaveta_.GavetaSinalInvertido = true;
 
                 //if (!AbreGaveta_.GavetaAberta)
                 //  AbreGaveta_.AbreGaveta();

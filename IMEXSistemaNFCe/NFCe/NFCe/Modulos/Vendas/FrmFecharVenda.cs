@@ -205,10 +205,10 @@ namespace BmsSoftware.Modulos.Vendas
             {
                 RowRelatorio.Clear();
                 RowRelatorio.Add(new RowsFiltro("CUPOMELETRONICOID", "System.Int32", "=", CUPOMELETRONICOID.ToString()));
-                LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-                LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+                LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl2 = new LIS_PRODUTONFCECollection();
+                LIS_PRODUTONFCEColl2 = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
-                foreach (var item in LIS_PRODUTONFCEColl)
+                foreach (var item in LIS_PRODUTONFCEColl2)
                 {
                     result += Convert.ToDecimal(item.VALORTOTAL);
                 }
@@ -401,7 +401,7 @@ namespace BmsSoftware.Modulos.Vendas
             {
                 if (CUPOMELETRONICOTy.IDSTATUSNFCE == 1)//Enviado)
                 {
-                    DialogResult dr = MessageBox.Show("Cupom já Emitido, Deseja Imprimir?",
+                    DialogResult dr = MessageBox.Show("Cupom NFCe já Emitido, Deseja Imprimir?",
                                  ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
 
                     if (dr == DialogResult.Yes)
@@ -1925,10 +1925,10 @@ namespace BmsSoftware.Modulos.Vendas
 
             RowRelatorio.Clear();
             RowRelatorio.Add(new RowsFiltro("CUPOMELETRONICOID", "System.Int32", "=", CUPOMELETRONICOID.ToString()));
-            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-            LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl2 = new LIS_PRODUTONFCECollection();
+            LIS_PRODUTONFCEColl2 = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
-            foreach (var item in LIS_PRODUTONFCEColl)
+            foreach (var item in LIS_PRODUTONFCEColl2)
             {
                 Return += Convert.ToDecimal(item.VLTRIBUTOAPROX);
             }
@@ -1943,10 +1943,10 @@ namespace BmsSoftware.Modulos.Vendas
 
             RowRelatorio.Clear();
             RowRelatorio.Add(new RowsFiltro("CUPOMELETRONICOID", "System.Int32", "=", CUPOMELETRONICOID.ToString()));
-            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-            LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl2 = new LIS_PRODUTONFCECollection();
+            LIS_PRODUTONFCEColl2 = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
-            foreach (var item in LIS_PRODUTONFCEColl)
+            foreach (var item in LIS_PRODUTONFCEColl2)
             {
                 Return += Convert.ToDecimal(item.VALORTOTAL);
             }
@@ -1960,12 +1960,13 @@ namespace BmsSoftware.Modulos.Vendas
 
             RowRelatorio.Clear();
             RowRelatorio.Add(new RowsFiltro("CUPOMELETRONICOID", "System.Int32", "=", CUPOMELETRONICOID.ToString()));
-            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-            LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl2 = new LIS_PRODUTONFCECollection();
+            LIS_PRODUTONFCEColl2 = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
-            foreach (var item in LIS_PRODUTONFCEColl)
+            foreach (var item in LIS_PRODUTONFCEColl2)
             {
-                if(item.IDCST != 13) // cst/cson 0102
+                //  if(item.IDCST != 13) // cst/cson 0102
+                if (item.VALORICMS > 0) 
                     Return += Convert.ToDecimal(item.BASEICMS);
             }
 
@@ -1978,12 +1979,13 @@ namespace BmsSoftware.Modulos.Vendas
 
             RowRelatorio.Clear();
             RowRelatorio.Add(new RowsFiltro("CUPOMELETRONICOID", "System.Int32", "=", CUPOMELETRONICOID.ToString()));
-            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-            LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+            LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl2 = new LIS_PRODUTONFCECollection();
+            LIS_PRODUTONFCEColl2 = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
-            foreach (var item in LIS_PRODUTONFCEColl)
+            foreach (var item in LIS_PRODUTONFCEColl2)
             {
-                if (item.IDCST != 13) // cst/cson 0102
+                //  if (item.IDCST != 13) // cst/cson 0102
+                if (item.VALORICMS > 0) 
                     Return += Convert.ToDecimal(item.VALORICMS);
             }
 

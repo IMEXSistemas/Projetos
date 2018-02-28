@@ -656,7 +656,7 @@ namespace BmsSoftware.Modulos.Vendas
             this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
 
             this.MinimizeBox = false;
-            //this.FormBorderStyle = FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = FormBorderStyle.FixedDialog;
 
             GetToolStripButtonCadastro();
 
@@ -3204,24 +3204,7 @@ namespace BmsSoftware.Modulos.Vendas
 
         private void ImprimiObsAnexo()
         {
-            try
-            {
-                PrintPreviewDialog objPrintPreview = new PrintPreviewDialog();
-                printDialog1.Document = printDocument2;
-                if (printDialog1.ShowDialog() == DialogResult.OK)
-                {
-
-                    objPrintPreview.Document = printDocument2;
-                    objPrintPreview.WindowState = FormWindowState.Maximized;
-                    objPrintPreview.PrintPreviewControl.Zoom = 1;
-                    objPrintPreview.ShowDialog();
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Erro tecnico " + ex.Message);
-
-            }
+           
         }
 
         private void printDocument2_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
@@ -6652,35 +6635,7 @@ namespace BmsSoftware.Modulos.Vendas
 
         private void printDocument2_PrintPage_1(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
-            int charactersOnPage = 0;
-            int linesPerPage = 0;
-            ConfigReportStandard config = new ConfigReportStandard();
-
-            if (rdVenda.Checked)
-                e.Graphics.DrawString("Nº PEDIDO : " + txtNPedido.Text, config.FonteNegrito, Brushes.Black, config.MargemEsquerda + 30, 38);
-            else
-                e.Graphics.DrawString("Nº ORÇAMENTO : " + txtNPedido.Text, config.FonteNegrito, Brushes.Black, config.MargemEsquerda + 30, 38);
-
-            e.Graphics.DrawString("Data:", config.FonteNegrito, Brushes.Black, config.MargemEsquerda + 250, 38);
-            e.Graphics.DrawString(Convert.ToDateTime(Entity.DTEMISSAO).ToString("dd/MM/yyyy"), config.FonteNormal, Brushes.Black, config.MargemEsquerda + 290, 38);
-
-            string stringToPrint = txtObsAnexo.Text;
-
-            // Sets the value of charactersOnPage to the number of characters  
-            // of stringToPrint that will fit within the bounds of the page.
-            e.Graphics.MeasureString(stringToPrint, this.Font,
-                e.MarginBounds.Size, StringFormat.GenericTypographic,
-                out charactersOnPage, out linesPerPage);
-
-            // Draws the string within the bounds of the page
-            e.Graphics.DrawString(stringToPrint, this.Font, Brushes.Black,
-                e.MarginBounds, StringFormat.GenericTypographic);
-
-            // Remove the portion of the string that has been printed.
-            stringToPrint = stringToPrint.Substring(charactersOnPage);
-
-            // Check to see if more pages are to be printed.
-            e.HasMorePages = (stringToPrint.Length > 0);
+            
         }
 
         private void txtObsAnexo_KeyPress(object sender, KeyPressEventArgs e)
@@ -8754,7 +8709,25 @@ namespace BmsSoftware.Modulos.Vendas
                 frm.ShowDialog();
             }
         }
-      
-      
+
+        private void linkLabel5_LinkClicked_2(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (_IDPEDIDO == -1)
+            {
+                Util.ExibirMSg(ConfigMessage.Default.MsgSelecRegistro, "Red");
+                tabControlPedidoVenda.SelectTab(2);
+                txtCriterioPesquisa.Focus();
+            }
+            else
+            {
+                using (FormObsAnexo frm = new FormObsAnexo())
+                {
+                    frm._ObservacoAnexo = txtObsAnexo.Text.Trim();
+                    frm._Pedido = _IDPEDIDO.ToString().PadLeft(6, '0');
+                    frm._DataPedido = msktDataEmissao.Text;
+                    frm.ShowDialog();
+                }
+            }
+        }
     }
 }

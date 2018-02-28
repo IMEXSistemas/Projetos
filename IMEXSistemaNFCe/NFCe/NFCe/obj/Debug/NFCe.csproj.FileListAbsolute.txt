@@ -126,3 +126,42 @@ C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftwar
 C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\bin\Debug\itextsharp.dll
 C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaVendedorPedNormal.resources
 C:\Users\IMEX Sistemas\Dropbox\Projetos IMEX\NFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastro.FrmAlteraNFCe.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe.config
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.exe
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\bin\Debug\IMEXNFCe.pdb
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\bin\Debug\itextsharp.dll
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\NFCe.csprojResolveAssemblyReference.cache
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Classes.BMSworks.UI.FomExportPDF.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BMSworks.UI.InputBoxDialog.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\VVX.PrintOptions.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.FrmMain.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastro.FrmAlteraNFCe.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmFormasPagamento.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmWebService.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Cadastros.FrmLocalCobranca.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Financeiro.FrmVariosLancamentoReceberNFCe.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchCidade.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchPedidoNFe.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmSearchProduto.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.FrmSearch.FrmVisualizaProdutoPedido.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfigMaquina.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmConfiguarcaoNFCe.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmEmpresa.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmExibirMsg.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Operacional.FrmLogin.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\winfit.Modulos.Operacional.FrmSobre.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Servicos.FrmVendaVendedorPedNormal.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmAberturaCaixa.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmCFOP.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmFecharVenda.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmItensVenda.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmPesquisaNFCe.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmSangria.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaTipoPagamento.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Modulos.Vendas.FrmVendaProduto.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\BmsSoftware.Properties.Resources.resources
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\NFCe.csproj.GenerateResource.Cache
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\NFCe.csproj.CoreCompileInputs.cache
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.exe
+C:\ProjetosIMEX\IMEXSistemaNFCe\NFCe\NFCe\obj\Debug\IMEXNFCe.pdb

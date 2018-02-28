@@ -30,11 +30,11 @@ namespace BMSSoftware.Modulos.Cadastros
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCliente2));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle19 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle20 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.gravaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -451,7 +451,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // migrarCidadeToolStripMenuItem
             // 
             this.migrarCidadeToolStripMenuItem.Name = "migrarCidadeToolStripMenuItem";
-            this.migrarCidadeToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.migrarCidadeToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.migrarCidadeToolStripMenuItem.Text = "Migrar Cidade";
             this.migrarCidadeToolStripMenuItem.Click += new System.EventHandler(this.migrarCidadeToolStripMenuItem_Click);
             // 
@@ -462,7 +462,7 @@ namespace BMSSoftware.Modulos.Cadastros
             this.emLoteToolStripMenuItem});
             this.enviarEmailToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("enviarEmailToolStripMenuItem.Image")));
             this.enviarEmailToolStripMenuItem.Name = "enviarEmailToolStripMenuItem";
-            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.enviarEmailToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.enviarEmailToolStripMenuItem.Text = "Enviar Email";
             this.enviarEmailToolStripMenuItem.Click += new System.EventHandler(this.enviarEmailToolStripMenuItem_Click);
             // 
@@ -484,14 +484,14 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             this.extratoDeContasAReceberToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("extratoDeContasAReceberToolStripMenuItem.Image")));
             this.extratoDeContasAReceberToolStripMenuItem.Name = "extratoDeContasAReceberToolStripMenuItem";
-            this.extratoDeContasAReceberToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.extratoDeContasAReceberToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.extratoDeContasAReceberToolStripMenuItem.Text = "Extrato de Contas a Receber";
             this.extratoDeContasAReceberToolStripMenuItem.Click += new System.EventHandler(this.extratoDeContasAReceberToolStripMenuItem_Click);
             // 
             // pesquisarOClientePelaPlacaToolStripMenuItem
             // 
             this.pesquisarOClientePelaPlacaToolStripMenuItem.Name = "pesquisarOClientePelaPlacaToolStripMenuItem";
-            this.pesquisarOClientePelaPlacaToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.pesquisarOClientePelaPlacaToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.pesquisarOClientePelaPlacaToolStripMenuItem.Text = "Pesquisar o Cliente pela Placa";
             this.pesquisarOClientePelaPlacaToolStripMenuItem.Click += new System.EventHandler(this.pesquisarOClientePelaPlacaToolStripMenuItem_Click);
             // 
@@ -499,7 +499,7 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             this.veículosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("veículosToolStripMenuItem.Image")));
             this.veículosToolStripMenuItem.Name = "veículosToolStripMenuItem";
-            this.veículosToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.veículosToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
             this.veículosToolStripMenuItem.Text = "Veículos";
             this.veículosToolStripMenuItem.Click += new System.EventHandler(this.veículosToolStripMenuItem_Click);
             // 
@@ -507,8 +507,8 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             this.uploadDeSicronizaçãoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uploadDeSicronizaçãoToolStripMenuItem.Image")));
             this.uploadDeSicronizaçãoToolStripMenuItem.Name = "uploadDeSicronizaçãoToolStripMenuItem";
-            this.uploadDeSicronizaçãoToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.uploadDeSicronizaçãoToolStripMenuItem.Text = "Upload de Sicronização";
+            this.uploadDeSicronizaçãoToolStripMenuItem.Size = new System.Drawing.Size(247, 22);
+            this.uploadDeSicronizaçãoToolStripMenuItem.Text = "Sicronização no IMEX App Cloud";
             this.uploadDeSicronizaçãoToolStripMenuItem.Click += new System.EventHandler(this.uploadDeSicronizaçãoToolStripMenuItem_Click);
             // 
             // voltaToolStripMenuItem
@@ -1415,35 +1415,35 @@ namespace BMSSoftware.Modulos.Cadastros
             // 
             // codigo
             // 
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.codigo.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.codigo.DefaultCellStyle = dataGridViewCellStyle1;
             this.codigo.HeaderText = "Emissão";
             this.codigo.Name = "codigo";
             this.codigo.Width = 80;
             // 
             // dataGridViewTextBoxColumn1
             // 
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle17;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGridViewTextBoxColumn1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridViewTextBoxColumn1.HeaderText = "Quant.";
             this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             this.dataGridViewTextBoxColumn1.Width = 80;
             // 
             // total
             // 
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.total.DefaultCellStyle = dataGridViewCellStyle18;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.total.DefaultCellStyle = dataGridViewCellStyle3;
             this.total.HeaderText = "Total R$";
             this.total.Name = "total";
             this.total.Width = 80;
             // 
             // descricao
             // 
-            dataGridViewCellStyle19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descricao.DefaultCellStyle = dataGridViewCellStyle19;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.descricao.DefaultCellStyle = dataGridViewCellStyle4;
             this.descricao.HeaderText = "Produto/Serviço";
             this.descricao.Name = "descricao";
             this.descricao.Width = 400;
@@ -1728,8 +1728,8 @@ namespace BMSSoftware.Modulos.Cadastros
             // IDCLIENTE
             // 
             this.IDCLIENTE.DataPropertyName = "IDCLIENTE";
-            dataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.IDCLIENTE.DefaultCellStyle = dataGridViewCellStyle20;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.IDCLIENTE.DefaultCellStyle = dataGridViewCellStyle5;
             this.IDCLIENTE.HeaderText = "Código";
             this.IDCLIENTE.Name = "IDCLIENTE";
             this.IDCLIENTE.Width = 50;

@@ -643,7 +643,15 @@ namespace BmsSoftware.Modulos.IMEXApp
                         PEDIDOTy.OBSERVACAO += item.XINFADICIONAL + " / ";
                         PEDIDOTy.TOTALPRODUTOS = Convert.ToDecimal(item.VTOTALPROD);
                         PEDIDOTy.TOTALPEDIDO = Convert.ToDecimal(item.VSUBTOTAL);
-                        PEDIDOTy.OBSERVACAO += BuscaNomePrazo(Convert.ToInt32(item.IDCONDICAOPAGAMENTO)) + " / ";
+
+                        //Retira 3 horas 
+                        int Hora = Convert.ToInt32(Convert.ToDateTime(item.DEMISSAO).ToString("HH"));
+                        int Minuto = Convert.ToInt32(Convert.ToDateTime(item.DEMISSAO).ToString("mm"));
+                        Hora = Hora - 3;
+                        PEDIDOTy.OBSERVACAO += "Cond. Pagamento: " + BuscaNomePrazo(Convert.ToInt32(item.IDCONDICAOPAGAMENTO)) + " / " + Environment.NewLine +
+                                            "Data/Hora Emissão:" + Convert.ToDateTime(item.DEMISSAO).ToString("dd/MM/yyyy") + " " + Hora.ToString() + ":" + Minuto.ToString() + Environment.NewLine;
+                       
+
                         PEDIDOTy.FLAGORCAMENTO = "N";
                         PEDIDOTy.NREFERENCIA = item.IDPEDIDODISPLAY.ToString();
                         PEDIDOTy.FLAGTELABLOQUEADA = "N";

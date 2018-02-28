@@ -57,7 +57,6 @@ namespace BmsSoftware
            RegisterFocusEvents(this.Controls);
         }
 
-
         private void RegisterFocusEvents(Control.ControlCollection controls)
         {
 
@@ -78,14 +77,11 @@ namespace BmsSoftware
 
         void controlFocus_Leave(object sender, EventArgs e)
         {
-            // (sender as Control).BackColor = ConfigSistema1.Default.ColorExitTxtBox;
             toolStripStatusLabel1.Text = "IMEX Sistemas - F3 Nova Venda - F8 Fechar Venda";
-            //lblObsField.Text = string.Empty;
         }
 
         void controlFocus_Enter(object sender, EventArgs e)
         {
-            //(sender as Control).BackColor = ConfigSistema1.Default.ColorEnterTxtBox;
         }
 
         int _CUPOMELETRONICOID = -1;
@@ -300,10 +296,10 @@ namespace BmsSoftware
             {
                 RowRelatorio.Clear();
                 RowRelatorio.Add(new RowsFiltro("CUPOMELETRONICOID", "System.Int32", "=", CUPOMELETRONICOID.ToString()));
-                LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl = new LIS_PRODUTONFCECollection();
-                LIS_PRODUTONFCEColl = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
+                LIS_PRODUTONFCECollection LIS_PRODUTONFCEColl2 = new LIS_PRODUTONFCECollection();
+                LIS_PRODUTONFCEColl2 = LIS_PRODUTONFCEP.ReadCollectionByParameter(RowRelatorio);
 
-                foreach (var item in LIS_PRODUTONFCEColl)
+                foreach (var item in LIS_PRODUTONFCEColl2)
                 {
                     result += Convert.ToDecimal(item.VALORTOTAL);
                 }

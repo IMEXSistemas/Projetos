@@ -3018,22 +3018,33 @@ namespace BMSSoftware.Modulos.Cadastros
        {
            try
            {
-               DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização dos Dados?",
-                          ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
+                DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização no IMEX App?",
+                           ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
 
-               if (dr == DialogResult.Yes)
-               {
-                   CreaterCursor Cr = new CreaterCursor();
-                   this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
+                if (dr == DialogResult.Yes)
+                {
 
-                   Sicroniza Sic = new Sicroniza();
-                   Sic.CriaArquivoCSV();
+                    int Contador = 0;
+                    foreach (var item in LIS_ClienteColl)
+                    {
+                       // if (item.FLAGBLOQUEADO == "N")
+                        {
+                            CreaterCursor Cr = new CreaterCursor();
+                            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
 
-                   MessageBox.Show("Sicronização Feita com Sucesso!");
+                            CLIENTEEntity CLIENTETy2 = new CLIENTEEntity();
+                            CLIENTETy2 = ClienteP.Read(Convert.ToInt32(item.IDCLIENTE));
+                            _IDCLIENTE = CLIENTETy2.IDCLIENTE;
+                            SalveIMEXAPP(CLIENTETy2);
+                            Contador++;
 
-                   this.Cursor = Cursors.Default;
-               }
-           }
+                            this.Cursor = Cursors.Default;
+                        }
+                    }
+
+                    MessageBox.Show("Total de Clientes Sicronizados: " + Contador.ToString());
+                }
+            }
            catch (Exception ex)
            {
                this.Cursor = Cursors.Default;

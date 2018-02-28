@@ -13,7 +13,6 @@ using BMSworks.UI;
 using System.IO;
 using FirebirdSql.Data.FirebirdClient;
 using System.Net;
-using Ionic.Zip;
 
 namespace BmsSoftware.Modulos.Atualizacao
 {
@@ -717,20 +716,20 @@ namespace BmsSoftware.Modulos.Atualizacao
                     save.FileName = "IMEXSistema.zip";
 
                     //Compacta o arquivo
-                    ZipFile ZFile = new ZipFile();
-                    ZFile.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
-                    ZFile.AddSelectedFiles(Open.FileName);
-                    ZFile.Comment = "IMEX Sistemas";
-                    ZFile.Save(save.FileName);
-                    ZFile.Dispose();
+                    //ZipFile ZFile = new ZipFile();
+                    //ZFile.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
+                    //ZFile.AddSelectedFiles(Open.FileName);
+                    //ZFile.Comment = "IMEX Sistemas";
+                    //ZFile.Save(save.FileName);
+                    //ZFile.Dispose();
 
-                    //Enviar o arquivo para nuvem
-                    if (File.Exists(LocalExecucao + @"\IMEXSistema.zip"))
-                    {
-                        Upload(LocalExecucao + @"\IMEXSistema.zip");
-                    }
-                    else
-                        MessageBox.Show("Arquivo IMEXSistema.zip não localizado na pasta: " + LocalExecucao);
+                    ////Enviar o arquivo para nuvem
+                    //if (File.Exists(LocalExecucao + @"\IMEXSistema.zip"))
+                    //{
+                    //    Upload(LocalExecucao + @"\IMEXSistema.zip");
+                    //}
+                    //else
+                    //    MessageBox.Show("Arquivo IMEXSistema.zip não localizado na pasta: " + LocalExecucao);
 
                     //Deleta o arquivo apos enviar para nuvem
                     //File.Delete(BmsSoftware.ConfigSistema1.Default.PathInstall + @"\SCRIPTBDIMEX.GDB");
@@ -763,14 +762,14 @@ namespace BmsSoftware.Modulos.Atualizacao
                     string PathInstall = BmsSoftware.ConfigSistema1.Default.PathInstall;
 
                     //Compacta o arquivo
-                    ZipFile ZFile = new ZipFile();
-                    ZFile.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
-                    ZFile.AddDirectory(PathInstall + @"\nfe\schemas\");
+                    //ZipFile ZFile = new ZipFile();
+                    //ZFile.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
+                    //ZFile.AddDirectory(PathInstall + @"\nfe\schemas\");
                     
-                    ZFile.Comment = "Arquivo SCHEMAS da NFe";
-                    //ZFile.Save(save.FileName);
-                    ZFile.Save(PathInstall + @"\nfe\schemas\SCHEMANFE.zip");
-                    ZFile.Dispose();
+                    //ZFile.Comment = "Arquivo SCHEMAS da NFe";
+                    ////ZFile.Save(save.FileName);
+                    //ZFile.Save(PathInstall + @"\nfe\schemas\SCHEMANFE.zip");
+                    //ZFile.Dispose();
 
                     //Enviar o arquivo para nuvem
                     if (File.Exists(PathInstall + @"\nfe\schemas\SCHEMANFE.zip"))

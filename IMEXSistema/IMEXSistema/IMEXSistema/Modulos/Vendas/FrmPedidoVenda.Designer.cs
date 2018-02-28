@@ -351,7 +351,7 @@
             this.cbCliente = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.lblCaractere = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
@@ -425,7 +425,6 @@
             this.printDocument7_1 = new System.Drawing.Printing.PrintDocument();
             this.sfdExportToxcel = new System.Windows.Forms.SaveFileDialog();
             this.label41 = new System.Windows.Forms.Label();
-            this.printDocument2 = new System.Drawing.Printing.PrintDocument();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.chkTelaBloqueada = new System.Windows.Forms.CheckBox();
             this.toolStrip1.SuspendLayout();
@@ -3609,7 +3608,7 @@
             // 
             // tabPage6
             // 
-            this.tabPage6.Controls.Add(this.linkLabel8);
+            this.tabPage6.Controls.Add(this.linkLabel5);
             this.tabPage6.Controls.Add(this.lblCaractere);
             this.tabPage6.Controls.Add(this.label40);
             this.tabPage6.Controls.Add(this.label39);
@@ -3622,16 +3621,16 @@
             this.tabPage6.Text = "Obs Anexo";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
-            // linkLabel8
+            // linkLabel5
             // 
-            this.linkLabel8.AutoSize = true;
-            this.linkLabel8.Location = new System.Drawing.Point(597, 13);
-            this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(136, 13);
-            this.linkLabel8.TabIndex = 228;
-            this.linkLabel8.TabStop = true;
-            this.linkLabel8.Text = "Imprimir Observação Anexo";
-            this.linkLabel8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel8_LinkClicked);
+            this.linkLabel5.AutoSize = true;
+            this.linkLabel5.Location = new System.Drawing.Point(607, 14);
+            this.linkLabel5.Name = "linkLabel5";
+            this.linkLabel5.Size = new System.Drawing.Size(136, 13);
+            this.linkLabel5.TabIndex = 229;
+            this.linkLabel5.TabStop = true;
+            this.linkLabel5.Text = "Imprimir Observação Anexo";
+            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked_2);
             // 
             // lblCaractere
             // 
@@ -4373,10 +4372,6 @@
             this.label41.TabIndex = 227;
             this.label41.Text = "Campo obrigatório";
             // 
-            // printDocument2
-            // 
-            this.printDocument2.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printDocument2_PrintPage_1);
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
@@ -4686,7 +4681,6 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.TextBox txtObsAnexo;
         private System.Windows.Forms.Label label41;
-        private System.Drawing.Printing.PrintDocument printDocument2;
         private System.Windows.Forms.Label lblCaractere;
         private System.Windows.Forms.TextBox txtEstoqueMTLinear;
         private System.Windows.Forms.Label label45;
@@ -4721,7 +4715,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn nomecor;
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMEAMBIENTE;
         private System.Windows.Forms.ToolStripMenuItem modelo3GrupoAmbienteToolStripMenuItem;
-        private System.Windows.Forms.LinkLabel linkLabel8;
         private System.Windows.Forms.Label label63;
         private System.Windows.Forms.DateTimePicker dtDataEntrega;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -4840,5 +4833,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMECOR2;
         private System.Windows.Forms.DataGridViewTextBoxColumn NOMEAMBIENTE2;
         private System.Windows.Forms.ToolStripMenuItem comissãoPorVendedorToolStripMenuItem;
+        private System.Windows.Forms.LinkLabel linkLabel5;
     }
 }

@@ -54,6 +54,7 @@ namespace BMSSoftware.Modulos.Cadastros
         DATACOMEMORATIVAProvider DATACOMEMORATIVAP = new DATACOMEMORATIVAProvider();
        
         CONFISISTEMAProvider CONFISISTEMAP = new CONFISISTEMAProvider();
+        ENDERECOIMEXAPPProvider ENDERECOIMEXAPPP = new ENDERECOIMEXAPPProvider();
         ENDENTREGARCLIENTEProvider ENDENTREGARCLIENTEP = new ENDENTREGARCLIENTEProvider();
         CLIENTEIMEXAPPProvider CLIENTEIMEXAPPP = new CLIENTEIMEXAPPProvider();
         CONFISISTEMAEntity CONFISISTEMATy = new CONFISISTEMAEntity();
@@ -1092,6 +1093,9 @@ namespace BMSSoftware.Modulos.Cadastros
 
         private void SalveIMEXAPP(CLIENTEEntity CLIENTETy)
         {
+            CreaterCursor Cr = new CreaterCursor();
+            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
+
             try
             {
                 if (CONFISISTEMATy.FLAGIMEXAPP == "S")
@@ -1121,6 +1125,48 @@ namespace BMSSoftware.Modulos.Cadastros
                     CLIENTEIMEXAPPTy.DTCADASTRO = Convert.ToDateTime(_DEFETIVACAO.ToString("yyyy-MM-dd"));  //DATE
                     CLIENTEIMEXAPPTy.XMEUID = CLIENTETy.IDCLIENTE.ToString();	//STRING
                     CLIENTEIMEXAPPP.Save(CLIENTEIMEXAPPTy);
+                    SalveIMEXAPP2(CLIENTETy);
+                }
+
+                this.Cursor = Cursors.Default;
+            }
+            catch (Exception ex)
+            {
+                this.Cursor = Cursors.Default;
+                MessageBox.Show("Erro Técnico: " + ex.Message);
+            }
+        }
+
+        //Salva o Endereço no IMEX App
+        private void SalveIMEXAPP2(CLIENTEEntity CLIENTETy)
+        {
+            try
+            {
+                if (CONFISISTEMATy.FLAGIMEXAPP == "S")
+                {
+                    ENDERECOIMEXAPPEntity ENDERECOIMEXAPPTy = new ENDERECOIMEXAPPEntity();
+                    ENDERECOIMEXAPPTy.IDENDERECO = null;
+                    ENDERECOIMEXAPPTy.XMEUID = CLIENTETy.IDCLIENTE.ToString();
+                    ENDERECOIMEXAPPTy.IDCLIENTE = CLIENTEIMEXAPPP.GetID(Convert.ToInt32(CLIENTETy.IDCLIENTE));
+                    ENDERECOIMEXAPPTy.IDTRANSPORTADORA = null;
+                    ENDERECOIMEXAPPTy.XCEP = CLIENTETy.CEP1;
+                    ENDERECOIMEXAPPTy.XENDERECO = CLIENTETy.ENDERECO1;
+                    ENDERECOIMEXAPPTy.CNUMERO = 0;
+                    ENDERECOIMEXAPPTy.XCOMPLEMENTO = CLIENTETy.COMPLEMENTO1;
+                    ENDERECOIMEXAPPTy.XBAIRRO = CLIENTETy.BAIRRO1;
+
+                    LIS_CLIENTECollection LIS_CLIENTEColl_2 = new LIS_CLIENTECollection();
+                    RowRelatorio.Clear();
+                    RowRelatorio.Add(new RowsFiltro("IDCLIENTE", "System.Int32", "=", CLIENTETy.IDCLIENTE.ToString()));
+                    LIS_CLIENTEColl_2 = LIS_ClienteP.ReadCollectionByParameter(RowRelatorio);
+                    if (LIS_CLIENTEColl_2.Count > 0)
+                    {
+                        ENDERECOIMEXAPPTy.XCIDADE = LIS_CLIENTEColl_2[0].MUNICIPIO;
+                        ENDERECOIMEXAPPTy.XESTADO = LIS_CLIENTEColl_2[0].UF;
+                    }
+
+                    ENDERECOIMEXAPPTy.IDREPRESENTADA = null;
+                    ENDERECOIMEXAPPP.Save(ENDERECOIMEXAPPTy);
                 }
             }
             catch (Exception ex)
@@ -3475,21 +3521,33 @@ namespace BMSSoftware.Modulos.Cadastros
        {
            try
            {
-                DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização dos Dados?",
-                           ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
+                DialogResult dr = MessageBox.Show("Deseja Fazer a Sicronização no IMEX App?",
+                            ConfigSistema1.Default.NameSytem, MessageBoxButtons.YesNo);
 
                 if (dr == DialogResult.Yes)
                 {
-                    CreaterCursor Cr = new CreaterCursor();
-                    this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
 
-                    Sicroniza Sic = new Sicroniza();
-                    Sic.CriaArquivoCSV();
-                    MessageBox.Show("Sicronização Feita com Sucesso!");
+                    int Contador = 0;
+                    foreach (var item in LIS_ClienteColl)
+                    {
+                       // if (item.FLAGBLOQUEADO == "N")
+                        {
+                            CreaterCursor Cr = new CreaterCursor();
+                            this.Cursor = Cr.CreateCursor(Cr.btmap, 0, 0);
 
-                    this.Cursor = Cursors.Default;
+                            CLIENTEEntity CLIENTETy2 = new CLIENTEEntity();
+                            CLIENTETy2 = ClienteP.Read(Convert.ToInt32(item.IDCLIENTE));
+                            _IDCLIENTE = CLIENTETy2.IDCLIENTE;
+                            SalveIMEXAPP(CLIENTETy2);
+                            Contador++;
+
+                            this.Cursor = Cursors.Default;
+                        }
+                    }
+
+                    MessageBox.Show("Total de Clientes Sicronizados: " + Contador.ToString());
                 }
-           }
+            }
            catch (Exception ex)
            {
                 this.Cursor = Cursors.Default;

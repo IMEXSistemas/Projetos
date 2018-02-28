@@ -6510,6 +6510,23 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="F:BmsSoftware.Modulos.Relatorio.FormObsAnexo.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BmsSoftware.Modulos.Relatorio.FormObsAnexo.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BmsSoftware.Modulos.Relatorio.FormObsAnexo.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="F:BmsSoftware.Modulos.Relatorio.FrmCapaCarnecs.components">
             <summary>
             Required designer variable.
@@ -9673,6 +9690,20 @@
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
+        </member>
+        <member name="T:SqlServerTypes.Utilities">
+            <summary>
+            Utility methods related to CLR Types for SQL Server 
+            </summary>
+        </member>
+        <member name="M:SqlServerTypes.Utilities.LoadNativeAssemblies(System.String)">
+            <summary>
+            Loads the required native assemblies for the current architecture (x86 or x64)
+            </summary>
+            <param name="rootApplicationPath">
+            Root path of the current application. Use Server.MapPath(".") for ASP.NET applications
+            and AppDomain.CurrentDomain.BaseDirectory for desktop applications.
+            </param>
         </member>
     </members>
 </doc>
